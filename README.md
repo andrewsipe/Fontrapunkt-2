@@ -1,8 +1,8 @@
-# Fontrapunkt
+# Fontrapunkt-2
 
-> **Repository**: [https://github.com/andrewsipe/Fontrapunkt.git](https://github.com/andrewsipe/Fontrapunkt.git)
+> **Repository**: [https://github.com/andrewsipe/Fontrapunkt-2](https://github.com/andrewsipe/Fontrapunkt-2)
 
-A browser-based variable font testing and animation tool, built as a privacy-first single-page application.
+Second iteration of Fontrapunkt: a browser-based variable font testing and animation tool, built as a privacy-first single-page application.
 
 ## Features
 
@@ -47,11 +47,15 @@ npm run preview
 - **React 19** - UI framework
 - **TypeScript** - Type safety
 - **Vite** - Build tool
+- **Base UI** - Accessible primitives
 - **Zustand** - State management
-- **opentype.js** - Font parsing
-- **fontkit** - Advanced font metrics
+- **React Router** - Routing
+- **opentype.js** / **fontkit** - Font parsing and metrics
 - **culori** - OKLCH color conversions
-- **IndexedDB** - Font caching
+- **IndexedDB** (idb) - Font caching
+- **Biome** - Lint and format
+- **Vitest** - Unit tests
+- **Playwright** - E2E tests
 
 ## Primitives and components
 

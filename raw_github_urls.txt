@@ -1,0 +1,693 @@
+# Root directory
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/LICENSE
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/README.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/THEME_SYSTEM.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/biome.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/index.html
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/package-lock.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/package.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/tsconfig.app.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/tsconfig.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/tsconfig.node.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/vite.config.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/vitest.config.ts
+
+# .agents/react-doctor/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.agents/react-doctor/AGENTS.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.agents/react-doctor/SKILL.md
+
+# .cursor/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/settings.json
+
+# .cursor/skills/biome-fontrapunkt/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/biome-fontrapunkt/SKILL.md
+
+# .cursor/skills/css-oklch-modules/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/css-oklch-modules/SKILL.md
+
+# .cursor/skills/radix-a11y-fontrapunkt/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/radix-a11y-fontrapunkt/SKILL.md
+
+# .cursor/skills/react-best-practices/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/AGENTS.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/README.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/SKILL.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/metadata.json
+
+# .cursor/skills/react-best-practices/rules/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/_sections.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/_template.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/advanced-event-handler-refs.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/advanced-use-latest.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/async-api-routes.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/async-defer-await.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/async-dependencies.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/async-parallel.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/async-suspense-boundaries.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/bundle-barrel-imports.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/bundle-conditional.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/bundle-defer-third-party.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/bundle-dynamic-imports.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/bundle-preload.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/client-event-listeners.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/client-localstorage-schema.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/client-passive-event-listeners.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/client-swr-dedup.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-batch-dom-css.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-cache-function-results.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-cache-property-access.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-cache-storage.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-combine-iterations.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-early-exit.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-hoist-regexp.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-index-maps.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-length-check-first.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-min-max-loop.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-set-map-lookups.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/js-tosorted-immutable.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-activity.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-animate-svg-wrapper.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-conditional-render.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-content-visibility.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-hoist-jsx.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-hydration-no-flicker.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rendering-svg-precision.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-defer-reads.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-dependencies.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-derived-state.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-functional-setstate.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-lazy-state-init.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-memo.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/rerender-transitions.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/server-after-nonblocking.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/server-cache-lru.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/server-cache-react.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/server-parallel-fetching.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-best-practices/rules/server-serialization.md
+
+# .cursor/skills/react-typescript-fontrapunkt/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/react-typescript-fontrapunkt/SKILL.md
+
+# .cursor/skills/web-design-guidelines/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/web-design-guidelines/SKILL.md
+
+# .cursor/skills/zustand-fontrapunkt/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/.cursor/skills/zustand-fontrapunkt/SKILL.md
+
+# docs/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/docs/styling-audit.md
+
+# documents/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/!TODO1_ LIVE_SYNC_ANALYSIS.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/AUDIT_REPORT.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/CACHE_CLEAR_GUIDE.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/COMPONENT_CLASSIFICATION_REPORT.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/COMPONENT_INVENTORY.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/COMPONENT_VS_FEATURE_DECISION_TREE.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/CONTAINERS_EXTRACTION_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/DEV_TOOLS_UI_REFACTORING_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/FONTRAPUNKT_2_VISION.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/FONTRAPUNKT_VS_FP2_GAP_ANALYSIS.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/GRANULAR_REFACTORING_GUIDE.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PARSER_FIXES_2026-02-03.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PERFORMANCE_OPTIMIZATION_ASSESSMENT.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_1_REVIEW.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_2_SIDEBAR_FEATURES_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_4_BOTTOMBAR_MODAL_FEATURES_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_4_REVIEW.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_5_STRUCTURAL_COMPONENTS_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/PHASE_6_EXPLICIT_LAYOUTS_PLAN.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/RADIX_TO_BASE_UI_MIGRATION.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/RADIX_UI_AUDIT_2025.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/REFACTORING_QUALITY_REVIEW.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/REFACTORING_STATUS_REPORT.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/START_HERE.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/TYPE_TRIALS_VS_FONTRAPUNKT_COMPARISON.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/VARIABLE_FONT_PIPELINE_MAP.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/documents/VARIABLE_FONT_SCRIPTS.md
+
+# public/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/public/vite.svg
+
+# scripts/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/scripts/buildUnicodeData.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/scripts/splitUnicodeOther.mjs
+
+# server/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/README.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/index.js
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/package-lock.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/package.json
+
+# server/routes/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/routes/generate-instance.js
+
+# server/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/server/utils/fonttools-wrapper.py
+
+# src/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/App.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/App.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/AppProviders.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/index.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/main.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/vite-env.d.ts
+
+# src/assets/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/assets/react.svg
+
+# src/assets/fonts/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/assets/fonts/AND-Regular.otf
+
+# src/components/components/Accordion/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Accordion/Accordion.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Accordion/Accordion.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Accordion/index.ts
+
+# src/components/components/Button/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Button/Button.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Button/index.ts
+
+# src/components/components/Checkbox/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Checkbox/Checkbox.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Checkbox/Checkbox.tsx
+
+# src/components/components/Collapsible/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Collapsible/CustomCollapsible.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Collapsible/CustomCollapsible.tsx
+
+# src/components/components/ControlGroup/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ControlGroup/ControlGroup.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ControlGroup/ControlGroup.tsx
+
+# src/components/components/ErrorMessage/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ErrorMessage/ErrorMessage.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ErrorMessage/ErrorMessage.tsx
+
+# src/components/components/FormField/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/FormField/FormField.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/FormField/FormField.tsx
+
+# src/components/components/IconContainer/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/IconContainer/IconContainer.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/IconContainer/IconContainer.tsx
+
+# src/components/components/LabelGroup/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelGroup/LabelGroup.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelGroup/LabelGroup.tsx
+
+# src/components/components/LabelRow/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelRow/LabelRow.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelRow/LabelRow.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelRow/index.ts
+
+# src/components/components/LabelWithPopover/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelWithPopover/LabelWithPopover.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelWithPopover/LabelWithPopover.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LabelWithPopover/index.ts
+
+# src/components/components/LivePulseIcon/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LivePulseIcon/LivePulseIcon.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LivePulseIcon/LivePulseIcon.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LivePulseIcon/index.ts
+
+# src/components/components/LoadingSpinner/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LoadingSpinner/LoadingSpinner.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/LoadingSpinner/LoadingSpinner.tsx
+
+# src/components/components/Modal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Modal/Modal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Modal/Modal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Modal/index.ts
+
+# src/components/components/Popover/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Popover/Popover.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Popover/Popover.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Popover/index.ts
+
+# src/components/components/SectionHeader/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/SectionHeader/SectionHeader.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/SectionHeader/SectionHeader.tsx
+
+# src/components/components/Select/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Select/Select.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Select/Select.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Select/index.ts
+
+# src/components/components/Separator/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Separator/Separator.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Separator/Separator.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Separator/index.ts
+
+# src/components/components/Tabs/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tabs/Tabs.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tabs/Tabs.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tabs/index.ts
+
+# src/components/components/TitleBar/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TitleBar/TitleBar.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TitleBar/TitleBar.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TitleBar/index.ts
+
+# src/components/components/Toast/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Toast/README.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Toast/Toast.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Toast/Toast.tsx
+
+# src/components/components/ToggleGroup/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/CustomToggleGroup.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/CustomToggleGroup.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/Tooltip.module.css
+
+# src/components/components/Tooltip/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/SliderTooltip.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/Tooltip.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/Tooltip.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/TooltipButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/index.ts
+
+# src/components/components/TwoLayerSlider/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSlider.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSlider.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSliderWithLayout.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSliderWithLayout.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/index.ts
+
+# src/components/features/Button/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/ClearCacheButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/CloseButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/ExpandSidebarButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/InfoButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/ResetButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/SettingsButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/SwatchBookButton.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/index.ts
+
+# src/components/features/ColorPanel/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ColorPanel/ColorPanel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ColorPanel/ColorPanel.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ColorPanel/index.ts
+
+# src/components/features/ExportButtons/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/ExportButtons.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/ExportButtons.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/index.ts
+
+# src/components/features/FontDetailsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontDetailsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontInfoTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontInfoTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontSourceTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontSourceTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/index.ts
+
+# src/components/features/FontInfoModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/FontInfoModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/FontInfoModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/index.ts
+
+# src/components/features/FontSelector/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontSelector/FontSelector.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontSelector/FontSelector.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontSelector/index.ts
+
+# src/components/features/GlyphCountBadge/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/GlyphCountBadge/GlyphCountBadge.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/GlyphCountBadge/GlyphCountBadge.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/GlyphCountBadge/index.ts
+
+# src/components/features/HeaderControls/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/HeaderControls/HeaderControls.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/HeaderControls/HeaderControls.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/HeaderControls/index.ts
+
+# src/components/features/LiveSyncIndicator/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/LiveSyncIndicator/LiveSyncIndicator.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/LiveSyncIndicator/LiveSyncIndicator.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/LiveSyncIndicator/index.ts
+
+# src/components/features/OKLCHPicker/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/OKLCHPicker/OKLCHPickerPanel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/OKLCHPicker/OKLCHPickerPanel.tsx
+
+# src/components/features/OpenTypeFeaturesPanel/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/OpenTypeFeaturesPanel/OpenTypeFeaturesPanel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/OpenTypeFeaturesPanel/OpenTypeFeaturesPanel.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/OpenTypeFeaturesPanel/index.ts
+
+# src/components/features/SampleTextPanel/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SampleTextPanel/SampleTextPanel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SampleTextPanel/SampleTextPanel.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SampleTextPanel/index.ts
+
+# src/components/features/ScreenshotPreviewModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ScreenshotPreviewModal/ScreenshotPreviewModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ScreenshotPreviewModal/ScreenshotPreviewModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ScreenshotPreviewModal/index.ts
+
+# src/components/features/SettingsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/SettingsModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/SettingsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/index.ts
+
+# src/components/features/SettingsModal/components/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/components/AccentPresetGrid.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/components/AccentPresetGrid.tsx
+
+# src/components/features/SettingsModal/sections/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/AppearanceSettings.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/CacheManagement.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/GeneralSettings.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/KeyboardShortcuts.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/RenderingSettings.tsx
+
+# src/components/features/TextControls/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/TextControls/TextControls.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/TextControls/TextControls.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/TextControls/index.ts
+
+# src/components/features/VariableAxesPanel/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/VariableAxesPanel/AxisSlider.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/VariableAxesPanel/AxisSlider.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/VariableAxesPanel/VariableAxesPanel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/VariableAxesPanel/VariableAxesPanel.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/VariableAxesPanel/index.ts
+
+# src/components/features/ViewSelector/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ViewSelector/ViewSelector.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ViewSelector/ViewSelector.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ViewSelector/index.ts
+
+# src/components/fp2/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/README.md
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/index.ts
+
+# src/components/fp2/DropZone/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/DropZone/DropZone.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/DropZone/DropZone.tsx
+
+# src/components/fp2/EmptyState/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/EmptyState.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/EmptyState.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/HeroTitle.tsx
+
+# src/components/fp2/FP2Header/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FP2Header/FP2Header.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FP2Header/FP2Header.tsx
+
+# src/components/fp2/FloatingCommandBar/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FloatingCommandBar/FloatingCommandBar.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FloatingCommandBar/FloatingCommandBar.tsx
+
+# src/components/fp2/FontCanvas/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FontCanvas/FontCanvas.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FontCanvas/FontCanvas.tsx
+
+# src/components/fp2/Fontrapunkt2Layout/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/Fontrapunkt2Layout/Fontrapunkt2Layout.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/Fontrapunkt2Layout/Fontrapunkt2Layout.tsx
+
+# src/components/fp2/LoadingSpinner/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/LoadingSpinner/LoadingSpinner.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/LoadingSpinner/LoadingSpinner.tsx
+
+# src/components/fp2/OpenTypeDrawer/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/OpenTypeDrawer/OpenTypeDrawer.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/OpenTypeDrawer/OpenTypeDrawer.tsx
+
+# src/components/fp2/VariableAxesDrawer/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/VariableAxesDrawer/VariableAxesDrawer.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/VariableAxesDrawer/VariableAxesDrawer.tsx
+
+# src/components/fp2/modals/FontDetailsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontDetailsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontInfoTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontInfoTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontSourceTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontSourceTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/index.ts
+
+# src/components/fp2/modals/FontInfoModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/FontInfoModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/FontInfoModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/index.ts
+
+# src/components/fp2/modals/SampleTextModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SampleTextModal/SampleTextModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SampleTextModal/SampleTextModal.tsx
+
+# src/components/fp2/modals/SettingsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/SettingsModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/SettingsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/index.ts
+
+# src/components/fp2/modals/SettingsModal/components/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/components/AccentPresetGrid.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/components/AccentPresetGrid.tsx
+
+# src/components/fp2/modals/SettingsModal/sections/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/AppearanceSettings.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/CacheManagement.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/GeneralSettings.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/KeyboardShortcuts.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/RenderingSettings.tsx
+
+# src/components/fp2/views/GlyphsView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategoryNavigation.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategoryNavigation.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategorySection.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategorySection.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphCard.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphCard.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphsView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphsView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/VirtualizedGlyphGrid.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/VirtualizedGlyphGrid.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/index.ts
+
+# src/components/fp2/views/GlyphsView/hooks/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/hooks/useGlyphExtraction.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/hooks/useScrollSpy.ts
+
+# src/components/fp2/views/GlyphsView/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/utils/glyphExtraction.ts
+
+# src/components/fp2/views/PlainView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/PlainView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/PlainView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/index.ts
+
+# src/components/fp2/views/PresentView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/PresentView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/PresentView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/index.ts
+
+# src/components/fp2/views/StylesView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/StylesView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/StylesView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/index.ts
+
+# src/components/fp2/views/WaterfallView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/WaterfallView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/WaterfallView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/index.ts
+
+# src/components/primitives/Icon/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/Icon/Icon.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/Icon/Icon.tsx
+
+# src/components/primitives/Label/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/Label/Label.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/Label/Label.tsx
+
+# src/components/primitives/NativeRangeSlider/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/NativeRangeSlider.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/NativeRangeSlider.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/NativeRangeSliderWithLayout.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/index.ts
+
+# src/constants/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/constants/themeConstants.ts
+
+# src/data/unicode/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/cyrillic.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/diacritics.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/greek.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/latin.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/numbers.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/other.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/punctuation.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/symbols.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/types.ts
+
+# src/data/unicode/categories/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/basic-latin.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/cjk.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/emoji.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/latin-extended.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/math.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/other-ranges.json
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/data/unicode/categories/symbols.json
+
+# src/engine/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/FontLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/FontParser.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/TwoPhaseLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/fontParserHelpers.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/fontkitTest.ts
+
+# src/engine/cache/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/cache/FontCache.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/cache/FontCacheDB.ts
+
+# src/engine/extractors/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/AxisExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/FeatureExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/FeatureUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/InstanceExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/MetadataExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/MetricsExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/MiscExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/NameExtractor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/logger.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/extractors/validation.ts
+
+# src/engine/parsers/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/FontValidator.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/FontkitParser.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/OpentypeParser.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/RawTableParser.ts
+
+# src/engine/parsers/tables/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/bitmap.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/core.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/decoders.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/displayEnrichers.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/formatters.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/index.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/layout.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/metrics.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/other.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/outlines.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/stub.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/tableDefinitions.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/parsers/tables/variable.ts
+
+# src/engine/render/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/render/GlyphRenderer.ts
+
+# src/engine/resolvers/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/resolvers/InstanceResolver.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/resolvers/NameResolver.ts
+
+# src/engine/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/utils/BatchProcessor.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/utils/HashUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/engine/utils/InstanceSorter.ts
+
+# src/hooks/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useCanvasThemeSync.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useDebouncedValue.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useDefaultTab.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useFontDrop.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useFontLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useKeyboardShortcuts.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/hooks/useTheme.ts
+
+# src/pages/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/pages/PaletteViewerPage.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/pages/PaletteViewerPage.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/pages/StyleMatrixPage.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/pages/StyleMatrixPage.tsx
+
+# src/stores/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/stores/fontStore.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/stores/settingsStore.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/stores/uiStore.ts
+
+# src/styles/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/global.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/reset.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/shared.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/toasts.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.color.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.components.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.elevation.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.foundation.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.icons.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.motion.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.palettes.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.spacing.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.typography.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/variables.css
+
+# src/styles/sidebar/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/sidebar/Panel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/sidebar/SidebarShared.module.css
+
+# src/test/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/setup.ts
+
+# src/test/integration/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/integration/extractor-golden.test.ts
+
+# src/test/unit/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/displayEnrichers.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/tableDefinitions.test.ts
+
+# src/test/unit/extractors/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/AxisExtractor.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/FeatureExtractor.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/InstanceExtractor.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/MetadataExtractor.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/MetricsExtractor.test.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/unit/extractors/MiscExtractor.test.ts
+
+# src/test/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/utils/fontLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/utils/mockParsedFont.ts
+
+# src/types/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/canvas.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/extractors.types.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/filesystem.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/font.types.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/fontkit.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/icons.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/third-party.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/ui.types.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/types/wawoff2.d.ts
+
+# src/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/colorUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/contrastUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/debug.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/dynamicFontLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/exportUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/featureDescriptions.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/fontFeatureUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/fontSizeUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/fontUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/fontkitDiagnostic.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/glyphCategorizer.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/glyphSearchUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/glyphUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/icons.d.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/icons.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/instanceSortUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/notDefFontLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/oklchColorUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/performance.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/rafThrottle.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/sampleTextUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/sliderBadgePosition.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/sliderFill.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/themeUtils.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/uiDescriptions.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/unicodeLoader.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/woffDecompressor.ts
+
+# src/workers/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/workers/fontParser.worker.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/workers/types.worker.ts
