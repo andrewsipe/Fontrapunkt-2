@@ -1,0 +1,306 @@
+/**
+ * Select styles (Base UI) using design system tokens
+ * Implements Four Pillars: Variant system, positioning, animations, and scroll lock
+ * Targets data-state attributes for animations
+ */
+
+/* ============================================================================
+   TRIGGER STYLING - Pillar 1: Design System Ergonomics
+   ============================================================================ */
+
+.trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: var(--bg-input);
+  border: none;
+  border-radius: var(--radius-md);
+
+  color: var(--text-primary);
+  font-family: inherit;
+  cursor: auto;
+  transition: var(--transition-colors);
+  outline: none;
+  position: relative;
+}
+
+/* Pillar 1: Variant-based styling */
+.trigger[data-variant="default"] {
+  padding: var(--space-xs) var(--space-2xl) var(--space-xs) var(--space-md);
+  font-size: var(--text-base);
+}
+
+.trigger[data-variant="compact"] {
+  padding: var(--space-2xs);
+  font-size: var(--text-2xs);
+}
+
+/* Hover state */
+.trigger:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--bg-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.trigger:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-md);
+}
+
+/* Active/Pressed state */
+.trigger:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* Disabled state */
+.trigger:disabled,
+.trigger[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.trigger[data-disabled]:hover {
+  background-color: inherit;
+}
+
+/* Open state styling (Base UI: data-popup-open) */
+.trigger[data-popup-open] {
+  background-color: var(--bg-hover);
+}
+
+/* ============================================================================
+   VALUE STYLING
+   ============================================================================ */
+
+.value {
+  flex: 1;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ============================================================================
+   ICON STYLING - Pillar 4.1: Chevron Animation
+   ============================================================================ */
+
+.icon {
+  position: absolute;
+  right: var(--space-md);
+  pointer-events: none;
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  transition: transform var(--duration-normal) var(--ease-out);
+  transform-origin: center;
+  will-change: transform;
+  flex-shrink: 0;
+}
+
+/* Pillar 4.1: Rotate when trigger is open (Base UI: data-popup-open) */
+.trigger[data-popup-open] .icon {
+  transform: rotate(180deg);
+  will-change: auto; /* Remove after animation */
+}
+
+/* Closed state (explicit for clarity) */
+.trigger:not([data-popup-open]) .icon {
+  transform: rotate(0deg);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .icon {
+    transition: none;
+  }
+
+  .trigger[data-popup-open] .icon {
+    transform: rotate(180deg); /* Instant, no animation */
+  }
+}
+
+/* Sidebar container query: compact trigger when sidebar is narrow */
+@container sidebar-container (max-width: 260px) {
+  .trigger[data-variant="default"] {
+    min-height: var(--control-height);
+    padding: var(--space-2xs) var(--space-md) var(--space-2xs) var(--space-sm);
+    font-size: var(--text-sm);
+  }
+
+  .trigger[data-variant="default"] .icon {
+    right: var(--space-sm);
+  }
+}
+
+/* ============================================================================
+   CONTENT/PORTAL STYLING - Pillar 2: Layout & Collision Logic
+   ============================================================================ */
+
+.content {
+  background: var(--bg-surface);
+  border: var(--border-width-default) solid var(--border-default);
+  border-radius: var(--radius-md);
+
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-dropdown); /* Default: 100 */
+  max-height: 300px;
+  min-width: var(--select-trigger-width, 200px);
+  overflow: hidden;
+
+  /* Pillar 4: GPU-accelerated animations */
+  will-change: transform, opacity;
+  transform: translateY(-4px) scale(0.98);
+  opacity: 0;
+  transition:
+    transform var(--duration-normal) var(--ease-out-expo),
+    opacity var(--duration-normal) var(--ease-out);
+}
+
+/* Open state (Base UI: data-open) */
+.content[data-open] {
+  will-change: auto; /* Remove after animation */
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* Closed state (Base UI: data-closed) */
+.content[data-closed] {
+  transform: translateY(-4px) scale(0.98);
+  opacity: 0;
+}
+
+/* Pillar 2: Context-aware z-index */
+.content[data-variant="modal"] {
+  z-index: var(--z-popover); /* 600, above modal */
+}
+
+/* Pillar 2.1: Sidebar context positioning */
+.content[data-sidebar-context="true"] {
+  max-width: min(var(--select-trigger-width, 100%), calc(100vw - var(--space-md) * 2));
+  transform-origin: bottom center;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .content {
+    transition: none;
+  }
+
+  .content[data-open] {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* ============================================================================
+   VIEWPORT STYLING
+   ============================================================================ */
+
+.viewport {
+  padding: var(--space-xs);
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* ============================================================================
+   ITEM STYLING
+   ============================================================================ */
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  cursor: auto;
+  outline: none;
+  border-radius: var(--radius-sm);
+
+  margin: var(--space-2xs);
+  transition: var(--transition-colors);
+  position: relative;
+}
+
+/* Hover state */
+.item:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--bg-hover);
+}
+
+/* Highlighted state (keyboard navigation) */
+.item[data-highlighted] {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+/* Selected state (Base UI: data-selected) */
+.item[data-selected] {
+  background-color: var(--accent-bg);
+  color: var(--accent-primary);
+  font-weight: 500;
+}
+
+/* Focus-visible for keyboard navigation */
+.item:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: -2px;
+}
+
+/* Disabled state */
+.item:disabled,
+.item[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+/* ============================================================================
+   ITEM TEXT & INDICATOR
+   ============================================================================ */
+
+.itemText {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.itemIndicator {
+  margin-left: var(--space-sm);
+  color: var(--accent-primary);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+/* ============================================================================
+   SEPARATOR STYLING
+   ============================================================================ */
+
+.separator {
+  height: var(--border-width-default);
+  background-color: var(--border-subtle);
+  margin: var(--space-xs) var(--space-sm);
+}
+
+/* ============================================================================
+   GROUP & LABEL STYLING
+   ============================================================================ */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  margin-top: var(--space-xs);
+}

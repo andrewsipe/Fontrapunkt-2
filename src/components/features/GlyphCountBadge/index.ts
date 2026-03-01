@@ -1,0 +1,1 @@
+export { GlyphCountBadge } from "./GlyphCountBadge";

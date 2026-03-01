@@ -1,0 +1,298 @@
+/**
+ * COLOR SYSTEM - OKLCH dynamic theming
+ * Backgrounds, text, borders, accent, semantic, neutrals, component colors.
+ * All use light-dark() for theme switching. Depends on tokens.foundation.css.
+ */
+
+:root {
+  color-scheme: light dark;
+
+  /* ==========================================
+     SURFACE SEMANTICS (surface-1 … surface-6)
+     Primary alias for backgrounds. Open Props–style naming.
+     Layering: 1=body → 2=canvas → 3=surface → 4=panel → 5=input → 6=hover.
+     ========================================== */
+  --surface-1: light-dark(var(--neutral-bg-5), var(--neutral-bg-1-less));
+  --surface-2: light-dark(var(--canvas-bg-light), var(--canvas-bg-dark));
+  --surface-3: light-dark(var(--neutral-bg-4), var(--neutral-bg-2));
+  --surface-4: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
+  --surface-5: light-dark(var(--neutral-bg-2), var(--neutral-bg-4));
+  --surface-6: light-dark(var(--neutral-bg-1), var(--neutral-bg-5));
+
+  /* Legacy: bg-* map to surface-* so existing usage keeps working */
+  --bg-body: var(--surface-1);
+  --bg-canvas: var(--surface-2);
+  --bg-surface: var(--surface-3);
+  --bg-panel: var(--surface-4);
+  --bg-input: var(--surface-5);
+  --bg-hover: var(--surface-6);
+
+  /* ==========================================
+     TEXT SEMANTICS (text-1 … text-4)
+     Primary alias for foreground. text-1 = primary, text-4 = disabled.
+     ========================================== */
+  --text-1: light-dark(var(--neutral-fg-1), var(--neutral-fg-1));
+  --text-2: light-dark(var(--neutral-fg-2), var(--neutral-fg-2));
+  --text-3: light-dark(var(--neutral-fg-3), var(--neutral-fg-3));
+  --text-4: light-dark(var(--neutral-fg-4), var(--neutral-fg-4));
+
+  --text-canvas: light-dark(var(--canvas-fg-light), var(--canvas-fg-dark));
+
+  /* Legacy: text-primary etc. map to text-1 … text-4 */
+  --text-primary: var(--text-1);
+  --text-secondary: var(--text-2);
+  --text-tertiary: var(--text-3);
+  --text-disabled: var(--text-4);
+
+  /* Optional: fg-* alias for text-* (same semantics) */
+  --fg-1: var(--text-1);
+  --fg-2: var(--text-2);
+  --fg-3: var(--text-3);
+  --fg-4: var(--text-4);
+
+  /* ==========================================
+     DEACTIVATED STATE
+     ========================================== */
+  --deactivated-opacity: 0.8;
+  --deactivated-bg-blend: light-dark(
+    color-mix(in srgb, var(--bg-surface) 80%, transparent),
+    color-mix(in srgb, var(--bg-surface) 20%, transparent)
+  );
+  --deactivated-text-blend: color-mix(in srgb, var(--text-secondary) 80%, transparent);
+  --deactivated-blur: blur(40px);
+
+  /* ==========================================
+     BORDERS
+     ========================================== */
+  --border-subtle: light-dark(var(--neutral-bg-2-more), var(--neutral-bg-2-more));
+  --border-default: light-dark(var(--neutral-bg-2), var(--neutral-bg-2));
+  --border-strong: light-dark(var(--neutral-bg-2-less), var(--neutral-bg-2-less));
+
+  /* ==========================================
+     SCROLLBARS
+     ========================================== */
+  --scrollbar-track: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
+  --scrollbar-thumb: light-dark(var(--neutral-bg-4), var(--neutral-bg-4));
+  --scrollbar-thumb-hover: light-dark(var(--neutral-fg-3), var(--neutral-fg-3));
+
+  /* ==========================================
+     ACCENT
+     ========================================== */
+  /* useTheme sets 6 primitives (primary/hover/active × light/dark); state-nuanced, AAA, one family per mode */
+  --text-on-accent: light-dark(
+    var(--text-on-accent-primary-light, var(--neutral-fg-pure)),
+    var(--text-on-accent-primary-dark, var(--neutral-fg-pure))
+  );
+  --text-on-accent-hover: light-dark(
+    var(--text-on-accent-hover-light, var(--neutral-fg-pure)),
+    var(--text-on-accent-hover-dark, var(--neutral-fg-pure))
+  );
+  --text-on-accent-active: light-dark(
+    var(--text-on-accent-active-light, var(--neutral-fg-pure)),
+    var(--text-on-accent-active-dark, var(--neutral-fg-pure))
+  );
+  --accent-primary: light-dark(
+    oklch(var(--accent-lightness-light) var(--accent-chroma-light) var(--user-accent-hue)),
+    oklch(var(--accent-lightness-dark) var(--accent-chroma-dark) var(--user-accent-hue))
+  );
+  --accent-hover: light-dark(
+    oklch(
+      calc(var(--accent-lightness-light) - 0.08) var(--accent-chroma-light) var(--user-accent-hue)
+    ),
+    oklch(
+      calc(var(--accent-lightness-dark) + 0.05) var(--accent-chroma-dark) var(--user-accent-hue)
+    )
+  );
+  --accent-active: light-dark(
+    oklch(
+      calc(var(--accent-lightness-light) - 0.12) calc(var(--accent-chroma-light) * 1.1)
+        var(--user-accent-hue)
+    ),
+    oklch(
+      calc(var(--accent-lightness-dark) + 0.1) calc(var(--accent-chroma-dark) * 1.1)
+        var(--user-accent-hue)
+    )
+  );
+  --accent-bg: light-dark(
+    oklch(0.95 var(--accent-chroma-light) var(--user-accent-hue)),
+    oklch(0.25 var(--accent-chroma-dark) var(--user-accent-hue))
+  );
+  --border-focus: light-dark(
+    oklch(
+      calc(var(--accent-lightness-light) + 0.05) calc(var(--accent-chroma-light) * 1.2)
+        var(--user-accent-hue)
+    ),
+    oklch(
+      calc(var(--accent-lightness-dark) + 0.05) calc(var(--accent-chroma-dark) * 1.2)
+        var(--user-accent-hue)
+    )
+  );
+
+  /* ==========================================
+     SEMANTIC - Fixed values (not accent-derived)
+     Information states: consistent, recognizable, contrast-safe
+     ========================================== */
+  --success: light-dark(oklch(0.55 0.17 130), oklch(0.72 0.14 140));
+  --success-bg: light-dark(oklch(0.95 0.04 140), oklch(0.26 0.06 130));
+  --info: light-dark(oklch(0.52 0.19 240), oklch(0.68 0.15 240));
+  --info-bg: light-dark(oklch(0.95 0.04 240), oklch(0.26 0.06 240));
+  --warning: light-dark(oklch(0.85 0.2 85), oklch(0.8 0.13 85));
+  --warning-bg: light-dark(oklch(0.96 0.03 85), oklch(0.274 0.04 80));
+  --danger: light-dark(oklch(0.52 0.21 25), oklch(0.66 0.17 25));
+  --danger-bg: light-dark(oklch(0.95 0.04 25), oklch(0.26 0.06 20));
+  --text-on-danger: var(--text-on-accent);
+
+  /* ==========================================
+     INTERACTIVE (neutral surfaces)
+     ========================================== */
+  --interactive-bg: var(--neutral-bg-4-more);
+  --interactive-hover: var(--neutral-bg-4);
+  --interactive-active: var(--neutral-bg-4-less);
+
+  /* ==========================================
+     STATE OVERLAY SYSTEM
+     ========================================== */
+  --state-hover-opacity: 0.08;
+  --state-focus-opacity: 0.12;
+  --state-pressed-opacity: 0.12;
+  --state-disabled-opacity: 0.38;
+  --state-overlay-dark: oklch(0% 0 0);
+  --state-overlay-light: oklch(100% 0 0);
+  --interactive-hover-overlay: light-dark(
+    color-mix(
+      in oklch,
+      var(--interactive-bg),
+      var(--state-overlay-dark) calc(var(--state-hover-opacity) * 100%)
+    ),
+    color-mix(
+      in oklch,
+      var(--interactive-bg),
+      var(--state-overlay-light) calc(var(--state-hover-opacity) * 100%)
+    )
+  );
+  --interactive-pressed-overlay: light-dark(
+    color-mix(
+      in oklch,
+      var(--interactive-bg),
+      var(--state-overlay-dark) calc(var(--state-pressed-opacity) * 100%)
+    ),
+    color-mix(
+      in oklch,
+      var(--interactive-bg),
+      var(--state-overlay-light) calc(var(--state-pressed-opacity) * 100%)
+    )
+  );
+  --state-hover-bg: var(--interactive-hover);
+  --state-pressed-bg: var(--interactive-active);
+  --state-focus-ring: var(--border-focus);
+  --state-focus-ring-opacity: 0.1;
+  --state-disabled-cursor: not-allowed;
+
+  /* ==========================================
+     SLIDER COLORS
+     ========================================== */
+  --slider-track: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
+  --slider-fill: light-dark(
+    oklch(0.82 calc(var(--accent-chroma-light) * 0.8) var(--user-accent-hue)),
+    oklch(0.35 calc(var(--accent-chroma-dark) * 0.8) var(--user-accent-hue))
+  );
+  --slider-thumb: light-dark(
+    oklch(0.75 calc(var(--accent-chroma-light) * 1.8) var(--user-accent-hue)),
+    oklch(0.45 calc(var(--accent-chroma-dark) * 1.8) var(--user-accent-hue))
+  );
+  --slider-value-bg: light-dark(
+    oklch(var(--accent-lightness-light) var(--accent-chroma-light) var(--user-accent-hue)),
+    oklch(var(--accent-lightness-dark) var(--accent-chroma-dark) var(--user-accent-hue))
+  );
+  --slider-value-text: var(--text-on-accent);
+
+  /* ==========================================
+     OVERLAYS (black overlay alpha)
+     ========================================== */
+  --overlay-light: light-dark(oklch(0 0 0 / 0.15), oklch(0 0 0 / 0.3));
+  --overlay-medium: light-dark(oklch(0 0 0 / 0.3), oklch(0 0 0 / 0.5));
+  --overlay-heavy: light-dark(oklch(0 0 0 / 0.5), oklch(0 0 0 / 0.7));
+
+  /* ==========================================
+     NEUTRAL SOLIDS & OVERLAYS
+     Fixed-contrast UI: glyphs, picker borders, shadows
+     ========================================== */
+  --neutral-white: oklch(1 0 0);
+  --neutral-black: oklch(0 0 0);
+  --neutral-overlay-08: oklch(0 0 0 / 0.08);
+  --neutral-overlay-10: oklch(0 0 0 / 0.1);
+  --neutral-overlay-15: oklch(0 0 0 / 0.15);
+  --neutral-overlay-20: oklch(0 0 0 / 0.2);
+  --neutral-overlay-30: oklch(0 0 0 / 0.3);
+  --neutral-white-90: oklch(1 0 0 / 0.9);
+  --neutral-white-100: oklch(1 0 0 / 1);
+
+  /* ==========================================
+     COMPONENT-SPECIFIC COLORS
+     ========================================== */
+  --hero-logo-stack: light-dark(var(--neutral-bg-4-more), var(--neutral-bg-4-more));
+  --hero-logo-drop: var(--overlay-medium);
+  --code-blue: light-dark(oklch(0.65 0.25 260), oklch(0.75 0.25 260));
+  --code-purple: light-dark(oklch(0.65 0.2 300), oklch(0.75 0.2 300));
+  --code-green: light-dark(oklch(0.7 0.2 145), oklch(0.8 0.2 145));
+  --code-bg: light-dark(var(--neutral-fg-2), var(--neutral-fg-3));
+}
+
+/* ==========================================
+   TONE MODE CLASSES
+   ========================================== */
+.app--neutral-tone {
+  --base-hue-light: 0;
+  --base-hue-dark: 0;
+}
+
+.app--warm-tone {
+  --base-hue-light: calc(var(--user-accent-hue) - 15);
+  --base-hue-dark: calc(var(--user-accent-hue) - 10);
+}
+
+.app--cool-tone {
+  --base-hue-light: calc(var(--user-accent-hue) + 15);
+  --base-hue-dark: calc(var(--user-accent-hue) + 10);
+}
+
+/* ==========================================
+   LIGHT / DARK MODE
+   ========================================== */
+.app--light-mode {
+  color-scheme: light;
+}
+
+.app--dark-mode {
+  color-scheme: dark;
+  --deactivated-opacity: 0.4;
+  --deactivated-blur: blur(8px);
+}
+
+/* ==========================================
+   CANVAS SCHEME (two-zone theming)
+   ========================================== */
+[data-font-canvas][data-canvas-scheme="light"] {
+  color-scheme: light;
+  --deactivated-opacity: 0.8;
+  --deactivated-blur: blur(40px);
+}
+
+[data-font-canvas][data-canvas-scheme="dark"] {
+  color-scheme: dark;
+  --deactivated-opacity: 0.4;
+  --deactivated-blur: blur(8px);
+}
+
+/* ==========================================
+   PRINT
+   ========================================== */
+@media print {
+  :root,
+  .app--dark-mode {
+    color-scheme: light;
+  }
+  [data-font-canvas][data-canvas-scheme="dark"] {
+    color-scheme: light;
+  }
+}

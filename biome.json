@@ -1,0 +1,175 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**",
+      "!dist",
+      "!dist-ssr",
+      "!node_modules",
+      "!*.local",
+      "!**/*.tsbuildinfo",
+      "!coverage",
+      "!.vite",
+      "!build",
+      "!documents",
+      "!OLD_FONTSITE",
+      "!test-fonts",
+      "!src/data/unicode/symbols.json",
+      "!**/src/data/unicode/other.json",
+      "!src/data/unicode/categories/other-ranges.json"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 100,
+    "lineEnding": "lf"
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "recommended": true,
+        "noLabelWithoutControl": "off",
+        "noStaticElementInteractions": "off",
+        "useSemanticElements": "off",
+        "useButtonType": "warn",
+        "useKeyWithClickEvents": "warn",
+        "useKeyWithMouseEvents": "warn",
+        "useValidAriaProps": "error",
+        "useValidAriaValues": "error",
+        "useFocusableInteractive": "warn",
+        "useAriaPropsSupportedByRole": "warn",
+        "noSvgWithoutTitle": "warn"
+      },
+      "complexity": {
+        "recommended": true,
+        "noForEach": "off",
+        "noUselessFragments": "error",
+        "useOptionalChain": "warn",
+        "useFlatMap": "warn",
+        "noImportantStyles": "off"
+      },
+      "correctness": {
+        "recommended": true,
+        "useExhaustiveDependencies": "warn",
+        "noUnusedVariables": "warn",
+        "noUnusedFunctionParameters": "off",
+        "noUnusedImports": "warn"
+      },
+      "style": {
+        "recommended": true,
+        "noNonNullAssertion": "off",
+        "useConst": "warn",
+        "useTemplate": "warn",
+        "useSelfClosingElements": "error",
+        "useFragmentSyntax": "error",
+        "useNamingConvention": "off",
+        "useNodejsImportProtocol": "off",
+        "useExponentiationOperator": "warn"
+      },
+      "suspicious": {
+        "recommended": true,
+        "noExplicitAny": "off",
+        "noImplicitAnyLet": "off",
+        "noArrayIndexKey": "warn",
+        "noConsole": "off",
+        "noDebugger": "warn",
+        "noDoubleEquals": "error",
+        "noEmptyBlockStatements": "off",
+        "useIterableCallbackReturn": "off"
+      },
+      "performance": {
+        "recommended": true,
+        "noAccumulatingSpread": "warn"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "double",
+      "jsxQuoteStyle": "double",
+      "trailingCommas": "es5",
+      "semicolons": "always",
+      "arrowParentheses": "always",
+      "bracketSpacing": true,
+      "bracketSameLine": false
+    }
+  },
+  "css": {
+    "parser": {
+      "cssModules": true
+    },
+    "linter": {
+      "enabled": false
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": true,
+      "indentWidth": 2,
+      "lineWidth": 100
+    }
+  },
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "overrides": [
+    {
+      "includes": ["*.config.ts", "*.config.js", "vite.config.ts", "server/**/*.js"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noConsole": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/workers/**/*.ts"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noConsole": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.module.css"],
+      "linter": {
+        "rules": {
+          "recommended": false
+        }
+      }
+    },
+    {
+      "includes": ["src/engine/**/*.ts", "src/types/**/*.ts", "src/storage/**/*.ts"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noExplicitAny": "off"
+          },
+          "correctness": {
+            "noUnusedVariables": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/types/**/*.d.ts"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedVariables": "off"
+          }
+        }
+      }
+    }
+  ]
+}

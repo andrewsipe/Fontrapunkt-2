@@ -1,0 +1,234 @@
+/**
+ * TwoLayerSlider – design tokens (motion, color, spacing)
+ * Matches EditableSlider: --slider-track, --slider-value-bg, --slider-value-text, --shadow-sm
+ * Dimensions: --slider-track-inset, --slider-thumb-width, --slider-thumb-expanded-width, etc.
+ */
+
+.root {
+  position: relative;
+  height: var(--control-height);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 var(--space-xs);
+  background: var(--bg-surface);
+  border-radius: var(--radius-md);
+  box-sizing: border-box;
+}
+
+/* Disabled state – block interaction, match EditableSlider */
+.root[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+}
+
+.root[data-disabled]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  cursor: var(--state-disabled-cursor);
+  pointer-events: auto;
+  z-index: var(--z-dropdown);
+}
+
+.root[data-disabled] .track,
+.root[data-disabled] .thumb,
+.root[data-disabled] .precisionDot {
+  pointer-events: none;
+}
+
+.track {
+  position: absolute;
+  left: var(--slider-track-inset);
+  right: var(--slider-track-inset);
+  width: calc(100% - 2 * var(--slider-track-inset));
+  height: calc(0.75 * var(--border-width-thick));
+  background: var(--border-default);
+  border-radius: var(--radius-full);
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: ew-resize;
+  border: none;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+}
+
+/* Accent fill from start of track to thumb (left portion), like mini track fill */
+.trackFill {
+  position: absolute;
+  left: var(--slider-track-inset);
+  height: var(--border-width-thick);
+  background: var(--slider-value-bg);
+  border-radius: var(--radius-full);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  transition: width var(--slider-content-duration) var(--ease-expand);
+}
+
+.precisionRangeHighlight {
+  position: absolute;
+  height: var(--border-width-default);
+  background: color-mix(in srgb, var(--accent-primary) 20%, transparent);
+  border-radius: var(--radius-full);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1;
+  transition:
+    left var(--duration-expand) var(--ease-expand),
+    width var(--duration-expand) var(--ease-expand);
+}
+
+.thumb {
+  position: absolute;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: ew-resize;
+  z-index: var(--z-slider-thumb);
+  box-sizing: border-box;
+  box-shadow: var(--shadow-sm);
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.thumbCoarse {
+  background: var(--accent-primary);
+  border: var(--border-width-default) solid transparent;
+  /* box-shadow: var(--shadow-sm);*/
+  transition:
+    left var(--duration-retract) var(--ease-retract),
+    width var(--duration-retract) var(--ease-retract),
+    height var(--duration-retract) var(--ease-retract),
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.thumbCoarse:hover {
+  box-shadow: var(--shadow-md);
+  transform: scale(1.05);
+}
+
+.thumbExpanded {
+  background: var(--bg-surface);
+  border: calc(0.75 * var(--border-width-thick)) solid var(--border-default);
+  /* box-shadow: var(--shadow-md);*/
+  transition:
+    left var(--duration-expand) var(--ease-expand),
+    width var(--duration-expand) var(--ease-expand),
+    height var(--duration-expand) var(--ease-expand),
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.thumbDraggingBody {
+  transition:
+    width 0ms,
+    height 0ms,
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
+}
+
+.thumbInner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Mini track spans full width of expanded thumb */
+.miniTrack {
+  position: absolute;
+  left: var(--space-md);
+  right: var(--space-md);
+  height: var(--border-width-thick);
+  background: var(--slider-track);
+  border-radius: var(--radius-full);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.miniTrackFill {
+  position: absolute;
+  left: var(--space-md);
+  height: var(--border-width-thick);
+  border-radius: var(--radius-full);
+  background: var(--slider-value-bg);
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: width var(--slider-content-duration) var(--ease-expand);
+}
+
+/* Precision dot: same size as 1L thumb (45×18) with value inside - IDENTICAL to 1L */
+.precisionDot {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: var(--slider-thumb-width);
+  height: var(--slider-thumb-height);
+  background: var(--slider-value-bg);
+  border-radius: var(--radius-full);
+  cursor: ew-resize;
+  z-index: 3;
+  box-shadow: var(--shadow-sm);
+  transition: left var(--slider-content-duration) var(--ease-expand);
+  /* Flexbox to center the value text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.precisionDot:active,
+.precisionDotDragging {
+  cursor: ew-resize;
+}
+
+/* Value text inside precision dot - identical styling to 1L thumb value */
+.precisionDotValue {
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  font-family: var(--font-mono);
+  color: var(--slider-value-text); /* White text like 1L */
+  pointer-events: none;
+}
+
+.valueLabelCoarse {
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  font-family: var(--font-mono);
+  color: var(--slider-value-text);
+  pointer-events: none;
+}
+
+/* Explicit font for edit input (inputs don't always inherit) */
+.thumbInput {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--text-on-accent);
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cursorGrab {
+  cursor: ew-resize;
+}
+
+.cursorGrabbing {
+  cursor: ew-resize;
+}

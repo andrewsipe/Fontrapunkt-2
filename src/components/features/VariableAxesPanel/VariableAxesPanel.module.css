@@ -1,0 +1,48 @@
+.axesPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.presetSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding-top: var(--space-lg);
+}
+
+.presetLabel {
+  display: flex;
+  gap: var(--space-sm);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
+  padding-bottom: var(--space-sm);
+  border-bottom: var(--border-width-default) solid var(--border-subtle); /* Add border for section label pattern */
+}
+
+/* Styles for .presetSelect are handled by Select.module.css */
+/* This class is applied to Select.Trigger for component-specific overrides */
+
+.noPresetsMessage {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: var(--space-2xs) 0;
+}
+
+.axesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.noFontMessage {
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-style: italic;
+}

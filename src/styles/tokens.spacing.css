@@ -1,0 +1,135 @@
+/**
+ * SPACING & SIZING
+ * 4pt grid (Open Props–aligned). Container-query responsive scale, layout dimensions,
+ * radius, tight nested system. All spacing/layout values are multiples of 4px.
+ * Depends on tokens.foundation.css (none for spacing). Scrollbar-size uses radius.
+ */
+
+:root {
+  /* ==========================================
+     SPACING SCALE — 4pt grid
+     Reference: Open Props --size-1 (4px) through --size-8 (48px)
+     ========================================== */
+  --space-3xs: 4px;
+  --space-2xs: clamp(4px, 0.5cqi, 8px);
+  --space-xs: clamp(8px, 0.8cqi, 8px);
+  --space-sm: clamp(8px, 1.2cqi, 12px);
+  --space-md: clamp(12px, 1.8cqi, 16px);
+  --space-lg: clamp(16px, 2.5cqi, 24px);
+  --space-xl: clamp(24px, 3.5cqi, 32px);
+  --space-2xl: clamp(32px, 5cqi, 48px);
+  --space-3xl: clamp(48px, 7cqi, 72px);
+
+  /* ==========================================
+     LAYOUT DIMENSIONS — 4pt grid
+     ========================================== */
+  --touch-target-min: 44px;
+  --sidebar-width: clamp(240px, 25cqi, 320px);
+  --panel-width: clamp(280px, 30cqi, 400px);
+  --bar-height: clamp(32px, 3cqi, 40px);
+  --control-height: clamp(28px, 2.5cqi, 36px);
+  --button-height: clamp(32px, 3cqi, 40px);
+  --input-height: clamp(36px, 3.5cqi, 44px);
+  --glyph-info-height: 48px;
+
+  /* ==========================================
+     SLIDER DIMENSIONS
+     ========================================== */
+  --slider-track-inset: var(--spacing-gap-tight);
+  --slider-thumb-width: 45px;
+  --slider-thumb-expanded-width: 105px;
+  --slider-thumb-height: 18px;
+  --slider-thumb-expanded-height: 34px;
+  --slider-precision-dot-size: 14px;
+  --slider-mini-inset: var(--space-xs);
+  --slider-content-duration: 200ms;
+
+  /* ==========================================
+     ICON SIZES (physical)
+     ========================================== */
+  --icon-size-xs: 12px;
+  --icon-size-sm: 16px;
+  --icon-size-md: 20px;
+  --icon-size-lg: 24px;
+  --icon-size-xl: 32px;
+  /* Context slots - set by container (IconContainer, etc.) */
+  --icon-size-header: 1.125rem;
+  --icon-size-label: 1.125rem;
+  --icon-size-control: 1.125rem;
+
+  /* ==========================================
+     BORDER RADIUS — 4pt grid
+     Button base: 8px (--radius-button) for non-pill styling
+     ========================================== */
+  --radius-sm: 4px;
+  --radius-button: 8px; /* Default button/toggle radius (8pt) */
+  --radius-md: clamp(8px, 1cqi, 12px);
+  --radius-lg: clamp(12px, 1.5cqi, 16px);
+  --radius-xl: clamp(16px, 2cqi, 24px);
+  --radius-2xl: clamp(24px, 3cqi, 32px);
+  --radius-full: 100vh;
+
+  /* ==========================================
+     TIGHT NESTED SYSTEM
+     Button groups, toolbars, segmented controls (4px gap = 4pt)
+     Inner radius = outer - gap so nested corners align
+     ========================================== */
+  --spacing-gap-tight: 4px;
+  --radius-tight-from-sm: max(0px, calc(var(--radius-sm) - var(--spacing-gap-tight)));
+  --radius-tight-from-button: max(
+    0px,
+    calc(var(--radius-button) - var(--spacing-gap-tight))
+  ); /* 4px inner */
+  --radius-tight-from-base: max(0px, calc(var(--radius-md) - var(--spacing-gap-tight)));
+  --radius-tight-from-md: max(0px, calc(var(--radius-md) - var(--spacing-gap-tight)));
+  --radius-tight-from-lg: max(0px, calc(var(--radius-lg) - var(--spacing-gap-tight)));
+
+  /* ==========================================
+     NESTED BORDER RADIUS
+     inner-radius = outer-radius - padding
+     ========================================== */
+  --padding-for-radius-sm: var(--space-xs);
+  --padding-for-radius-md: var(--space-md);
+  --padding-for-radius-lg: var(--space-lg);
+  --padding-for-radius-xl: var(--space-xl);
+  --padding-for-radius-2xl: var(--space-2xl);
+  --radius-nested-from-sm: max(0px, calc(var(--radius-sm) - var(--padding-for-radius-sm)));
+  --radius-nested-from-base: max(0px, calc(var(--radius-md) - var(--padding-for-radius-md)));
+  --radius-nested-from-md: max(0px, calc(var(--radius-md) - var(--padding-for-radius-md)));
+  --radius-nested-from-lg: max(0px, calc(var(--radius-lg) - var(--padding-for-radius-lg)));
+  --radius-nested-from-xl: max(0px, calc(var(--radius-xl) - var(--padding-for-radius-xl)));
+  --radius-nested-from-2xl: max(0px, calc(var(--radius-2xl) - var(--padding-for-radius-2xl)));
+
+  /* ==========================================
+     SCROLLBAR
+     ========================================== */
+  --scrollbar-size: var(--radius-md);
+}
+
+/* ==========================================
+   COMPACT MODE - Spacing & layout
+   ========================================== */
+.app--compact {
+  /* 4pt grid preserved */
+  --space-3xs: 4px;
+  --space-2xs: clamp(4px, 0.4cqi, 8px);
+  --space-xs: clamp(4px, 0.5cqi, 8px);
+  --space-sm: clamp(8px, 0.9cqi, 8px);
+  --space-md: clamp(8px, 1.2cqi, 12px);
+  --space-lg: clamp(12px, 1.8cqi, 16px);
+  --space-xl: clamp(16px, 2.5cqi, 24px);
+  --space-2xl: clamp(24px, 3.5cqi, 36px);
+  --space-3xl: clamp(36px, 5cqi, 52px);
+  --sidebar-width: clamp(200px, 20cqi, 260px);
+  --panel-width: clamp(240px, 25cqi, 320px);
+  --bar-height: clamp(28px, 2.5cqi, 32px);
+  --control-height: clamp(24px, 2cqi, 28px);
+  --button-height: clamp(28px, 2.2cqi, 32px);
+  --input-height: clamp(28px, 3cqi, 36px);
+  --radius-sm: 4px;
+  --radius-button: 6px; /* 6px acceptable for compact; 4pt would be 4 or 8 */
+  --radius-md: clamp(8px, 0.8cqi, 8px);
+  --radius-lg: clamp(8px, 1.2cqi, 12px);
+  --radius-xl: clamp(12px, 1.5cqi, 16px);
+  --radius-2xl: clamp(16px, 2.5cqi, 24px);
+}

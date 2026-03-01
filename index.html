@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontrapunkt 2.0</title>
+    <style>
+      :root { color-scheme: light dark; }
+      .app--light-mode { color-scheme: light; }
+      .app--dark-mode { color-scheme: dark; }
+    </style>
+    <script>
+      (() => {
+        var raw, j, c, effective;
+        try {
+          raw = localStorage.getItem("app-settings");
+          j = raw ? JSON.parse(raw) : null;
+          c = j && (j.state?.colorScheme || j.colorScheme);
+          if (c === "auto") c = "system";
+          if (c === "light" || c === "dark") effective = c;
+          else if (c === "system" && window.matchMedia?.("(prefers-color-scheme: dark)")?.matches) effective = "dark";
+          else if (c === "system") effective = "light";
+          if (effective) {
+            document.documentElement.classList.remove("app--light-mode", "app--dark-mode");
+            document.documentElement.classList.add(effective === "dark" ? "app--dark-mode" : "app--light-mode");
+          }
+        } catch (_e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root" class="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

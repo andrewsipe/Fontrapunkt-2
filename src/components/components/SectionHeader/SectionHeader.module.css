@@ -1,0 +1,13 @@
+/**
+ * SectionHeader - Section title with Label section typography + optional border.
+ * Use for panel/section headings (Settings, Font Info, etc.).
+ */
+
+.root {
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.root.border {
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border-default);
+}

@@ -1,0 +1,112 @@
+/**
+ * COMPONENT SEMANTIC TOKENS
+ * Buttons, toggles, checkboxes, collapsible: states and sizes.
+ * All reference primitives from color and spacing. Depends on tokens.color.css, tokens.spacing.css.
+ */
+
+:root {
+  /* ==========================================
+     COLLAPSIBLE - Panel height (animation / default open height)
+     ========================================== */
+  --collapsible-panel-height: 300px;
+
+  /* ==========================================
+     BUTTON - Sizes (default --button-height from tokens.spacing.css)
+     8pt (8px) radius base — not pill-shaped; nesting uses --radius-tight-from-button
+     ========================================== */
+  --button-height-sm: clamp(24px, 2cqi, 28px);
+  --button-height-lg: clamp(40px, 3.5cqi, 48px);
+  --button-padding-x: var(--space-md);
+  --button-radius: var(--radius-button);
+  --button-border-width: var(--border-width-default);
+
+  /* ==========================================
+     BUTTON - Primary (accent)
+     ========================================== */
+  --button-primary-bg: var(--accent-primary);
+  --button-primary-bg-hover: var(--accent-hover);
+  --button-primary-bg-active: var(--accent-active);
+  --button-primary-text: var(--text-on-accent);
+  --button-primary-text-hover: var(--text-on-accent-hover);
+  --button-primary-text-active: var(--text-on-accent-active);
+  --button-primary-border: transparent;
+  --button-primary-focus-ring: var(--border-focus);
+
+  /* ==========================================
+     BUTTON - Secondary (neutral interactive)
+     ========================================== */
+  --button-secondary-bg: var(--interactive-bg);
+  --button-secondary-bg-hover: var(--interactive-hover);
+  --button-secondary-bg-active: var(--interactive-active);
+  --button-secondary-text: var(--text-primary);
+  --button-secondary-border: var(--border-subtle);
+  --button-secondary-focus-ring: var(--border-focus);
+
+  /* ==========================================
+     BUTTON - Ghost / tertiary
+     Custom variant (Open Props has no ghost): 0% fill, overlay on hover/active.
+     Keeps text/icon alignment consistent with filled buttons, low visual hierarchy.
+     ========================================== */
+  --button-ghost-bg: transparent;
+  --button-ghost-bg-hover: var(--interactive-hover-overlay);
+  --button-ghost-bg-active: var(--interactive-pressed-overlay);
+  --button-ghost-text: var(--text-primary);
+  --button-ghost-border: transparent;
+  --button-ghost-focus-ring: var(--border-focus);
+
+  /* ==========================================
+     BUTTON - Disabled (all variants)
+     ========================================== */
+  --button-disabled-bg: var(--bg-input);
+  --button-disabled-text: var(--text-disabled);
+  --button-disabled-border: var(--border-subtle);
+  --button-disabled-cursor: var(--state-disabled-cursor);
+
+  /* ==========================================
+     TOGGLE / SEGMENTED CONTROL - Sizes
+     Nested radius from 8pt button base (--radius-tight-from-button)
+     ========================================== */
+  --toggle-height: var(--control-height);
+  --toggle-padding: var(--spacing-gap-tight);
+  --toggle-radius: var(--radius-tight-from-button);
+
+  /* ==========================================
+     TOGGLE - States
+     ========================================== */
+  --toggle-bg: var(--interactive-bg);
+  --toggle-bg-hover: var(--interactive-hover);
+  --toggle-bg-active: var(--accent-bg);
+  --toggle-text: var(--text-secondary);
+  --toggle-text-active: var(--text-primary);
+  --toggle-border: var(--border-subtle);
+  --toggle-border-active: var(--border-focus);
+  --toggle-focus-ring: var(--border-focus);
+
+  /* ==========================================
+     CHECKBOX / RADIO - Sizes
+     ========================================== */
+  --checkbox-size: var(--icon-size-md);
+  --checkbox-radius: var(--radius-sm);
+  --checkbox-border-width: var(--border-width-default);
+
+  /* ==========================================
+     CHECKBOX - States
+     ========================================== */
+  --checkbox-bg: var(--bg-input);
+  --checkbox-bg-checked: var(--accent-primary);
+  --checkbox-border: var(--border-default);
+  --checkbox-border-hover: var(--border-strong);
+  --checkbox-border-focus: var(--border-focus);
+  --checkbox-check-color: var(--text-on-accent);
+  --checkbox-disabled-bg: var(--bg-panel);
+  --checkbox-disabled-border: var(--border-subtle);
+  --checkbox-disabled-check: var(--text-disabled);
+}
+
+/* ==========================================
+   COMPACT MODE - Component sizes
+   ========================================== */
+.app--compact {
+  --button-height-sm: clamp(20px, 1.6cqi, 24px);
+  --button-height-lg: clamp(32px, 2.8cqi, 40px);
+}

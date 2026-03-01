@@ -1,0 +1,189 @@
+/**
+ * Tabs styles (Base UI) using design system tokens
+ * Supports data-active and data-hidden for state
+ */
+
+/* Root container */
+.root {
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow flexing when in flex container (like panelHeader) */
+  min-width: 0; /* Allow flex shrinking */
+  width: auto; /* Don't force full width, let flex handle it */
+}
+
+/* Tab List - scrolls horizontally when many tabs; when tab count grows further,
+   consider max-width + "more" menu or dropdown. See DEV_TOOLS_UI_REFACTORING_PLAN Phase E. */
+.list {
+  display: flex;
+  gap: var(--space-md);
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-gutter: stable;
+}
+
+/* Pill variant - remove border and margin for sidebar tabs */
+.list[data-variant="pill"] {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Reduce gap at smaller container widths */
+@container (max-width: 280px) {
+  .list {
+    gap: var(--space-sm);
+  }
+}
+
+/* Tab Trigger (Button) */
+.trigger {
+  padding: var(--space-xs) 0;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: auto;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  font-family: var(--font-ui);
+  border-bottom: 2px solid transparent;
+  transition: var(--transition-state);
+  position: relative;
+  isolation: isolate;
+  outline: none;
+}
+
+/* Hover state - only when enabled */
+.trigger:hover:not(:disabled):not([data-disabled]) {
+  color: var(--text-primary);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.trigger:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-md);
+}
+
+/* Active/Pressed state - only when enabled */
+.trigger:active:not(:disabled):not([data-disabled]) {
+  color: var(--text-primary);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* Selected/Active state (Base UI: data-active) - Default underline variant */
+.trigger[data-active],
+.trigger[data-variant="underline"][data-active] {
+  color: var(--text-primary);
+  font-weight: 600; /* Bold for active tab */
+  border-bottom-color: var(--accent-primary);
+  border-bottom-width: 2px; /* Ensure thick underline */
+}
+
+/* Pill variant - for Sidebar */
+.trigger[data-variant="pill"] {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: 1px solid transparent;
+  border-bottom: none !important; /* Override default underline border */
+  margin-bottom: 0;
+}
+
+.trigger[data-variant="pill"]:hover:not(:disabled):not([data-disabled]) {
+  color: var(--text-primary);
+  background: var(--interactive-bg);
+}
+
+.trigger[data-variant="pill"][data-active] {
+  background: var(--accent-bg);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  border-bottom: none !important; /* Ensure no underline */
+}
+
+/* Ghost variant - minimal background on active */
+.trigger[data-variant="ghost"] {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+
+  background: transparent;
+  border-bottom: none;
+}
+
+.trigger[data-variant="ghost"][data-active] {
+  background: var(--interactive-bg);
+  color: var(--text-primary);
+}
+
+/* Disabled state */
+.trigger:disabled,
+.trigger[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+  color: var(--text-tertiary);
+}
+
+/* Override active state when disabled */
+.trigger:disabled[data-active],
+.trigger[data-disabled][data-active] {
+  color: var(--text-tertiary);
+  border-bottom-color: oklch(from var(--accent-primary) l c h / var(--state-disabled-opacity));
+  opacity: var(--state-disabled-opacity);
+}
+
+/* Content Container - handles height transitions */
+.contentContainer {
+  position: relative;
+  min-height: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tab Content */
+.content {
+  outline: none;
+  width: 100%;
+  min-width: 0;
+  /* Smooth opacity and height transitions */
+  transition:
+    opacity var(--duration-normal) var(--ease-out),
+    max-height var(--duration-normal) var(--ease-out);
+}
+
+/* Base UI Panel: visible when not hidden */
+.content:not([data-hidden]) {
+  opacity: 1;
+  max-height: 2000px; /* Large enough for most content */
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content[data-hidden] {
+  opacity: 0;
+  max-height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .trigger,
+  .content {
+    transition: none;
+  }
+
+  .trigger:active:not(:disabled) {
+    transform: none;
+  }
+}

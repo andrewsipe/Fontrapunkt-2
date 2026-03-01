@@ -1,0 +1,403 @@
+.root {
+  min-height: 100vh;
+  background: var(--bg-body);
+  color: var(--text-primary);
+  padding: clamp(1rem, 3cqi, 2rem);
+  overflow: scroll;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.headerRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.themeControl {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  flex-shrink: 0;
+}
+
+.themeLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.controlsRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: var(--bg-panel);
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+}
+
+.controlBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.controlLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.toneSlider {
+  width: 120px;
+  accent-color: var(--accent-primary);
+}
+
+.controlValue {
+  font-size: 0.6875rem;
+  color: var(--text-tertiary);
+}
+
+.accentPresetRow {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-inline-size: 0;
+}
+
+.accentPresetBtn {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 2px solid var(--border-default);
+  cursor: pointer;
+  padding: 0;
+}
+
+.accentPresetBtn:hover {
+  border-color: var(--accent-primary);
+  transform: scale(1.05);
+}
+
+.tintNote {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+  margin: 0;
+  align-self: center;
+}
+
+.layerStack {
+  max-width: 400px;
+}
+
+.layerBox {
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+}
+
+.layerLabel {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.layerBox > .layerLabel:last-child {
+  margin-bottom: 0;
+}
+
+.extLink {
+  color: var(--accent-primary);
+}
+
+.buttonStatesStrip {
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  margin-bottom: 1rem;
+}
+
+.buttonStatesStrip:last-of-type {
+  margin-bottom: 0;
+}
+
+.buttonStatesLayerLabel {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.buttonStatesRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.buttonStatesRow:last-child {
+  margin-bottom: 0;
+}
+
+.buttonStyleLabel {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  min-width: 4.5rem;
+}
+
+.buttonSamples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.buttonSampleWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.buttonStateLabel {
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+}
+
+.buttonSample {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  transition: none;
+}
+
+/* Primary: accent fill; use state-specific text-on-accent so preview matches real buttons */
+.buttonSamplePrimary[data-state="default"] {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.buttonSamplePrimary[data-state="hover"] {
+  background: var(--accent-hover);
+  color: var(--text-on-accent-hover);
+}
+
+.buttonSamplePrimary[data-state="focus"] {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.buttonSamplePrimary[data-state="active"] {
+  background: var(--accent-active);
+  color: var(--text-on-accent-active);
+}
+
+.buttonSamplePrimary[data-state="disabled"] {
+  background: var(--bg-input);
+  color: var(--text-disabled);
+  opacity: var(--state-disabled-opacity, 0.5);
+}
+
+/* Secondary: accent outline on surface */
+.buttonSampleSecondary[data-state="default"] {
+  background: transparent;
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.buttonSampleSecondary[data-state="hover"] {
+  background: var(--bg-hover);
+  color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.buttonSampleSecondary[data-state="focus"] {
+  background: transparent;
+  color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.buttonSampleSecondary[data-state="active"] {
+  background: var(--bg-input);
+  color: var(--accent-active);
+  border-color: var(--accent-active);
+}
+
+.buttonSampleSecondary[data-state="disabled"] {
+  background: transparent;
+  color: var(--text-disabled);
+  border-color: var(--border-subtle);
+  opacity: var(--state-disabled-opacity, 0.5);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem 0;
+}
+
+.subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0 0 1rem 0;
+}
+
+.navLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.back {
+  font-size: 0.875rem;
+  color: var(--accent-primary);
+  text-decoration: none;
+}
+
+.back:hover {
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+}
+
+.sectionTitle code {
+  font-size: 0.875em;
+  padding: 0.1em 0.35em;
+  background: var(--bg-panel);
+  border-radius: 4px;
+}
+
+.sectionNote {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin: 0 0 0.75rem 0;
+}
+
+.swatchGrid {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swatchGrid li {
+  margin: 0;
+}
+
+/* 16 bg steps: pure + 5 layers × (subtle, base, strong) */
+.swatchGridBg {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swatchGridBg li {
+  margin: 0;
+}
+
+.swatch {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-body);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.swatchGridFg {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.swatchGridFg li {
+  margin: 0;
+}
+
+.swatchFgOnBg {
+  aspect-ratio: 1;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.fgOnBgLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.ratio {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  background: oklch(0 0 0 / 0.5);
+  color: oklch(1 0 0);
+}
+
+@media (max-width: 640px) {
+  .swatchGrid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .swatchGridBg {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

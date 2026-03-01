@@ -1,0 +1,8 @@
+/**
+ * HeaderControls - Layout for reset and swatch book buttons in header.
+ * Min touch target is applied by Header.module.css .controls > *.
+ */
+
+.swatchBookButton {
+  flex-shrink: 0;
+}

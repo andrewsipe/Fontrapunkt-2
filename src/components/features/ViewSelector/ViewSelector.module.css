@@ -1,0 +1,21 @@
+.viewSelector {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.label {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  gap: var(--space-3xs);
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: var(--leading-tight);
+  margin-bottom: calc(var(--space-3xs) * -1);
+}
+
+/* Styles for .buttons are handled by CustomToggleGroup with discrete variant */

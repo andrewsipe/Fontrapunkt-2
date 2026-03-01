@@ -1,0 +1,41 @@
+/**
+ * ControlGroup – Label + control slot.
+ */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.root:has([data-disabled]) {
+  cursor: var(--state-disabled-cursor);
+}
+
+.root:has([data-disabled]) .label,
+.root:has([data-disabled]) label.label {
+  color: var(--text-tertiary);
+  opacity: var(--state-disabled-opacity);
+}
+
+.label {
+  flex-shrink: 1;
+  gap: var(--space-xs);
+  padding: 0 var(--space-xs);
+  margin-top: calc(var(--space-md) * 1);
+  cursor: auto;
+  transition: var(--transition-colors);
+}
+
+.label:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--accent-primary);
+  text-underline-offset: 2px;
+}
+
+.label:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}

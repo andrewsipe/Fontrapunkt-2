@@ -1,0 +1,15 @@
+.virtualizedGrid {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cellInner {
+  padding: var(--cell-padding, 0);
+  height: 100%;
+}
+
+.loadingMessage {
+  padding: var(--loading-padding, var(--space-sm));
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}

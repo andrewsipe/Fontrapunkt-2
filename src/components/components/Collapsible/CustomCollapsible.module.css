@@ -1,0 +1,150 @@
+/**
+ * Custom Collapsible styles using design system tokens (Base UI)
+ * Supports ghost and card variants. Uses --collapsible-panel-height for animations.
+ */
+
+/* Root container */
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Ghost variant - transparent background, no border */
+.root.ghost {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Card variant - bordered with background */
+.root.card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+
+  padding: var(--space-sm);
+  /* CRITICAL: Use transparent border when closed to prevent layout shifts */
+  /* The border is always present, maintaining consistent dimensions */
+}
+
+/* Trigger button - clickable header */
+.trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: var(--text-primary);
+  cursor: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+
+  transition: var(--transition-state);
+}
+
+/* Hover state - only when enabled */
+.trigger:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.trigger:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Active/Pressed state - only when enabled */
+.trigger:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* Disabled state */
+.trigger:disabled,
+.trigger[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.trigger:disabled:hover,
+.trigger[data-disabled]:hover {
+  background-color: transparent;
+  transform: none;
+}
+
+/* Chevron icon - rotates based on data-state */
+.chevron {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: transform var(--transition-state);
+  transform-origin: center;
+  will-change: transform;
+}
+
+/* Base UI: data-panel-open on trigger when panel is open */
+.trigger[data-panel-open] .chevron {
+  transform: rotate(90deg);
+}
+
+.trigger:not([data-panel-open]) .chevron {
+  transform: rotate(0deg);
+}
+
+/* Content - overflow hidden required for height animations */
+/* CRITICAL: Overflow is applied to enable smooth height transitions */
+/* 
+ * IMPORTANT: Nested tooltips/popovers/dropdowns must use a portal to escape overflow clipping.
+ * Base UI primitives (Tooltip, Popover, Select) use Portal by default where applicable.
+ * If adding custom tooltips or dropdowns, ensure they use Portal or position: fixed.
+ */
+.content {
+  overflow: hidden;
+}
+
+/* Base UI Panel: data-open / data-closed, --collapsible-panel-height */
+@keyframes slideDown {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--collapsible-panel-height);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--collapsible-panel-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.content[data-open] {
+  animation: slideDown 200ms var(--ease-out);
+}
+
+.content[data-closed] {
+  animation: slideUp 200ms var(--ease-out);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .content {
+    animation: none;
+    overflow: visible; /* Remove overflow when animations are disabled */
+  }
+}

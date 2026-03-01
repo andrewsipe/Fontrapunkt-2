@@ -1,0 +1,137 @@
+/**
+ * Popover styles (Base UI) using design system tokens
+ * Matches Modal and Select component aesthetics
+ * Uses OKLCH colors and consistent borders/shadows
+ */
+
+/* ============================================================================
+   TRIGGER STYLING
+   ============================================================================ */
+
+.trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: auto;
+  transition: var(--transition-colors);
+  outline: none;
+  padding: var(--space-xs);
+  border-radius: var(--radius-sm);
+}
+
+.trigger:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.trigger:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.trigger:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+.trigger:disabled,
+.trigger[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+/* ============================================================================
+   CONTENT STYLING - Matches Modal/Select aesthetics
+   ============================================================================ */
+
+.content {
+  background: var(--bg-surface);
+  border: var(--border-width-default) solid var(--border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-popover);
+  padding: var(--space-md);
+  max-width: 320px;
+  min-width: 200px;
+
+  /* GPU-accelerated animation */
+  will-change: transform, opacity;
+  transform: translateY(-4px) scale(0.98);
+  opacity: 0;
+  transition:
+    transform var(--duration-normal) var(--ease-out-expo),
+    opacity var(--duration-normal) var(--ease-out);
+}
+
+/* Base UI uses data-open / data-closed */
+.content[data-open] {
+  will-change: auto;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+.content[data-closed] {
+  transform: translateY(-4px) scale(0.98);
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .content {
+    transition: none;
+  }
+
+  .content[data-open] {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+
+  .content[data-closed] {
+    transform: translateY(-4px) scale(0.98);
+    opacity: 0;
+  }
+}
+
+/* ============================================================================
+   CLOSE BUTTON STYLING
+   ============================================================================ */
+
+.close {
+  position: absolute;
+  top: var(--space-xs);
+  right: var(--space-xs);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  cursor: auto;
+  transition: var(--transition-colors);
+  outline: none;
+}
+
+.close:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+.close:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+}

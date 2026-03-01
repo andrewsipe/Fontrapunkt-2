@@ -1,0 +1,394 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--overlay-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-modal-backdrop);
+}
+
+.modal {
+  background-color: var(--bg-body);
+  border-radius: var(--radius-xl);
+
+  padding: var(--space-xl);
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: var(--shadow-2xl);
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+}
+
+.modalTitle {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.closeButton {
+  padding: var(--space-xs);
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: auto;
+  border-radius: var(--radius-md);
+
+  transition: var(--transition-colors);
+}
+
+.closeButton:hover {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.settingGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.settingLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  cursor: auto;
+}
+
+/* Select trigger styling - base styles from Select.module.css */
+/* This class is applied to Select.Trigger for modal-specific overrides */
+.select {
+  /* Override background to match original SettingsModal styling */
+  background-color: var(--interactive-bg);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+}
+
+.select:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Ensure focus states work with Base UI / native focus attributes */
+.select:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-default);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+/* Section titles: use SectionHeader component */
+
+/* Styles for .buttonGroup are handled by CustomToggleGroup with segmented variant */
+
+.shortcutsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.shortcutItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm);
+  background-color: var(--bg-panel);
+  border-radius: var(--radius-sm);
+}
+
+.shortcutLabel {
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+}
+
+.shortcutKeys {
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-md);
+}
+
+.sectionDescription {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin: var(--space-sm) 0 0 0;
+  line-height: var(--leading-normal);
+  font-style: italic;
+}
+
+.inlineCode {
+  background: var(--bg-input);
+  padding: var(--space-3xs) var(--space-3xs);
+  border-radius: var(--radius-sm);
+
+  font-family: var(--font-mono);
+}
+
+.dangerButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--danger-bg);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-md);
+
+  color: var(--danger);
+  font-size: var(--text-sm);
+  cursor: auto;
+  transition: var(--transition-colors);
+}
+
+.dangerButton:hover:not(:disabled) {
+  background-color: oklch(from var(--danger) calc(l + 0.1) c h);
+  border-color: var(--danger);
+}
+
+.dangerButton:disabled {
+  background-color: var(--success-bg);
+  border-color: var(--success);
+  color: var(--success);
+  cursor: default;
+}
+
+.settingsToggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--interactive-bg);
+  border: 1px solid var(--interactive-hover);
+  border-radius: var(--radius-md);
+
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  cursor: auto;
+  transition: var(--transition-colors);
+}
+
+.settingsToggleButton:hover:not(:disabled) {
+  background-color: var(--interactive-hover);
+  border-color: var(--text-primary);
+}
+
+.settingsToggleButton:disabled {
+  background-color: var(--success-bg);
+  border-color: var(--success);
+  color: var(--success);
+  cursor: default;
+}
+
+/* ==========================================
+  ACCENT SECTION – layout only; slider styles in NativeRangeSlider.module.css
+  ========================================== */
+
+.hueSliderWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.hueSliderInputWrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.hueValueDisplay {
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  width: 4ch;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ADVANCED CONTROLS - Tighter and Cleaner */
+.advancedControls {
+  margin-top: var(--space-xs);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-xs);
+}
+
+/* Open state - add bottom padding when expanded */
+.advancedControls[data-state="open"] {
+  padding-bottom: var(--space-sm);
+}
+
+/* Trigger styling - matches original summary appearance */
+.advancedTrigger {
+  cursor: auto;
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  user-select: none;
+  padding: var(--space-xs) 0;
+  font-weight: 500;
+  transition: color var(--transition-colors);
+}
+
+.advancedTrigger:hover:not(:disabled):not([data-disabled]) {
+  color: var(--text-primary);
+}
+
+/* Override default trigger background on hover to match original design */
+.advancedTrigger:hover:not(:disabled):not([data-disabled]) {
+  background-color: transparent;
+}
+
+.oklchControls {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg-surface);
+  border-radius: var(--radius-md);
+}
+
+.controlRow {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+}
+
+/* Tone section – layout only; track/thumb in NativeRangeSlider.module.css */
+.toneSliderWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  position: relative;
+  padding: var(--space-xs) 0;
+}
+
+.toneSliderInputWrap {
+  width: 100%;
+}
+
+/* Visual Ticks (The "Graduated" look) */
+.toneSliderTicks {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 var(--space-sm);
+  margin-top: 6px;
+  pointer-events: none;
+}
+
+.tick {
+  width: var(--border-width-default);
+  height: var(--space-2xs);
+  background-color: var(--text-tertiary);
+  opacity: var(--opacity-subtle);
+}
+
+.tick.center {
+  height: var(--space-sm); /* Use token instead of 8px - 8-12px responsive */
+  background-color: var(--text-primary);
+  opacity: var(--opacity-subtle); /* Use token instead of 0.8 - 0.7 for consistency */
+}
+
+.settingHint {
+  font-size: var(--text-xs);
+  font-style: italic;
+  color: var(--text-tertiary);
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2xs);
+}
+
+/* When setting row contains an icon action (e.g. ResetButton), set font-size so icon inherits and matches .settingLabel */
+.settingRow:has([data-icon-container]) {
+  font-size: var(--text-sm);
+}
+
+.toneLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-2xs);
+  color: var(--text-tertiary);
+  margin-top: var(--space-2xs);
+  padding: 0 var(--space-2xs);
+}
+
+/* Default Text Input */
+.defaultTextInput {
+  height: calc(3 * var(--input-height));
+  width: 100%;
+  padding: var(--space-sm);
+  background-color: var(--bg-input);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-family: inherit;
+  transition: var(--transition-state);
+  resize: vertical;
+  min-height: 60px;
+}
+
+.defaultTextInput:hover:not(:disabled):not([aria-disabled="true"]) {
+  border-color: var(--text-secondary);
+}
+
+.defaultTextInput:focus,
+.defaultTextInput:focus-visible {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px oklch(from var(--border-focus) l c h / var(--state-focus-ring-opacity));
+}
+
+.defaultTextInput:disabled,
+.defaultTextInput[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  background-color: var(--bg-surface);
+  pointer-events: none;
+}
+
+/* ClearCacheButton (IconContainer) - Top Right */
+.quickCacheButtonWrapper {
+  position: absolute;
+  top: var(--space-lg);
+  right: calc(var(--space-lg) + 36px); /* Left of close button */
+  z-index: var(--z-base);
+}
+
+.quickCacheButton {
+  flex-shrink: 0;
+}

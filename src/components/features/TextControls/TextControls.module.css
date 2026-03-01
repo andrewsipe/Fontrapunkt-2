@@ -1,0 +1,142 @@
+.textControls {
+  display: flex;
+  flex-direction: column;
+  container-type: inline-size;
+}
+
+/* Slider row with trailing icon button (Auto-Fit next to Font Size, Vertical Trim next to Line Height) */
+.sliderRowWithAction {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+.sliderRowWithAction > div:first-child {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Active state for Auto-Fit and Vertical Trim — match toggle group selected item */
+.togglePressed {
+  background-color: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.alignmentControls {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.alignmentRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+/* ==========================================
+   BUTTON GROUP COMPONENT
+   ========================================== */
+.buttonGroup {
+  /* Styles handled by CustomToggleGroup */
+  /* Keep for potential custom overrides if needed */
+  flex: 1;
+  min-width: 0;
+}
+
+/* Case icons (AA, Aa, aa) – Quicksand at 575 for visual match with Lucide icons */
+.capsIcon {
+  font-family: var(--font-icons);
+  font-size: 1em;
+  font-variation-settings: "wght" var(--font-icons-weight);
+  text-box-trim: both;
+  line-height: 1;
+}
+
+/* Font size icon: two A’s, baseline – big A wght 575, small A 82% size wght 700 */
+.fontSizeIcon {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--font-icons);
+  line-height: 1;
+  text-box-trim: both;
+}
+.fontSizeIconBig {
+  font-size: 1em;
+  font-variation-settings: "wght" var(--font-icons-weight);
+}
+.fontSizeIconSmall {
+  font-size: calc(1em * var(--font-icons-size-small-ratio));
+  font-variation-settings: "wght" var(--font-icons-weight-max);
+  margin-left: -1px;
+}
+
+/* Letter spacing icon: | A | – bars visible (wght 500), middle A wght 575 */
+.letterSpacingIcon {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-icons);
+  line-height: 1;
+  text-box-trim: both;
+}
+.letterSpacingIconBar {
+  font-size: 1em;
+  font-variation-settings: "wght" 650;
+  opacity: 0.55;
+}
+.letterSpacingIconA {
+  font-size: 1em;
+  font-variation-settings: "wght" var(--font-icons-weight);
+}
+
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: var(--border-subtle);
+  margin: 0 var(--space-xs);
+  align-self: center;
+}
+
+/* ==========================================
+   TOOLBAR VARIANT
+   ========================================== */
+.toolbarVariant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  flex-wrap: nowrap;
+  width: fit-content;
+  container-type: normal;
+}
+
+.toolbarDivider {
+  width: 1px;
+  height: 20px;
+  background-color: var(--border-subtle);
+  align-self: center;
+  flex-shrink: 0;
+}
+
+.toolbarButtonGroup {
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+/* Icon context: toolbar – same control size for all toolbar icons (popover triggers, toggle groups) */
+.toolbarVariant [data-icon],
+.toolbarVariant [data-icon-container] {
+  font-size: var(--icon-size-control);
+}
+
+/* Toolbar slider popover: same scale as toolbar (--space-md padding, min-width for slider) */
+.toolbarSliderPopover {
+  min-width: 280px;
+  padding: var(--space-md);
+}
+
+/* --- DISABLED STATE --- */
+/* All disabled states now handled via native :disabled attribute */

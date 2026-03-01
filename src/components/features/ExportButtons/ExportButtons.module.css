@@ -1,0 +1,55 @@
+.exportButtons {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.exportButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--interactive-bg);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  cursor: auto;
+  transition: var(--transition-state);
+  flex-shrink: 0;
+}
+
+/* Hover state - only when enabled */
+.exportButton:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.exportButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Active/Pressed state - only when enabled */
+.exportButton:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--accent-primary);
+  color: var(--text-on-accent);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* Disabled state */
+.exportButton:disabled,
+.exportButton[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.exportButton:disabled:hover,
+.exportButton[aria-disabled="true"]:hover {
+  background-color: var(--interactive-bg);
+  color: var(--text-secondary);
+  transform: none;
+}

@@ -1,0 +1,88 @@
+/**
+ * Global styles and utilities
+ *
+ * Design system: tokens.css (foundation, palettes, color, typography, spacing,
+ * motion, elevation, components, icons). reset.css after tokens.
+ */
+
+@import "./tokens.css";
+@import "./reset.css";
+
+:root {
+  font-family: var(--font-ui);
+  font-optical-sizing: auto;
+  text-rendering: geometricPrecision;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow: hidden;
+  background: var(--bg-body);
+  /* Prevent layout shift when scrollbar hides (modal opens) */
+  scrollbar-gutter: stable;
+  /* Base UI: backdrops (e.g. modals) use position: absolute; required for iOS 26+ Safari */
+  position: relative;
+}
+
+/* Base UI: stacking context so portaled popups appear above app content */
+.root {
+  isolation: isolate;
+}
+
+/* Fallback for older browsers */
+@supports not (scrollbar-gutter: stable) {
+  body.modal-open {
+    padding-right: var(--scrollbar-width, 0px);
+  }
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Utility Classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Scrollbar styling - tokens for consistency with sidebar/panels */
+::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  height: 30px;
+  background: var(--scrollbar-thumb);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* For scrollbar buttons */
+::-webkit-scrollbar-button {
+  display: none; /* Hide default buttons */
+}

@@ -1,0 +1,91 @@
+/**
+ * IconContainer - Ghost box around an icon, static or interactive.
+ * Interactive styling aligned with CustomToggleGroup .item for visual consistency
+ * (same control height, padding, font-size, hover/focus/active/disabled).
+ *
+ * Icon size is relative to parent: container types (TitleBar, LabelRow, toolbar,
+ * etc.) set --icon-size-header, --icon-size-label, or --icon-size-control on
+ * [data-icon-container] so Icon’s 1em resolves consistently. See tokens.icons.css.
+ */
+
+.root {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em;
+  border-radius: var(--radius-md);
+  background: var(--interactive-bg);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  border: none;
+  cursor: default;
+}
+
+/* Interactive: match ToggleGroup .item – control height, padding, font-size, transitions */
+.root.interactive {
+  min-height: var(--control-height);
+  padding: var(--space-sm);
+  font-size: var(--text-sm);
+  cursor: auto;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.root.interactive:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.root.interactive:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  box-shadow:
+    0 0 0 2px var(--border-focus),
+    var(--shadow-sm);
+}
+
+.root.interactive:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+.root.interactive:disabled,
+.root.interactive[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.root.interactive:disabled:hover,
+.root.interactive[aria-disabled="true"]:hover {
+  background-color: var(--interactive-bg);
+  color: var(--text-secondary);
+  box-shadow: none;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .root.interactive {
+    transition: none;
+  }
+}
+
+/* Optional explicit font-size when context is not enough */
+.fontSizeXs {
+  font-size: var(--text-xs);
+}
+
+.fontSizeSm {
+  font-size: var(--text-sm);
+}
+
+.fontSizeBase {
+  font-size: var(--text-base);
+}
+
+.fontSizeLg {
+  font-size: var(--text-lg);
+}

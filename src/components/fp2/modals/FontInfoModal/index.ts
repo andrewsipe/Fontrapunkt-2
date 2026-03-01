@@ -1,0 +1,1 @@
+export { FontInfoModal } from "./FontInfoModal";

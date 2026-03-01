@@ -1,0 +1,4819 @@
+{
+  "category": "greek",
+  "blocks": ["Greek Extended", "Greek and Coptic"],
+  "characters": {
+    "0370": {
+      "name": "GREEK CAPITAL LETTER HETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "heta", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-heta"]
+    },
+    "0371": {
+      "name": "GREEK SMALL LETTER HETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "heta", "alpha", "beta"],
+      "aliases": ["greek-small-letter-heta"]
+    },
+    "0372": {
+      "name": "GREEK CAPITAL LETTER ARCHAIC SAMPI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "archaic",
+        "sampi",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-archaic-sampi"]
+    },
+    "0373": {
+      "name": "GREEK SMALL LETTER ARCHAIC SAMPI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "archaic",
+        "sampi",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-archaic-sampi"]
+    },
+    "0374": {
+      "name": "GREEK NUMERAL SIGN",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "numeral", "sign", "alpha", "beta"],
+      "aliases": ["greek-numeral-sign"]
+    },
+    "0375": {
+      "name": "GREEK LOWER NUMERAL SIGN",
+      "category": "Symbol",
+      "keywords": ["greek", "and", "coptic", "lower", "numeral", "sign", "alpha", "beta"],
+      "aliases": ["greek-lower-numeral-sign"]
+    },
+    "0376": {
+      "name": "GREEK CAPITAL LETTER PAMPHYLIAN DIGAMMA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "pamphylian",
+        "digamma",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-pamphylian-digamma"]
+    },
+    "0377": {
+      "name": "GREEK SMALL LETTER PAMPHYLIAN DIGAMMA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "pamphylian",
+        "digamma",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-pamphylian-digamma"]
+    },
+    "037A": {
+      "name": "GREEK YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "ypogegrammeni", "alpha", "beta"],
+      "aliases": ["greek-ypogegrammeni"]
+    },
+    "037B": {
+      "name": "GREEK SMALL REVERSED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "reversed",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-reversed-lunate-sigma-symbol"]
+    },
+    "037C": {
+      "name": "GREEK SMALL DOTTED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "dotted",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-dotted-lunate-sigma-symbol"]
+    },
+    "037D": {
+      "name": "GREEK SMALL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "reversed",
+        "dotted",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-reversed-dotted-lunate-sigma-symbol"]
+    },
+    "037E": {
+      "name": "GREEK QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["greek", "and", "coptic", "question", "mark", "alpha", "beta"],
+      "aliases": ["greek-question-mark"]
+    },
+    "037F": {
+      "name": "GREEK CAPITAL LETTER YOT",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "yot", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-yot"]
+    },
+    "0384": {
+      "name": "GREEK TONOS",
+      "category": "Symbol",
+      "keywords": ["greek", "and", "coptic", "tonos", "alpha", "beta"],
+      "aliases": ["greek-tonos"]
+    },
+    "0385": {
+      "name": "GREEK DIALYTIKA TONOS",
+      "category": "Symbol",
+      "keywords": ["greek", "and", "coptic", "dialytika", "tonos", "alpha", "beta"],
+      "aliases": ["greek-dialytika-tonos"]
+    },
+    "0386": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH TONOS",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "with", "tonos", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-tonos"]
+    },
+    "0387": {
+      "name": "GREEK ANO TELEIA",
+      "category": "Punctuation",
+      "keywords": ["greek", "and", "coptic", "ano", "teleia", "alpha", "beta"],
+      "aliases": ["greek-ano-teleia"]
+    },
+    "0388": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-tonos"]
+    },
+    "0389": {
+      "name": "GREEK CAPITAL LETTER ETA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-tonos"]
+    },
+    "038A": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-tonos"]
+    },
+    "038C": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-tonos"]
+    },
+    "038E": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-tonos"]
+    },
+    "038F": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-tonos"]
+    },
+    "0390": {
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dialytika-and-tonos"]
+    },
+    "0391": {
+      "name": "GREEK CAPITAL LETTER ALPHA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-alpha"]
+    },
+    "0392": {
+      "name": "GREEK CAPITAL LETTER BETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "beta", "alpha"],
+      "aliases": ["greek-capital-letter-beta"]
+    },
+    "0393": {
+      "name": "GREEK CAPITAL LETTER GAMMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "gamma", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-gamma"]
+    },
+    "0394": {
+      "name": "GREEK CAPITAL LETTER DELTA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "delta", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-delta"]
+    },
+    "0395": {
+      "name": "GREEK CAPITAL LETTER EPSILON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "epsilon", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-epsilon"]
+    },
+    "0396": {
+      "name": "GREEK CAPITAL LETTER ZETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "zeta", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-zeta"]
+    },
+    "0397": {
+      "name": "GREEK CAPITAL LETTER ETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "eta", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-eta"]
+    },
+    "0398": {
+      "name": "GREEK CAPITAL LETTER THETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "theta", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-theta"]
+    },
+    "0399": {
+      "name": "GREEK CAPITAL LETTER IOTA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "iota", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-iota"]
+    },
+    "039A": {
+      "name": "GREEK CAPITAL LETTER KAPPA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "kappa", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-kappa"]
+    },
+    "039B": {
+      "name": "GREEK CAPITAL LETTER LAMDA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "lamda", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-lamda"]
+    },
+    "039C": {
+      "name": "GREEK CAPITAL LETTER MU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-mu"]
+    },
+    "039D": {
+      "name": "GREEK CAPITAL LETTER NU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-nu"]
+    },
+    "039E": {
+      "name": "GREEK CAPITAL LETTER XI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-xi"]
+    },
+    "039F": {
+      "name": "GREEK CAPITAL LETTER OMICRON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "omicron", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-omicron"]
+    },
+    "03A0": {
+      "name": "GREEK CAPITAL LETTER PI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-pi"]
+    },
+    "03A1": {
+      "name": "GREEK CAPITAL LETTER RHO",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "rho", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-rho"]
+    },
+    "03A3": {
+      "name": "GREEK CAPITAL LETTER SIGMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "sigma", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-sigma"]
+    },
+    "03A4": {
+      "name": "GREEK CAPITAL LETTER TAU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "tau", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-tau"]
+    },
+    "03A5": {
+      "name": "GREEK CAPITAL LETTER UPSILON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "upsilon", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-upsilon"]
+    },
+    "03A6": {
+      "name": "GREEK CAPITAL LETTER PHI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "phi", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-phi"]
+    },
+    "03A7": {
+      "name": "GREEK CAPITAL LETTER CHI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "chi", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-chi"]
+    },
+    "03A8": {
+      "name": "GREEK CAPITAL LETTER PSI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "psi", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-psi"]
+    },
+    "03A9": {
+      "name": "GREEK CAPITAL LETTER OMEGA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "omega", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-omega"]
+    },
+    "03AA": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH DIALYTIKA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-dialytika"]
+    },
+    "03AB": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-dialytika"]
+    },
+    "03AC": {
+      "name": "GREEK SMALL LETTER ALPHA WITH TONOS",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "with", "tonos", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-tonos"]
+    },
+    "03AD": {
+      "name": "GREEK SMALL LETTER EPSILON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-tonos"]
+    },
+    "03AE": {
+      "name": "GREEK SMALL LETTER ETA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-tonos"]
+    },
+    "03AF": {
+      "name": "GREEK SMALL LETTER IOTA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-tonos"]
+    },
+    "03B0": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dialytika-and-tonos"]
+    },
+    "03B1": {
+      "name": "GREEK SMALL LETTER ALPHA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "beta"],
+      "aliases": ["greek-small-letter-alpha"]
+    },
+    "03B2": {
+      "name": "GREEK SMALL LETTER BETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "beta", "alpha"],
+      "aliases": ["greek-small-letter-beta"]
+    },
+    "03B3": {
+      "name": "GREEK SMALL LETTER GAMMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "gamma", "alpha", "beta"],
+      "aliases": ["greek-small-letter-gamma"]
+    },
+    "03B4": {
+      "name": "GREEK SMALL LETTER DELTA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "delta", "alpha", "beta"],
+      "aliases": ["greek-small-letter-delta"]
+    },
+    "03B5": {
+      "name": "GREEK SMALL LETTER EPSILON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "epsilon", "alpha", "beta"],
+      "aliases": ["greek-small-letter-epsilon"]
+    },
+    "03B6": {
+      "name": "GREEK SMALL LETTER ZETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "zeta", "alpha", "beta"],
+      "aliases": ["greek-small-letter-zeta"]
+    },
+    "03B7": {
+      "name": "GREEK SMALL LETTER ETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "eta", "alpha", "beta"],
+      "aliases": ["greek-small-letter-eta"]
+    },
+    "03B8": {
+      "name": "GREEK SMALL LETTER THETA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "theta", "alpha", "beta"],
+      "aliases": ["greek-small-letter-theta"]
+    },
+    "03B9": {
+      "name": "GREEK SMALL LETTER IOTA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "iota", "alpha", "beta"],
+      "aliases": ["greek-small-letter-iota"]
+    },
+    "03BA": {
+      "name": "GREEK SMALL LETTER KAPPA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "kappa", "alpha", "beta"],
+      "aliases": ["greek-small-letter-kappa"]
+    },
+    "03BB": {
+      "name": "GREEK SMALL LETTER LAMDA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "lamda", "alpha", "beta"],
+      "aliases": ["greek-small-letter-lamda"]
+    },
+    "03BC": {
+      "name": "GREEK SMALL LETTER MU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "beta"],
+      "aliases": ["greek-small-letter-mu"]
+    },
+    "03BD": {
+      "name": "GREEK SMALL LETTER NU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "beta"],
+      "aliases": ["greek-small-letter-nu"]
+    },
+    "03BE": {
+      "name": "GREEK SMALL LETTER XI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "beta"],
+      "aliases": ["greek-small-letter-xi"]
+    },
+    "03BF": {
+      "name": "GREEK SMALL LETTER OMICRON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "omicron", "alpha", "beta"],
+      "aliases": ["greek-small-letter-omicron"]
+    },
+    "03C0": {
+      "name": "GREEK SMALL LETTER PI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "alpha", "beta"],
+      "aliases": ["greek-small-letter-pi"]
+    },
+    "03C1": {
+      "name": "GREEK SMALL LETTER RHO",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "rho", "alpha", "beta"],
+      "aliases": ["greek-small-letter-rho"]
+    },
+    "03C2": {
+      "name": "GREEK SMALL LETTER FINAL SIGMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "final", "sigma", "alpha", "beta"],
+      "aliases": ["greek-small-letter-final-sigma"]
+    },
+    "03C3": {
+      "name": "GREEK SMALL LETTER SIGMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "sigma", "alpha", "beta"],
+      "aliases": ["greek-small-letter-sigma"]
+    },
+    "03C4": {
+      "name": "GREEK SMALL LETTER TAU",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "tau", "alpha", "beta"],
+      "aliases": ["greek-small-letter-tau"]
+    },
+    "03C5": {
+      "name": "GREEK SMALL LETTER UPSILON",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "upsilon", "alpha", "beta"],
+      "aliases": ["greek-small-letter-upsilon"]
+    },
+    "03C6": {
+      "name": "GREEK SMALL LETTER PHI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "phi", "alpha", "beta"],
+      "aliases": ["greek-small-letter-phi"]
+    },
+    "03C7": {
+      "name": "GREEK SMALL LETTER CHI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "chi", "alpha", "beta"],
+      "aliases": ["greek-small-letter-chi"]
+    },
+    "03C8": {
+      "name": "GREEK SMALL LETTER PSI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "psi", "alpha", "beta"],
+      "aliases": ["greek-small-letter-psi"]
+    },
+    "03C9": {
+      "name": "GREEK SMALL LETTER OMEGA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "omega", "alpha", "beta"],
+      "aliases": ["greek-small-letter-omega"]
+    },
+    "03CA": {
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dialytika"]
+    },
+    "03CB": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dialytika"]
+    },
+    "03CC": {
+      "name": "GREEK SMALL LETTER OMICRON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-tonos"]
+    },
+    "03CD": {
+      "name": "GREEK SMALL LETTER UPSILON WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-tonos"]
+    },
+    "03CE": {
+      "name": "GREEK SMALL LETTER OMEGA WITH TONOS",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-tonos"]
+    },
+    "03CF": {
+      "name": "GREEK CAPITAL KAI SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "kai", "symbol", "alpha", "beta"],
+      "aliases": ["greek-capital-kai-symbol"]
+    },
+    "03D0": {
+      "name": "GREEK BETA SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "beta", "symbol", "alpha"],
+      "aliases": ["greek-beta-symbol"]
+    },
+    "03D1": {
+      "name": "GREEK THETA SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "theta", "symbol", "alpha", "beta"],
+      "aliases": ["greek-theta-symbol"]
+    },
+    "03D2": {
+      "name": "GREEK UPSILON WITH HOOK SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "upsilon", "with", "hook", "symbol", "alpha", "beta"],
+      "aliases": ["greek-upsilon-with-hook-symbol"]
+    },
+    "03D3": {
+      "name": "GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "upsilon",
+        "with",
+        "acute",
+        "hook",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-upsilon-with-acute-and-hook-symbol"]
+    },
+    "03D4": {
+      "name": "GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "upsilon",
+        "with",
+        "diaeresis",
+        "hook",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-upsilon-with-diaeresis-and-hook-symbol"]
+    },
+    "03D5": {
+      "name": "GREEK PHI SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "phi", "symbol", "alpha", "beta"],
+      "aliases": ["greek-phi-symbol"]
+    },
+    "03D6": {
+      "name": "GREEK PI SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "symbol", "alpha", "beta"],
+      "aliases": ["greek-pi-symbol"]
+    },
+    "03D7": {
+      "name": "GREEK KAI SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "kai", "symbol", "alpha", "beta"],
+      "aliases": ["greek-kai-symbol"]
+    },
+    "03D8": {
+      "name": "GREEK LETTER ARCHAIC KOPPA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "archaic", "koppa", "alpha", "beta"],
+      "aliases": ["greek-letter-archaic-koppa"]
+    },
+    "03D9": {
+      "name": "GREEK SMALL LETTER ARCHAIC KOPPA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "small",
+        "letter",
+        "archaic",
+        "koppa",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-archaic-koppa"]
+    },
+    "03DA": {
+      "name": "GREEK LETTER STIGMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "stigma", "alpha", "beta"],
+      "aliases": ["greek-letter-stigma"]
+    },
+    "03DB": {
+      "name": "GREEK SMALL LETTER STIGMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "stigma", "alpha", "beta"],
+      "aliases": ["greek-small-letter-stigma"]
+    },
+    "03DC": {
+      "name": "GREEK LETTER DIGAMMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "digamma", "alpha", "beta"],
+      "aliases": ["greek-letter-digamma"]
+    },
+    "03DD": {
+      "name": "GREEK SMALL LETTER DIGAMMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "digamma", "alpha", "beta"],
+      "aliases": ["greek-small-letter-digamma"]
+    },
+    "03DE": {
+      "name": "GREEK LETTER KOPPA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "koppa", "alpha", "beta"],
+      "aliases": ["greek-letter-koppa"]
+    },
+    "03DF": {
+      "name": "GREEK SMALL LETTER KOPPA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "koppa", "alpha", "beta"],
+      "aliases": ["greek-small-letter-koppa"]
+    },
+    "03E0": {
+      "name": "GREEK LETTER SAMPI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "sampi", "alpha", "beta"],
+      "aliases": ["greek-letter-sampi"]
+    },
+    "03E1": {
+      "name": "GREEK SMALL LETTER SAMPI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "sampi", "alpha", "beta"],
+      "aliases": ["greek-small-letter-sampi"]
+    },
+    "03E2": {
+      "name": "COPTIC CAPITAL LETTER SHEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "shei"],
+      "aliases": ["coptic-capital-letter-shei"]
+    },
+    "03E3": {
+      "name": "COPTIC SMALL LETTER SHEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "shei"],
+      "aliases": ["coptic-small-letter-shei"]
+    },
+    "03E4": {
+      "name": "COPTIC CAPITAL LETTER FEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "fei"],
+      "aliases": ["coptic-capital-letter-fei"]
+    },
+    "03E5": {
+      "name": "COPTIC SMALL LETTER FEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "fei"],
+      "aliases": ["coptic-small-letter-fei"]
+    },
+    "03E6": {
+      "name": "COPTIC CAPITAL LETTER KHEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "khei"],
+      "aliases": ["coptic-capital-letter-khei"]
+    },
+    "03E7": {
+      "name": "COPTIC SMALL LETTER KHEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "khei"],
+      "aliases": ["coptic-small-letter-khei"]
+    },
+    "03E8": {
+      "name": "COPTIC CAPITAL LETTER HORI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "hori"],
+      "aliases": ["coptic-capital-letter-hori"]
+    },
+    "03E9": {
+      "name": "COPTIC SMALL LETTER HORI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "hori"],
+      "aliases": ["coptic-small-letter-hori"]
+    },
+    "03EA": {
+      "name": "COPTIC CAPITAL LETTER GANGIA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "gangia"],
+      "aliases": ["coptic-capital-letter-gangia"]
+    },
+    "03EB": {
+      "name": "COPTIC SMALL LETTER GANGIA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "gangia"],
+      "aliases": ["coptic-small-letter-gangia"]
+    },
+    "03EC": {
+      "name": "COPTIC CAPITAL LETTER SHIMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "shima"],
+      "aliases": ["coptic-capital-letter-shima"]
+    },
+    "03ED": {
+      "name": "COPTIC SMALL LETTER SHIMA",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "shima"],
+      "aliases": ["coptic-small-letter-shima"]
+    },
+    "03EE": {
+      "name": "COPTIC CAPITAL LETTER DEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "dei"],
+      "aliases": ["coptic-capital-letter-dei"]
+    },
+    "03EF": {
+      "name": "COPTIC SMALL LETTER DEI",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "dei"],
+      "aliases": ["coptic-small-letter-dei"]
+    },
+    "03F0": {
+      "name": "GREEK KAPPA SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "kappa", "symbol", "alpha", "beta"],
+      "aliases": ["greek-kappa-symbol"]
+    },
+    "03F1": {
+      "name": "GREEK RHO SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "rho", "symbol", "alpha", "beta"],
+      "aliases": ["greek-rho-symbol"]
+    },
+    "03F2": {
+      "name": "GREEK LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "lunate", "sigma", "symbol", "alpha", "beta"],
+      "aliases": ["greek-lunate-sigma-symbol"]
+    },
+    "03F3": {
+      "name": "GREEK LETTER YOT",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "letter", "yot", "alpha", "beta"],
+      "aliases": ["greek-letter-yot"]
+    },
+    "03F4": {
+      "name": "GREEK CAPITAL THETA SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "theta", "symbol", "alpha", "beta"],
+      "aliases": ["greek-capital-theta-symbol"]
+    },
+    "03F5": {
+      "name": "GREEK LUNATE EPSILON SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "lunate", "epsilon", "symbol", "alpha", "beta"],
+      "aliases": ["greek-lunate-epsilon-symbol"]
+    },
+    "03F6": {
+      "name": "GREEK REVERSED LUNATE EPSILON SYMBOL",
+      "category": "Symbol",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "reversed",
+        "lunate",
+        "epsilon",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-reversed-lunate-epsilon-symbol"]
+    },
+    "03F7": {
+      "name": "GREEK CAPITAL LETTER SHO",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "sho", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-sho"]
+    },
+    "03F8": {
+      "name": "GREEK SMALL LETTER SHO",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "sho", "alpha", "beta"],
+      "aliases": ["greek-small-letter-sho"]
+    },
+    "03F9": {
+      "name": "GREEK CAPITAL LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-lunate-sigma-symbol"]
+    },
+    "03FA": {
+      "name": "GREEK CAPITAL LETTER SAN",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "capital", "letter", "san", "alpha", "beta"],
+      "aliases": ["greek-capital-letter-san"]
+    },
+    "03FB": {
+      "name": "GREEK SMALL LETTER SAN",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "small", "letter", "san", "alpha", "beta"],
+      "aliases": ["greek-small-letter-san"]
+    },
+    "03FC": {
+      "name": "GREEK RHO WITH STROKE SYMBOL",
+      "category": "Letter",
+      "keywords": ["greek", "and", "coptic", "rho", "with", "stroke", "symbol", "alpha", "beta"],
+      "aliases": ["greek-rho-with-stroke-symbol"]
+    },
+    "03FD": {
+      "name": "GREEK CAPITAL REVERSED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "reversed",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-reversed-lunate-sigma-symbol"]
+    },
+    "03FE": {
+      "name": "GREEK CAPITAL DOTTED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "dotted",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-dotted-lunate-sigma-symbol"]
+    },
+    "03FF": {
+      "name": "GREEK CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "and",
+        "coptic",
+        "capital",
+        "reversed",
+        "dotted",
+        "lunate",
+        "sigma",
+        "symbol",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-reversed-dotted-lunate-sigma-symbol"]
+    },
+    "1F00": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "psili", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-psili"]
+    },
+    "1F01": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "dasia", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-dasia"]
+    },
+    "1F02": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-varia"]
+    },
+    "1F03": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-varia"]
+    },
+    "1F04": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-oxia"]
+    },
+    "1F05": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-oxia"]
+    },
+    "1F06": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-perispomeni"]
+    },
+    "1F07": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-perispomeni"]
+    },
+    "1F08": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "psili", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-psili"]
+    },
+    "1F09": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "dasia", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-dasia"]
+    },
+    "1F0A": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-varia"]
+    },
+    "1F0B": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-varia"]
+    },
+    "1F0C": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-oxia"]
+    },
+    "1F0D": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-oxia"]
+    },
+    "1F0E": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-perispomeni"]
+    },
+    "1F0F": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-perispomeni"]
+    },
+    "1F10": {
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-psili"]
+    },
+    "1F11": {
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-dasia"]
+    },
+    "1F12": {
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-psili-and-varia"]
+    },
+    "1F13": {
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-dasia-and-varia"]
+    },
+    "1F14": {
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-psili-and-oxia"]
+    },
+    "1F15": {
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-dasia-and-oxia"]
+    },
+    "1F18": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-psili"]
+    },
+    "1F19": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-dasia"]
+    },
+    "1F1A": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-psili-and-varia"]
+    },
+    "1F1B": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-dasia-and-varia"]
+    },
+    "1F1C": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-psili-and-oxia"]
+    },
+    "1F1D": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-dasia-and-oxia"]
+    },
+    "1F20": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "eta", "with", "psili", "alpha", "beta"],
+      "aliases": ["greek-small-letter-eta-with-psili"]
+    },
+    "1F21": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "eta", "with", "dasia", "alpha", "beta"],
+      "aliases": ["greek-small-letter-eta-with-dasia"]
+    },
+    "1F22": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-varia"]
+    },
+    "1F23": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-varia"]
+    },
+    "1F24": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-oxia"]
+    },
+    "1F25": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-oxia"]
+    },
+    "1F26": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-perispomeni"]
+    },
+    "1F27": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-perispomeni"]
+    },
+    "1F28": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili"]
+    },
+    "1F29": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia"]
+    },
+    "1F2A": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-varia"]
+    },
+    "1F2B": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-varia"]
+    },
+    "1F2C": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-oxia"]
+    },
+    "1F2D": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-oxia"]
+    },
+    "1F2E": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-perispomeni"]
+    },
+    "1F2F": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-perispomeni"]
+    },
+    "1F30": {
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-psili"]
+    },
+    "1F31": {
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dasia"]
+    },
+    "1F32": {
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-psili-and-varia"]
+    },
+    "1F33": {
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dasia-and-varia"]
+    },
+    "1F34": {
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-psili-and-oxia"]
+    },
+    "1F35": {
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dasia-and-oxia"]
+    },
+    "1F36": {
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-psili-and-perispomeni"]
+    },
+    "1F37": {
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dasia-and-perispomeni"]
+    },
+    "1F38": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-psili"]
+    },
+    "1F39": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-dasia"]
+    },
+    "1F3A": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-psili-and-varia"]
+    },
+    "1F3B": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-dasia-and-varia"]
+    },
+    "1F3C": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-psili-and-oxia"]
+    },
+    "1F3D": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-dasia-and-oxia"]
+    },
+    "1F3E": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-psili-and-perispomeni"]
+    },
+    "1F3F": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-dasia-and-perispomeni"]
+    },
+    "1F40": {
+      "name": "GREEK SMALL LETTER OMICRON WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-psili"]
+    },
+    "1F41": {
+      "name": "GREEK SMALL LETTER OMICRON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-dasia"]
+    },
+    "1F42": {
+      "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-psili-and-varia"]
+    },
+    "1F43": {
+      "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-dasia-and-varia"]
+    },
+    "1F44": {
+      "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-psili-and-oxia"]
+    },
+    "1F45": {
+      "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-dasia-and-oxia"]
+    },
+    "1F48": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-psili"]
+    },
+    "1F49": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-dasia"]
+    },
+    "1F4A": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-psili-and-varia"]
+    },
+    "1F4B": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-dasia-and-varia"]
+    },
+    "1F4C": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-psili-and-oxia"]
+    },
+    "1F4D": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-dasia-and-oxia"]
+    },
+    "1F50": {
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-psili"]
+    },
+    "1F51": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dasia"]
+    },
+    "1F52": {
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-psili-and-varia"]
+    },
+    "1F53": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dasia-and-varia"]
+    },
+    "1F54": {
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-psili-and-oxia"]
+    },
+    "1F55": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dasia-and-oxia"]
+    },
+    "1F56": {
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-psili-and-perispomeni"]
+    },
+    "1F57": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dasia-and-perispomeni"]
+    },
+    "1F59": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-dasia"]
+    },
+    "1F5B": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-dasia-and-varia"]
+    },
+    "1F5D": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-dasia-and-oxia"]
+    },
+    "1F5F": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-dasia-and-perispomeni"]
+    },
+    "1F60": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili"]
+    },
+    "1F61": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia"]
+    },
+    "1F62": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-varia"]
+    },
+    "1F63": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-varia"]
+    },
+    "1F64": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-oxia"]
+    },
+    "1F65": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-oxia"]
+    },
+    "1F66": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-perispomeni"]
+    },
+    "1F67": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-perispomeni"]
+    },
+    "1F68": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili"]
+    },
+    "1F69": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia"]
+    },
+    "1F6A": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-varia"]
+    },
+    "1F6B": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-varia"]
+    },
+    "1F6C": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-oxia"]
+    },
+    "1F6D": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-oxia"]
+    },
+    "1F6E": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-perispomeni"]
+    },
+    "1F6F": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-perispomeni"]
+    },
+    "1F70": {
+      "name": "GREEK SMALL LETTER ALPHA WITH VARIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "varia", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-varia"]
+    },
+    "1F71": {
+      "name": "GREEK SMALL LETTER ALPHA WITH OXIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "oxia", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-oxia"]
+    },
+    "1F72": {
+      "name": "GREEK SMALL LETTER EPSILON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-varia"]
+    },
+    "1F73": {
+      "name": "GREEK SMALL LETTER EPSILON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "epsilon",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-epsilon-with-oxia"]
+    },
+    "1F74": {
+      "name": "GREEK SMALL LETTER ETA WITH VARIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "eta", "with", "varia", "alpha", "beta"],
+      "aliases": ["greek-small-letter-eta-with-varia"]
+    },
+    "1F75": {
+      "name": "GREEK SMALL LETTER ETA WITH OXIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "eta", "with", "oxia", "alpha", "beta"],
+      "aliases": ["greek-small-letter-eta-with-oxia"]
+    },
+    "1F76": {
+      "name": "GREEK SMALL LETTER IOTA WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-varia"]
+    },
+    "1F77": {
+      "name": "GREEK SMALL LETTER IOTA WITH OXIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "iota", "with", "oxia", "alpha", "beta"],
+      "aliases": ["greek-small-letter-iota-with-oxia"]
+    },
+    "1F78": {
+      "name": "GREEK SMALL LETTER OMICRON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-varia"]
+    },
+    "1F79": {
+      "name": "GREEK SMALL LETTER OMICRON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omicron",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omicron-with-oxia"]
+    },
+    "1F7A": {
+      "name": "GREEK SMALL LETTER UPSILON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-varia"]
+    },
+    "1F7B": {
+      "name": "GREEK SMALL LETTER UPSILON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-oxia"]
+    },
+    "1F7C": {
+      "name": "GREEK SMALL LETTER OMEGA WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-varia"]
+    },
+    "1F7D": {
+      "name": "GREEK SMALL LETTER OMEGA WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-oxia"]
+    },
+    "1F80": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-ypogegrammeni"]
+    },
+    "1F81": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-ypogegrammeni"]
+    },
+    "1F82": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-varia-and-ypogegrammeni"]
+    },
+    "1F83": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-varia-and-ypogegrammeni"]
+    },
+    "1F84": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-oxia-and-ypogegrammeni"]
+    },
+    "1F85": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-oxia-and-ypogegrammeni"]
+    },
+    "1F86": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-psili-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1F87": {
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-dasia-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1F88": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-prosgegrammeni"]
+    },
+    "1F89": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-prosgegrammeni"]
+    },
+    "1F8A": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-varia-and-prosgegrammeni"]
+    },
+    "1F8B": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-varia-and-prosgegrammeni"]
+    },
+    "1F8C": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-oxia-and-prosgegrammeni"]
+    },
+    "1F8D": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-oxia-and-prosgegrammeni"]
+    },
+    "1F8E": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-psili-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1F8F": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-dasia-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1F90": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-ypogegrammeni"]
+    },
+    "1F91": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-ypogegrammeni"]
+    },
+    "1F92": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-varia-and-ypogegrammeni"]
+    },
+    "1F93": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-varia-and-ypogegrammeni"]
+    },
+    "1F94": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-oxia-and-ypogegrammeni"]
+    },
+    "1F95": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-oxia-and-ypogegrammeni"]
+    },
+    "1F96": {
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-psili-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1F97": {
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-dasia-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1F98": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-prosgegrammeni"]
+    },
+    "1F99": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-prosgegrammeni"]
+    },
+    "1F9A": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-varia-and-prosgegrammeni"]
+    },
+    "1F9B": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-varia-and-prosgegrammeni"]
+    },
+    "1F9C": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-oxia-and-prosgegrammeni"]
+    },
+    "1F9D": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-oxia-and-prosgegrammeni"]
+    },
+    "1F9E": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-psili-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1F9F": {
+      "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-dasia-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1FA0": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-ypogegrammeni"]
+    },
+    "1FA1": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-ypogegrammeni"]
+    },
+    "1FA2": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-varia-and-ypogegrammeni"]
+    },
+    "1FA3": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-varia-and-ypogegrammeni"]
+    },
+    "1FA4": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-oxia-and-ypogegrammeni"]
+    },
+    "1FA5": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-oxia-and-ypogegrammeni"]
+    },
+    "1FA6": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-psili-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1FA7": {
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-dasia-and-perispomeni-and-ypogegrammeni"]
+    },
+    "1FA8": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-prosgegrammeni"]
+    },
+    "1FA9": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-prosgegrammeni"]
+    },
+    "1FAA": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-varia-and-prosgegrammeni"]
+    },
+    "1FAB": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "varia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-varia-and-prosgegrammeni"]
+    },
+    "1FAC": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-oxia-and-prosgegrammeni"]
+    },
+    "1FAD": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "oxia",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-oxia-and-prosgegrammeni"]
+    },
+    "1FAE": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "psili",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-psili-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1FAF": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "dasia",
+        "and",
+        "perispomeni",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-dasia-and-perispomeni-and-prosgegrammeni"]
+    },
+    "1FB0": {
+      "name": "GREEK SMALL LETTER ALPHA WITH VRACHY",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "vrachy", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-vrachy"]
+    },
+    "1FB1": {
+      "name": "GREEK SMALL LETTER ALPHA WITH MACRON",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "macron", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-macron"]
+    },
+    "1FB2": {
+      "name": "GREEK SMALL LETTER ALPHA WITH VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "varia",
+        "and",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-varia-and-ypogegrammeni"]
+    },
+    "1FB3": {
+      "name": "GREEK SMALL LETTER ALPHA WITH YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-ypogegrammeni"]
+    },
+    "1FB4": {
+      "name": "GREEK SMALL LETTER ALPHA WITH OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "oxia",
+        "and",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-oxia-and-ypogegrammeni"]
+    },
+    "1FB6": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "alpha", "with", "perispomeni", "beta"],
+      "aliases": ["greek-small-letter-alpha-with-perispomeni"]
+    },
+    "1FB7": {
+      "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "alpha",
+        "with",
+        "perispomeni",
+        "and",
+        "ypogegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-alpha-with-perispomeni-and-ypogegrammeni"]
+    },
+    "1FB8": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH VRACHY",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "vrachy", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-vrachy"]
+    },
+    "1FB9": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH MACRON",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "macron", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-macron"]
+    },
+    "1FBA": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH VARIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "varia", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-varia"]
+    },
+    "1FBB": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH OXIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "capital", "letter", "alpha", "with", "oxia", "beta"],
+      "aliases": ["greek-capital-letter-alpha-with-oxia"]
+    },
+    "1FBC": {
+      "name": "GREEK CAPITAL LETTER ALPHA WITH PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "alpha",
+        "with",
+        "prosgegrammeni",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-alpha-with-prosgegrammeni"]
+    },
+    "1FBD": {
+      "name": "GREEK KORONIS",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "koronis", "alpha", "beta"],
+      "aliases": ["greek-koronis"]
+    },
+    "1FBE": {
+      "name": "GREEK PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "prosgegrammeni", "alpha", "beta"],
+      "aliases": ["greek-prosgegrammeni"]
+    },
+    "1FBF": {
+      "name": "GREEK PSILI",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "psili", "alpha", "beta"],
+      "aliases": ["greek-psili"]
+    },
+    "1FC0": {
+      "name": "GREEK PERISPOMENI",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "perispomeni", "alpha", "beta"],
+      "aliases": ["greek-perispomeni"]
+    },
+    "1FC1": {
+      "name": "GREEK DIALYTIKA AND PERISPOMENI",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dialytika", "and", "perispomeni", "alpha", "beta"],
+      "aliases": ["greek-dialytika-and-perispomeni"]
+    },
+    "1FC2": {
+      "name": "GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "varia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-varia-and-ypogegrammeni"]
+    },
+    "1FC3": {
+      "name": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-ypogegrammeni"]
+    },
+    "1FC4": {
+      "name": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "oxia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-oxia-and-ypogegrammeni"]
+    },
+    "1FC6": {
+      "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-perispomeni"]
+    },
+    "1FC7": {
+      "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "eta",
+        "with",
+        "perispomeni",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-eta-with-perispomeni-and-ypogegrammeni"]
+    },
+    "1FC8": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-varia"]
+    },
+    "1FC9": {
+      "name": "GREEK CAPITAL LETTER EPSILON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "epsilon",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-epsilon-with-oxia"]
+    },
+    "1FCA": {
+      "name": "GREEK CAPITAL LETTER ETA WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-varia"]
+    },
+    "1FCB": {
+      "name": "GREEK CAPITAL LETTER ETA WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-oxia"]
+    },
+    "1FCC": {
+      "name": "GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "eta",
+        "with",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-eta-with-prosgegrammeni"]
+    },
+    "1FCD": {
+      "name": "GREEK PSILI AND VARIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "psili", "and", "varia", "alpha", "beta"],
+      "aliases": ["greek-psili-and-varia"]
+    },
+    "1FCE": {
+      "name": "GREEK PSILI AND OXIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "psili", "and", "oxia", "alpha", "beta"],
+      "aliases": ["greek-psili-and-oxia"]
+    },
+    "1FCF": {
+      "name": "GREEK PSILI AND PERISPOMENI",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "psili", "and", "perispomeni", "alpha", "beta"],
+      "aliases": ["greek-psili-and-perispomeni"]
+    },
+    "1FD0": {
+      "name": "GREEK SMALL LETTER IOTA WITH VRACHY",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "vrachy",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-vrachy"]
+    },
+    "1FD1": {
+      "name": "GREEK SMALL LETTER IOTA WITH MACRON",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "macron",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-macron"]
+    },
+    "1FD2": {
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dialytika-and-varia"]
+    },
+    "1FD3": {
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dialytika-and-oxia"]
+    },
+    "1FD6": {
+      "name": "GREEK SMALL LETTER IOTA WITH PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-perispomeni"]
+    },
+    "1FD7": {
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "iota",
+        "with",
+        "dialytika",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-iota-with-dialytika-and-perispomeni"]
+    },
+    "1FD8": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH VRACHY",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "vrachy",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-vrachy"]
+    },
+    "1FD9": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH MACRON",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "macron",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-macron"]
+    },
+    "1FDA": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-varia"]
+    },
+    "1FDB": {
+      "name": "GREEK CAPITAL LETTER IOTA WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "iota",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-iota-with-oxia"]
+    },
+    "1FDD": {
+      "name": "GREEK DASIA AND VARIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dasia", "and", "varia", "alpha", "beta"],
+      "aliases": ["greek-dasia-and-varia"]
+    },
+    "1FDE": {
+      "name": "GREEK DASIA AND OXIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dasia", "and", "oxia", "alpha", "beta"],
+      "aliases": ["greek-dasia-and-oxia"]
+    },
+    "1FDF": {
+      "name": "GREEK DASIA AND PERISPOMENI",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dasia", "and", "perispomeni", "alpha", "beta"],
+      "aliases": ["greek-dasia-and-perispomeni"]
+    },
+    "1FE0": {
+      "name": "GREEK SMALL LETTER UPSILON WITH VRACHY",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "vrachy",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-vrachy"]
+    },
+    "1FE1": {
+      "name": "GREEK SMALL LETTER UPSILON WITH MACRON",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "macron",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-macron"]
+    },
+    "1FE2": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "and",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dialytika-and-varia"]
+    },
+    "1FE3": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "and",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dialytika-and-oxia"]
+    },
+    "1FE4": {
+      "name": "GREEK SMALL LETTER RHO WITH PSILI",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "rho", "with", "psili", "alpha", "beta"],
+      "aliases": ["greek-small-letter-rho-with-psili"]
+    },
+    "1FE5": {
+      "name": "GREEK SMALL LETTER RHO WITH DASIA",
+      "category": "Letter",
+      "keywords": ["greek", "extended", "small", "letter", "rho", "with", "dasia", "alpha", "beta"],
+      "aliases": ["greek-small-letter-rho-with-dasia"]
+    },
+    "1FE6": {
+      "name": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-perispomeni"]
+    },
+    "1FE7": {
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "upsilon",
+        "with",
+        "dialytika",
+        "and",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-upsilon-with-dialytika-and-perispomeni"]
+    },
+    "1FE8": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH VRACHY",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "vrachy",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-vrachy"]
+    },
+    "1FE9": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH MACRON",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "macron",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-macron"]
+    },
+    "1FEA": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-varia"]
+    },
+    "1FEB": {
+      "name": "GREEK CAPITAL LETTER UPSILON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "upsilon",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-upsilon-with-oxia"]
+    },
+    "1FEC": {
+      "name": "GREEK CAPITAL LETTER RHO WITH DASIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "rho",
+        "with",
+        "dasia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-rho-with-dasia"]
+    },
+    "1FED": {
+      "name": "GREEK DIALYTIKA AND VARIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dialytika", "and", "varia", "alpha", "beta"],
+      "aliases": ["greek-dialytika-and-varia"]
+    },
+    "1FEE": {
+      "name": "GREEK DIALYTIKA AND OXIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dialytika", "and", "oxia", "alpha", "beta"],
+      "aliases": ["greek-dialytika-and-oxia"]
+    },
+    "1FEF": {
+      "name": "GREEK VARIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "varia", "alpha", "beta"],
+      "aliases": ["greek-varia"]
+    },
+    "1FF2": {
+      "name": "GREEK SMALL LETTER OMEGA WITH VARIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "varia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-varia-and-ypogegrammeni"]
+    },
+    "1FF3": {
+      "name": "GREEK SMALL LETTER OMEGA WITH YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-ypogegrammeni"]
+    },
+    "1FF4": {
+      "name": "GREEK SMALL LETTER OMEGA WITH OXIA AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "oxia",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-oxia-and-ypogegrammeni"]
+    },
+    "1FF6": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "perispomeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-perispomeni"]
+    },
+    "1FF7": {
+      "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI AND YPOGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "small",
+        "letter",
+        "omega",
+        "with",
+        "perispomeni",
+        "and",
+        "ypogegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-small-letter-omega-with-perispomeni-and-ypogegrammeni"]
+    },
+    "1FF8": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-varia"]
+    },
+    "1FF9": {
+      "name": "GREEK CAPITAL LETTER OMICRON WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omicron",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omicron-with-oxia"]
+    },
+    "1FFA": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH VARIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "varia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-varia"]
+    },
+    "1FFB": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH OXIA",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "oxia",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-oxia"]
+    },
+    "1FFC": {
+      "name": "GREEK CAPITAL LETTER OMEGA WITH PROSGEGRAMMENI",
+      "category": "Letter",
+      "keywords": [
+        "greek",
+        "extended",
+        "capital",
+        "letter",
+        "omega",
+        "with",
+        "prosgegrammeni",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["greek-capital-letter-omega-with-prosgegrammeni"]
+    },
+    "1FFD": {
+      "name": "GREEK OXIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "oxia", "alpha", "beta"],
+      "aliases": ["greek-oxia"]
+    },
+    "1FFE": {
+      "name": "GREEK DASIA",
+      "category": "Symbol",
+      "keywords": ["greek", "extended", "dasia", "alpha", "beta"],
+      "aliases": ["greek-dasia"]
+    }
+  }
+}

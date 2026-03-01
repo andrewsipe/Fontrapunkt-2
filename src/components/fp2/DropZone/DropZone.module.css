@@ -1,0 +1,66 @@
+.dropZone {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dropOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: oklch(from var(--accent-primary) l c h / 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-dropzone);
+  pointer-events: none;
+}
+
+.dropMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--bg-surface);
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-default);
+  text-align: center;
+  pointer-events: none;
+  box-shadow: var(--shadow-xl);
+}
+
+.dropTitle {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--accent-primary);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.dropSubtitle {
+  font-size: var(--text-base);
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: var(--space-xs);
+  text-decoration: underline;
+  text-decoration-thickness: var(--border-width-thin);
+  text-underline-offset: var(--space-3xs);
+}
+
+.dropSubtitleSecondary {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.dropHint {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Toast: app uses react-hot-toast; see shared.standardToast */

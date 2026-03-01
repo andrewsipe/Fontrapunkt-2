@@ -1,0 +1,130 @@
+/**
+ * OKLCHPickerPanel – 2D canvas L/C picker + hue slider.
+ * Design tokens; matches sidebar/OKLCHPicker layout.
+ */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  user-select: none;
+}
+
+.canvasContainer {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: var(--neutral-black, #000);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  cursor: crosshair;
+  border: 1px solid var(--border-default);
+  touch-action: none;
+}
+
+.canvasContainer canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.reticle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--neutral-white, #fff);
+  border-radius: var(--radius-full);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  box-shadow: 0 0 0 1px oklch(0 0 0 / 0.5);
+  z-index: 10;
+}
+
+.hueControl {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.previewSwatch {
+  width: 100%;
+  height: 100%;
+  max-height: var(--space-3xl);
+  border-radius: var(--radius-md);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border-default);
+  background-color: var(--swatch-bg, var(--bg-input));
+}
+
+.swatchBorder {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--neutral-overlay-08);
+  border-radius: var(--radius-md);
+  pointer-events: none;
+}
+
+.oklchField {
+  width: 100%;
+  height: 100%;
+  max-height: var(--space-3xl);
+  padding: var(--space-sm);
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  text-align: center;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: inherit;
+  outline: none;
+  font-family: var(--font-mono);
+  cursor: text;
+}
+
+.hexWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+  min-width: 0;
+}
+
+.hexInputWrapper {
+  display: flex;
+  align-items: center;
+  background: var(--bg-input);
+  border-radius: var(--radius-md);
+  padding: 0 var(--space-sm);
+  border: 1px solid var(--border-default);
+}
+
+.hexHash {
+  color: var(--text-tertiary);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  margin-right: var(--space-xs);
+}
+
+.hexInputField {
+  width: 100%;
+  min-height: var(--control-height);
+  padding: var(--space-xs) 0;
+  box-sizing: border-box;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  outline: none;
+  text-transform: uppercase;
+}
+
+.hexInputField:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.hexInputField.invalid {
+  color: var(--danger);
+}

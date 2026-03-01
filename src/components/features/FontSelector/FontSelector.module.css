@@ -1,0 +1,188 @@
+.fontSelector {
+  flex-direction: column;
+  gap: var(--space-xs);
+  container-type: inline-size;
+  min-width: 0;
+  margin-top: var(--space-lg);
+}
+
+.openButton {
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Reduce button padding at smaller widths */
+@container (max-width: 280px) {
+  .openButton {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-md);
+  }
+
+  .fontInfoButton {
+    padding: var(--space-sm) var(--space-md);
+    padding-right: calc(
+      var(--space-md) +
+      var(--icon-size-lg) +
+      var(--space-sm)
+    ); /* Use icon token instead of 24px */
+  }
+
+  .badge {
+    order: -1;
+    padding: var(--space-3xs) var(--space-xs);
+    font-size: var(--text-2xs);
+  }
+}
+
+.fontInfoButtonWrapper {
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.fontInfoButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: var(--space-sm) var(--space-md);
+  padding-right: calc(
+    var(--space-lg) +
+    var(--icon-size-lg) +
+    var(--space-sm)
+  ); /* Use icon token instead of 24px */
+  min-width: 0;
+}
+
+.fontInfoButton:hover {
+  background-color: var(--interactive-hover);
+}
+
+.fontInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex: 1;
+  min-width: 0;
+}
+
+.fontName {
+  margin-left: calc(-1 * (var(--space-2xs)));
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--text-primary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.variableBadge {
+  font-size: var(--text-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  background: var(--bg-surface);
+  padding: var(--space-3xs) var(--space-xs);
+  border-radius: var(--radius-md);
+
+  text-transform: uppercase;
+}
+
+.closeButton {
+  position: absolute;
+  right: var(--space-sm);
+  width: var(--icon-size-lg);
+  height: var(--icon-size-lg);
+  background: none;
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  z-index: var(--z-base);
+}
+
+.fontInfoButton:focus-visible,
+.closeButton:focus-visible,
+.optionButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.badgeRow {
+  display: flex;
+  justify-content: start;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+.badge {
+  padding: var(--space-2xs) var(--space-md);
+  background: var(--interactive-bg);
+  border-radius: var(--radius-md);
+
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: auto;
+  transition: var(--transition-colors);
+  text-align: center;
+  font-family: var(--font-mono);
+}
+
+.badge:hover {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+  border-color: var(--border-default);
+  box-shadow: var(--shadow-sm);
+}
+
+.addFontContainer {
+  position: relative;
+  width: 100%;
+}
+
+.optionsMenu {
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  padding: var(--space-xs);
+  background: var(--bg-surface);
+  border: var(--border-width-default) solid var(--border-default);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  z-index: var(--z-dropdown);
+}
+
+.optionButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: auto;
+  transition: var(--transition-colors);
+  text-align: left;
+}
+
+.optionButton:hover:not(:disabled) {
+  background: var(--interactive-bg);
+  color: var(--text-primary);
+}
+
+.optionButton:disabled {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+}

@@ -1,0 +1,18 @@
+/**
+ * DESIGN SYSTEM TOKENS - Entry point
+ *
+ * Modular token system for OKLCH-based dynamic theming.
+ * Imported by global.css.
+ *
+ * Order: foundation → palettes → color → typography → spacing → motion → elevation → components → icons
+ */
+
+@import "./tokens.foundation.css";
+@import "./tokens.palettes.css";
+@import "./tokens.color.css";
+@import "./tokens.typography.css";
+@import "./tokens.spacing.css";
+@import "./tokens.motion.css";
+@import "./tokens.elevation.css";
+@import "./tokens.components.css";
+@import "./tokens.icons.css";

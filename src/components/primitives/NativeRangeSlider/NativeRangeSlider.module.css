@@ -1,0 +1,203 @@
+/**
+ * NativeRangeSlider – shared styling for native <input type="range"> sliders.
+ * Used by OKLCHPicker and SettingsModal for consistent track/thumb appearance.
+ * Design tokens: --slider-track, --icon-size-md, --shadow-sm, etc.
+ */
+
+/* Base: applied to all variants */
+.slider {
+  width: 100%;
+  height: var(--slider-track-height);
+  border-radius: var(--radius-full);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: ew-resize;
+  margin: 0;
+  padding: 0;
+  border: var(--border-width-default) solid var(--border-subtle);
+}
+
+.slider:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Track variants */
+.slider_solid {
+  background: var(--bg-input);
+}
+
+.slider_solid::-webkit-slider-runnable-track {
+  height: 100%;
+  border-radius: var(--radius-md);
+  border: none;
+}
+
+.slider_solid::-moz-range-track {
+  background: var(--slider-track);
+  height: var(--slider-track-height);
+  border-radius: var(--radius-md);
+  border: none;
+}
+
+.slider_hue {
+  background: linear-gradient(
+    to right,
+    oklch(75% 0.3 0),
+    oklch(75% 0.3 60),
+    oklch(75% 0.3 120),
+    oklch(75% 0.3 180),
+    oklch(75% 0.3 240),
+    oklch(75% 0.3 300),
+    oklch(75% 0.3 360)
+  );
+}
+
+.slider_hue::-webkit-slider-runnable-track {
+  height: 100%;
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+}
+
+.slider_hue::-moz-range-track {
+  height: var(--slider-track-height);
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+}
+
+.slider_tone {
+  background: linear-gradient(
+    to right,
+    oklch(0.85 0.1 265) 0%,
+    oklch(0.92 0.02 265) 25%,
+    oklch(0.95 0 0) 50%,
+    oklch(0.92 0.02 65) 75%,
+    oklch(0.85 0.1 65) 100%
+  );
+}
+
+.slider_tone::-webkit-slider-runnable-track {
+  height: 100%;
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+}
+
+.slider_tone::-moz-range-track {
+  height: var(--slider-track-height);
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+}
+
+/* Compact variant: 8px track, smaller thumb (e.g. Fine Tune L/C) */
+.slider_compact {
+  height: 8px;
+}
+
+.slider_compact.slider_solid {
+  background: var(--bg-input);
+}
+
+/* Thumb – WebKit (default size) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: var(--icon-size-md);
+  height: var(--icon-size-md);
+  background: transparent;
+  border-radius: 50%;
+  cursor: ew-resize;
+  border: var(--border-width-thick) solid white;
+  box-shadow:
+    0 0 0 1px var(--neutral-overlay-20),
+    0 var(--space-3xs) var(--space-3xs) var(--neutral-overlay-15);
+  transition: transform var(--duration-fast) var(--ease-out);
+  margin-top: -5px;
+  position: relative;
+  z-index: var(--z-slider-thumb);
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  border-color: white;
+  box-shadow:
+    0 0 0 1px oklch(0 0 0 / 0.3),
+    0 var(--space-xs) var(--space-sm) oklch(0 0 0 / 0.2);
+}
+
+.slider::-webkit-slider-thumb:active {
+  transform: scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slider::-webkit-slider-thumb {
+    transition: none;
+  }
+  .slider::-webkit-slider-thumb:hover {
+    transform: none;
+  }
+  .slider::-webkit-slider-thumb:active {
+    transform: none;
+  }
+}
+
+/* Thumb – compact */
+.slider_compact::-webkit-slider-thumb {
+  width: var(--icon-size-sm);
+  height: var(--icon-size-sm);
+  margin-top: -4px;
+}
+
+/* Thumb – Firefox (default size) */
+.slider::-moz-range-thumb {
+  width: var(--icon-size-md);
+  height: var(--icon-size-md);
+  background: transparent;
+  border-radius: 50%;
+  cursor: ew-resize;
+  border: var(--border-width-thick) solid white;
+  box-shadow:
+    0 0 0 1px var(--neutral-overlay-20),
+    0 var(--space-3xs) var(--space-3xs) var(--neutral-overlay-15);
+}
+
+.slider_compact::-moz-range-thumb {
+  width: var(--icon-size-sm);
+  height: var(--icon-size-sm);
+}
+
+/* Wrapper for label + value + input (optional layout) */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: var(--leading-tight);
+}
+
+.valueText {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+}
+
+/* Group value + optional trailing (e.g. Reset) on the right */
+.labelRowRight {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}

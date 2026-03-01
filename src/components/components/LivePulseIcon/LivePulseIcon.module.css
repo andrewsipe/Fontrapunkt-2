@@ -1,0 +1,98 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-right: var(--space-xs);
+  line-height: 1;
+}
+
+.center {
+  fill: var(--text-tertiary, oklch(0.6 0 0));
+  transition: fill var(--duration-fast) var(--ease-out);
+}
+
+.ring1,
+.ring2,
+.ring3 {
+  stroke: var(--text-tertiary, oklch(0.6 0 0));
+  transform-origin: 12px 12px; /* Center of 24x24 viewBox */
+  opacity: 0.3;
+  transition:
+    stroke var(--duration-fast) var(--ease-out),
+    opacity var(--duration-fast) var(--ease-out);
+}
+
+/* Active state - green, pulsing animation (disabled when prefers-reduced-motion) */
+@media (prefers-reduced-motion: no-preference) {
+  .container.active .center {
+    fill: var(--success, oklch(0.7 0.2 140));
+  }
+
+  .container.active .ring1,
+  .container.active .ring2,
+  .container.active .ring3 {
+    stroke: var(--success, oklch(0.7 0.2 140));
+    opacity: 0;
+    animation: pulseRipple 2s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .container.active .center {
+    fill: var(--success, oklch(0.7 0.2 140));
+  }
+
+  .container.active .ring1,
+  .container.active .ring2,
+  .container.active .ring3 {
+    stroke: var(--success, oklch(0.7 0.2 140));
+    opacity: 0.3;
+    animation: none;
+  }
+}
+
+.container.active .ring2 {
+  animation-delay: 0.5s;
+}
+
+.container.active .ring3 {
+  animation-delay: 1s;
+}
+
+/* Inactive state - greyscale, no animation (default) */
+.container.inactive .center {
+  fill: var(--text-tertiary, oklch(0.6 0 0));
+}
+
+.container.inactive .ring1,
+.container.inactive .ring2,
+.container.inactive .ring3 {
+  stroke: var(--text-tertiary, oklch(0.6 0 0));
+  animation: none;
+  opacity: 0.3;
+}
+
+/* Failed state - red/danger color, no animation */
+.container.failed .center {
+  fill: var(--danger, oklch(0.65 0.2 25));
+}
+
+.container.failed .ring1,
+.container.failed .ring2,
+.container.failed .ring3 {
+  stroke: var(--danger, oklch(0.65 0.2 25));
+  animation: none;
+  opacity: 0.4;
+}
+
+@keyframes pulseRipple {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}

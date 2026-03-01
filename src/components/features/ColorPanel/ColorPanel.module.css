@@ -1,0 +1,39 @@
+.colorPanel {
+  display: flex;
+  flex-direction: column;
+  container-type: inline-size;
+}
+
+.colorControls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.colorModeButtons {
+  /* Styles handled by CustomToggleGroup with discrete variant */
+  min-width: 0;
+}
+
+.colorInput {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.inputLabel {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  min-width: 24px;
+}
+
+.hexInput {
+  flex: 1;
+  font-family: var(--font-mono);
+}
+
+.hexInput:focus-visible {
+  box-shadow: 0 0 0 3px oklch(from var(--border-focus) l c h / var(--state-focus-ring-opacity));
+}

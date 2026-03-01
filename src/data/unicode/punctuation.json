@@ -1,0 +1,5006 @@
+{
+  "category": "punctuation",
+  "blocks": [
+    "CJK Compatibility Forms",
+    "CJK Symbols and Punctuation",
+    "General Punctuation",
+    "Halfwidth and Fullwidth Forms",
+    "Small Form Variants",
+    "Supplemental Punctuation",
+    "Vertical Forms"
+  ],
+  "characters": {
+    "2000": {
+      "name": "EN QUAD",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "quad"],
+      "aliases": ["en-quad"]
+    },
+    "2001": {
+      "name": "EM QUAD",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "quad"],
+      "aliases": ["em-quad"]
+    },
+    "2002": {
+      "name": "EN SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "space"],
+      "aliases": ["en-space"]
+    },
+    "2003": {
+      "name": "EM SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "space"],
+      "aliases": ["em-space"]
+    },
+    "2004": {
+      "name": "THREE-PER-EM SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "three", "per", "space"],
+      "aliases": ["three-per-em-space"]
+    },
+    "2005": {
+      "name": "FOUR-PER-EM SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "four", "per", "space"],
+      "aliases": ["four-per-em-space"]
+    },
+    "2006": {
+      "name": "SIX-PER-EM SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "six", "per", "space"],
+      "aliases": ["six-per-em-space"]
+    },
+    "2007": {
+      "name": "FIGURE SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "figure", "space"],
+      "aliases": ["figure-space"]
+    },
+    "2008": {
+      "name": "PUNCTUATION SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "space"],
+      "aliases": ["punctuation-space"]
+    },
+    "2009": {
+      "name": "THIN SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "thin", "space"],
+      "aliases": ["thin-space"]
+    },
+    "2010": {
+      "name": "HYPHEN",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "hyphen", "dash"],
+      "aliases": ["hyphen"]
+    },
+    "2011": {
+      "name": "NON-BREAKING HYPHEN",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "non", "breaking", "hyphen", "dash"],
+      "aliases": ["non-breaking-hyphen"]
+    },
+    "2012": {
+      "name": "FIGURE DASH",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "figure", "dash", "hyphen"],
+      "aliases": ["figure-dash"]
+    },
+    "2013": {
+      "name": "EN DASH",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "dash", "hyphen"],
+      "aliases": ["en-dash"]
+    },
+    "2014": {
+      "name": "EM DASH",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "dash", "hyphen"],
+      "aliases": ["em-dash"]
+    },
+    "2015": {
+      "name": "HORIZONTAL BAR",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "horizontal", "bar"],
+      "aliases": ["horizontal-bar"]
+    },
+    "2016": {
+      "name": "DOUBLE VERTICAL LINE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "vertical", "line"],
+      "aliases": ["double-vertical-line"]
+    },
+    "2017": {
+      "name": "DOUBLE LOW LINE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "low", "line"],
+      "aliases": ["double-low-line"]
+    },
+    "2018": {
+      "name": "LEFT SINGLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "left", "single", "quotation", "mark"],
+      "aliases": ["left-single-quotation-mark"]
+    },
+    "2019": {
+      "name": "RIGHT SINGLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "right", "single", "quotation", "mark"],
+      "aliases": ["right-single-quotation-mark"]
+    },
+    "2020": {
+      "name": "DAGGER",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "dagger"],
+      "aliases": ["dagger"]
+    },
+    "2021": {
+      "name": "DOUBLE DAGGER",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "dagger"],
+      "aliases": ["double-dagger"]
+    },
+    "2022": {
+      "name": "BULLET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "bullet"],
+      "aliases": ["bullet"]
+    },
+    "2023": {
+      "name": "TRIANGULAR BULLET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "triangular", "bullet"],
+      "aliases": ["triangular-bullet"]
+    },
+    "2024": {
+      "name": "ONE DOT LEADER",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "one", "dot", "leader"],
+      "aliases": ["one-dot-leader"]
+    },
+    "2025": {
+      "name": "TWO DOT LEADER",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "two", "dot", "leader"],
+      "aliases": ["two-dot-leader"]
+    },
+    "2026": {
+      "name": "HORIZONTAL ELLIPSIS",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "horizontal", "ellipsis"],
+      "aliases": ["horizontal-ellipsis"]
+    },
+    "2027": {
+      "name": "HYPHENATION POINT",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "hyphenation", "point", "dash", "hyphen"],
+      "aliases": ["hyphenation-point"]
+    },
+    "2028": {
+      "name": "LINE SEPARATOR",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "line", "separator"],
+      "aliases": ["line-separator"]
+    },
+    "2029": {
+      "name": "PARAGRAPH SEPARATOR",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "paragraph", "separator"],
+      "aliases": ["paragraph-separator"]
+    },
+    "2030": {
+      "name": "PER MILLE SIGN",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "per", "mille", "sign"],
+      "aliases": ["per-mille-sign"]
+    },
+    "2031": {
+      "name": "PER TEN THOUSAND SIGN",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "per", "ten", "thousand", "sign"],
+      "aliases": ["per-ten-thousand-sign"]
+    },
+    "2032": {
+      "name": "PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "prime"],
+      "aliases": ["prime"]
+    },
+    "2033": {
+      "name": "DOUBLE PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "prime"],
+      "aliases": ["double-prime"]
+    },
+    "2034": {
+      "name": "TRIPLE PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "triple", "prime"],
+      "aliases": ["triple-prime"]
+    },
+    "2035": {
+      "name": "REVERSED PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reversed", "prime"],
+      "aliases": ["reversed-prime"]
+    },
+    "2036": {
+      "name": "REVERSED DOUBLE PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reversed", "double", "prime"],
+      "aliases": ["reversed-double-prime"]
+    },
+    "2037": {
+      "name": "REVERSED TRIPLE PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reversed", "triple", "prime"],
+      "aliases": ["reversed-triple-prime"]
+    },
+    "2038": {
+      "name": "CARET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "caret"],
+      "aliases": ["caret"]
+    },
+    "2039": {
+      "name": "SINGLE LEFT-POINTING ANGLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": [
+        "general",
+        "punctuation",
+        "single",
+        "left",
+        "pointing",
+        "angle",
+        "quotation",
+        "mark"
+      ],
+      "aliases": ["single-left-pointing-angle-quotation-mark"]
+    },
+    "2040": {
+      "name": "CHARACTER TIE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "character", "tie"],
+      "aliases": ["character-tie"]
+    },
+    "2041": {
+      "name": "CARET INSERTION POINT",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "caret", "insertion", "point"],
+      "aliases": ["caret-insertion-point"]
+    },
+    "2042": {
+      "name": "ASTERISM",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "asterism"],
+      "aliases": ["asterism"]
+    },
+    "2043": {
+      "name": "HYPHEN BULLET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "hyphen", "bullet", "dash"],
+      "aliases": ["hyphen-bullet"]
+    },
+    "2044": {
+      "name": "FRACTION SLASH",
+      "category": "Symbol",
+      "keywords": ["general", "punctuation", "fraction", "slash"],
+      "aliases": ["fraction-slash"]
+    },
+    "2045": {
+      "name": "LEFT SQUARE BRACKET WITH QUILL",
+      "category": "Punctuation",
+      "keywords": [
+        "general",
+        "punctuation",
+        "left",
+        "square",
+        "bracket",
+        "with",
+        "quill",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-square-bracket-with-quill"]
+    },
+    "2046": {
+      "name": "RIGHT SQUARE BRACKET WITH QUILL",
+      "category": "Punctuation",
+      "keywords": [
+        "general",
+        "punctuation",
+        "right",
+        "square",
+        "bracket",
+        "with",
+        "quill",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-square-bracket-with-quill"]
+    },
+    "2047": {
+      "name": "DOUBLE QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "question", "mark"],
+      "aliases": ["double-question-mark"]
+    },
+    "2048": {
+      "name": "QUESTION EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "question", "exclamation", "mark"],
+      "aliases": ["question-exclamation-mark"]
+    },
+    "2049": {
+      "name": "EXCLAMATION QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "exclamation", "question", "mark"],
+      "aliases": ["exclamation-question-mark"]
+    },
+    "2050": {
+      "name": "CLOSE UP",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "close"],
+      "aliases": ["close-up"]
+    },
+    "2051": {
+      "name": "TWO ASTERISKS ALIGNED VERTICALLY",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "two", "asterisks", "aligned", "vertically"],
+      "aliases": ["two-asterisks-aligned-vertically"]
+    },
+    "2052": {
+      "name": "COMMERCIAL MINUS SIGN",
+      "category": "Symbol",
+      "keywords": ["general", "punctuation", "commercial", "minus", "sign"],
+      "aliases": ["commercial-minus-sign"]
+    },
+    "2053": {
+      "name": "SWUNG DASH",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "swung", "dash", "hyphen"],
+      "aliases": ["swung-dash"]
+    },
+    "2054": {
+      "name": "INVERTED UNDERTIE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "inverted", "undertie"],
+      "aliases": ["inverted-undertie"]
+    },
+    "2055": {
+      "name": "FLOWER PUNCTUATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "flower", "mark"],
+      "aliases": ["flower-punctuation-mark"]
+    },
+    "2056": {
+      "name": "THREE DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "three", "dot"],
+      "aliases": ["three-dot-punctuation"]
+    },
+    "2057": {
+      "name": "QUADRUPLE PRIME",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "quadruple", "prime"],
+      "aliases": ["quadruple-prime"]
+    },
+    "2058": {
+      "name": "FOUR DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "four", "dot"],
+      "aliases": ["four-dot-punctuation"]
+    },
+    "2059": {
+      "name": "FIVE DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "five", "dot"],
+      "aliases": ["five-dot-punctuation"]
+    },
+    "2060": {
+      "name": "WORD JOINER",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "word", "joiner"],
+      "aliases": ["word-joiner", "wj"]
+    },
+    "2061": {
+      "name": "FUNCTION APPLICATION",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "function", "application"],
+      "aliases": ["function-application"]
+    },
+    "2062": {
+      "name": "INVISIBLE TIMES",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "invisible", "times"],
+      "aliases": ["invisible-times"]
+    },
+    "2063": {
+      "name": "INVISIBLE SEPARATOR",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "invisible", "separator"],
+      "aliases": ["invisible-separator"]
+    },
+    "2064": {
+      "name": "INVISIBLE PLUS",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "invisible", "plus"],
+      "aliases": ["invisible-plus"]
+    },
+    "2066": {
+      "name": "LEFT-TO-RIGHT ISOLATE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "left", "right", "isolate"],
+      "aliases": ["left-to-right-isolate", "lri"]
+    },
+    "2067": {
+      "name": "RIGHT-TO-LEFT ISOLATE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "right", "left", "isolate"],
+      "aliases": ["right-to-left-isolate", "rli"]
+    },
+    "2068": {
+      "name": "FIRST STRONG ISOLATE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "first", "strong", "isolate"],
+      "aliases": ["first-strong-isolate", "fsi"]
+    },
+    "2069": {
+      "name": "POP DIRECTIONAL ISOLATE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "pop", "directional", "isolate"],
+      "aliases": ["pop-directional-isolate", "pdi"]
+    },
+    "3000": {
+      "name": "IDEOGRAPHIC SPACE",
+      "category": "Separator",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "space"],
+      "aliases": ["ideographic-space"]
+    },
+    "3001": {
+      "name": "IDEOGRAPHIC COMMA",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "comma"],
+      "aliases": ["ideographic-comma"]
+    },
+    "3002": {
+      "name": "IDEOGRAPHIC FULL STOP",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "full", "stop"],
+      "aliases": ["ideographic-full-stop"]
+    },
+    "3003": {
+      "name": "DITTO MARK",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ditto", "mark"],
+      "aliases": ["ditto-mark"]
+    },
+    "3004": {
+      "name": "JAPANESE INDUSTRIAL STANDARD SYMBOL",
+      "category": "Symbol",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "japanese",
+        "industrial",
+        "standard",
+        "symbol"
+      ],
+      "aliases": ["japanese-industrial-standard-symbol"]
+    },
+    "3005": {
+      "name": "IDEOGRAPHIC ITERATION MARK",
+      "category": "Letter",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "iteration", "mark"],
+      "aliases": ["ideographic-iteration-mark"]
+    },
+    "3006": {
+      "name": "IDEOGRAPHIC CLOSING MARK",
+      "category": "Letter",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "closing", "mark"],
+      "aliases": ["ideographic-closing-mark"]
+    },
+    "3007": {
+      "name": "IDEOGRAPHIC NUMBER ZERO",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "number", "zero"],
+      "aliases": ["ideographic-number-zero"]
+    },
+    "3008": {
+      "name": "LEFT ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-angle-bracket"]
+    },
+    "3009": {
+      "name": "RIGHT ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-angle-bracket"]
+    },
+    "3010": {
+      "name": "LEFT BLACK LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "black",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-black-lenticular-bracket"]
+    },
+    "3011": {
+      "name": "RIGHT BLACK LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "black",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-black-lenticular-bracket"]
+    },
+    "3012": {
+      "name": "POSTAL MARK",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "postal", "mark"],
+      "aliases": ["postal-mark"]
+    },
+    "3013": {
+      "name": "GETA MARK",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "geta", "mark"],
+      "aliases": ["geta-mark"]
+    },
+    "3014": {
+      "name": "LEFT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-tortoise-shell-bracket"]
+    },
+    "3015": {
+      "name": "RIGHT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-tortoise-shell-bracket"]
+    },
+    "3016": {
+      "name": "LEFT WHITE LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "white",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-white-lenticular-bracket"]
+    },
+    "3017": {
+      "name": "RIGHT WHITE LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "white",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-white-lenticular-bracket"]
+    },
+    "3018": {
+      "name": "LEFT WHITE TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "white",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-white-tortoise-shell-bracket"]
+    },
+    "3019": {
+      "name": "RIGHT WHITE TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "white",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-white-tortoise-shell-bracket"]
+    },
+    "3020": {
+      "name": "POSTAL MARK FACE",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "postal", "mark", "face"],
+      "aliases": ["postal-mark-face"]
+    },
+    "3021": {
+      "name": "HANGZHOU NUMERAL ONE",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "one"],
+      "aliases": ["hangzhou-numeral-one"]
+    },
+    "3022": {
+      "name": "HANGZHOU NUMERAL TWO",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "two"],
+      "aliases": ["hangzhou-numeral-two"]
+    },
+    "3023": {
+      "name": "HANGZHOU NUMERAL THREE",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "three"],
+      "aliases": ["hangzhou-numeral-three"]
+    },
+    "3024": {
+      "name": "HANGZHOU NUMERAL FOUR",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "four"],
+      "aliases": ["hangzhou-numeral-four"]
+    },
+    "3025": {
+      "name": "HANGZHOU NUMERAL FIVE",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "five"],
+      "aliases": ["hangzhou-numeral-five"]
+    },
+    "3026": {
+      "name": "HANGZHOU NUMERAL SIX",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "six"],
+      "aliases": ["hangzhou-numeral-six"]
+    },
+    "3027": {
+      "name": "HANGZHOU NUMERAL SEVEN",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "seven"],
+      "aliases": ["hangzhou-numeral-seven"]
+    },
+    "3028": {
+      "name": "HANGZHOU NUMERAL EIGHT",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "eight"],
+      "aliases": ["hangzhou-numeral-eight"]
+    },
+    "3029": {
+      "name": "HANGZHOU NUMERAL NINE",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "nine"],
+      "aliases": ["hangzhou-numeral-nine"]
+    },
+    "3030": {
+      "name": "WAVY DASH",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "wavy", "dash", "hyphen"],
+      "aliases": ["wavy-dash"]
+    },
+    "3031": {
+      "name": "VERTICAL KANA REPEAT MARK",
+      "category": "Letter",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "vertical", "kana", "repeat", "mark"],
+      "aliases": ["vertical-kana-repeat-mark"]
+    },
+    "3032": {
+      "name": "VERTICAL KANA REPEAT WITH VOICED SOUND MARK",
+      "category": "Letter",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "vertical",
+        "kana",
+        "repeat",
+        "with",
+        "voiced",
+        "sound",
+        "mark"
+      ],
+      "aliases": ["vertical-kana-repeat-with-voiced-sound-mark"]
+    },
+    "3033": {
+      "name": "VERTICAL KANA REPEAT MARK UPPER HALF",
+      "category": "Letter",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "vertical",
+        "kana",
+        "repeat",
+        "mark",
+        "upper",
+        "half"
+      ],
+      "aliases": ["vertical-kana-repeat-mark-upper-half"]
+    },
+    "3034": {
+      "name": "VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF",
+      "category": "Letter",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "vertical",
+        "kana",
+        "repeat",
+        "with",
+        "voiced",
+        "sound",
+        "mark",
+        "upper",
+        "half"
+      ],
+      "aliases": ["vertical-kana-repeat-with-voiced-sound-mark-upper-half"]
+    },
+    "3035": {
+      "name": "VERTICAL KANA REPEAT MARK LOWER HALF",
+      "category": "Letter",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "vertical",
+        "kana",
+        "repeat",
+        "mark",
+        "lower",
+        "half"
+      ],
+      "aliases": ["vertical-kana-repeat-mark-lower-half"]
+    },
+    "3036": {
+      "name": "CIRCLED POSTAL MARK",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "circled", "postal", "mark"],
+      "aliases": ["circled-postal-mark"]
+    },
+    "3037": {
+      "name": "IDEOGRAPHIC TELEGRAPH LINE FEED SEPARATOR SYMBOL",
+      "category": "Symbol",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "ideographic",
+        "telegraph",
+        "line",
+        "feed",
+        "separator",
+        "symbol"
+      ],
+      "aliases": ["ideographic-telegraph-line-feed-separator-symbol"]
+    },
+    "3038": {
+      "name": "HANGZHOU NUMERAL TEN",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "ten"],
+      "aliases": ["hangzhou-numeral-ten"]
+    },
+    "3039": {
+      "name": "HANGZHOU NUMERAL TWENTY",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "twenty"],
+      "aliases": ["hangzhou-numeral-twenty"]
+    },
+    "200A": {
+      "name": "HAIR SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "hair", "space"],
+      "aliases": ["hair-space"]
+    },
+    "200B": {
+      "name": "ZERO WIDTH SPACE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "zero", "width", "space"],
+      "aliases": ["zero-width-space", "zwsp"]
+    },
+    "200C": {
+      "name": "ZERO WIDTH NON-JOINER",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "zero", "width", "non", "joiner"],
+      "aliases": ["zero-width-non-joiner", "zwnj"]
+    },
+    "200D": {
+      "name": "ZERO WIDTH JOINER",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "zero", "width", "joiner"],
+      "aliases": ["zero-width-joiner", "zwj"]
+    },
+    "200E": {
+      "name": "LEFT-TO-RIGHT MARK",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "left", "right", "mark"],
+      "aliases": ["left-to-right-mark", "lrm"]
+    },
+    "200F": {
+      "name": "RIGHT-TO-LEFT MARK",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "right", "left", "mark"],
+      "aliases": ["right-to-left-mark", "rlm"]
+    },
+    "201A": {
+      "name": "SINGLE LOW-9 QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "single", "low", "quotation", "mark"],
+      "aliases": ["single-low-9-quotation-mark"]
+    },
+    "201B": {
+      "name": "SINGLE HIGH-REVERSED-9 QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "single", "high", "reversed", "quotation", "mark"],
+      "aliases": ["single-high-reversed-9-quotation-mark"]
+    },
+    "201C": {
+      "name": "LEFT DOUBLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "left", "double", "quotation", "mark"],
+      "aliases": ["left-double-quotation-mark"]
+    },
+    "201D": {
+      "name": "RIGHT DOUBLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "right", "double", "quotation", "mark"],
+      "aliases": ["right-double-quotation-mark"]
+    },
+    "201E": {
+      "name": "DOUBLE LOW-9 QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "low", "quotation", "mark"],
+      "aliases": ["double-low-9-quotation-mark"]
+    },
+    "201F": {
+      "name": "DOUBLE HIGH-REVERSED-9 QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "high", "reversed", "quotation", "mark"],
+      "aliases": ["double-high-reversed-9-quotation-mark"]
+    },
+    "202A": {
+      "name": "LEFT-TO-RIGHT EMBEDDING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "left", "right", "embedding"],
+      "aliases": ["left-to-right-embedding", "lre"]
+    },
+    "202B": {
+      "name": "RIGHT-TO-LEFT EMBEDDING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "right", "left", "embedding"],
+      "aliases": ["right-to-left-embedding", "rle"]
+    },
+    "202C": {
+      "name": "POP DIRECTIONAL FORMATTING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "pop", "directional", "formatting"],
+      "aliases": ["pop-directional-formatting", "pdf"]
+    },
+    "202D": {
+      "name": "LEFT-TO-RIGHT OVERRIDE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "left", "right", "override"],
+      "aliases": ["left-to-right-override", "lro"]
+    },
+    "202E": {
+      "name": "RIGHT-TO-LEFT OVERRIDE",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "right", "left", "override"],
+      "aliases": ["right-to-left-override", "rlo"]
+    },
+    "202F": {
+      "name": "NARROW NO-BREAK SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "narrow", "break", "space", "arrow", "direction"],
+      "aliases": ["narrow-no-break-space", "nnbsp"]
+    },
+    "203A": {
+      "name": "SINGLE RIGHT-POINTING ANGLE QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": [
+        "general",
+        "punctuation",
+        "single",
+        "right",
+        "pointing",
+        "angle",
+        "quotation",
+        "mark"
+      ],
+      "aliases": ["single-right-pointing-angle-quotation-mark"]
+    },
+    "203B": {
+      "name": "REFERENCE MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reference", "mark"],
+      "aliases": ["reference-mark"]
+    },
+    "203C": {
+      "name": "DOUBLE EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "double", "exclamation", "mark"],
+      "aliases": ["double-exclamation-mark"]
+    },
+    "203D": {
+      "name": "INTERROBANG",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "interrobang"],
+      "aliases": ["interrobang"]
+    },
+    "203E": {
+      "name": "OVERLINE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "overline"],
+      "aliases": ["overline"]
+    },
+    "203F": {
+      "name": "UNDERTIE",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "undertie"],
+      "aliases": ["undertie"]
+    },
+    "204A": {
+      "name": "TIRONIAN SIGN ET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "tironian", "sign"],
+      "aliases": ["tironian-sign-et"]
+    },
+    "204B": {
+      "name": "REVERSED PILCROW SIGN",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reversed", "pilcrow", "sign"],
+      "aliases": ["reversed-pilcrow-sign"]
+    },
+    "204C": {
+      "name": "BLACK LEFTWARDS BULLET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "black", "leftwards", "bullet"],
+      "aliases": ["black-leftwards-bullet"]
+    },
+    "204D": {
+      "name": "BLACK RIGHTWARDS BULLET",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "black", "rightwards", "bullet"],
+      "aliases": ["black-rightwards-bullet"]
+    },
+    "204E": {
+      "name": "LOW ASTERISK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "low", "asterisk"],
+      "aliases": ["low-asterisk"]
+    },
+    "204F": {
+      "name": "REVERSED SEMICOLON",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "reversed", "semicolon"],
+      "aliases": ["reversed-semicolon"]
+    },
+    "205A": {
+      "name": "TWO DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "two", "dot"],
+      "aliases": ["two-dot-punctuation"]
+    },
+    "205B": {
+      "name": "FOUR DOT MARK",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "four", "dot", "mark"],
+      "aliases": ["four-dot-mark"]
+    },
+    "205C": {
+      "name": "DOTTED CROSS",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "dotted", "cross"],
+      "aliases": ["dotted-cross"]
+    },
+    "205D": {
+      "name": "TRICOLON",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "tricolon"],
+      "aliases": ["tricolon"]
+    },
+    "205E": {
+      "name": "VERTICAL FOUR DOTS",
+      "category": "Punctuation",
+      "keywords": ["general", "punctuation", "vertical", "four", "dots"],
+      "aliases": ["vertical-four-dots"]
+    },
+    "205F": {
+      "name": "MEDIUM MATHEMATICAL SPACE",
+      "category": "Separator",
+      "keywords": ["general", "punctuation", "medium", "mathematical", "space", "math"],
+      "aliases": ["medium-mathematical-space", "mmsp"]
+    },
+    "206A": {
+      "name": "INHIBIT SYMMETRIC SWAPPING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "inhibit", "symmetric", "swapping"],
+      "aliases": ["inhibit-symmetric-swapping"]
+    },
+    "206B": {
+      "name": "ACTIVATE SYMMETRIC SWAPPING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "activate", "symmetric", "swapping"],
+      "aliases": ["activate-symmetric-swapping"]
+    },
+    "206C": {
+      "name": "INHIBIT ARABIC FORM SHAPING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "inhibit", "arabic", "form", "shaping"],
+      "aliases": ["inhibit-arabic-form-shaping"]
+    },
+    "206D": {
+      "name": "ACTIVATE ARABIC FORM SHAPING",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "activate", "arabic", "form", "shaping"],
+      "aliases": ["activate-arabic-form-shaping"]
+    },
+    "206E": {
+      "name": "NATIONAL DIGIT SHAPES",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "national", "digit", "shapes"],
+      "aliases": ["national-digit-shapes"]
+    },
+    "206F": {
+      "name": "NOMINAL DIGIT SHAPES",
+      "category": "Other",
+      "keywords": ["general", "punctuation", "nominal", "digit", "shapes"],
+      "aliases": ["nominal-digit-shapes"]
+    },
+    "2E00": {
+      "name": "RIGHT ANGLE SUBSTITUTION MARKER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "right", "angle", "substitution", "marker"],
+      "aliases": ["right-angle-substitution-marker"]
+    },
+    "2E01": {
+      "name": "RIGHT ANGLE DOTTED SUBSTITUTION MARKER",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "angle",
+        "dotted",
+        "substitution",
+        "marker"
+      ],
+      "aliases": ["right-angle-dotted-substitution-marker"]
+    },
+    "2E02": {
+      "name": "LEFT SUBSTITUTION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "substitution",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-substitution-bracket"]
+    },
+    "2E03": {
+      "name": "RIGHT SUBSTITUTION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "substitution",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-substitution-bracket"]
+    },
+    "2E04": {
+      "name": "LEFT DOTTED SUBSTITUTION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "dotted",
+        "substitution",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-dotted-substitution-bracket"]
+    },
+    "2E05": {
+      "name": "RIGHT DOTTED SUBSTITUTION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "dotted",
+        "substitution",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-dotted-substitution-bracket"]
+    },
+    "2E06": {
+      "name": "RAISED INTERPOLATION MARKER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "raised", "interpolation", "marker"],
+      "aliases": ["raised-interpolation-marker"]
+    },
+    "2E07": {
+      "name": "RAISED DOTTED INTERPOLATION MARKER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "raised", "dotted", "interpolation", "marker"],
+      "aliases": ["raised-dotted-interpolation-marker"]
+    },
+    "2E08": {
+      "name": "DOTTED TRANSPOSITION MARKER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dotted", "transposition", "marker"],
+      "aliases": ["dotted-transposition-marker"]
+    },
+    "2E09": {
+      "name": "LEFT TRANSPOSITION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "transposition",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-transposition-bracket"]
+    },
+    "2E0A": {
+      "name": "RIGHT TRANSPOSITION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "transposition",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-transposition-bracket"]
+    },
+    "2E0B": {
+      "name": "RAISED SQUARE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "raised", "square"],
+      "aliases": ["raised-square"]
+    },
+    "2E0C": {
+      "name": "LEFT RAISED OMISSION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "raised",
+        "omission",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-raised-omission-bracket"]
+    },
+    "2E0D": {
+      "name": "RIGHT RAISED OMISSION BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "raised",
+        "omission",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-raised-omission-bracket"]
+    },
+    "2E0E": {
+      "name": "EDITORIAL CORONIS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "editorial", "coronis"],
+      "aliases": ["editorial-coronis"]
+    },
+    "2E0F": {
+      "name": "PARAGRAPHOS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "paragraphos"],
+      "aliases": ["paragraphos"]
+    },
+    "2E10": {
+      "name": "FORKED PARAGRAPHOS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "forked", "paragraphos"],
+      "aliases": ["forked-paragraphos"]
+    },
+    "2E11": {
+      "name": "REVERSED FORKED PARAGRAPHOS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "reversed", "forked", "paragraphos"],
+      "aliases": ["reversed-forked-paragraphos"]
+    },
+    "2E12": {
+      "name": "HYPODIASTOLE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "hypodiastole"],
+      "aliases": ["hypodiastole"]
+    },
+    "2E13": {
+      "name": "DOTTED OBELOS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dotted", "obelos"],
+      "aliases": ["dotted-obelos"]
+    },
+    "2E14": {
+      "name": "DOWNWARDS ANCORA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "downwards", "ancora"],
+      "aliases": ["downwards-ancora"]
+    },
+    "2E15": {
+      "name": "UPWARDS ANCORA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "upwards", "ancora"],
+      "aliases": ["upwards-ancora"]
+    },
+    "2E16": {
+      "name": "DOTTED RIGHT-POINTING ANGLE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dotted", "right", "pointing", "angle"],
+      "aliases": ["dotted-right-pointing-angle"]
+    },
+    "2E17": {
+      "name": "DOUBLE OBLIQUE HYPHEN",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "double", "oblique", "hyphen", "dash"],
+      "aliases": ["double-oblique-hyphen"]
+    },
+    "2E18": {
+      "name": "INVERTED INTERROBANG",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "inverted", "interrobang"],
+      "aliases": ["inverted-interrobang"]
+    },
+    "2E19": {
+      "name": "PALM BRANCH",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "palm", "branch"],
+      "aliases": ["palm-branch"]
+    },
+    "2E1A": {
+      "name": "HYPHEN WITH DIAERESIS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "hyphen", "with", "diaeresis", "dash"],
+      "aliases": ["hyphen-with-diaeresis"]
+    },
+    "2E1B": {
+      "name": "TILDE WITH RING ABOVE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "tilde", "with", "ring", "above"],
+      "aliases": ["tilde-with-ring-above"]
+    },
+    "2E1C": {
+      "name": "LEFT LOW PARAPHRASE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "low",
+        "paraphrase",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-low-paraphrase-bracket"]
+    },
+    "2E1D": {
+      "name": "RIGHT LOW PARAPHRASE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "low",
+        "paraphrase",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-low-paraphrase-bracket"]
+    },
+    "2E1E": {
+      "name": "TILDE WITH DOT ABOVE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "tilde", "with", "dot", "above"],
+      "aliases": ["tilde-with-dot-above"]
+    },
+    "2E1F": {
+      "name": "TILDE WITH DOT BELOW",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "tilde", "with", "dot", "below"],
+      "aliases": ["tilde-with-dot-below"]
+    },
+    "2E20": {
+      "name": "LEFT VERTICAL BAR WITH QUILL",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "left", "vertical", "bar", "with", "quill"],
+      "aliases": ["left-vertical-bar-with-quill"]
+    },
+    "2E21": {
+      "name": "RIGHT VERTICAL BAR WITH QUILL",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "right", "vertical", "bar", "with", "quill"],
+      "aliases": ["right-vertical-bar-with-quill"]
+    },
+    "2E22": {
+      "name": "TOP LEFT HALF BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "top",
+        "left",
+        "half",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["top-left-half-bracket"]
+    },
+    "2E23": {
+      "name": "TOP RIGHT HALF BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "top",
+        "right",
+        "half",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["top-right-half-bracket"]
+    },
+    "2E24": {
+      "name": "BOTTOM LEFT HALF BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "bottom",
+        "left",
+        "half",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["bottom-left-half-bracket"]
+    },
+    "2E25": {
+      "name": "BOTTOM RIGHT HALF BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "bottom",
+        "right",
+        "half",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["bottom-right-half-bracket"]
+    },
+    "2E26": {
+      "name": "LEFT SIDEWAYS U BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "sideways",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-sideways-u-bracket"]
+    },
+    "2E27": {
+      "name": "RIGHT SIDEWAYS U BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "sideways",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-sideways-u-bracket"]
+    },
+    "2E28": {
+      "name": "LEFT DOUBLE PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "double",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["left-double-parenthesis"]
+    },
+    "2E29": {
+      "name": "RIGHT DOUBLE PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "double",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["right-double-parenthesis"]
+    },
+    "2E2A": {
+      "name": "TWO DOTS OVER ONE DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "two", "dots", "over", "one", "dot"],
+      "aliases": ["two-dots-over-one-dot-punctuation"]
+    },
+    "2E2B": {
+      "name": "ONE DOT OVER TWO DOTS PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "one", "dot", "over", "two", "dots"],
+      "aliases": ["one-dot-over-two-dots-punctuation"]
+    },
+    "2E2C": {
+      "name": "SQUARED FOUR DOT PUNCTUATION",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "squared", "four", "dot"],
+      "aliases": ["squared-four-dot-punctuation"]
+    },
+    "2E2D": {
+      "name": "FIVE DOT MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "five", "dot", "mark"],
+      "aliases": ["five-dot-mark"]
+    },
+    "2E2E": {
+      "name": "REVERSED QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "reversed", "question", "mark"],
+      "aliases": ["reversed-question-mark"]
+    },
+    "2E2F": {
+      "name": "VERTICAL TILDE",
+      "category": "Letter",
+      "keywords": ["supplemental", "punctuation", "vertical", "tilde"],
+      "aliases": ["vertical-tilde"]
+    },
+    "2E30": {
+      "name": "RING POINT",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "ring", "point"],
+      "aliases": ["ring-point"]
+    },
+    "2E31": {
+      "name": "WORD SEPARATOR MIDDLE DOT",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "word", "separator", "middle", "dot"],
+      "aliases": ["word-separator-middle-dot"]
+    },
+    "2E32": {
+      "name": "TURNED COMMA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "turned", "comma"],
+      "aliases": ["turned-comma"]
+    },
+    "2E33": {
+      "name": "RAISED DOT",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "raised", "dot"],
+      "aliases": ["raised-dot"]
+    },
+    "2E34": {
+      "name": "RAISED COMMA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "raised", "comma"],
+      "aliases": ["raised-comma"]
+    },
+    "2E35": {
+      "name": "TURNED SEMICOLON",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "turned", "semicolon"],
+      "aliases": ["turned-semicolon"]
+    },
+    "2E36": {
+      "name": "DAGGER WITH LEFT GUARD",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dagger", "with", "left", "guard"],
+      "aliases": ["dagger-with-left-guard"]
+    },
+    "2E37": {
+      "name": "DAGGER WITH RIGHT GUARD",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dagger", "with", "right", "guard"],
+      "aliases": ["dagger-with-right-guard"]
+    },
+    "2E38": {
+      "name": "TURNED DAGGER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "turned", "dagger"],
+      "aliases": ["turned-dagger"]
+    },
+    "2E39": {
+      "name": "TOP HALF SECTION SIGN",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "top", "half", "section", "sign"],
+      "aliases": ["top-half-section-sign"]
+    },
+    "2E3A": {
+      "name": "TWO-EM DASH",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "two", "dash", "hyphen"],
+      "aliases": ["two-em-dash"]
+    },
+    "2E3B": {
+      "name": "THREE-EM DASH",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "three", "dash", "hyphen"],
+      "aliases": ["three-em-dash"]
+    },
+    "2E3C": {
+      "name": "STENOGRAPHIC FULL STOP",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "stenographic", "full", "stop"],
+      "aliases": ["stenographic-full-stop"]
+    },
+    "2E3D": {
+      "name": "VERTICAL SIX DOTS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "vertical", "six", "dots"],
+      "aliases": ["vertical-six-dots"]
+    },
+    "2E3E": {
+      "name": "WIGGLY VERTICAL LINE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "wiggly", "vertical", "line"],
+      "aliases": ["wiggly-vertical-line"]
+    },
+    "2E3F": {
+      "name": "CAPITULUM",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "capitulum"],
+      "aliases": ["capitulum"]
+    },
+    "2E40": {
+      "name": "DOUBLE HYPHEN",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "double", "hyphen", "dash"],
+      "aliases": ["double-hyphen"]
+    },
+    "2E41": {
+      "name": "REVERSED COMMA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "reversed", "comma"],
+      "aliases": ["reversed-comma"]
+    },
+    "2E42": {
+      "name": "DOUBLE LOW-REVERSED-9 QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "double", "low", "reversed", "quotation", "mark"],
+      "aliases": ["double-low-reversed-9-quotation-mark"]
+    },
+    "2E43": {
+      "name": "DASH WITH LEFT UPTURN",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dash", "with", "left", "upturn", "hyphen"],
+      "aliases": ["dash-with-left-upturn"]
+    },
+    "2E44": {
+      "name": "DOUBLE SUSPENSION MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "double", "suspension", "mark"],
+      "aliases": ["double-suspension-mark"]
+    },
+    "2E45": {
+      "name": "INVERTED LOW KAVYKA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "inverted", "low", "kavyka"],
+      "aliases": ["inverted-low-kavyka"]
+    },
+    "2E46": {
+      "name": "INVERTED LOW KAVYKA WITH KAVYKA ABOVE",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "inverted", "low", "kavyka", "with", "above"],
+      "aliases": ["inverted-low-kavyka-with-kavyka-above"]
+    },
+    "2E47": {
+      "name": "LOW KAVYKA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "low", "kavyka"],
+      "aliases": ["low-kavyka"]
+    },
+    "2E48": {
+      "name": "LOW KAVYKA WITH DOT",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "low", "kavyka", "with", "dot"],
+      "aliases": ["low-kavyka-with-dot"]
+    },
+    "2E49": {
+      "name": "DOUBLE STACKED COMMA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "double", "stacked", "comma"],
+      "aliases": ["double-stacked-comma"]
+    },
+    "2E4A": {
+      "name": "DOTTED SOLIDUS",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "dotted", "solidus"],
+      "aliases": ["dotted-solidus"]
+    },
+    "2E4B": {
+      "name": "TRIPLE DAGGER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "triple", "dagger"],
+      "aliases": ["triple-dagger"]
+    },
+    "2E4C": {
+      "name": "MEDIEVAL COMMA",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "medieval", "comma"],
+      "aliases": ["medieval-comma"]
+    },
+    "2E4D": {
+      "name": "PARAGRAPHUS MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "paragraphus", "mark"],
+      "aliases": ["paragraphus-mark"]
+    },
+    "2E4E": {
+      "name": "PUNCTUS ELEVATUS MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "punctus", "elevatus", "mark"],
+      "aliases": ["punctus-elevatus-mark"]
+    },
+    "2E4F": {
+      "name": "CORNISH VERSE DIVIDER",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "cornish", "verse", "divider"],
+      "aliases": ["cornish-verse-divider"]
+    },
+    "2E50": {
+      "name": "CROSS PATTY WITH RIGHT CROSSBAR",
+      "category": "Symbol",
+      "keywords": ["supplemental", "punctuation", "cross", "patty", "with", "right", "crossbar"],
+      "aliases": ["cross-patty-with-right-crossbar"]
+    },
+    "2E51": {
+      "name": "CROSS PATTY WITH LEFT CROSSBAR",
+      "category": "Symbol",
+      "keywords": ["supplemental", "punctuation", "cross", "patty", "with", "left", "crossbar"],
+      "aliases": ["cross-patty-with-left-crossbar"]
+    },
+    "2E52": {
+      "name": "TIRONIAN SIGN CAPITAL ET",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "tironian", "sign", "capital"],
+      "aliases": ["tironian-sign-capital-et"]
+    },
+    "2E53": {
+      "name": "MEDIEVAL EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "medieval", "exclamation", "mark"],
+      "aliases": ["medieval-exclamation-mark"]
+    },
+    "2E54": {
+      "name": "MEDIEVAL QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "medieval", "question", "mark"],
+      "aliases": ["medieval-question-mark"]
+    },
+    "2E55": {
+      "name": "LEFT SQUARE BRACKET WITH STROKE",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "square",
+        "bracket",
+        "with",
+        "stroke",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-square-bracket-with-stroke"]
+    },
+    "2E56": {
+      "name": "RIGHT SQUARE BRACKET WITH STROKE",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "square",
+        "bracket",
+        "with",
+        "stroke",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-square-bracket-with-stroke"]
+    },
+    "2E57": {
+      "name": "LEFT SQUARE BRACKET WITH DOUBLE STROKE",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "left",
+        "square",
+        "bracket",
+        "with",
+        "double",
+        "stroke",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-square-bracket-with-double-stroke"]
+    },
+    "2E58": {
+      "name": "RIGHT SQUARE BRACKET WITH DOUBLE STROKE",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "right",
+        "square",
+        "bracket",
+        "with",
+        "double",
+        "stroke",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-square-bracket-with-double-stroke"]
+    },
+    "2E59": {
+      "name": "TOP HALF LEFT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "top",
+        "half",
+        "left",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["top-half-left-parenthesis"]
+    },
+    "2E5A": {
+      "name": "TOP HALF RIGHT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "top",
+        "half",
+        "right",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["top-half-right-parenthesis"]
+    },
+    "2E5B": {
+      "name": "BOTTOM HALF LEFT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "bottom",
+        "half",
+        "left",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["bottom-half-left-parenthesis"]
+    },
+    "2E5C": {
+      "name": "BOTTOM HALF RIGHT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "supplemental",
+        "punctuation",
+        "bottom",
+        "half",
+        "right",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["bottom-half-right-parenthesis"]
+    },
+    "2E5D": {
+      "name": "OBLIQUE HYPHEN",
+      "category": "Punctuation",
+      "keywords": ["supplemental", "punctuation", "oblique", "hyphen", "dash"],
+      "aliases": ["oblique-hyphen"]
+    },
+    "300A": {
+      "name": "LEFT DOUBLE ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "double",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-double-angle-bracket"]
+    },
+    "300B": {
+      "name": "RIGHT DOUBLE ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "double",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-double-angle-bracket"]
+    },
+    "300C": {
+      "name": "LEFT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-corner-bracket"]
+    },
+    "300D": {
+      "name": "RIGHT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-corner-bracket"]
+    },
+    "300E": {
+      "name": "LEFT WHITE CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "white",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-white-corner-bracket"]
+    },
+    "300F": {
+      "name": "RIGHT WHITE CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "white",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-white-corner-bracket"]
+    },
+    "301A": {
+      "name": "LEFT WHITE SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "left",
+        "white",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["left-white-square-bracket"]
+    },
+    "301B": {
+      "name": "RIGHT WHITE SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "right",
+        "white",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["right-white-square-bracket"]
+    },
+    "301C": {
+      "name": "WAVE DASH",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "wave", "dash", "hyphen"],
+      "aliases": ["wave-dash"]
+    },
+    "301D": {
+      "name": "REVERSED DOUBLE PRIME QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "reversed",
+        "double",
+        "prime",
+        "quotation",
+        "mark"
+      ],
+      "aliases": ["reversed-double-prime-quotation-mark"]
+    },
+    "301E": {
+      "name": "DOUBLE PRIME QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "double", "prime", "quotation", "mark"],
+      "aliases": ["double-prime-quotation-mark"]
+    },
+    "301F": {
+      "name": "LOW DOUBLE PRIME QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "low",
+        "double",
+        "prime",
+        "quotation",
+        "mark"
+      ],
+      "aliases": ["low-double-prime-quotation-mark"]
+    },
+    "302A": {
+      "name": "IDEOGRAPHIC LEVEL TONE MARK",
+      "category": "Mark",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "level", "tone", "mark"],
+      "aliases": ["ideographic-level-tone-mark"]
+    },
+    "302B": {
+      "name": "IDEOGRAPHIC RISING TONE MARK",
+      "category": "Mark",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "rising", "tone", "mark"],
+      "aliases": ["ideographic-rising-tone-mark"]
+    },
+    "302C": {
+      "name": "IDEOGRAPHIC DEPARTING TONE MARK",
+      "category": "Mark",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "ideographic",
+        "departing",
+        "tone",
+        "mark"
+      ],
+      "aliases": ["ideographic-departing-tone-mark"]
+    },
+    "302D": {
+      "name": "IDEOGRAPHIC ENTERING TONE MARK",
+      "category": "Mark",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "ideographic",
+        "entering",
+        "tone",
+        "mark"
+      ],
+      "aliases": ["ideographic-entering-tone-mark"]
+    },
+    "302E": {
+      "name": "HANGUL SINGLE DOT TONE MARK",
+      "category": "Mark",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "hangul",
+        "single",
+        "dot",
+        "tone",
+        "mark"
+      ],
+      "aliases": ["hangul-single-dot-tone-mark"]
+    },
+    "302F": {
+      "name": "HANGUL DOUBLE DOT TONE MARK",
+      "category": "Mark",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "hangul",
+        "double",
+        "dot",
+        "tone",
+        "mark"
+      ],
+      "aliases": ["hangul-double-dot-tone-mark"]
+    },
+    "303A": {
+      "name": "HANGZHOU NUMERAL THIRTY",
+      "category": "Number",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "hangzhou", "numeral", "thirty"],
+      "aliases": ["hangzhou-numeral-thirty"]
+    },
+    "303B": {
+      "name": "VERTICAL IDEOGRAPHIC ITERATION MARK",
+      "category": "Letter",
+      "keywords": [
+        "cjk",
+        "symbols",
+        "and",
+        "punctuation",
+        "vertical",
+        "ideographic",
+        "iteration",
+        "mark"
+      ],
+      "aliases": ["vertical-ideographic-iteration-mark"]
+    },
+    "303C": {
+      "name": "MASU MARK",
+      "category": "Letter",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "masu", "mark"],
+      "aliases": ["masu-mark"]
+    },
+    "303D": {
+      "name": "PART ALTERNATION MARK",
+      "category": "Punctuation",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "part", "alternation", "mark"],
+      "aliases": ["part-alternation-mark"]
+    },
+    "303E": {
+      "name": "IDEOGRAPHIC VARIATION INDICATOR",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "variation", "indicator"],
+      "aliases": ["ideographic-variation-indicator"]
+    },
+    "303F": {
+      "name": "IDEOGRAPHIC HALF FILL SPACE",
+      "category": "Symbol",
+      "keywords": ["cjk", "symbols", "and", "punctuation", "ideographic", "half", "fill", "space"],
+      "aliases": ["ideographic-half-fill-space"]
+    },
+    "FE10": {
+      "name": "PRESENTATION FORM FOR VERTICAL COMMA",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "comma"],
+      "aliases": ["presentation-form-for-vertical-comma"]
+    },
+    "FE11": {
+      "name": "PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC COMMA",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "ideographic", "comma"],
+      "aliases": ["presentation-form-for-vertical-ideographic-comma"]
+    },
+    "FE12": {
+      "name": "PRESENTATION FORM FOR VERTICAL IDEOGRAPHIC FULL STOP",
+      "category": "Punctuation",
+      "keywords": [
+        "vertical",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "ideographic",
+        "full",
+        "stop"
+      ],
+      "aliases": ["presentation-form-for-vertical-ideographic-full-stop"]
+    },
+    "FE13": {
+      "name": "PRESENTATION FORM FOR VERTICAL COLON",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "colon"],
+      "aliases": ["presentation-form-for-vertical-colon"]
+    },
+    "FE14": {
+      "name": "PRESENTATION FORM FOR VERTICAL SEMICOLON",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "semicolon"],
+      "aliases": ["presentation-form-for-vertical-semicolon"]
+    },
+    "FE15": {
+      "name": "PRESENTATION FORM FOR VERTICAL EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "exclamation", "mark"],
+      "aliases": ["presentation-form-for-vertical-exclamation-mark"]
+    },
+    "FE16": {
+      "name": "PRESENTATION FORM FOR VERTICAL QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "question", "mark"],
+      "aliases": ["presentation-form-for-vertical-question-mark"]
+    },
+    "FE17": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT WHITE LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "vertical",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "left",
+        "white",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-white-lenticular-bracket"]
+    },
+    "FE18": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT WHITE LENTICULAR BRAKCET",
+      "category": "Punctuation",
+      "keywords": [
+        "vertical",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "right",
+        "white",
+        "lenticular",
+        "brakcet"
+      ],
+      "aliases": [
+        "presentation-form-for-vertical-right-white-lenticular-brakcet",
+        "presentation-form-for-vertical-right-white-lenticular-bracket"
+      ]
+    },
+    "FE19": {
+      "name": "PRESENTATION FORM FOR VERTICAL HORIZONTAL ELLIPSIS",
+      "category": "Punctuation",
+      "keywords": ["vertical", "forms", "presentation", "form", "for", "horizontal", "ellipsis"],
+      "aliases": ["presentation-form-for-vertical-horizontal-ellipsis"]
+    },
+    "FE30": {
+      "name": "PRESENTATION FORM FOR VERTICAL TWO DOT LEADER",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "two",
+        "dot",
+        "leader"
+      ],
+      "aliases": ["presentation-form-for-vertical-two-dot-leader"]
+    },
+    "FE31": {
+      "name": "PRESENTATION FORM FOR VERTICAL EM DASH",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "dash",
+        "hyphen"
+      ],
+      "aliases": ["presentation-form-for-vertical-em-dash"]
+    },
+    "FE32": {
+      "name": "PRESENTATION FORM FOR VERTICAL EN DASH",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "dash",
+        "hyphen"
+      ],
+      "aliases": ["presentation-form-for-vertical-en-dash"]
+    },
+    "FE33": {
+      "name": "PRESENTATION FORM FOR VERTICAL LOW LINE",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "low",
+        "line"
+      ],
+      "aliases": ["presentation-form-for-vertical-low-line"]
+    },
+    "FE34": {
+      "name": "PRESENTATION FORM FOR VERTICAL WAVY LOW LINE",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "wavy",
+        "low",
+        "line"
+      ],
+      "aliases": ["presentation-form-for-vertical-wavy-low-line"]
+    },
+    "FE35": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-parenthesis"]
+    },
+    "FE36": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-parenthesis"]
+    },
+    "FE37": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "curly",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-curly-bracket"]
+    },
+    "FE38": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "curly",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-curly-bracket"]
+    },
+    "FE39": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-tortoise-shell-bracket"]
+    },
+    "FE3A": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-tortoise-shell-bracket"]
+    },
+    "FE3B": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT BLACK LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "black",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-black-lenticular-bracket"]
+    },
+    "FE3C": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT BLACK LENTICULAR BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "black",
+        "lenticular",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-black-lenticular-bracket"]
+    },
+    "FE3D": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT DOUBLE ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "double",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-double-angle-bracket"]
+    },
+    "FE3E": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT DOUBLE ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "double",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-double-angle-bracket"]
+    },
+    "FE3F": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-angle-bracket"]
+    },
+    "FE40": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT ANGLE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "angle",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-angle-bracket"]
+    },
+    "FE41": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-corner-bracket"]
+    },
+    "FE42": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-corner-bracket"]
+    },
+    "FE43": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT WHITE CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "white",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-white-corner-bracket"]
+    },
+    "FE44": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT WHITE CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "white",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-white-corner-bracket"]
+    },
+    "FE45": {
+      "name": "SESAME DOT",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "sesame", "dot"],
+      "aliases": ["sesame-dot"]
+    },
+    "FE46": {
+      "name": "WHITE SESAME DOT",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "white", "sesame", "dot"],
+      "aliases": ["white-sesame-dot"]
+    },
+    "FE47": {
+      "name": "PRESENTATION FORM FOR VERTICAL LEFT SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "left",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-left-square-bracket"]
+    },
+    "FE48": {
+      "name": "PRESENTATION FORM FOR VERTICAL RIGHT SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "cjk",
+        "compatibility",
+        "forms",
+        "presentation",
+        "form",
+        "for",
+        "vertical",
+        "right",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["presentation-form-for-vertical-right-square-bracket"]
+    },
+    "FE49": {
+      "name": "DASHED OVERLINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "dashed", "overline", "dash", "hyphen"],
+      "aliases": ["dashed-overline"]
+    },
+    "FE4A": {
+      "name": "CENTRELINE OVERLINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "centreline", "overline"],
+      "aliases": ["centreline-overline"]
+    },
+    "FE4B": {
+      "name": "WAVY OVERLINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "wavy", "overline"],
+      "aliases": ["wavy-overline"]
+    },
+    "FE4C": {
+      "name": "DOUBLE WAVY OVERLINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "double", "wavy", "overline"],
+      "aliases": ["double-wavy-overline"]
+    },
+    "FE4D": {
+      "name": "DASHED LOW LINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "dashed", "low", "line", "dash", "hyphen"],
+      "aliases": ["dashed-low-line"]
+    },
+    "FE4E": {
+      "name": "CENTRELINE LOW LINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "centreline", "low", "line"],
+      "aliases": ["centreline-low-line"]
+    },
+    "FE4F": {
+      "name": "WAVY LOW LINE",
+      "category": "Punctuation",
+      "keywords": ["cjk", "compatibility", "forms", "wavy", "low", "line"],
+      "aliases": ["wavy-low-line"]
+    },
+    "FE50": {
+      "name": "SMALL COMMA",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "comma"],
+      "aliases": ["small-comma"]
+    },
+    "FE51": {
+      "name": "SMALL IDEOGRAPHIC COMMA",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "ideographic", "comma"],
+      "aliases": ["small-ideographic-comma"]
+    },
+    "FE52": {
+      "name": "SMALL FULL STOP",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "full", "stop"],
+      "aliases": ["small-full-stop"]
+    },
+    "FE54": {
+      "name": "SMALL SEMICOLON",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "semicolon"],
+      "aliases": ["small-semicolon"]
+    },
+    "FE55": {
+      "name": "SMALL COLON",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "colon"],
+      "aliases": ["small-colon"]
+    },
+    "FE56": {
+      "name": "SMALL QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "question", "mark"],
+      "aliases": ["small-question-mark"]
+    },
+    "FE57": {
+      "name": "SMALL EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "exclamation", "mark"],
+      "aliases": ["small-exclamation-mark"]
+    },
+    "FE58": {
+      "name": "SMALL EM DASH",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "dash", "hyphen"],
+      "aliases": ["small-em-dash"]
+    },
+    "FE59": {
+      "name": "SMALL LEFT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "left", "parenthesis", "bracket", "paren"],
+      "aliases": ["small-left-parenthesis"]
+    },
+    "FE5A": {
+      "name": "SMALL RIGHT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "right", "parenthesis", "bracket", "paren"],
+      "aliases": ["small-right-parenthesis"]
+    },
+    "FE5B": {
+      "name": "SMALL LEFT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "left", "curly", "bracket", "parenthesis", "paren"],
+      "aliases": ["small-left-curly-bracket"]
+    },
+    "FE5C": {
+      "name": "SMALL RIGHT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "small",
+        "form",
+        "variants",
+        "right",
+        "curly",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["small-right-curly-bracket"]
+    },
+    "FE5D": {
+      "name": "SMALL LEFT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "small",
+        "form",
+        "variants",
+        "left",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["small-left-tortoise-shell-bracket"]
+    },
+    "FE5E": {
+      "name": "SMALL RIGHT TORTOISE SHELL BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "small",
+        "form",
+        "variants",
+        "right",
+        "tortoise",
+        "shell",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["small-right-tortoise-shell-bracket"]
+    },
+    "FE5F": {
+      "name": "SMALL NUMBER SIGN",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "number", "sign"],
+      "aliases": ["small-number-sign"]
+    },
+    "FE60": {
+      "name": "SMALL AMPERSAND",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "ampersand"],
+      "aliases": ["small-ampersand"]
+    },
+    "FE61": {
+      "name": "SMALL ASTERISK",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "asterisk"],
+      "aliases": ["small-asterisk"]
+    },
+    "FE62": {
+      "name": "SMALL PLUS SIGN",
+      "category": "Symbol",
+      "keywords": ["small", "form", "variants", "plus", "sign"],
+      "aliases": ["small-plus-sign"]
+    },
+    "FE63": {
+      "name": "SMALL HYPHEN-MINUS",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "hyphen", "minus", "dash"],
+      "aliases": ["small-hyphen-minus"]
+    },
+    "FE64": {
+      "name": "SMALL LESS-THAN SIGN",
+      "category": "Symbol",
+      "keywords": ["small", "form", "variants", "less", "than", "sign"],
+      "aliases": ["small-less-than-sign"]
+    },
+    "FE65": {
+      "name": "SMALL GREATER-THAN SIGN",
+      "category": "Symbol",
+      "keywords": ["small", "form", "variants", "greater", "than", "sign"],
+      "aliases": ["small-greater-than-sign"]
+    },
+    "FE66": {
+      "name": "SMALL EQUALS SIGN",
+      "category": "Symbol",
+      "keywords": ["small", "form", "variants", "equals", "sign"],
+      "aliases": ["small-equals-sign"]
+    },
+    "FE68": {
+      "name": "SMALL REVERSE SOLIDUS",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "reverse", "solidus"],
+      "aliases": ["small-reverse-solidus"]
+    },
+    "FE69": {
+      "name": "SMALL DOLLAR SIGN",
+      "category": "Symbol",
+      "keywords": ["small", "form", "variants", "dollar", "sign"],
+      "aliases": ["small-dollar-sign"]
+    },
+    "FE6A": {
+      "name": "SMALL PERCENT SIGN",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "percent", "sign"],
+      "aliases": ["small-percent-sign"]
+    },
+    "FE6B": {
+      "name": "SMALL COMMERCIAL AT",
+      "category": "Punctuation",
+      "keywords": ["small", "form", "variants", "commercial"],
+      "aliases": ["small-commercial-at"]
+    },
+    "FF01": {
+      "name": "FULLWIDTH EXCLAMATION MARK",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "exclamation", "mark"],
+      "aliases": ["fullwidth-exclamation-mark"]
+    },
+    "FF02": {
+      "name": "FULLWIDTH QUOTATION MARK",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "quotation", "mark"],
+      "aliases": ["fullwidth-quotation-mark"]
+    },
+    "FF03": {
+      "name": "FULLWIDTH NUMBER SIGN",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "number", "sign"],
+      "aliases": ["fullwidth-number-sign"]
+    },
+    "FF04": {
+      "name": "FULLWIDTH DOLLAR SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "dollar", "sign"],
+      "aliases": ["fullwidth-dollar-sign"]
+    },
+    "FF05": {
+      "name": "FULLWIDTH PERCENT SIGN",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "percent", "sign"],
+      "aliases": ["fullwidth-percent-sign"]
+    },
+    "FF06": {
+      "name": "FULLWIDTH AMPERSAND",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "ampersand"],
+      "aliases": ["fullwidth-ampersand"]
+    },
+    "FF07": {
+      "name": "FULLWIDTH APOSTROPHE",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "apostrophe"],
+      "aliases": ["fullwidth-apostrophe"]
+    },
+    "FF08": {
+      "name": "FULLWIDTH LEFT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "left",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["fullwidth-left-parenthesis"]
+    },
+    "FF09": {
+      "name": "FULLWIDTH RIGHT PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "right",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["fullwidth-right-parenthesis"]
+    },
+    "FF0A": {
+      "name": "FULLWIDTH ASTERISK",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "asterisk"],
+      "aliases": ["fullwidth-asterisk"]
+    },
+    "FF0B": {
+      "name": "FULLWIDTH PLUS SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "plus", "sign"],
+      "aliases": ["fullwidth-plus-sign"]
+    },
+    "FF0C": {
+      "name": "FULLWIDTH COMMA",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "comma"],
+      "aliases": ["fullwidth-comma"]
+    },
+    "FF0D": {
+      "name": "FULLWIDTH HYPHEN-MINUS",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hyphen", "minus", "dash"],
+      "aliases": ["fullwidth-hyphen-minus"]
+    },
+    "FF0E": {
+      "name": "FULLWIDTH FULL STOP",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "full", "stop"],
+      "aliases": ["fullwidth-full-stop"]
+    },
+    "FF0F": {
+      "name": "FULLWIDTH SOLIDUS",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "solidus"],
+      "aliases": ["fullwidth-solidus"]
+    },
+    "FF10": {
+      "name": "FULLWIDTH DIGIT ZERO",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "zero"],
+      "aliases": ["fullwidth-digit-zero"]
+    },
+    "FF11": {
+      "name": "FULLWIDTH DIGIT ONE",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "one"],
+      "aliases": ["fullwidth-digit-one"]
+    },
+    "FF12": {
+      "name": "FULLWIDTH DIGIT TWO",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "two"],
+      "aliases": ["fullwidth-digit-two"]
+    },
+    "FF13": {
+      "name": "FULLWIDTH DIGIT THREE",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "three"],
+      "aliases": ["fullwidth-digit-three"]
+    },
+    "FF14": {
+      "name": "FULLWIDTH DIGIT FOUR",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "four"],
+      "aliases": ["fullwidth-digit-four"]
+    },
+    "FF15": {
+      "name": "FULLWIDTH DIGIT FIVE",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "five"],
+      "aliases": ["fullwidth-digit-five"]
+    },
+    "FF16": {
+      "name": "FULLWIDTH DIGIT SIX",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "six"],
+      "aliases": ["fullwidth-digit-six"]
+    },
+    "FF17": {
+      "name": "FULLWIDTH DIGIT SEVEN",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "seven"],
+      "aliases": ["fullwidth-digit-seven"]
+    },
+    "FF18": {
+      "name": "FULLWIDTH DIGIT EIGHT",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "eight"],
+      "aliases": ["fullwidth-digit-eight"]
+    },
+    "FF19": {
+      "name": "FULLWIDTH DIGIT NINE",
+      "category": "Number",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "digit", "nine"],
+      "aliases": ["fullwidth-digit-nine"]
+    },
+    "FF1A": {
+      "name": "FULLWIDTH COLON",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "colon"],
+      "aliases": ["fullwidth-colon"]
+    },
+    "FF1B": {
+      "name": "FULLWIDTH SEMICOLON",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "semicolon"],
+      "aliases": ["fullwidth-semicolon"]
+    },
+    "FF1C": {
+      "name": "FULLWIDTH LESS-THAN SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "less", "than", "sign"],
+      "aliases": ["fullwidth-less-than-sign"]
+    },
+    "FF1D": {
+      "name": "FULLWIDTH EQUALS SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "equals", "sign"],
+      "aliases": ["fullwidth-equals-sign"]
+    },
+    "FF1E": {
+      "name": "FULLWIDTH GREATER-THAN SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "greater", "than", "sign"],
+      "aliases": ["fullwidth-greater-than-sign"]
+    },
+    "FF1F": {
+      "name": "FULLWIDTH QUESTION MARK",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "question", "mark"],
+      "aliases": ["fullwidth-question-mark"]
+    },
+    "FF20": {
+      "name": "FULLWIDTH COMMERCIAL AT",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "commercial"],
+      "aliases": ["fullwidth-commercial-at"]
+    },
+    "FF21": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER A",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-a"]
+    },
+    "FF22": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER B",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-b"]
+    },
+    "FF23": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER C",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-c"]
+    },
+    "FF24": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER D",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-d"]
+    },
+    "FF25": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER E",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-e"]
+    },
+    "FF26": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER F",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-f"]
+    },
+    "FF27": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER G",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-g"]
+    },
+    "FF28": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER H",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-h"]
+    },
+    "FF29": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER I",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-i"]
+    },
+    "FF2A": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER J",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-j"]
+    },
+    "FF2B": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER K",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-k"]
+    },
+    "FF2C": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER L",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-l"]
+    },
+    "FF2D": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER M",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-m"]
+    },
+    "FF2E": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER N",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-n"]
+    },
+    "FF2F": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER O",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-o"]
+    },
+    "FF30": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER P",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-p"]
+    },
+    "FF31": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER Q",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-q"]
+    },
+    "FF32": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER R",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-r"]
+    },
+    "FF33": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER S",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-s"]
+    },
+    "FF34": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER T",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-t"]
+    },
+    "FF35": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER U",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-u"]
+    },
+    "FF36": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER V",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-v"]
+    },
+    "FF37": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER W",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-w"]
+    },
+    "FF38": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER X",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-x"]
+    },
+    "FF39": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER Y",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-y"]
+    },
+    "FF3A": {
+      "name": "FULLWIDTH LATIN CAPITAL LETTER Z",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "capital",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-capital-letter-z"]
+    },
+    "FF3B": {
+      "name": "FULLWIDTH LEFT SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "left",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["fullwidth-left-square-bracket"]
+    },
+    "FF3C": {
+      "name": "FULLWIDTH REVERSE SOLIDUS",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "reverse", "solidus"],
+      "aliases": ["fullwidth-reverse-solidus"]
+    },
+    "FF3D": {
+      "name": "FULLWIDTH RIGHT SQUARE BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "right",
+        "square",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["fullwidth-right-square-bracket"]
+    },
+    "FF3E": {
+      "name": "FULLWIDTH CIRCUMFLEX ACCENT",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "circumflex", "accent"],
+      "aliases": ["fullwidth-circumflex-accent"]
+    },
+    "FF3F": {
+      "name": "FULLWIDTH LOW LINE",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "low", "line"],
+      "aliases": ["fullwidth-low-line"]
+    },
+    "FF40": {
+      "name": "FULLWIDTH GRAVE ACCENT",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "grave", "accent"],
+      "aliases": ["fullwidth-grave-accent"]
+    },
+    "FF41": {
+      "name": "FULLWIDTH LATIN SMALL LETTER A",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-a"]
+    },
+    "FF42": {
+      "name": "FULLWIDTH LATIN SMALL LETTER B",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-b"]
+    },
+    "FF43": {
+      "name": "FULLWIDTH LATIN SMALL LETTER C",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-c"]
+    },
+    "FF44": {
+      "name": "FULLWIDTH LATIN SMALL LETTER D",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-d"]
+    },
+    "FF45": {
+      "name": "FULLWIDTH LATIN SMALL LETTER E",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-e"]
+    },
+    "FF46": {
+      "name": "FULLWIDTH LATIN SMALL LETTER F",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-f"]
+    },
+    "FF47": {
+      "name": "FULLWIDTH LATIN SMALL LETTER G",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-g"]
+    },
+    "FF48": {
+      "name": "FULLWIDTH LATIN SMALL LETTER H",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-h"]
+    },
+    "FF49": {
+      "name": "FULLWIDTH LATIN SMALL LETTER I",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-i"]
+    },
+    "FF4A": {
+      "name": "FULLWIDTH LATIN SMALL LETTER J",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-j"]
+    },
+    "FF4B": {
+      "name": "FULLWIDTH LATIN SMALL LETTER K",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-k"]
+    },
+    "FF4C": {
+      "name": "FULLWIDTH LATIN SMALL LETTER L",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-l"]
+    },
+    "FF4D": {
+      "name": "FULLWIDTH LATIN SMALL LETTER M",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-m"]
+    },
+    "FF4E": {
+      "name": "FULLWIDTH LATIN SMALL LETTER N",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-n"]
+    },
+    "FF4F": {
+      "name": "FULLWIDTH LATIN SMALL LETTER O",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-o"]
+    },
+    "FF50": {
+      "name": "FULLWIDTH LATIN SMALL LETTER P",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-p"]
+    },
+    "FF51": {
+      "name": "FULLWIDTH LATIN SMALL LETTER Q",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-q"]
+    },
+    "FF52": {
+      "name": "FULLWIDTH LATIN SMALL LETTER R",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-r"]
+    },
+    "FF53": {
+      "name": "FULLWIDTH LATIN SMALL LETTER S",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-s"]
+    },
+    "FF54": {
+      "name": "FULLWIDTH LATIN SMALL LETTER T",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-t"]
+    },
+    "FF55": {
+      "name": "FULLWIDTH LATIN SMALL LETTER U",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-u"]
+    },
+    "FF56": {
+      "name": "FULLWIDTH LATIN SMALL LETTER V",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-v"]
+    },
+    "FF57": {
+      "name": "FULLWIDTH LATIN SMALL LETTER W",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-w"]
+    },
+    "FF58": {
+      "name": "FULLWIDTH LATIN SMALL LETTER X",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-x"]
+    },
+    "FF59": {
+      "name": "FULLWIDTH LATIN SMALL LETTER Y",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-y"]
+    },
+    "FF5A": {
+      "name": "FULLWIDTH LATIN SMALL LETTER Z",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["fullwidth-latin-small-letter-z"]
+    },
+    "FF5B": {
+      "name": "FULLWIDTH LEFT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "left",
+        "curly",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["fullwidth-left-curly-bracket"]
+    },
+    "FF5C": {
+      "name": "FULLWIDTH VERTICAL LINE",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "vertical", "line"],
+      "aliases": ["fullwidth-vertical-line"]
+    },
+    "FF5D": {
+      "name": "FULLWIDTH RIGHT CURLY BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "right",
+        "curly",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["fullwidth-right-curly-bracket"]
+    },
+    "FF5E": {
+      "name": "FULLWIDTH TILDE",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "tilde"],
+      "aliases": ["fullwidth-tilde"]
+    },
+    "FF5F": {
+      "name": "FULLWIDTH LEFT WHITE PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "left",
+        "white",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["fullwidth-left-white-parenthesis"]
+    },
+    "FF60": {
+      "name": "FULLWIDTH RIGHT WHITE PARENTHESIS",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "right",
+        "white",
+        "parenthesis",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["fullwidth-right-white-parenthesis"]
+    },
+    "FF61": {
+      "name": "HALFWIDTH IDEOGRAPHIC FULL STOP",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "ideographic", "full", "stop"],
+      "aliases": ["halfwidth-ideographic-full-stop"]
+    },
+    "FF62": {
+      "name": "HALFWIDTH LEFT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "left",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["halfwidth-left-corner-bracket"]
+    },
+    "FF63": {
+      "name": "HALFWIDTH RIGHT CORNER BRACKET",
+      "category": "Punctuation",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "right",
+        "corner",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["halfwidth-right-corner-bracket"]
+    },
+    "FF64": {
+      "name": "HALFWIDTH IDEOGRAPHIC COMMA",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "ideographic", "comma"],
+      "aliases": ["halfwidth-ideographic-comma"]
+    },
+    "FF65": {
+      "name": "HALFWIDTH KATAKANA MIDDLE DOT",
+      "category": "Punctuation",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "middle", "dot"],
+      "aliases": ["halfwidth-katakana-middle-dot"]
+    },
+    "FF66": {
+      "name": "HALFWIDTH KATAKANA LETTER WO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-wo"]
+    },
+    "FF67": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL A",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-a"]
+    },
+    "FF68": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL I",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-i"]
+    },
+    "FF69": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL U",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-u"]
+    },
+    "FF6A": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL E",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-e"]
+    },
+    "FF6B": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL O",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-o"]
+    },
+    "FF6C": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL YA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-ya"]
+    },
+    "FF6D": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL YU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-yu"]
+    },
+    "FF6E": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL YO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-yo"]
+    },
+    "FF6F": {
+      "name": "HALFWIDTH KATAKANA LETTER SMALL TU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter", "small"],
+      "aliases": ["halfwidth-katakana-letter-small-tu"]
+    },
+    "FF70": {
+      "name": "HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "katakana",
+        "hiragana",
+        "prolonged",
+        "sound",
+        "mark"
+      ],
+      "aliases": ["halfwidth-katakana-hiragana-prolonged-sound-mark"]
+    },
+    "FF71": {
+      "name": "HALFWIDTH KATAKANA LETTER A",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-a"]
+    },
+    "FF72": {
+      "name": "HALFWIDTH KATAKANA LETTER I",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-i"]
+    },
+    "FF73": {
+      "name": "HALFWIDTH KATAKANA LETTER U",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-u"]
+    },
+    "FF74": {
+      "name": "HALFWIDTH KATAKANA LETTER E",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-e"]
+    },
+    "FF75": {
+      "name": "HALFWIDTH KATAKANA LETTER O",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-o"]
+    },
+    "FF76": {
+      "name": "HALFWIDTH KATAKANA LETTER KA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ka"]
+    },
+    "FF77": {
+      "name": "HALFWIDTH KATAKANA LETTER KI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ki"]
+    },
+    "FF78": {
+      "name": "HALFWIDTH KATAKANA LETTER KU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ku"]
+    },
+    "FF79": {
+      "name": "HALFWIDTH KATAKANA LETTER KE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ke"]
+    },
+    "FF7A": {
+      "name": "HALFWIDTH KATAKANA LETTER KO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ko"]
+    },
+    "FF7B": {
+      "name": "HALFWIDTH KATAKANA LETTER SA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-sa"]
+    },
+    "FF7C": {
+      "name": "HALFWIDTH KATAKANA LETTER SI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-si"]
+    },
+    "FF7D": {
+      "name": "HALFWIDTH KATAKANA LETTER SU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-su"]
+    },
+    "FF7E": {
+      "name": "HALFWIDTH KATAKANA LETTER SE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-se"]
+    },
+    "FF7F": {
+      "name": "HALFWIDTH KATAKANA LETTER SO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-so"]
+    },
+    "FF80": {
+      "name": "HALFWIDTH KATAKANA LETTER TA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ta"]
+    },
+    "FF81": {
+      "name": "HALFWIDTH KATAKANA LETTER TI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ti"]
+    },
+    "FF82": {
+      "name": "HALFWIDTH KATAKANA LETTER TU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-tu"]
+    },
+    "FF83": {
+      "name": "HALFWIDTH KATAKANA LETTER TE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-te"]
+    },
+    "FF84": {
+      "name": "HALFWIDTH KATAKANA LETTER TO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-to"]
+    },
+    "FF85": {
+      "name": "HALFWIDTH KATAKANA LETTER NA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-na"]
+    },
+    "FF86": {
+      "name": "HALFWIDTH KATAKANA LETTER NI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ni"]
+    },
+    "FF87": {
+      "name": "HALFWIDTH KATAKANA LETTER NU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-nu"]
+    },
+    "FF88": {
+      "name": "HALFWIDTH KATAKANA LETTER NE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ne"]
+    },
+    "FF89": {
+      "name": "HALFWIDTH KATAKANA LETTER NO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-no"]
+    },
+    "FF8A": {
+      "name": "HALFWIDTH KATAKANA LETTER HA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ha"]
+    },
+    "FF8B": {
+      "name": "HALFWIDTH KATAKANA LETTER HI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-hi"]
+    },
+    "FF8C": {
+      "name": "HALFWIDTH KATAKANA LETTER HU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-hu"]
+    },
+    "FF8D": {
+      "name": "HALFWIDTH KATAKANA LETTER HE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-he"]
+    },
+    "FF8E": {
+      "name": "HALFWIDTH KATAKANA LETTER HO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ho"]
+    },
+    "FF8F": {
+      "name": "HALFWIDTH KATAKANA LETTER MA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ma"]
+    },
+    "FF90": {
+      "name": "HALFWIDTH KATAKANA LETTER MI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-mi"]
+    },
+    "FF91": {
+      "name": "HALFWIDTH KATAKANA LETTER MU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-mu"]
+    },
+    "FF92": {
+      "name": "HALFWIDTH KATAKANA LETTER ME",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-me"]
+    },
+    "FF93": {
+      "name": "HALFWIDTH KATAKANA LETTER MO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-mo"]
+    },
+    "FF94": {
+      "name": "HALFWIDTH KATAKANA LETTER YA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ya"]
+    },
+    "FF95": {
+      "name": "HALFWIDTH KATAKANA LETTER YU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-yu"]
+    },
+    "FF96": {
+      "name": "HALFWIDTH KATAKANA LETTER YO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-yo"]
+    },
+    "FF97": {
+      "name": "HALFWIDTH KATAKANA LETTER RA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ra"]
+    },
+    "FF98": {
+      "name": "HALFWIDTH KATAKANA LETTER RI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ri"]
+    },
+    "FF99": {
+      "name": "HALFWIDTH KATAKANA LETTER RU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ru"]
+    },
+    "FF9A": {
+      "name": "HALFWIDTH KATAKANA LETTER RE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-re"]
+    },
+    "FF9B": {
+      "name": "HALFWIDTH KATAKANA LETTER RO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-ro"]
+    },
+    "FF9C": {
+      "name": "HALFWIDTH KATAKANA LETTER WA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-wa"]
+    },
+    "FF9D": {
+      "name": "HALFWIDTH KATAKANA LETTER N",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "letter"],
+      "aliases": ["halfwidth-katakana-letter-n"]
+    },
+    "FF9E": {
+      "name": "HALFWIDTH KATAKANA VOICED SOUND MARK",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "katakana", "voiced", "sound", "mark"],
+      "aliases": ["halfwidth-katakana-voiced-sound-mark"]
+    },
+    "FF9F": {
+      "name": "HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "katakana",
+        "semi",
+        "voiced",
+        "sound",
+        "mark"
+      ],
+      "aliases": ["halfwidth-katakana-semi-voiced-sound-mark"]
+    },
+    "FFA0": {
+      "name": "HALFWIDTH HANGUL FILLER",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "filler"],
+      "aliases": ["halfwidth-hangul-filler"]
+    },
+    "FFA1": {
+      "name": "HALFWIDTH HANGUL LETTER KIYEOK",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "kiyeok"],
+      "aliases": ["halfwidth-hangul-letter-kiyeok"]
+    },
+    "FFA2": {
+      "name": "HALFWIDTH HANGUL LETTER SSANGKIYEOK",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ssangkiyeok"],
+      "aliases": ["halfwidth-hangul-letter-ssangkiyeok"]
+    },
+    "FFA3": {
+      "name": "HALFWIDTH HANGUL LETTER KIYEOK-SIOS",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "kiyeok", "sios"],
+      "aliases": ["halfwidth-hangul-letter-kiyeok-sios"]
+    },
+    "FFA4": {
+      "name": "HALFWIDTH HANGUL LETTER NIEUN",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "nieun"],
+      "aliases": ["halfwidth-hangul-letter-nieun"]
+    },
+    "FFA5": {
+      "name": "HALFWIDTH HANGUL LETTER NIEUN-CIEUC",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "nieun", "cieuc"],
+      "aliases": ["halfwidth-hangul-letter-nieun-cieuc"]
+    },
+    "FFA6": {
+      "name": "HALFWIDTH HANGUL LETTER NIEUN-HIEUH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "nieun", "hieuh"],
+      "aliases": ["halfwidth-hangul-letter-nieun-hieuh"]
+    },
+    "FFA7": {
+      "name": "HALFWIDTH HANGUL LETTER TIKEUT",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "tikeut"],
+      "aliases": ["halfwidth-hangul-letter-tikeut"]
+    },
+    "FFA8": {
+      "name": "HALFWIDTH HANGUL LETTER SSANGTIKEUT",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ssangtikeut"],
+      "aliases": ["halfwidth-hangul-letter-ssangtikeut"]
+    },
+    "FFA9": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul"],
+      "aliases": ["halfwidth-hangul-letter-rieul"]
+    },
+    "FFAA": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-KIYEOK",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul", "kiyeok"],
+      "aliases": ["halfwidth-hangul-letter-rieul-kiyeok"]
+    },
+    "FFAB": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-MIEUM",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul", "mieum"],
+      "aliases": ["halfwidth-hangul-letter-rieul-mieum"]
+    },
+    "FFAC": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-PIEUP",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul", "pieup"],
+      "aliases": ["halfwidth-hangul-letter-rieul-pieup"]
+    },
+    "FFAD": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-SIOS",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul", "sios"],
+      "aliases": ["halfwidth-hangul-letter-rieul-sios"]
+    },
+    "FFAE": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-THIEUTH",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "hangul",
+        "letter",
+        "rieul",
+        "thieuth"
+      ],
+      "aliases": ["halfwidth-hangul-letter-rieul-thieuth"]
+    },
+    "FFAF": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-PHIEUPH",
+      "category": "Letter",
+      "keywords": [
+        "halfwidth",
+        "and",
+        "fullwidth",
+        "forms",
+        "hangul",
+        "letter",
+        "rieul",
+        "phieuph"
+      ],
+      "aliases": ["halfwidth-hangul-letter-rieul-phieuph"]
+    },
+    "FFB0": {
+      "name": "HALFWIDTH HANGUL LETTER RIEUL-HIEUH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "rieul", "hieuh"],
+      "aliases": ["halfwidth-hangul-letter-rieul-hieuh"]
+    },
+    "FFB1": {
+      "name": "HALFWIDTH HANGUL LETTER MIEUM",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "mieum"],
+      "aliases": ["halfwidth-hangul-letter-mieum"]
+    },
+    "FFB2": {
+      "name": "HALFWIDTH HANGUL LETTER PIEUP",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "pieup"],
+      "aliases": ["halfwidth-hangul-letter-pieup"]
+    },
+    "FFB3": {
+      "name": "HALFWIDTH HANGUL LETTER SSANGPIEUP",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ssangpieup"],
+      "aliases": ["halfwidth-hangul-letter-ssangpieup"]
+    },
+    "FFB4": {
+      "name": "HALFWIDTH HANGUL LETTER PIEUP-SIOS",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "pieup", "sios"],
+      "aliases": ["halfwidth-hangul-letter-pieup-sios"]
+    },
+    "FFB5": {
+      "name": "HALFWIDTH HANGUL LETTER SIOS",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "sios"],
+      "aliases": ["halfwidth-hangul-letter-sios"]
+    },
+    "FFB6": {
+      "name": "HALFWIDTH HANGUL LETTER SSANGSIOS",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ssangsios"],
+      "aliases": ["halfwidth-hangul-letter-ssangsios"]
+    },
+    "FFB7": {
+      "name": "HALFWIDTH HANGUL LETTER IEUNG",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ieung"],
+      "aliases": ["halfwidth-hangul-letter-ieung"]
+    },
+    "FFB8": {
+      "name": "HALFWIDTH HANGUL LETTER CIEUC",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "cieuc"],
+      "aliases": ["halfwidth-hangul-letter-cieuc"]
+    },
+    "FFB9": {
+      "name": "HALFWIDTH HANGUL LETTER SSANGCIEUC",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "ssangcieuc"],
+      "aliases": ["halfwidth-hangul-letter-ssangcieuc"]
+    },
+    "FFBA": {
+      "name": "HALFWIDTH HANGUL LETTER CHIEUCH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "chieuch"],
+      "aliases": ["halfwidth-hangul-letter-chieuch"]
+    },
+    "FFBB": {
+      "name": "HALFWIDTH HANGUL LETTER KHIEUKH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "khieukh"],
+      "aliases": ["halfwidth-hangul-letter-khieukh"]
+    },
+    "FFBC": {
+      "name": "HALFWIDTH HANGUL LETTER THIEUTH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "thieuth"],
+      "aliases": ["halfwidth-hangul-letter-thieuth"]
+    },
+    "FFBD": {
+      "name": "HALFWIDTH HANGUL LETTER PHIEUPH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "phieuph"],
+      "aliases": ["halfwidth-hangul-letter-phieuph"]
+    },
+    "FFBE": {
+      "name": "HALFWIDTH HANGUL LETTER HIEUH",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "hieuh"],
+      "aliases": ["halfwidth-hangul-letter-hieuh"]
+    },
+    "FFC2": {
+      "name": "HALFWIDTH HANGUL LETTER A",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-a"]
+    },
+    "FFC3": {
+      "name": "HALFWIDTH HANGUL LETTER AE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-ae"]
+    },
+    "FFC4": {
+      "name": "HALFWIDTH HANGUL LETTER YA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-ya"]
+    },
+    "FFC5": {
+      "name": "HALFWIDTH HANGUL LETTER YAE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "yae"],
+      "aliases": ["halfwidth-hangul-letter-yae"]
+    },
+    "FFC6": {
+      "name": "HALFWIDTH HANGUL LETTER EO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-eo"]
+    },
+    "FFC7": {
+      "name": "HALFWIDTH HANGUL LETTER E",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-e"]
+    },
+    "FFCA": {
+      "name": "HALFWIDTH HANGUL LETTER YEO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "yeo"],
+      "aliases": ["halfwidth-hangul-letter-yeo"]
+    },
+    "FFCB": {
+      "name": "HALFWIDTH HANGUL LETTER YE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-ye"]
+    },
+    "FFCC": {
+      "name": "HALFWIDTH HANGUL LETTER O",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-o"]
+    },
+    "FFCD": {
+      "name": "HALFWIDTH HANGUL LETTER WA",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-wa"]
+    },
+    "FFCE": {
+      "name": "HALFWIDTH HANGUL LETTER WAE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "wae"],
+      "aliases": ["halfwidth-hangul-letter-wae"]
+    },
+    "FFCF": {
+      "name": "HALFWIDTH HANGUL LETTER OE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-oe"]
+    },
+    "FFD2": {
+      "name": "HALFWIDTH HANGUL LETTER YO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-yo"]
+    },
+    "FFD3": {
+      "name": "HALFWIDTH HANGUL LETTER U",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-u"]
+    },
+    "FFD4": {
+      "name": "HALFWIDTH HANGUL LETTER WEO",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter", "weo"],
+      "aliases": ["halfwidth-hangul-letter-weo"]
+    },
+    "FFD5": {
+      "name": "HALFWIDTH HANGUL LETTER WE",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-we"]
+    },
+    "FFD6": {
+      "name": "HALFWIDTH HANGUL LETTER WI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-wi"]
+    },
+    "FFD7": {
+      "name": "HALFWIDTH HANGUL LETTER YU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-yu"]
+    },
+    "FFDA": {
+      "name": "HALFWIDTH HANGUL LETTER EU",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-eu"]
+    },
+    "FFDB": {
+      "name": "HALFWIDTH HANGUL LETTER YI",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-yi"]
+    },
+    "FFDC": {
+      "name": "HALFWIDTH HANGUL LETTER I",
+      "category": "Letter",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "hangul", "letter"],
+      "aliases": ["halfwidth-hangul-letter-i"]
+    },
+    "FFE0": {
+      "name": "FULLWIDTH CENT SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "cent", "sign"],
+      "aliases": ["fullwidth-cent-sign"]
+    },
+    "FFE1": {
+      "name": "FULLWIDTH POUND SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "pound", "sign"],
+      "aliases": ["fullwidth-pound-sign"]
+    },
+    "FFE2": {
+      "name": "FULLWIDTH NOT SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "not", "sign"],
+      "aliases": ["fullwidth-not-sign"]
+    },
+    "FFE3": {
+      "name": "FULLWIDTH MACRON",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "macron"],
+      "aliases": ["fullwidth-macron"]
+    },
+    "FFE4": {
+      "name": "FULLWIDTH BROKEN BAR",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "broken", "bar"],
+      "aliases": ["fullwidth-broken-bar"]
+    },
+    "FFE5": {
+      "name": "FULLWIDTH YEN SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "yen", "sign"],
+      "aliases": ["fullwidth-yen-sign"]
+    },
+    "FFE6": {
+      "name": "FULLWIDTH WON SIGN",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "won", "sign"],
+      "aliases": ["fullwidth-won-sign"]
+    },
+    "FFE8": {
+      "name": "HALFWIDTH FORMS LIGHT VERTICAL",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "light", "vertical"],
+      "aliases": ["halfwidth-forms-light-vertical"]
+    },
+    "FFE9": {
+      "name": "HALFWIDTH LEFTWARDS ARROW",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "leftwards", "arrow", "direction"],
+      "aliases": ["halfwidth-leftwards-arrow"]
+    },
+    "FFEA": {
+      "name": "HALFWIDTH UPWARDS ARROW",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "upwards", "arrow", "direction"],
+      "aliases": ["halfwidth-upwards-arrow"]
+    },
+    "FFEB": {
+      "name": "HALFWIDTH RIGHTWARDS ARROW",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "rightwards", "arrow", "direction"],
+      "aliases": ["halfwidth-rightwards-arrow"]
+    },
+    "FFEC": {
+      "name": "HALFWIDTH DOWNWARDS ARROW",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "downwards", "arrow", "direction"],
+      "aliases": ["halfwidth-downwards-arrow"]
+    },
+    "FFED": {
+      "name": "HALFWIDTH BLACK SQUARE",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "black", "square"],
+      "aliases": ["halfwidth-black-square"]
+    },
+    "FFEE": {
+      "name": "HALFWIDTH WHITE CIRCLE",
+      "category": "Symbol",
+      "keywords": ["halfwidth", "and", "fullwidth", "forms", "white", "circle"],
+      "aliases": ["halfwidth-white-circle"]
+    }
+  }
+}

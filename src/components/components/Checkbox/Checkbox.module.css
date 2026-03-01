@@ -1,0 +1,76 @@
+/**
+ * Checkbox - Styled native checkbox for settings and forms.
+ * Uses design tokens; checkmark via SVG mask for accent contrast.
+ */
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  cursor: auto;
+  user-select: none;
+}
+
+.input {
+  appearance: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  margin: 0;
+  border: 2px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-input);
+  cursor: auto;
+  transition: var(--transition-state);
+  position: relative;
+}
+
+.input:hover:not(:disabled) {
+  border-color: var(--text-secondary);
+}
+
+.input:focus-visible {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px oklch(from var(--border-focus) l c h / var(--state-focus-ring-opacity));
+}
+
+.input:checked {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+  background-image: none;
+}
+
+/* Checkmark via mask so color follows --text-on-accent for contrast on light accents */
+.input:checked::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--text-on-accent);
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 8l3 3 7-7'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 8l3 3 7-7'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+}
+
+.input:checked:hover:not(:disabled) {
+  background-color: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.input:disabled,
+.input[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+}
+
+.label:has(.input:disabled),
+.label:has(.input[aria-disabled="true"]) {
+  cursor: var(--state-disabled-cursor);
+}

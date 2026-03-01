@@ -1,0 +1,24 @@
+/**
+ * ICON SEMANTIC TOKENS
+ * Colors and context sizes for icons. References color and spacing primitives.
+ * Depends on tokens.color.css, tokens.spacing.css, tokens.typography.css.
+ */
+
+:root {
+  /* ==========================================
+     ICON COLORS (semantic)
+     ========================================== */
+  --icon-color-default: var(--text-secondary);
+  --icon-color-muted: var(--text-tertiary);
+  --icon-color-strong: var(--text-primary);
+  --icon-color-on-accent: var(--text-on-accent);
+  --icon-color-disabled: var(--text-disabled);
+
+  /* ==========================================
+     GLYPH / TEXT-ICON (Quicksand)
+     Size/weight from tokens.typography; aliases for component use.
+     ========================================== */
+  --icon-glyph-weight: var(--font-icons-weight);
+  --icon-glyph-weight-emphasis: var(--font-icons-weight-max);
+  --icon-glyph-size-ratio: var(--font-icons-size-small-ratio);
+}

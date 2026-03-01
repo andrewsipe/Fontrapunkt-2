@@ -1,0 +1,337 @@
+/**
+ * NEUTRAL TONAL PALETTES
+ * Primitive steps for bg (background) and fg (foreground).
+ * Centralizes lightness and chroma; hue from tokens.foundation (--base-hue-*, --base-chroma-*).
+ * oklch() reference: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch
+ *
+ * Chroma uses a sine curve per step (sin(stepIndex * pi)) so chroma peaks in the middle
+ * of the lightness scale and drops at extremes. useTheme sets --base-chroma-* (peak);
+ * this file applies the curve. Step indices are precomputed per token (see plan).
+ *
+ * Usage:
+ *   bg = backgrounds only (canvas, surfaces, panels, inputs, hover, etc.)
+ *   fg = text/icons only (primary, secondary, tertiary, disabled, etc.)
+ *
+ * ==========================================
+ * BG PALETTE: 1 pure + 5 layers × (more, base, less)
+ * Layers: 1=canvas, 2=surface, 3=panel, 4=input, 5=hover.
+ * ==========================================
+ */
+
+:root {
+  color-scheme: light dark;
+
+  /* For sine-curve chroma: sin(stepIndex * var(--tone-pi)) */
+  --tone-pi: 3.141592653589793;
+
+  /* Canvas: font-rendering container only. Bespoke off-white / rich black to reduce halation. */
+  --canvas-bg-light: oklch(0.98 0.003 85);
+  --canvas-bg-dark: oklch(0.1448 0.002 260);
+  --canvas-fg-light: oklch(0.1448 0.002 260);
+  --canvas-fg-dark: oklch(0.98 0.003 85);
+
+  /* ==========================================
+	   NEUTRAL BG — flat chroma fallback (browsers without sin())
+	   ========================================== */
+  --neutral-bg-pure: light-dark(
+    oklch(0.99 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.01 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* Layer 1 (canvas): delta 0.015 */
+  --neutral-bg-1-more: light-dark(
+    oklch(0.985 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.135 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-1: light-dark(
+    oklch(0.97 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.15 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-1-less: light-dark(
+    oklch(0.955 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.165 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* Layer 2 (surface): delta 0.02 */
+  --neutral-bg-2-more: light-dark(
+    oklch(0.935 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.185 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-2: light-dark(
+    oklch(0.92 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.205 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-2-less: light-dark(
+    oklch(0.905 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.225 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* Layer 3 (panel): delta 0.025 */
+  --neutral-bg-3-more: light-dark(
+    oklch(0.885 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.25 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-3: light-dark(
+    oklch(0.87 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.275 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-3-less: light-dark(
+    oklch(0.855 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.3 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* Layer 4 (input): delta 0.03 */
+  --neutral-bg-4-more: light-dark(
+    oklch(0.835 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.33 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-4: light-dark(
+    oklch(0.82 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.36 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-4-less: light-dark(
+    oklch(0.805 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.39 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* Layer 5 (hover): delta 0.035 */
+  --neutral-bg-5-more: light-dark(
+    oklch(0.785 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.425 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-5: light-dark(
+    oklch(0.77 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.46 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-bg-5-less: light-dark(
+    oklch(0.755 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.495 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+
+  /* ==========================================
+	   NEUTRAL FG — flat chroma fallback
+	   ========================================== */
+  --neutral-fg-pure: light-dark(
+    oklch(0.1 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.99 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-fg-1: light-dark(
+    oklch(0.2 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.95 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-fg-2: light-dark(
+    oklch(0.32 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.82 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-fg-3: light-dark(
+    oklch(0.42 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.72 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-fg-4: light-dark(
+    oklch(0.45 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.68 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+  --neutral-fg-5: light-dark(
+    oklch(0.52 var(--base-chroma-light) var(--base-hue-light)),
+    oklch(0.62 var(--base-chroma-dark) var(--base-hue-dark))
+  );
+}
+
+/* Curved chroma (sine per step) for browsers that support sin() */
+@supports (opacity: calc(sin(0.5 * 3.141592653589793))) {
+  :root {
+    --neutral-bg-pure: light-dark(
+      oklch(
+        0.99 calc(var(--base-chroma-light) * sin(calc(0 * var(--tone-pi)))) var(--base-hue-light)
+      ),
+      oklch(0.01 calc(var(--base-chroma-dark) * sin(calc(0 * var(--tone-pi)))) var(--base-hue-dark))
+    );
+
+    --neutral-bg-1-more: light-dark(
+      oklch(
+        0.985 calc(var(--base-chroma-light) * sin(calc(0.021 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.135 calc(var(--base-chroma-dark) * sin(calc(0.258 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-1: light-dark(
+      oklch(
+        0.97 calc(var(--base-chroma-light) * sin(calc(0.085 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.15 calc(var(--base-chroma-dark) * sin(calc(0.289 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-1-less: light-dark(
+      oklch(
+        0.955 calc(var(--base-chroma-light) * sin(calc(0.149 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.165 calc(var(--base-chroma-dark) * sin(calc(0.32 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+
+    --neutral-bg-2-more: light-dark(
+      oklch(
+        0.935 calc(var(--base-chroma-light) * sin(calc(0.234 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.185 calc(var(--base-chroma-dark) * sin(calc(0.361 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-2: light-dark(
+      oklch(
+        0.92 calc(var(--base-chroma-light) * sin(calc(0.298 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.205 calc(var(--base-chroma-dark) * sin(calc(0.402 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-2-less: light-dark(
+      oklch(
+        0.905 calc(var(--base-chroma-light) * sin(calc(0.362 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.225 calc(var(--base-chroma-dark) * sin(calc(0.443 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+
+    --neutral-bg-3-more: light-dark(
+      oklch(
+        0.885 calc(var(--base-chroma-light) * sin(calc(0.447 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.25 calc(var(--base-chroma-dark) * sin(calc(0.495 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-3: light-dark(
+      oklch(
+        0.87 calc(var(--base-chroma-light) * sin(calc(0.511 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.275 calc(var(--base-chroma-dark) * sin(calc(0.546 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-3-less: light-dark(
+      oklch(
+        0.855 calc(var(--base-chroma-light) * sin(calc(0.574 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.3 calc(var(--base-chroma-dark) * sin(calc(0.597 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+
+    --neutral-bg-4-more: light-dark(
+      oklch(
+        0.835 calc(var(--base-chroma-light) * sin(calc(0.66 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.33 calc(var(--base-chroma-dark) * sin(calc(0.66 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-4: light-dark(
+      oklch(
+        0.82 calc(var(--base-chroma-light) * sin(calc(0.723 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.36 calc(var(--base-chroma-dark) * sin(calc(0.722 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-4-less: light-dark(
+      oklch(
+        0.805 calc(var(--base-chroma-light) * sin(calc(0.787 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.39 calc(var(--base-chroma-dark) * sin(calc(0.784 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+
+    --neutral-bg-5-more: light-dark(
+      oklch(
+        0.785 calc(var(--base-chroma-light) * sin(calc(0.872 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.425 calc(var(--base-chroma-dark) * sin(calc(0.856 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-5: light-dark(
+      oklch(
+        0.77 calc(var(--base-chroma-light) * sin(calc(0.936 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.46 calc(var(--base-chroma-dark) * sin(calc(0.928 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-bg-5-less: light-dark(
+      oklch(
+        0.755 calc(var(--base-chroma-light) * sin(calc(1 * var(--tone-pi)))) var(--base-hue-light)
+      ),
+      oklch(
+        0.495 calc(var(--base-chroma-dark) * sin(calc(1 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+
+    --neutral-fg-pure: light-dark(
+      oklch(
+        0.1 calc(var(--base-chroma-light) * sin(calc(0 * var(--tone-pi)))) var(--base-hue-light)
+      ),
+      oklch(0.99 calc(var(--base-chroma-dark) * sin(calc(0 * var(--tone-pi)))) var(--base-hue-dark))
+    );
+    --neutral-fg-1: light-dark(
+      oklch(
+        0.2 calc(var(--base-chroma-light) * sin(calc(0.238 * var(--tone-pi)))) var(--base-hue-light)
+      ),
+      oklch(
+        0.95 calc(var(--base-chroma-dark) * sin(calc(0.108 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-fg-2: light-dark(
+      oklch(
+        0.32 calc(var(--base-chroma-light) * sin(calc(0.524 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.82 calc(var(--base-chroma-dark) * sin(calc(0.459 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-fg-3: light-dark(
+      oklch(
+        0.42 calc(var(--base-chroma-light) * sin(calc(0.762 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.72 calc(var(--base-chroma-dark) * sin(calc(0.73 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-fg-4: light-dark(
+      oklch(
+        0.45 calc(var(--base-chroma-light) * sin(calc(0.833 * var(--tone-pi))))
+          var(--base-hue-light)
+      ),
+      oklch(
+        0.68 calc(var(--base-chroma-dark) * sin(calc(0.838 * var(--tone-pi)))) var(--base-hue-dark)
+      )
+    );
+    --neutral-fg-5: light-dark(
+      oklch(
+        0.52 calc(var(--base-chroma-light) * sin(calc(1 * var(--tone-pi)))) var(--base-hue-light)
+      ),
+      oklch(0.62 calc(var(--base-chroma-dark) * sin(calc(1 * var(--tone-pi)))) var(--base-hue-dark))
+    );
+  }
+}

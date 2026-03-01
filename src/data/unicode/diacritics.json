@@ -1,0 +1,2941 @@
+{
+  "category": "diacritics",
+  "blocks": [
+    "Combining Diacritical Marks",
+    "Combining Diacritical Marks Extended",
+    "Combining Diacritical Marks Supplement",
+    "Combining Half Marks",
+    "Spacing Modifier Letters"
+  ],
+  "characters": {
+    "02B0": {
+      "name": "MODIFIER LETTER SMALL H",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-h"]
+    },
+    "02B1": {
+      "name": "MODIFIER LETTER SMALL H WITH HOOK",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small", "with", "hook"],
+      "aliases": ["modifier-letter-small-h-with-hook"]
+    },
+    "02B2": {
+      "name": "MODIFIER LETTER SMALL J",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-j"]
+    },
+    "02B3": {
+      "name": "MODIFIER LETTER SMALL R",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-r"]
+    },
+    "02B4": {
+      "name": "MODIFIER LETTER SMALL TURNED R",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small", "turned"],
+      "aliases": ["modifier-letter-small-turned-r"]
+    },
+    "02B5": {
+      "name": "MODIFIER LETTER SMALL TURNED R WITH HOOK",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small", "turned", "with", "hook"],
+      "aliases": ["modifier-letter-small-turned-r-with-hook"]
+    },
+    "02B6": {
+      "name": "MODIFIER LETTER SMALL CAPITAL INVERTED R",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small", "capital", "inverted"],
+      "aliases": ["modifier-letter-small-capital-inverted-r"]
+    },
+    "02B7": {
+      "name": "MODIFIER LETTER SMALL W",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-w"]
+    },
+    "02B8": {
+      "name": "MODIFIER LETTER SMALL Y",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-y"]
+    },
+    "02B9": {
+      "name": "MODIFIER LETTER PRIME",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "prime"],
+      "aliases": ["modifier-letter-prime"]
+    },
+    "02BA": {
+      "name": "MODIFIER LETTER DOUBLE PRIME",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "double", "prime"],
+      "aliases": ["modifier-letter-double-prime"]
+    },
+    "02BB": {
+      "name": "MODIFIER LETTER TURNED COMMA",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "turned", "comma"],
+      "aliases": ["modifier-letter-turned-comma"]
+    },
+    "02BC": {
+      "name": "MODIFIER LETTER APOSTROPHE",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "apostrophe"],
+      "aliases": ["modifier-letter-apostrophe"]
+    },
+    "02BD": {
+      "name": "MODIFIER LETTER REVERSED COMMA",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "reversed", "comma"],
+      "aliases": ["modifier-letter-reversed-comma"]
+    },
+    "02BE": {
+      "name": "MODIFIER LETTER RIGHT HALF RING",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "right", "half", "ring"],
+      "aliases": ["modifier-letter-right-half-ring"]
+    },
+    "02BF": {
+      "name": "MODIFIER LETTER LEFT HALF RING",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "left", "half", "ring"],
+      "aliases": ["modifier-letter-left-half-ring"]
+    },
+    "02C0": {
+      "name": "MODIFIER LETTER GLOTTAL STOP",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "glottal", "stop"],
+      "aliases": ["modifier-letter-glottal-stop"]
+    },
+    "02C1": {
+      "name": "MODIFIER LETTER REVERSED GLOTTAL STOP",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "reversed", "glottal", "stop"],
+      "aliases": ["modifier-letter-reversed-glottal-stop"]
+    },
+    "02C2": {
+      "name": "MODIFIER LETTER LEFT ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "left",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-left-arrowhead"]
+    },
+    "02C3": {
+      "name": "MODIFIER LETTER RIGHT ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "right",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-right-arrowhead"]
+    },
+    "02C4": {
+      "name": "MODIFIER LETTER UP ARROWHEAD",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "arrowhead", "arrow", "direction"],
+      "aliases": ["modifier-letter-up-arrowhead"]
+    },
+    "02C5": {
+      "name": "MODIFIER LETTER DOWN ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "down",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-down-arrowhead"]
+    },
+    "02C6": {
+      "name": "MODIFIER LETTER CIRCUMFLEX ACCENT",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "circumflex", "accent"],
+      "aliases": ["modifier-letter-circumflex-accent"]
+    },
+    "02C7": {
+      "name": "CARON",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "caron"],
+      "aliases": ["caron"]
+    },
+    "02C8": {
+      "name": "MODIFIER LETTER VERTICAL LINE",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "vertical", "line"],
+      "aliases": ["modifier-letter-vertical-line"]
+    },
+    "02C9": {
+      "name": "MODIFIER LETTER MACRON",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "macron"],
+      "aliases": ["modifier-letter-macron"]
+    },
+    "02CA": {
+      "name": "MODIFIER LETTER ACUTE ACCENT",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "acute", "accent"],
+      "aliases": ["modifier-letter-acute-accent"]
+    },
+    "02CB": {
+      "name": "MODIFIER LETTER GRAVE ACCENT",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "grave", "accent"],
+      "aliases": ["modifier-letter-grave-accent"]
+    },
+    "02CC": {
+      "name": "MODIFIER LETTER LOW VERTICAL LINE",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "vertical", "line"],
+      "aliases": ["modifier-letter-low-vertical-line"]
+    },
+    "02CD": {
+      "name": "MODIFIER LETTER LOW MACRON",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "macron"],
+      "aliases": ["modifier-letter-low-macron"]
+    },
+    "02CE": {
+      "name": "MODIFIER LETTER LOW GRAVE ACCENT",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "grave", "accent"],
+      "aliases": ["modifier-letter-low-grave-accent"]
+    },
+    "02CF": {
+      "name": "MODIFIER LETTER LOW ACUTE ACCENT",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "acute", "accent"],
+      "aliases": ["modifier-letter-low-acute-accent"]
+    },
+    "02D0": {
+      "name": "MODIFIER LETTER TRIANGULAR COLON",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "triangular", "colon"],
+      "aliases": ["modifier-letter-triangular-colon"]
+    },
+    "02D1": {
+      "name": "MODIFIER LETTER HALF TRIANGULAR COLON",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "half", "triangular", "colon"],
+      "aliases": ["modifier-letter-half-triangular-colon"]
+    },
+    "02D2": {
+      "name": "MODIFIER LETTER CENTRED RIGHT HALF RING",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "centred", "right", "half", "ring"],
+      "aliases": ["modifier-letter-centred-right-half-ring"]
+    },
+    "02D3": {
+      "name": "MODIFIER LETTER CENTRED LEFT HALF RING",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "centred", "left", "half", "ring"],
+      "aliases": ["modifier-letter-centred-left-half-ring"]
+    },
+    "02D4": {
+      "name": "MODIFIER LETTER UP TACK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "tack"],
+      "aliases": ["modifier-letter-up-tack"]
+    },
+    "02D5": {
+      "name": "MODIFIER LETTER DOWN TACK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "down", "tack"],
+      "aliases": ["modifier-letter-down-tack"]
+    },
+    "02D6": {
+      "name": "MODIFIER LETTER PLUS SIGN",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "plus", "sign"],
+      "aliases": ["modifier-letter-plus-sign"]
+    },
+    "02D7": {
+      "name": "MODIFIER LETTER MINUS SIGN",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "minus", "sign"],
+      "aliases": ["modifier-letter-minus-sign"]
+    },
+    "02D8": {
+      "name": "BREVE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "breve"],
+      "aliases": ["breve"]
+    },
+    "02D9": {
+      "name": "DOT ABOVE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "dot", "above"],
+      "aliases": ["dot-above"]
+    },
+    "02DA": {
+      "name": "RING ABOVE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "ring", "above"],
+      "aliases": ["ring-above"]
+    },
+    "02DB": {
+      "name": "OGONEK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "ogonek"],
+      "aliases": ["ogonek"]
+    },
+    "02DC": {
+      "name": "SMALL TILDE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "small", "tilde"],
+      "aliases": ["small-tilde"]
+    },
+    "02DD": {
+      "name": "DOUBLE ACUTE ACCENT",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "double", "acute", "accent"],
+      "aliases": ["double-acute-accent"]
+    },
+    "02DE": {
+      "name": "MODIFIER LETTER RHOTIC HOOK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "rhotic", "hook"],
+      "aliases": ["modifier-letter-rhotic-hook"]
+    },
+    "02DF": {
+      "name": "MODIFIER LETTER CROSS ACCENT",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "cross", "accent"],
+      "aliases": ["modifier-letter-cross-accent"]
+    },
+    "02E0": {
+      "name": "MODIFIER LETTER SMALL GAMMA",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small", "gamma"],
+      "aliases": ["modifier-letter-small-gamma"]
+    },
+    "02E1": {
+      "name": "MODIFIER LETTER SMALL L",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-l"]
+    },
+    "02E2": {
+      "name": "MODIFIER LETTER SMALL S",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-s"]
+    },
+    "02E3": {
+      "name": "MODIFIER LETTER SMALL X",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "small"],
+      "aliases": ["modifier-letter-small-x"]
+    },
+    "02E4": {
+      "name": "MODIFIER LETTER SMALL REVERSED GLOTTAL STOP",
+      "category": "Letter",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "small",
+        "reversed",
+        "glottal",
+        "stop"
+      ],
+      "aliases": ["modifier-letter-small-reversed-glottal-stop"]
+    },
+    "02E5": {
+      "name": "MODIFIER LETTER EXTRA-HIGH TONE BAR",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "extra", "high", "tone", "bar"],
+      "aliases": ["modifier-letter-extra-high-tone-bar"]
+    },
+    "02E6": {
+      "name": "MODIFIER LETTER HIGH TONE BAR",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "high", "tone", "bar"],
+      "aliases": ["modifier-letter-high-tone-bar"]
+    },
+    "02E7": {
+      "name": "MODIFIER LETTER MID TONE BAR",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "mid", "tone", "bar"],
+      "aliases": ["modifier-letter-mid-tone-bar"]
+    },
+    "02E8": {
+      "name": "MODIFIER LETTER LOW TONE BAR",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "tone", "bar"],
+      "aliases": ["modifier-letter-low-tone-bar"]
+    },
+    "02E9": {
+      "name": "MODIFIER LETTER EXTRA-LOW TONE BAR",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "extra", "low", "tone", "bar"],
+      "aliases": ["modifier-letter-extra-low-tone-bar"]
+    },
+    "02EA": {
+      "name": "MODIFIER LETTER YIN DEPARTING TONE MARK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "yin", "departing", "tone", "mark"],
+      "aliases": ["modifier-letter-yin-departing-tone-mark"]
+    },
+    "02EB": {
+      "name": "MODIFIER LETTER YANG DEPARTING TONE MARK",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "yang", "departing", "tone", "mark"],
+      "aliases": ["modifier-letter-yang-departing-tone-mark"]
+    },
+    "02EC": {
+      "name": "MODIFIER LETTER VOICING",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "voicing"],
+      "aliases": ["modifier-letter-voicing"]
+    },
+    "02ED": {
+      "name": "MODIFIER LETTER UNASPIRATED",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "unaspirated"],
+      "aliases": ["modifier-letter-unaspirated"]
+    },
+    "02EE": {
+      "name": "MODIFIER LETTER DOUBLE APOSTROPHE",
+      "category": "Letter",
+      "keywords": ["spacing", "modifier", "letters", "letter", "double", "apostrophe"],
+      "aliases": ["modifier-letter-double-apostrophe"]
+    },
+    "02EF": {
+      "name": "MODIFIER LETTER LOW DOWN ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "low",
+        "down",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-low-down-arrowhead"]
+    },
+    "02F0": {
+      "name": "MODIFIER LETTER LOW UP ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "low",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-low-up-arrowhead"]
+    },
+    "02F1": {
+      "name": "MODIFIER LETTER LOW LEFT ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "low",
+        "left",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-low-left-arrowhead"]
+    },
+    "02F2": {
+      "name": "MODIFIER LETTER LOW RIGHT ARROWHEAD",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "low",
+        "right",
+        "arrowhead",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["modifier-letter-low-right-arrowhead"]
+    },
+    "02F3": {
+      "name": "MODIFIER LETTER LOW RING",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "ring"],
+      "aliases": ["modifier-letter-low-ring"]
+    },
+    "02F4": {
+      "name": "MODIFIER LETTER MIDDLE GRAVE ACCENT",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "middle", "grave", "accent"],
+      "aliases": ["modifier-letter-middle-grave-accent"]
+    },
+    "02F5": {
+      "name": "MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "middle",
+        "double",
+        "grave",
+        "accent"
+      ],
+      "aliases": ["modifier-letter-middle-double-grave-accent"]
+    },
+    "02F6": {
+      "name": "MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT",
+      "category": "Symbol",
+      "keywords": [
+        "spacing",
+        "modifier",
+        "letters",
+        "letter",
+        "middle",
+        "double",
+        "acute",
+        "accent"
+      ],
+      "aliases": ["modifier-letter-middle-double-acute-accent"]
+    },
+    "02F7": {
+      "name": "MODIFIER LETTER LOW TILDE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "tilde"],
+      "aliases": ["modifier-letter-low-tilde"]
+    },
+    "02F8": {
+      "name": "MODIFIER LETTER RAISED COLON",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "raised", "colon"],
+      "aliases": ["modifier-letter-raised-colon"]
+    },
+    "02F9": {
+      "name": "MODIFIER LETTER BEGIN HIGH TONE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "begin", "high", "tone"],
+      "aliases": ["modifier-letter-begin-high-tone"]
+    },
+    "02FA": {
+      "name": "MODIFIER LETTER END HIGH TONE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "end", "high", "tone"],
+      "aliases": ["modifier-letter-end-high-tone"]
+    },
+    "02FB": {
+      "name": "MODIFIER LETTER BEGIN LOW TONE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "begin", "low", "tone"],
+      "aliases": ["modifier-letter-begin-low-tone"]
+    },
+    "02FC": {
+      "name": "MODIFIER LETTER END LOW TONE",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "end", "low", "tone"],
+      "aliases": ["modifier-letter-end-low-tone"]
+    },
+    "02FD": {
+      "name": "MODIFIER LETTER SHELF",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "shelf"],
+      "aliases": ["modifier-letter-shelf"]
+    },
+    "02FE": {
+      "name": "MODIFIER LETTER OPEN SHELF",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "open", "shelf"],
+      "aliases": ["modifier-letter-open-shelf"]
+    },
+    "02FF": {
+      "name": "MODIFIER LETTER LOW LEFT ARROW",
+      "category": "Symbol",
+      "keywords": ["spacing", "modifier", "letters", "letter", "low", "left", "arrow", "direction"],
+      "aliases": ["modifier-letter-low-left-arrow"]
+    },
+    "0300": {
+      "name": "COMBINING GRAVE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "grave", "accent"],
+      "aliases": ["combining-grave-accent"]
+    },
+    "0301": {
+      "name": "COMBINING ACUTE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "acute", "accent"],
+      "aliases": ["combining-acute-accent"]
+    },
+    "0302": {
+      "name": "COMBINING CIRCUMFLEX ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "circumflex", "accent"],
+      "aliases": ["combining-circumflex-accent"]
+    },
+    "0303": {
+      "name": "COMBINING TILDE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "tilde"],
+      "aliases": ["combining-tilde"]
+    },
+    "0304": {
+      "name": "COMBINING MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "macron"],
+      "aliases": ["combining-macron"]
+    },
+    "0305": {
+      "name": "COMBINING OVERLINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "overline"],
+      "aliases": ["combining-overline"]
+    },
+    "0306": {
+      "name": "COMBINING BREVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "breve"],
+      "aliases": ["combining-breve"]
+    },
+    "0307": {
+      "name": "COMBINING DOT ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "dot", "above"],
+      "aliases": ["combining-dot-above"]
+    },
+    "0308": {
+      "name": "COMBINING DIAERESIS",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "diaeresis"],
+      "aliases": ["combining-diaeresis"]
+    },
+    "0309": {
+      "name": "COMBINING HOOK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "hook", "above"],
+      "aliases": ["combining-hook-above"]
+    },
+    "030A": {
+      "name": "COMBINING RING ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "ring", "above"],
+      "aliases": ["combining-ring-above"]
+    },
+    "030B": {
+      "name": "COMBINING DOUBLE ACUTE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "acute", "accent"],
+      "aliases": ["combining-double-acute-accent"]
+    },
+    "030C": {
+      "name": "COMBINING CARON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "caron"],
+      "aliases": ["combining-caron"]
+    },
+    "030D": {
+      "name": "COMBINING VERTICAL LINE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "vertical", "line", "above"],
+      "aliases": ["combining-vertical-line-above"]
+    },
+    "030E": {
+      "name": "COMBINING DOUBLE VERTICAL LINE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "vertical", "line", "above"],
+      "aliases": ["combining-double-vertical-line-above"]
+    },
+    "030F": {
+      "name": "COMBINING DOUBLE GRAVE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "grave", "accent"],
+      "aliases": ["combining-double-grave-accent"]
+    },
+    "0310": {
+      "name": "COMBINING CANDRABINDU",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "candrabindu"],
+      "aliases": ["combining-candrabindu"]
+    },
+    "0311": {
+      "name": "COMBINING INVERTED BREVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "inverted", "breve"],
+      "aliases": ["combining-inverted-breve"]
+    },
+    "0312": {
+      "name": "COMBINING TURNED COMMA ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "turned", "comma", "above"],
+      "aliases": ["combining-turned-comma-above"]
+    },
+    "0313": {
+      "name": "COMBINING COMMA ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "comma", "above"],
+      "aliases": ["combining-comma-above"]
+    },
+    "0314": {
+      "name": "COMBINING REVERSED COMMA ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "reversed", "comma", "above"],
+      "aliases": ["combining-reversed-comma-above"]
+    },
+    "0315": {
+      "name": "COMBINING COMMA ABOVE RIGHT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "comma", "above", "right"],
+      "aliases": ["combining-comma-above-right"]
+    },
+    "0316": {
+      "name": "COMBINING GRAVE ACCENT BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "grave", "accent", "below"],
+      "aliases": ["combining-grave-accent-below"]
+    },
+    "0317": {
+      "name": "COMBINING ACUTE ACCENT BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "acute", "accent", "below"],
+      "aliases": ["combining-acute-accent-below"]
+    },
+    "0318": {
+      "name": "COMBINING LEFT TACK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "left", "tack", "below"],
+      "aliases": ["combining-left-tack-below"]
+    },
+    "0319": {
+      "name": "COMBINING RIGHT TACK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "right", "tack", "below"],
+      "aliases": ["combining-right-tack-below"]
+    },
+    "031A": {
+      "name": "COMBINING LEFT ANGLE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "left", "angle", "above"],
+      "aliases": ["combining-left-angle-above"]
+    },
+    "031B": {
+      "name": "COMBINING HORN",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "horn"],
+      "aliases": ["combining-horn"]
+    },
+    "031C": {
+      "name": "COMBINING LEFT HALF RING BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "left", "half", "ring", "below"],
+      "aliases": ["combining-left-half-ring-below"]
+    },
+    "031D": {
+      "name": "COMBINING UP TACK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "tack", "below"],
+      "aliases": ["combining-up-tack-below"]
+    },
+    "031E": {
+      "name": "COMBINING DOWN TACK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "down", "tack", "below"],
+      "aliases": ["combining-down-tack-below"]
+    },
+    "031F": {
+      "name": "COMBINING PLUS SIGN BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "plus", "sign", "below"],
+      "aliases": ["combining-plus-sign-below"]
+    },
+    "0320": {
+      "name": "COMBINING MINUS SIGN BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "minus", "sign", "below"],
+      "aliases": ["combining-minus-sign-below"]
+    },
+    "0321": {
+      "name": "COMBINING PALATALIZED HOOK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "palatalized", "hook", "below"],
+      "aliases": ["combining-palatalized-hook-below"]
+    },
+    "0322": {
+      "name": "COMBINING RETROFLEX HOOK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "retroflex", "hook", "below"],
+      "aliases": ["combining-retroflex-hook-below"]
+    },
+    "0323": {
+      "name": "COMBINING DOT BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "dot", "below"],
+      "aliases": ["combining-dot-below"]
+    },
+    "0324": {
+      "name": "COMBINING DIAERESIS BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "diaeresis", "below"],
+      "aliases": ["combining-diaeresis-below"]
+    },
+    "0325": {
+      "name": "COMBINING RING BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "ring", "below"],
+      "aliases": ["combining-ring-below"]
+    },
+    "0326": {
+      "name": "COMBINING COMMA BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "comma", "below"],
+      "aliases": ["combining-comma-below"]
+    },
+    "0327": {
+      "name": "COMBINING CEDILLA",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "cedilla"],
+      "aliases": ["combining-cedilla"]
+    },
+    "0328": {
+      "name": "COMBINING OGONEK",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "ogonek"],
+      "aliases": ["combining-ogonek"]
+    },
+    "0329": {
+      "name": "COMBINING VERTICAL LINE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "vertical", "line", "below"],
+      "aliases": ["combining-vertical-line-below"]
+    },
+    "032A": {
+      "name": "COMBINING BRIDGE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "bridge", "below"],
+      "aliases": ["combining-bridge-below"]
+    },
+    "032B": {
+      "name": "COMBINING INVERTED DOUBLE ARCH BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "inverted", "double", "arch", "below"],
+      "aliases": ["combining-inverted-double-arch-below"]
+    },
+    "032C": {
+      "name": "COMBINING CARON BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "caron", "below"],
+      "aliases": ["combining-caron-below"]
+    },
+    "032D": {
+      "name": "COMBINING CIRCUMFLEX ACCENT BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "circumflex", "accent", "below"],
+      "aliases": ["combining-circumflex-accent-below"]
+    },
+    "032E": {
+      "name": "COMBINING BREVE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "breve", "below"],
+      "aliases": ["combining-breve-below"]
+    },
+    "032F": {
+      "name": "COMBINING INVERTED BREVE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "inverted", "breve", "below"],
+      "aliases": ["combining-inverted-breve-below"]
+    },
+    "0330": {
+      "name": "COMBINING TILDE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "tilde", "below"],
+      "aliases": ["combining-tilde-below"]
+    },
+    "0331": {
+      "name": "COMBINING MACRON BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "macron", "below"],
+      "aliases": ["combining-macron-below"]
+    },
+    "0332": {
+      "name": "COMBINING LOW LINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "low", "line"],
+      "aliases": ["combining-low-line"]
+    },
+    "0333": {
+      "name": "COMBINING DOUBLE LOW LINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "low", "line"],
+      "aliases": ["combining-double-low-line"]
+    },
+    "0334": {
+      "name": "COMBINING TILDE OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "tilde", "overlay"],
+      "aliases": ["combining-tilde-overlay"]
+    },
+    "0335": {
+      "name": "COMBINING SHORT STROKE OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "short", "stroke", "overlay"],
+      "aliases": ["combining-short-stroke-overlay"]
+    },
+    "0336": {
+      "name": "COMBINING LONG STROKE OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "long", "stroke", "overlay"],
+      "aliases": ["combining-long-stroke-overlay"]
+    },
+    "0337": {
+      "name": "COMBINING SHORT SOLIDUS OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "short", "solidus", "overlay"],
+      "aliases": ["combining-short-solidus-overlay"]
+    },
+    "0338": {
+      "name": "COMBINING LONG SOLIDUS OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "long", "solidus", "overlay"],
+      "aliases": ["combining-long-solidus-overlay"]
+    },
+    "0339": {
+      "name": "COMBINING RIGHT HALF RING BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "right", "half", "ring", "below"],
+      "aliases": ["combining-right-half-ring-below"]
+    },
+    "033A": {
+      "name": "COMBINING INVERTED BRIDGE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "inverted", "bridge", "below"],
+      "aliases": ["combining-inverted-bridge-below"]
+    },
+    "033B": {
+      "name": "COMBINING SQUARE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "square", "below"],
+      "aliases": ["combining-square-below"]
+    },
+    "033C": {
+      "name": "COMBINING SEAGULL BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "seagull", "below"],
+      "aliases": ["combining-seagull-below"]
+    },
+    "033D": {
+      "name": "COMBINING X ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "above"],
+      "aliases": ["combining-x-above"]
+    },
+    "033E": {
+      "name": "COMBINING VERTICAL TILDE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "vertical", "tilde"],
+      "aliases": ["combining-vertical-tilde"]
+    },
+    "033F": {
+      "name": "COMBINING DOUBLE OVERLINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "overline"],
+      "aliases": ["combining-double-overline"]
+    },
+    "0340": {
+      "name": "COMBINING GRAVE TONE MARK",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "grave", "tone", "mark"],
+      "aliases": ["combining-grave-tone-mark"]
+    },
+    "0341": {
+      "name": "COMBINING ACUTE TONE MARK",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "acute", "tone", "mark"],
+      "aliases": ["combining-acute-tone-mark"]
+    },
+    "0342": {
+      "name": "COMBINING GREEK PERISPOMENI",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "greek", "perispomeni", "alpha", "beta"],
+      "aliases": ["combining-greek-perispomeni"]
+    },
+    "0343": {
+      "name": "COMBINING GREEK KORONIS",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "greek", "koronis", "alpha", "beta"],
+      "aliases": ["combining-greek-koronis"]
+    },
+    "0344": {
+      "name": "COMBINING GREEK DIALYTIKA TONOS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "greek",
+        "dialytika",
+        "tonos",
+        "alpha",
+        "beta"
+      ],
+      "aliases": ["combining-greek-dialytika-tonos"]
+    },
+    "0345": {
+      "name": "COMBINING GREEK YPOGEGRAMMENI",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "greek", "ypogegrammeni", "alpha", "beta"],
+      "aliases": ["combining-greek-ypogegrammeni"]
+    },
+    "0346": {
+      "name": "COMBINING BRIDGE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "bridge", "above"],
+      "aliases": ["combining-bridge-above"]
+    },
+    "0347": {
+      "name": "COMBINING EQUALS SIGN BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "equals", "sign", "below"],
+      "aliases": ["combining-equals-sign-below"]
+    },
+    "0348": {
+      "name": "COMBINING DOUBLE VERTICAL LINE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "vertical", "line", "below"],
+      "aliases": ["combining-double-vertical-line-below"]
+    },
+    "0349": {
+      "name": "COMBINING LEFT ANGLE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "left", "angle", "below"],
+      "aliases": ["combining-left-angle-below"]
+    },
+    "034A": {
+      "name": "COMBINING NOT TILDE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "not", "tilde", "above"],
+      "aliases": ["combining-not-tilde-above"]
+    },
+    "034B": {
+      "name": "COMBINING HOMOTHETIC ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "homothetic", "above"],
+      "aliases": ["combining-homothetic-above"]
+    },
+    "034C": {
+      "name": "COMBINING ALMOST EQUAL TO ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "almost", "equal", "above"],
+      "aliases": ["combining-almost-equal-to-above"]
+    },
+    "034D": {
+      "name": "COMBINING LEFT RIGHT ARROW BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "left",
+        "right",
+        "arrow",
+        "below",
+        "direction"
+      ],
+      "aliases": ["combining-left-right-arrow-below"]
+    },
+    "034E": {
+      "name": "COMBINING UPWARDS ARROW BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "upwards", "arrow", "below", "direction"],
+      "aliases": ["combining-upwards-arrow-below"]
+    },
+    "034F": {
+      "name": "COMBINING GRAPHEME JOINER",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "grapheme", "joiner"],
+      "aliases": ["combining-grapheme-joiner", "cgj"]
+    },
+    "0350": {
+      "name": "COMBINING RIGHT ARROWHEAD ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "right",
+        "arrowhead",
+        "above",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrowhead-above"]
+    },
+    "0351": {
+      "name": "COMBINING LEFT HALF RING ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "left", "half", "ring", "above"],
+      "aliases": ["combining-left-half-ring-above"]
+    },
+    "0352": {
+      "name": "COMBINING FERMATA",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "fermata"],
+      "aliases": ["combining-fermata"]
+    },
+    "0353": {
+      "name": "COMBINING X BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "below"],
+      "aliases": ["combining-x-below"]
+    },
+    "0354": {
+      "name": "COMBINING LEFT ARROWHEAD BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "left",
+        "arrowhead",
+        "below",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-left-arrowhead-below"]
+    },
+    "0355": {
+      "name": "COMBINING RIGHT ARROWHEAD BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "right",
+        "arrowhead",
+        "below",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrowhead-below"]
+    },
+    "0356": {
+      "name": "COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "right",
+        "arrowhead",
+        "and",
+        "below",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrowhead-and-up-arrowhead-below"]
+    },
+    "0357": {
+      "name": "COMBINING RIGHT HALF RING ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "right", "half", "ring", "above"],
+      "aliases": ["combining-right-half-ring-above"]
+    },
+    "0358": {
+      "name": "COMBINING DOT ABOVE RIGHT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "dot", "above", "right"],
+      "aliases": ["combining-dot-above-right"]
+    },
+    "0359": {
+      "name": "COMBINING ASTERISK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "asterisk", "below"],
+      "aliases": ["combining-asterisk-below"]
+    },
+    "035A": {
+      "name": "COMBINING DOUBLE RING BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "ring", "below"],
+      "aliases": ["combining-double-ring-below"]
+    },
+    "035B": {
+      "name": "COMBINING ZIGZAG ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "zigzag", "above"],
+      "aliases": ["combining-zigzag-above"]
+    },
+    "035C": {
+      "name": "COMBINING DOUBLE BREVE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "breve", "below"],
+      "aliases": ["combining-double-breve-below"]
+    },
+    "035D": {
+      "name": "COMBINING DOUBLE BREVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "breve"],
+      "aliases": ["combining-double-breve"]
+    },
+    "035E": {
+      "name": "COMBINING DOUBLE MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "macron"],
+      "aliases": ["combining-double-macron"]
+    },
+    "035F": {
+      "name": "COMBINING DOUBLE MACRON BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "macron", "below"],
+      "aliases": ["combining-double-macron-below"]
+    },
+    "0360": {
+      "name": "COMBINING DOUBLE TILDE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "tilde"],
+      "aliases": ["combining-double-tilde"]
+    },
+    "0361": {
+      "name": "COMBINING DOUBLE INVERTED BREVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "double", "inverted", "breve"],
+      "aliases": ["combining-double-inverted-breve"]
+    },
+    "0362": {
+      "name": "COMBINING DOUBLE RIGHTWARDS ARROW BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "double",
+        "rightwards",
+        "arrow",
+        "below",
+        "direction"
+      ],
+      "aliases": ["combining-double-rightwards-arrow-below"]
+    },
+    "0363": {
+      "name": "COMBINING LATIN SMALL LETTER A",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-a"]
+    },
+    "0364": {
+      "name": "COMBINING LATIN SMALL LETTER E",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-e"]
+    },
+    "0365": {
+      "name": "COMBINING LATIN SMALL LETTER I",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-i"]
+    },
+    "0366": {
+      "name": "COMBINING LATIN SMALL LETTER O",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-o"]
+    },
+    "0367": {
+      "name": "COMBINING LATIN SMALL LETTER U",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-u"]
+    },
+    "0368": {
+      "name": "COMBINING LATIN SMALL LETTER C",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-c"]
+    },
+    "0369": {
+      "name": "COMBINING LATIN SMALL LETTER D",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-d"]
+    },
+    "036A": {
+      "name": "COMBINING LATIN SMALL LETTER H",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-h"]
+    },
+    "036B": {
+      "name": "COMBINING LATIN SMALL LETTER M",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-m"]
+    },
+    "036C": {
+      "name": "COMBINING LATIN SMALL LETTER R",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-r"]
+    },
+    "036D": {
+      "name": "COMBINING LATIN SMALL LETTER T",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-t"]
+    },
+    "036E": {
+      "name": "COMBINING LATIN SMALL LETTER V",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-v"]
+    },
+    "036F": {
+      "name": "COMBINING LATIN SMALL LETTER X",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-x"]
+    },
+    "1AB0": {
+      "name": "COMBINING DOUBLED CIRCUMFLEX ACCENT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "doubled",
+        "circumflex",
+        "accent"
+      ],
+      "aliases": ["combining-doubled-circumflex-accent"]
+    },
+    "1AB1": {
+      "name": "COMBINING DIAERESIS-RING",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "diaeresis", "ring"],
+      "aliases": ["combining-diaeresis-ring"]
+    },
+    "1AB2": {
+      "name": "COMBINING INFINITY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "infinity"],
+      "aliases": ["combining-infinity"]
+    },
+    "1AB3": {
+      "name": "COMBINING DOWNWARDS ARROW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "downwards",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-downwards-arrow"]
+    },
+    "1AB4": {
+      "name": "COMBINING TRIPLE DOT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "triple", "dot"],
+      "aliases": ["combining-triple-dot"]
+    },
+    "1AB5": {
+      "name": "COMBINING X-X BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "below"],
+      "aliases": ["combining-x-x-below"]
+    },
+    "1AB6": {
+      "name": "COMBINING WIGGLY LINE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "wiggly", "line", "below"],
+      "aliases": ["combining-wiggly-line-below"]
+    },
+    "1AB7": {
+      "name": "COMBINING OPEN MARK BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "open", "mark", "below"],
+      "aliases": ["combining-open-mark-below"]
+    },
+    "1AB8": {
+      "name": "COMBINING DOUBLE OPEN MARK BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "double",
+        "open",
+        "mark",
+        "below"
+      ],
+      "aliases": ["combining-double-open-mark-below"]
+    },
+    "1AB9": {
+      "name": "COMBINING LIGHT CENTRALIZATION STROKE BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "light",
+        "centralization",
+        "stroke",
+        "below"
+      ],
+      "aliases": ["combining-light-centralization-stroke-below"]
+    },
+    "1ABA": {
+      "name": "COMBINING STRONG CENTRALIZATION STROKE BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "strong",
+        "centralization",
+        "stroke",
+        "below"
+      ],
+      "aliases": ["combining-strong-centralization-stroke-below"]
+    },
+    "1ABB": {
+      "name": "COMBINING PARENTHESES ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "parentheses", "above"],
+      "aliases": ["combining-parentheses-above"]
+    },
+    "1ABC": {
+      "name": "COMBINING DOUBLE PARENTHESES ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "double",
+        "parentheses",
+        "above"
+      ],
+      "aliases": ["combining-double-parentheses-above"]
+    },
+    "1ABD": {
+      "name": "COMBINING PARENTHESES BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "parentheses", "below"],
+      "aliases": ["combining-parentheses-below"]
+    },
+    "1ABE": {
+      "name": "COMBINING PARENTHESES OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "parentheses", "overlay"],
+      "aliases": ["combining-parentheses-overlay"]
+    },
+    "1ABF": {
+      "name": "COMBINING LATIN SMALL LETTER W BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "latin",
+        "small",
+        "letter",
+        "below",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-w-below"]
+    },
+    "1AC0": {
+      "name": "COMBINING LATIN SMALL LETTER TURNED W BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "latin",
+        "small",
+        "letter",
+        "turned",
+        "below",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-turned-w-below"]
+    },
+    "1AC1": {
+      "name": "COMBINING LEFT PARENTHESIS ABOVE LEFT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "left",
+        "parenthesis",
+        "above",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["combining-left-parenthesis-above-left"]
+    },
+    "1AC2": {
+      "name": "COMBINING RIGHT PARENTHESIS ABOVE RIGHT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "right",
+        "parenthesis",
+        "above",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["combining-right-parenthesis-above-right"]
+    },
+    "1AC3": {
+      "name": "COMBINING LEFT PARENTHESIS BELOW LEFT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "left",
+        "parenthesis",
+        "below",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["combining-left-parenthesis-below-left"]
+    },
+    "1AC4": {
+      "name": "COMBINING RIGHT PARENTHESIS BELOW RIGHT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "right",
+        "parenthesis",
+        "below",
+        "bracket",
+        "paren"
+      ],
+      "aliases": ["combining-right-parenthesis-below-right"]
+    },
+    "1AC5": {
+      "name": "COMBINING SQUARE BRACKETS ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "square",
+        "brackets",
+        "above",
+        "bracket",
+        "parenthesis",
+        "paren"
+      ],
+      "aliases": ["combining-square-brackets-above"]
+    },
+    "1AC6": {
+      "name": "COMBINING NUMBER SIGN ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "number", "sign", "above"],
+      "aliases": ["combining-number-sign-above"]
+    },
+    "1AC7": {
+      "name": "COMBINING INVERTED DOUBLE ARCH ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "inverted",
+        "double",
+        "arch",
+        "above"
+      ],
+      "aliases": ["combining-inverted-double-arch-above"]
+    },
+    "1AC8": {
+      "name": "COMBINING PLUS SIGN ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "plus", "sign", "above"],
+      "aliases": ["combining-plus-sign-above"]
+    },
+    "1AC9": {
+      "name": "COMBINING DOUBLE PLUS SIGN ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "double",
+        "plus",
+        "sign",
+        "above"
+      ],
+      "aliases": ["combining-double-plus-sign-above"]
+    },
+    "1ACA": {
+      "name": "COMBINING DOUBLE PLUS SIGN BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "double",
+        "plus",
+        "sign",
+        "below"
+      ],
+      "aliases": ["combining-double-plus-sign-below"]
+    },
+    "1ACB": {
+      "name": "COMBINING TRIPLE ACUTE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "triple", "acute", "accent"],
+      "aliases": ["combining-triple-acute-accent"]
+    },
+    "1ACC": {
+      "name": "COMBINING LATIN SMALL LETTER INSULAR G",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "latin",
+        "small",
+        "letter",
+        "insular",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-insular-g"]
+    },
+    "1ACD": {
+      "name": "COMBINING LATIN SMALL LETTER INSULAR R",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "latin",
+        "small",
+        "letter",
+        "insular",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-insular-r"]
+    },
+    "1ACE": {
+      "name": "COMBINING LATIN SMALL LETTER INSULAR T",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "latin",
+        "small",
+        "letter",
+        "insular",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-insular-t"]
+    },
+    "1ACF": {
+      "name": "COMBINING DOUBLE CARON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "double", "caron"],
+      "aliases": ["combining-double-caron"]
+    },
+    "1AD0": {
+      "name": "COMBINING VERTICAL-LINE-ACUTE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "vertical", "line", "acute"],
+      "aliases": ["combining-vertical-line-acute"]
+    },
+    "1AD1": {
+      "name": "COMBINING GRAVE-VERTICAL-LINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "grave", "vertical", "line"],
+      "aliases": ["combining-grave-vertical-line"]
+    },
+    "1AD2": {
+      "name": "COMBINING VERTICAL-LINE-GRAVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "vertical", "line", "grave"],
+      "aliases": ["combining-vertical-line-grave"]
+    },
+    "1AD3": {
+      "name": "COMBINING ACUTE-VERTICAL-LINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "acute", "vertical", "line"],
+      "aliases": ["combining-acute-vertical-line"]
+    },
+    "1AD4": {
+      "name": "COMBINING VERTICAL-LINE-MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "vertical", "line", "macron"],
+      "aliases": ["combining-vertical-line-macron"]
+    },
+    "1AD5": {
+      "name": "COMBINING MACRON-VERTICAL-LINE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "macron", "vertical", "line"],
+      "aliases": ["combining-macron-vertical-line"]
+    },
+    "1AD6": {
+      "name": "COMBINING VERTICAL-LINE-ACUTE-GRAVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "vertical",
+        "line",
+        "acute",
+        "grave"
+      ],
+      "aliases": ["combining-vertical-line-acute-grave"]
+    },
+    "1AD7": {
+      "name": "COMBINING VERTICAL-LINE-GRAVE-ACUTE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "vertical",
+        "line",
+        "grave",
+        "acute"
+      ],
+      "aliases": ["combining-vertical-line-grave-acute"]
+    },
+    "1AD8": {
+      "name": "COMBINING MACRON-ACUTE-GRAVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "macron", "acute", "grave"],
+      "aliases": ["combining-macron-acute-grave"]
+    },
+    "1AD9": {
+      "name": "COMBINING SHARP SIGN",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "sharp", "sign"],
+      "aliases": ["combining-sharp-sign"]
+    },
+    "1ADA": {
+      "name": "COMBINING FLAT SIGN",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "flat", "sign"],
+      "aliases": ["combining-flat-sign"]
+    },
+    "1ADB": {
+      "name": "COMBINING DOWN TACK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "down", "tack", "above"],
+      "aliases": ["combining-down-tack-above"]
+    },
+    "1ADC": {
+      "name": "COMBINING DIAERESIS WITH RAISED LEFT DOT",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "diaeresis",
+        "with",
+        "raised",
+        "left",
+        "dot"
+      ],
+      "aliases": ["combining-diaeresis-with-raised-left-dot"]
+    },
+    "1ADD": {
+      "name": "COMBINING DOT-AND-RING BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "dot", "and", "ring", "below"],
+      "aliases": ["combining-dot-and-ring-below"]
+    },
+    "1AE0": {
+      "name": "COMBINING LEFT TACK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "left", "tack", "above"],
+      "aliases": ["combining-left-tack-above"]
+    },
+    "1AE1": {
+      "name": "COMBINING RIGHT TACK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "right", "tack", "above"],
+      "aliases": ["combining-right-tack-above"]
+    },
+    "1AE2": {
+      "name": "COMBINING MINUS SIGN ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "minus", "sign", "above"],
+      "aliases": ["combining-minus-sign-above"]
+    },
+    "1AE3": {
+      "name": "COMBINING INVERTED BRIDGE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "inverted", "bridge", "above"],
+      "aliases": ["combining-inverted-bridge-above"]
+    },
+    "1AE4": {
+      "name": "COMBINING SQUARE ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "square", "above"],
+      "aliases": ["combining-square-above"]
+    },
+    "1AE5": {
+      "name": "COMBINING SEAGULL ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "seagull", "above"],
+      "aliases": ["combining-seagull-above"]
+    },
+    "1AE6": {
+      "name": "COMBINING DOUBLE ARCH BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "double", "arch", "below"],
+      "aliases": ["combining-double-arch-below"]
+    },
+    "1AE7": {
+      "name": "COMBINING DOUBLE ARCH ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "double", "arch", "above"],
+      "aliases": ["combining-double-arch-above"]
+    },
+    "1AE8": {
+      "name": "COMBINING EQUALS SIGN ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "extended", "equals", "sign", "above"],
+      "aliases": ["combining-equals-sign-above"]
+    },
+    "1AE9": {
+      "name": "COMBINING LEFT ANGLE CENTRED ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "left",
+        "angle",
+        "centred",
+        "above"
+      ],
+      "aliases": ["combining-left-angle-centred-above"]
+    },
+    "1AEA": {
+      "name": "COMBINING UPWARDS ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "upwards",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-upwards-arrow-above"]
+    },
+    "1AEB": {
+      "name": "COMBINING DOUBLE RIGHTWARDS ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "extended",
+        "double",
+        "rightwards",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-double-rightwards-arrow-above"]
+    },
+    "1DC0": {
+      "name": "COMBINING DOTTED GRAVE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "dotted", "grave", "accent"],
+      "aliases": ["combining-dotted-grave-accent"]
+    },
+    "1DC1": {
+      "name": "COMBINING DOTTED ACUTE ACCENT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "dotted", "acute", "accent"],
+      "aliases": ["combining-dotted-acute-accent"]
+    },
+    "1DC2": {
+      "name": "COMBINING SNAKE BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "snake", "below"],
+      "aliases": ["combining-snake-below"]
+    },
+    "1DC3": {
+      "name": "COMBINING SUSPENSION MARK",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "suspension", "mark"],
+      "aliases": ["combining-suspension-mark"]
+    },
+    "1DC4": {
+      "name": "COMBINING MACRON-ACUTE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "macron", "acute"],
+      "aliases": ["combining-macron-acute"]
+    },
+    "1DC5": {
+      "name": "COMBINING GRAVE-MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "grave", "macron"],
+      "aliases": ["combining-grave-macron"]
+    },
+    "1DC6": {
+      "name": "COMBINING MACRON-GRAVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "macron", "grave"],
+      "aliases": ["combining-macron-grave"]
+    },
+    "1DC7": {
+      "name": "COMBINING ACUTE-MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "acute", "macron"],
+      "aliases": ["combining-acute-macron"]
+    },
+    "1DC8": {
+      "name": "COMBINING GRAVE-ACUTE-GRAVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "grave", "acute"],
+      "aliases": ["combining-grave-acute-grave"]
+    },
+    "1DC9": {
+      "name": "COMBINING ACUTE-GRAVE-ACUTE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "acute", "grave"],
+      "aliases": ["combining-acute-grave-acute"]
+    },
+    "1DCA": {
+      "name": "COMBINING LATIN SMALL LETTER R BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "below",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-r-below"]
+    },
+    "1DCB": {
+      "name": "COMBINING BREVE-MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "breve", "macron"],
+      "aliases": ["combining-breve-macron"]
+    },
+    "1DCC": {
+      "name": "COMBINING MACRON-BREVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "macron", "breve"],
+      "aliases": ["combining-macron-breve"]
+    },
+    "1DCD": {
+      "name": "COMBINING DOUBLE CIRCUMFLEX ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "double",
+        "circumflex",
+        "above"
+      ],
+      "aliases": ["combining-double-circumflex-above"]
+    },
+    "1DCE": {
+      "name": "COMBINING OGONEK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "ogonek", "above"],
+      "aliases": ["combining-ogonek-above"]
+    },
+    "1DCF": {
+      "name": "COMBINING ZIGZAG BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "zigzag", "below"],
+      "aliases": ["combining-zigzag-below"]
+    },
+    "1DD0": {
+      "name": "COMBINING IS BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "below"],
+      "aliases": ["combining-is-below"]
+    },
+    "1DD1": {
+      "name": "COMBINING UR ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "above"],
+      "aliases": ["combining-ur-above"]
+    },
+    "1DD2": {
+      "name": "COMBINING US ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "above"],
+      "aliases": ["combining-us-above"]
+    },
+    "1DD3": {
+      "name": "COMBINING LATIN SMALL LETTER FLATTENED OPEN A ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "flattened",
+        "open",
+        "above",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-flattened-open-a-above"]
+    },
+    "1DD4": {
+      "name": "COMBINING LATIN SMALL LETTER AE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-ae"]
+    },
+    "1DD5": {
+      "name": "COMBINING LATIN SMALL LETTER AO",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-ao"]
+    },
+    "1DD6": {
+      "name": "COMBINING LATIN SMALL LETTER AV",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-av"]
+    },
+    "1DD7": {
+      "name": "COMBINING LATIN SMALL LETTER C CEDILLA",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "cedilla",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-c-cedilla"]
+    },
+    "1DD8": {
+      "name": "COMBINING LATIN SMALL LETTER INSULAR D",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "insular",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-insular-d"]
+    },
+    "1DD9": {
+      "name": "COMBINING LATIN SMALL LETTER ETH",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "eth",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-eth"]
+    },
+    "1DDA": {
+      "name": "COMBINING LATIN SMALL LETTER G",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-g"]
+    },
+    "1DDB": {
+      "name": "COMBINING LATIN LETTER SMALL CAPITAL G",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "letter",
+        "small",
+        "capital",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-letter-small-capital-g"]
+    },
+    "1DDC": {
+      "name": "COMBINING LATIN SMALL LETTER K",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-k"]
+    },
+    "1DDD": {
+      "name": "COMBINING LATIN SMALL LETTER L",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-l"]
+    },
+    "1DDE": {
+      "name": "COMBINING LATIN LETTER SMALL CAPITAL L",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "letter",
+        "small",
+        "capital",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-letter-small-capital-l"]
+    },
+    "1DDF": {
+      "name": "COMBINING LATIN LETTER SMALL CAPITAL M",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "letter",
+        "small",
+        "capital",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-letter-small-capital-m"]
+    },
+    "1DE0": {
+      "name": "COMBINING LATIN SMALL LETTER N",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-n"]
+    },
+    "1DE1": {
+      "name": "COMBINING LATIN LETTER SMALL CAPITAL N",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "letter",
+        "small",
+        "capital",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-letter-small-capital-n"]
+    },
+    "1DE2": {
+      "name": "COMBINING LATIN LETTER SMALL CAPITAL R",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "letter",
+        "small",
+        "capital",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-letter-small-capital-r"]
+    },
+    "1DE3": {
+      "name": "COMBINING LATIN SMALL LETTER R ROTUNDA",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "rotunda",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-r-rotunda"]
+    },
+    "1DE4": {
+      "name": "COMBINING LATIN SMALL LETTER S",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-s"]
+    },
+    "1DE5": {
+      "name": "COMBINING LATIN SMALL LETTER LONG S",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "long",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-long-s"]
+    },
+    "1DE6": {
+      "name": "COMBINING LATIN SMALL LETTER Z",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-z"]
+    },
+    "1DE7": {
+      "name": "COMBINING LATIN SMALL LETTER ALPHA",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "alpha",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-alpha"]
+    },
+    "1DE8": {
+      "name": "COMBINING LATIN SMALL LETTER B",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-b"]
+    },
+    "1DE9": {
+      "name": "COMBINING LATIN SMALL LETTER BETA",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "beta",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-beta"]
+    },
+    "1DEA": {
+      "name": "COMBINING LATIN SMALL LETTER SCHWA",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "schwa",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-schwa"]
+    },
+    "1DEB": {
+      "name": "COMBINING LATIN SMALL LETTER F",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-f"]
+    },
+    "1DEC": {
+      "name": "COMBINING LATIN SMALL LETTER L WITH DOUBLE MIDDLE TILDE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "double",
+        "middle",
+        "tilde",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-l-with-double-middle-tilde"]
+    },
+    "1DED": {
+      "name": "COMBINING LATIN SMALL LETTER O WITH LIGHT CENTRALIZATION STROKE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "light",
+        "centralization",
+        "stroke",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-o-with-light-centralization-stroke"]
+    },
+    "1DEE": {
+      "name": "COMBINING LATIN SMALL LETTER P",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-p"]
+    },
+    "1DEF": {
+      "name": "COMBINING LATIN SMALL LETTER ESH",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "esh",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-esh"]
+    },
+    "1DF0": {
+      "name": "COMBINING LATIN SMALL LETTER U WITH LIGHT CENTRALIZATION STROKE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "light",
+        "centralization",
+        "stroke",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-u-with-light-centralization-stroke"]
+    },
+    "1DF1": {
+      "name": "COMBINING LATIN SMALL LETTER W",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-w"]
+    },
+    "1DF2": {
+      "name": "COMBINING LATIN SMALL LETTER A WITH DIAERESIS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "diaeresis",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-a-with-diaeresis"]
+    },
+    "1DF3": {
+      "name": "COMBINING LATIN SMALL LETTER O WITH DIAERESIS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "diaeresis",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-o-with-diaeresis"]
+    },
+    "1DF4": {
+      "name": "COMBINING LATIN SMALL LETTER U WITH DIAERESIS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "latin",
+        "small",
+        "letter",
+        "with",
+        "diaeresis",
+        "roman",
+        "alphabet"
+      ],
+      "aliases": ["combining-latin-small-letter-u-with-diaeresis"]
+    },
+    "1DF5": {
+      "name": "COMBINING UP TACK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "tack", "above"],
+      "aliases": ["combining-up-tack-above"]
+    },
+    "1DF6": {
+      "name": "COMBINING KAVYKA ABOVE RIGHT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "kavyka", "above", "right"],
+      "aliases": ["combining-kavyka-above-right"]
+    },
+    "1DF7": {
+      "name": "COMBINING KAVYKA ABOVE LEFT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "kavyka", "above", "left"],
+      "aliases": ["combining-kavyka-above-left"]
+    },
+    "1DF8": {
+      "name": "COMBINING DOT ABOVE LEFT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "dot", "above", "left"],
+      "aliases": ["combining-dot-above-left"]
+    },
+    "1DF9": {
+      "name": "COMBINING WIDE INVERTED BRIDGE BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "wide",
+        "inverted",
+        "bridge",
+        "below"
+      ],
+      "aliases": ["combining-wide-inverted-bridge-below"]
+    },
+    "1DFA": {
+      "name": "COMBINING DOT BELOW LEFT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "dot", "below", "left"],
+      "aliases": ["combining-dot-below-left"]
+    },
+    "1DFB": {
+      "name": "COMBINING DELETION MARK",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "deletion", "mark"],
+      "aliases": ["combining-deletion-mark"]
+    },
+    "1DFC": {
+      "name": "COMBINING DOUBLE INVERTED BREVE BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "double",
+        "inverted",
+        "breve",
+        "below"
+      ],
+      "aliases": ["combining-double-inverted-breve-below"]
+    },
+    "1DFD": {
+      "name": "COMBINING ALMOST EQUAL TO BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "supplement", "almost", "equal", "below"],
+      "aliases": ["combining-almost-equal-to-below"]
+    },
+    "1DFE": {
+      "name": "COMBINING LEFT ARROWHEAD ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "left",
+        "arrowhead",
+        "above",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-left-arrowhead-above"]
+    },
+    "1DFF": {
+      "name": "COMBINING RIGHT ARROWHEAD AND DOWN ARROWHEAD BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "supplement",
+        "right",
+        "arrowhead",
+        "and",
+        "down",
+        "below",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrowhead-and-down-arrowhead-below"]
+    },
+    "FE20": {
+      "name": "COMBINING LIGATURE LEFT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "ligature", "left"],
+      "aliases": ["combining-ligature-left-half"]
+    },
+    "FE21": {
+      "name": "COMBINING LIGATURE RIGHT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "ligature", "right"],
+      "aliases": ["combining-ligature-right-half"]
+    },
+    "FE22": {
+      "name": "COMBINING DOUBLE TILDE LEFT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "double", "tilde", "left"],
+      "aliases": ["combining-double-tilde-left-half"]
+    },
+    "FE23": {
+      "name": "COMBINING DOUBLE TILDE RIGHT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "double", "tilde", "right"],
+      "aliases": ["combining-double-tilde-right-half"]
+    },
+    "FE24": {
+      "name": "COMBINING MACRON LEFT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "macron", "left"],
+      "aliases": ["combining-macron-left-half"]
+    },
+    "FE25": {
+      "name": "COMBINING MACRON RIGHT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "macron", "right"],
+      "aliases": ["combining-macron-right-half"]
+    },
+    "FE26": {
+      "name": "COMBINING CONJOINING MACRON",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "conjoining", "macron"],
+      "aliases": ["combining-conjoining-macron"]
+    },
+    "FE27": {
+      "name": "COMBINING LIGATURE LEFT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "ligature", "left", "below"],
+      "aliases": ["combining-ligature-left-half-below"]
+    },
+    "FE28": {
+      "name": "COMBINING LIGATURE RIGHT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "ligature", "right", "below"],
+      "aliases": ["combining-ligature-right-half-below"]
+    },
+    "FE29": {
+      "name": "COMBINING TILDE LEFT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "tilde", "left", "below"],
+      "aliases": ["combining-tilde-left-half-below"]
+    },
+    "FE2A": {
+      "name": "COMBINING TILDE RIGHT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "tilde", "right", "below"],
+      "aliases": ["combining-tilde-right-half-below"]
+    },
+    "FE2B": {
+      "name": "COMBINING MACRON LEFT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "macron", "left", "below"],
+      "aliases": ["combining-macron-left-half-below"]
+    },
+    "FE2C": {
+      "name": "COMBINING MACRON RIGHT HALF BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "macron", "right", "below"],
+      "aliases": ["combining-macron-right-half-below"]
+    },
+    "FE2D": {
+      "name": "COMBINING CONJOINING MACRON BELOW",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "conjoining", "macron", "below"],
+      "aliases": ["combining-conjoining-macron-below"]
+    },
+    "FE2E": {
+      "name": "COMBINING CYRILLIC TITLO LEFT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "cyrillic", "titlo", "left", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-titlo-left-half"]
+    },
+    "FE2F": {
+      "name": "COMBINING CYRILLIC TITLO RIGHT HALF",
+      "category": "Mark",
+      "keywords": ["combining", "half", "marks", "cyrillic", "titlo", "right", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-titlo-right-half"]
+    }
+  }
+}

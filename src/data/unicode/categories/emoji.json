@@ -1,0 +1,4174 @@
+{
+  "name": "Emoji",
+  "range": [127744, 129535],
+  "characters": {
+    "1F600": {
+      "name": "GRINNING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "grinning", "face"],
+      "aliases": ["grinning-face"]
+    },
+    "1F601": {
+      "name": "GRINNING FACE WITH SMILING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "grinning", "face", "with", "smiling", "eyes"],
+      "aliases": ["grinning-face-with-smiling-eyes"]
+    },
+    "1F602": {
+      "name": "FACE WITH TEARS OF JOY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "tears", "joy"],
+      "aliases": ["face-with-tears-of-joy"]
+    },
+    "1F603": {
+      "name": "SMILING FACE WITH OPEN MOUTH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "open", "mouth"],
+      "aliases": ["smiling-face-with-open-mouth"]
+    },
+    "1F604": {
+      "name": "SMILING FACE WITH OPEN MOUTH AND SMILING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "open", "mouth", "and", "eyes"],
+      "aliases": ["smiling-face-with-open-mouth-and-smiling-eyes"]
+    },
+    "1F605": {
+      "name": "SMILING FACE WITH OPEN MOUTH AND COLD SWEAT",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "open", "mouth", "and", "cold", "sweat"],
+      "aliases": ["smiling-face-with-open-mouth-and-cold-sweat"]
+    },
+    "1F606": {
+      "name": "SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES",
+      "category": "Symbol",
+      "keywords": [
+        "emoticons",
+        "smiling",
+        "face",
+        "with",
+        "open",
+        "mouth",
+        "and",
+        "tightly",
+        "closed",
+        "eyes"
+      ],
+      "aliases": ["smiling-face-with-open-mouth-and-tightly-closed-eyes"]
+    },
+    "1F607": {
+      "name": "SMILING FACE WITH HALO",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "halo"],
+      "aliases": ["smiling-face-with-halo"]
+    },
+    "1F608": {
+      "name": "SMILING FACE WITH HORNS",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "horns"],
+      "aliases": ["smiling-face-with-horns"]
+    },
+    "1F609": {
+      "name": "WINKING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "winking", "face"],
+      "aliases": ["winking-face"]
+    },
+    "1F60A": {
+      "name": "SMILING FACE WITH SMILING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "eyes"],
+      "aliases": ["smiling-face-with-smiling-eyes"]
+    },
+    "1F60B": {
+      "name": "FACE SAVOURING DELICIOUS FOOD",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "savouring", "delicious", "food"],
+      "aliases": ["face-savouring-delicious-food"]
+    },
+    "1F60C": {
+      "name": "RELIEVED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "relieved", "face"],
+      "aliases": ["relieved-face"]
+    },
+    "1F60D": {
+      "name": "SMILING FACE WITH HEART-SHAPED EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "heart", "shaped", "eyes"],
+      "aliases": ["smiling-face-with-heart-shaped-eyes"]
+    },
+    "1F60E": {
+      "name": "SMILING FACE WITH SUNGLASSES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "face", "with", "sunglasses"],
+      "aliases": ["smiling-face-with-sunglasses"]
+    },
+    "1F60F": {
+      "name": "SMIRKING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smirking", "face"],
+      "aliases": ["smirking-face"]
+    },
+    "1F610": {
+      "name": "NEUTRAL FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "neutral", "face"],
+      "aliases": ["neutral-face"]
+    },
+    "1F611": {
+      "name": "EXPRESSIONLESS FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "expressionless", "face"],
+      "aliases": ["expressionless-face"]
+    },
+    "1F612": {
+      "name": "UNAMUSED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "unamused", "face"],
+      "aliases": ["unamused-face"]
+    },
+    "1F613": {
+      "name": "FACE WITH COLD SWEAT",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "cold", "sweat"],
+      "aliases": ["face-with-cold-sweat"]
+    },
+    "1F614": {
+      "name": "PENSIVE FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "pensive", "face"],
+      "aliases": ["pensive-face"]
+    },
+    "1F615": {
+      "name": "CONFUSED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "confused", "face"],
+      "aliases": ["confused-face"]
+    },
+    "1F616": {
+      "name": "CONFOUNDED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "confounded", "face"],
+      "aliases": ["confounded-face"]
+    },
+    "1F617": {
+      "name": "KISSING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "kissing", "face"],
+      "aliases": ["kissing-face"]
+    },
+    "1F618": {
+      "name": "FACE THROWING A KISS",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "throwing", "kiss"],
+      "aliases": ["face-throwing-a-kiss"]
+    },
+    "1F619": {
+      "name": "KISSING FACE WITH SMILING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "kissing", "face", "with", "smiling", "eyes"],
+      "aliases": ["kissing-face-with-smiling-eyes"]
+    },
+    "1F61A": {
+      "name": "KISSING FACE WITH CLOSED EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "kissing", "face", "with", "closed", "eyes"],
+      "aliases": ["kissing-face-with-closed-eyes"]
+    },
+    "1F61B": {
+      "name": "FACE WITH STUCK-OUT TONGUE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "stuck", "out", "tongue"],
+      "aliases": ["face-with-stuck-out-tongue"]
+    },
+    "1F61C": {
+      "name": "FACE WITH STUCK-OUT TONGUE AND WINKING EYE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "stuck", "out", "tongue", "and", "winking", "eye"],
+      "aliases": ["face-with-stuck-out-tongue-and-winking-eye"]
+    },
+    "1F61D": {
+      "name": "FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES",
+      "category": "Symbol",
+      "keywords": [
+        "emoticons",
+        "face",
+        "with",
+        "stuck",
+        "out",
+        "tongue",
+        "and",
+        "tightly",
+        "closed",
+        "eyes"
+      ],
+      "aliases": ["face-with-stuck-out-tongue-and-tightly-closed-eyes"]
+    },
+    "1F61E": {
+      "name": "DISAPPOINTED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "disappointed", "face"],
+      "aliases": ["disappointed-face"]
+    },
+    "1F61F": {
+      "name": "WORRIED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "worried", "face"],
+      "aliases": ["worried-face"]
+    },
+    "1F620": {
+      "name": "ANGRY FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "angry", "face"],
+      "aliases": ["angry-face"]
+    },
+    "1F621": {
+      "name": "POUTING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "pouting", "face"],
+      "aliases": ["pouting-face"]
+    },
+    "1F622": {
+      "name": "CRYING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "crying", "face"],
+      "aliases": ["crying-face"]
+    },
+    "1F623": {
+      "name": "PERSEVERING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "persevering", "face"],
+      "aliases": ["persevering-face"]
+    },
+    "1F624": {
+      "name": "FACE WITH LOOK OF TRIUMPH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "look", "triumph"],
+      "aliases": ["face-with-look-of-triumph"]
+    },
+    "1F625": {
+      "name": "DISAPPOINTED BUT RELIEVED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "disappointed", "but", "relieved", "face"],
+      "aliases": ["disappointed-but-relieved-face"]
+    },
+    "1F626": {
+      "name": "FROWNING FACE WITH OPEN MOUTH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "frowning", "face", "with", "open", "mouth"],
+      "aliases": ["frowning-face-with-open-mouth"]
+    },
+    "1F627": {
+      "name": "ANGUISHED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "anguished", "face"],
+      "aliases": ["anguished-face"]
+    },
+    "1F628": {
+      "name": "FEARFUL FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "fearful", "face"],
+      "aliases": ["fearful-face"]
+    },
+    "1F629": {
+      "name": "WEARY FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "weary", "face"],
+      "aliases": ["weary-face"]
+    },
+    "1F62A": {
+      "name": "SLEEPY FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "sleepy", "face"],
+      "aliases": ["sleepy-face"]
+    },
+    "1F62B": {
+      "name": "TIRED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "tired", "face"],
+      "aliases": ["tired-face"]
+    },
+    "1F62C": {
+      "name": "GRIMACING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "grimacing", "face"],
+      "aliases": ["grimacing-face"]
+    },
+    "1F62D": {
+      "name": "LOUDLY CRYING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "loudly", "crying", "face"],
+      "aliases": ["loudly-crying-face"]
+    },
+    "1F62E": {
+      "name": "FACE WITH OPEN MOUTH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "open", "mouth"],
+      "aliases": ["face-with-open-mouth"]
+    },
+    "1F62F": {
+      "name": "HUSHED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "hushed", "face"],
+      "aliases": ["hushed-face"]
+    },
+    "1F630": {
+      "name": "FACE WITH OPEN MOUTH AND COLD SWEAT",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "open", "mouth", "and", "cold", "sweat"],
+      "aliases": ["face-with-open-mouth-and-cold-sweat"]
+    },
+    "1F631": {
+      "name": "FACE SCREAMING IN FEAR",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "screaming", "fear"],
+      "aliases": ["face-screaming-in-fear"]
+    },
+    "1F632": {
+      "name": "ASTONISHED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "astonished", "face"],
+      "aliases": ["astonished-face"]
+    },
+    "1F633": {
+      "name": "FLUSHED FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "flushed", "face"],
+      "aliases": ["flushed-face"]
+    },
+    "1F634": {
+      "name": "SLEEPING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "sleeping", "face"],
+      "aliases": ["sleeping-face"]
+    },
+    "1F635": {
+      "name": "DIZZY FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "dizzy", "face"],
+      "aliases": ["dizzy-face"]
+    },
+    "1F636": {
+      "name": "FACE WITHOUT MOUTH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "without", "mouth"],
+      "aliases": ["face-without-mouth"]
+    },
+    "1F637": {
+      "name": "FACE WITH MEDICAL MASK",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "medical", "mask"],
+      "aliases": ["face-with-medical-mask"]
+    },
+    "1F638": {
+      "name": "GRINNING CAT FACE WITH SMILING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "grinning", "cat", "face", "with", "smiling", "eyes"],
+      "aliases": ["grinning-cat-face-with-smiling-eyes"]
+    },
+    "1F639": {
+      "name": "CAT FACE WITH TEARS OF JOY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "cat", "face", "with", "tears", "joy"],
+      "aliases": ["cat-face-with-tears-of-joy"]
+    },
+    "1F63A": {
+      "name": "SMILING CAT FACE WITH OPEN MOUTH",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "cat", "face", "with", "open", "mouth"],
+      "aliases": ["smiling-cat-face-with-open-mouth"]
+    },
+    "1F63B": {
+      "name": "SMILING CAT FACE WITH HEART-SHAPED EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "smiling", "cat", "face", "with", "heart", "shaped", "eyes"],
+      "aliases": ["smiling-cat-face-with-heart-shaped-eyes"]
+    },
+    "1F63C": {
+      "name": "CAT FACE WITH WRY SMILE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "cat", "face", "with", "wry", "smile"],
+      "aliases": ["cat-face-with-wry-smile"]
+    },
+    "1F63D": {
+      "name": "KISSING CAT FACE WITH CLOSED EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "kissing", "cat", "face", "with", "closed", "eyes"],
+      "aliases": ["kissing-cat-face-with-closed-eyes"]
+    },
+    "1F63E": {
+      "name": "POUTING CAT FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "pouting", "cat", "face"],
+      "aliases": ["pouting-cat-face"]
+    },
+    "1F63F": {
+      "name": "CRYING CAT FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "crying", "cat", "face"],
+      "aliases": ["crying-cat-face"]
+    },
+    "1F640": {
+      "name": "WEARY CAT FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "weary", "cat", "face"],
+      "aliases": ["weary-cat-face"]
+    },
+    "1F641": {
+      "name": "SLIGHTLY FROWNING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "slightly", "frowning", "face"],
+      "aliases": ["slightly-frowning-face"]
+    },
+    "1F642": {
+      "name": "SLIGHTLY SMILING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "slightly", "smiling", "face"],
+      "aliases": ["slightly-smiling-face"]
+    },
+    "1F643": {
+      "name": "UPSIDE-DOWN FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "upside", "down", "face"],
+      "aliases": ["upside-down-face"]
+    },
+    "1F644": {
+      "name": "FACE WITH ROLLING EYES",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "rolling", "eyes"],
+      "aliases": ["face-with-rolling-eyes"]
+    },
+    "1F645": {
+      "name": "FACE WITH NO GOOD GESTURE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "good", "gesture"],
+      "aliases": ["face-with-no-good-gesture"]
+    },
+    "1F646": {
+      "name": "FACE WITH OK GESTURE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "face", "with", "gesture"],
+      "aliases": ["face-with-ok-gesture"]
+    },
+    "1F647": {
+      "name": "PERSON BOWING DEEPLY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "person", "bowing", "deeply"],
+      "aliases": ["person-bowing-deeply"]
+    },
+    "1F648": {
+      "name": "SEE-NO-EVIL MONKEY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "see", "evil", "monkey"],
+      "aliases": ["see-no-evil-monkey"]
+    },
+    "1F649": {
+      "name": "HEAR-NO-EVIL MONKEY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "hear", "evil", "monkey"],
+      "aliases": ["hear-no-evil-monkey"]
+    },
+    "1F64A": {
+      "name": "SPEAK-NO-EVIL MONKEY",
+      "category": "Symbol",
+      "keywords": ["emoticons", "speak", "evil", "monkey"],
+      "aliases": ["speak-no-evil-monkey"]
+    },
+    "1F64B": {
+      "name": "HAPPY PERSON RAISING ONE HAND",
+      "category": "Symbol",
+      "keywords": ["emoticons", "happy", "person", "raising", "one", "hand"],
+      "aliases": ["happy-person-raising-one-hand"]
+    },
+    "1F64C": {
+      "name": "PERSON RAISING BOTH HANDS IN CELEBRATION",
+      "category": "Symbol",
+      "keywords": ["emoticons", "person", "raising", "both", "hands", "celebration"],
+      "aliases": ["person-raising-both-hands-in-celebration"]
+    },
+    "1F64D": {
+      "name": "PERSON FROWNING",
+      "category": "Symbol",
+      "keywords": ["emoticons", "person", "frowning"],
+      "aliases": ["person-frowning"]
+    },
+    "1F64E": {
+      "name": "PERSON WITH POUTING FACE",
+      "category": "Symbol",
+      "keywords": ["emoticons", "person", "with", "pouting", "face"],
+      "aliases": ["person-with-pouting-face"]
+    },
+    "1F64F": {
+      "name": "PERSON WITH FOLDED HANDS",
+      "category": "Symbol",
+      "keywords": ["emoticons", "person", "with", "folded", "hands"],
+      "aliases": ["person-with-folded-hands"]
+    },
+    "1F650": {
+      "name": "NORTH WEST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "west", "pointing", "leaf"],
+      "aliases": ["north-west-pointing-leaf"]
+    },
+    "1F651": {
+      "name": "SOUTH WEST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "west", "pointing", "leaf"],
+      "aliases": ["south-west-pointing-leaf"]
+    },
+    "1F652": {
+      "name": "NORTH EAST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "east", "pointing", "leaf"],
+      "aliases": ["north-east-pointing-leaf"]
+    },
+    "1F653": {
+      "name": "SOUTH EAST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "east", "pointing", "leaf"],
+      "aliases": ["south-east-pointing-leaf"]
+    },
+    "1F654": {
+      "name": "TURNED NORTH WEST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "turned", "north", "west", "pointing", "leaf"],
+      "aliases": ["turned-north-west-pointing-leaf"]
+    },
+    "1F655": {
+      "name": "TURNED SOUTH WEST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "turned", "south", "west", "pointing", "leaf"],
+      "aliases": ["turned-south-west-pointing-leaf"]
+    },
+    "1F656": {
+      "name": "TURNED NORTH EAST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "turned", "north", "east", "pointing", "leaf"],
+      "aliases": ["turned-north-east-pointing-leaf"]
+    },
+    "1F657": {
+      "name": "TURNED SOUTH EAST POINTING LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "turned", "south", "east", "pointing", "leaf"],
+      "aliases": ["turned-south-east-pointing-leaf"]
+    },
+    "1F658": {
+      "name": "NORTH WEST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "west", "pointing", "vine", "leaf"],
+      "aliases": ["north-west-pointing-vine-leaf"]
+    },
+    "1F659": {
+      "name": "SOUTH WEST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "west", "pointing", "vine", "leaf"],
+      "aliases": ["south-west-pointing-vine-leaf"]
+    },
+    "1F65A": {
+      "name": "NORTH EAST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "east", "pointing", "vine", "leaf"],
+      "aliases": ["north-east-pointing-vine-leaf"]
+    },
+    "1F65B": {
+      "name": "SOUTH EAST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "east", "pointing", "vine", "leaf"],
+      "aliases": ["south-east-pointing-vine-leaf"]
+    },
+    "1F65C": {
+      "name": "HEAVY NORTH WEST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "north", "west", "pointing", "vine", "leaf"],
+      "aliases": ["heavy-north-west-pointing-vine-leaf"]
+    },
+    "1F65D": {
+      "name": "HEAVY SOUTH WEST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "south", "west", "pointing", "vine", "leaf"],
+      "aliases": ["heavy-south-west-pointing-vine-leaf"]
+    },
+    "1F65E": {
+      "name": "HEAVY NORTH EAST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "north", "east", "pointing", "vine", "leaf"],
+      "aliases": ["heavy-north-east-pointing-vine-leaf"]
+    },
+    "1F65F": {
+      "name": "HEAVY SOUTH EAST POINTING VINE LEAF",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "south", "east", "pointing", "vine", "leaf"],
+      "aliases": ["heavy-south-east-pointing-vine-leaf"]
+    },
+    "1F660": {
+      "name": "NORTH WEST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "west", "pointing", "bud"],
+      "aliases": ["north-west-pointing-bud"]
+    },
+    "1F661": {
+      "name": "SOUTH WEST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "west", "pointing", "bud"],
+      "aliases": ["south-west-pointing-bud"]
+    },
+    "1F662": {
+      "name": "NORTH EAST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "north", "east", "pointing", "bud"],
+      "aliases": ["north-east-pointing-bud"]
+    },
+    "1F663": {
+      "name": "SOUTH EAST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "south", "east", "pointing", "bud"],
+      "aliases": ["south-east-pointing-bud"]
+    },
+    "1F664": {
+      "name": "HEAVY NORTH WEST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "north", "west", "pointing", "bud"],
+      "aliases": ["heavy-north-west-pointing-bud"]
+    },
+    "1F665": {
+      "name": "HEAVY SOUTH WEST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "south", "west", "pointing", "bud"],
+      "aliases": ["heavy-south-west-pointing-bud"]
+    },
+    "1F666": {
+      "name": "HEAVY NORTH EAST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "north", "east", "pointing", "bud"],
+      "aliases": ["heavy-north-east-pointing-bud"]
+    },
+    "1F667": {
+      "name": "HEAVY SOUTH EAST POINTING BUD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "south", "east", "pointing", "bud"],
+      "aliases": ["heavy-south-east-pointing-bud"]
+    },
+    "1F668": {
+      "name": "HOLLOW QUILT SQUARE ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "hollow", "quilt", "square", "ornament"],
+      "aliases": ["hollow-quilt-square-ornament"]
+    },
+    "1F669": {
+      "name": "HOLLOW QUILT SQUARE ORNAMENT IN BLACK SQUARE",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "hollow", "quilt", "square", "ornament", "black"],
+      "aliases": ["hollow-quilt-square-ornament-in-black-square"]
+    },
+    "1F66A": {
+      "name": "SOLID QUILT SQUARE ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "solid", "quilt", "square", "ornament"],
+      "aliases": ["solid-quilt-square-ornament"]
+    },
+    "1F66B": {
+      "name": "SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "solid", "quilt", "square", "ornament", "black"],
+      "aliases": ["solid-quilt-square-ornament-in-black-square"]
+    },
+    "1F66C": {
+      "name": "LEFTWARDS ROCKET",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "leftwards", "rocket"],
+      "aliases": ["leftwards-rocket"]
+    },
+    "1F66D": {
+      "name": "UPWARDS ROCKET",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "upwards", "rocket"],
+      "aliases": ["upwards-rocket"]
+    },
+    "1F66E": {
+      "name": "RIGHTWARDS ROCKET",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "rightwards", "rocket"],
+      "aliases": ["rightwards-rocket"]
+    },
+    "1F66F": {
+      "name": "DOWNWARDS ROCKET",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "downwards", "rocket"],
+      "aliases": ["downwards-rocket"]
+    },
+    "1F670": {
+      "name": "SCRIPT LIGATURE ET ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "script", "ligature", "ornament"],
+      "aliases": ["script-ligature-et-ornament"]
+    },
+    "1F671": {
+      "name": "HEAVY SCRIPT LIGATURE ET ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "script", "ligature", "ornament"],
+      "aliases": ["heavy-script-ligature-et-ornament"]
+    },
+    "1F672": {
+      "name": "LIGATURE OPEN ET ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "ligature", "open", "ornament"],
+      "aliases": ["ligature-open-et-ornament"]
+    },
+    "1F673": {
+      "name": "HEAVY LIGATURE OPEN ET ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "ligature", "open", "ornament"],
+      "aliases": ["heavy-ligature-open-et-ornament"]
+    },
+    "1F674": {
+      "name": "HEAVY AMPERSAND ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "ampersand", "ornament"],
+      "aliases": ["heavy-ampersand-ornament"]
+    },
+    "1F675": {
+      "name": "SWASH AMPERSAND ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "swash", "ampersand", "ornament"],
+      "aliases": ["swash-ampersand-ornament"]
+    },
+    "1F676": {
+      "name": "SANS-SERIF HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT",
+      "category": "Symbol",
+      "keywords": [
+        "ornamental",
+        "dingbats",
+        "sans",
+        "serif",
+        "heavy",
+        "double",
+        "turned",
+        "comma",
+        "quotation",
+        "mark",
+        "ornament"
+      ],
+      "aliases": ["sans-serif-heavy-double-turned-comma-quotation-mark-ornament"]
+    },
+    "1F677": {
+      "name": "SANS-SERIF HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT",
+      "category": "Symbol",
+      "keywords": [
+        "ornamental",
+        "dingbats",
+        "sans",
+        "serif",
+        "heavy",
+        "double",
+        "comma",
+        "quotation",
+        "mark",
+        "ornament"
+      ],
+      "aliases": ["sans-serif-heavy-double-comma-quotation-mark-ornament"]
+    },
+    "1F678": {
+      "name": "SANS-SERIF HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT",
+      "category": "Symbol",
+      "keywords": [
+        "ornamental",
+        "dingbats",
+        "sans",
+        "serif",
+        "heavy",
+        "low",
+        "double",
+        "comma",
+        "quotation",
+        "mark",
+        "ornament"
+      ],
+      "aliases": ["sans-serif-heavy-low-double-comma-quotation-mark-ornament"]
+    },
+    "1F679": {
+      "name": "HEAVY INTERROBANG ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "interrobang", "ornament"],
+      "aliases": ["heavy-interrobang-ornament"]
+    },
+    "1F67A": {
+      "name": "SANS-SERIF INTERROBANG ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "sans", "serif", "interrobang", "ornament"],
+      "aliases": ["sans-serif-interrobang-ornament"]
+    },
+    "1F67B": {
+      "name": "HEAVY SANS-SERIF INTERROBANG ORNAMENT",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "heavy", "sans", "serif", "interrobang", "ornament"],
+      "aliases": ["heavy-sans-serif-interrobang-ornament"]
+    },
+    "1F67C": {
+      "name": "VERY HEAVY SOLIDUS",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "very", "heavy", "solidus"],
+      "aliases": ["very-heavy-solidus"]
+    },
+    "1F67D": {
+      "name": "VERY HEAVY REVERSE SOLIDUS",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "very", "heavy", "reverse", "solidus"],
+      "aliases": ["very-heavy-reverse-solidus"]
+    },
+    "1F67E": {
+      "name": "CHECKER BOARD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "checker", "board"],
+      "aliases": ["checker-board"]
+    },
+    "1F67F": {
+      "name": "REVERSE CHECKER BOARD",
+      "category": "Symbol",
+      "keywords": ["ornamental", "dingbats", "reverse", "checker", "board"],
+      "aliases": ["reverse-checker-board"]
+    },
+    "1F680": {
+      "name": "ROCKET",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "rocket"],
+      "aliases": ["rocket"]
+    },
+    "1F681": {
+      "name": "HELICOPTER",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "helicopter"],
+      "aliases": ["helicopter"]
+    },
+    "1F682": {
+      "name": "STEAM LOCOMOTIVE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "steam", "locomotive"],
+      "aliases": ["steam-locomotive"]
+    },
+    "1F683": {
+      "name": "RAILWAY CAR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "railway", "car"],
+      "aliases": ["railway-car"]
+    },
+    "1F684": {
+      "name": "HIGH-SPEED TRAIN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "high", "speed", "train"],
+      "aliases": ["high-speed-train"]
+    },
+    "1F685": {
+      "name": "HIGH-SPEED TRAIN WITH BULLET NOSE",
+      "category": "Symbol",
+      "keywords": [
+        "transport",
+        "and",
+        "map",
+        "symbols",
+        "high",
+        "speed",
+        "train",
+        "with",
+        "bullet",
+        "nose"
+      ],
+      "aliases": ["high-speed-train-with-bullet-nose"]
+    },
+    "1F686": {
+      "name": "TRAIN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "train"],
+      "aliases": ["train"]
+    },
+    "1F687": {
+      "name": "METRO",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "metro"],
+      "aliases": ["metro"]
+    },
+    "1F688": {
+      "name": "LIGHT RAIL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "light", "rail"],
+      "aliases": ["light-rail"]
+    },
+    "1F689": {
+      "name": "STATION",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "station"],
+      "aliases": ["station"]
+    },
+    "1F68A": {
+      "name": "TRAM",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "tram"],
+      "aliases": ["tram"]
+    },
+    "1F68B": {
+      "name": "TRAM CAR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "tram", "car"],
+      "aliases": ["tram-car"]
+    },
+    "1F68C": {
+      "name": "BUS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bus"],
+      "aliases": ["bus"]
+    },
+    "1F68D": {
+      "name": "ONCOMING BUS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oncoming", "bus"],
+      "aliases": ["oncoming-bus"]
+    },
+    "1F68E": {
+      "name": "TROLLEYBUS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "trolleybus"],
+      "aliases": ["trolleybus"]
+    },
+    "1F68F": {
+      "name": "BUS STOP",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bus", "stop"],
+      "aliases": ["bus-stop"]
+    },
+    "1F690": {
+      "name": "MINIBUS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "minibus"],
+      "aliases": ["minibus"]
+    },
+    "1F691": {
+      "name": "AMBULANCE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "ambulance"],
+      "aliases": ["ambulance"]
+    },
+    "1F692": {
+      "name": "FIRE ENGINE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "fire", "engine"],
+      "aliases": ["fire-engine"]
+    },
+    "1F693": {
+      "name": "POLICE CAR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "police", "car"],
+      "aliases": ["police-car"]
+    },
+    "1F694": {
+      "name": "ONCOMING POLICE CAR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oncoming", "police", "car"],
+      "aliases": ["oncoming-police-car"]
+    },
+    "1F695": {
+      "name": "TAXI",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "taxi"],
+      "aliases": ["taxi"]
+    },
+    "1F696": {
+      "name": "ONCOMING TAXI",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oncoming", "taxi"],
+      "aliases": ["oncoming-taxi"]
+    },
+    "1F697": {
+      "name": "AUTOMOBILE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "automobile"],
+      "aliases": ["automobile"]
+    },
+    "1F698": {
+      "name": "ONCOMING AUTOMOBILE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oncoming", "automobile"],
+      "aliases": ["oncoming-automobile"]
+    },
+    "1F699": {
+      "name": "RECREATIONAL VEHICLE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "recreational", "vehicle"],
+      "aliases": ["recreational-vehicle"]
+    },
+    "1F69A": {
+      "name": "DELIVERY TRUCK",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "delivery", "truck"],
+      "aliases": ["delivery-truck"]
+    },
+    "1F69B": {
+      "name": "ARTICULATED LORRY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "articulated", "lorry"],
+      "aliases": ["articulated-lorry"]
+    },
+    "1F69C": {
+      "name": "TRACTOR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "tractor"],
+      "aliases": ["tractor"]
+    },
+    "1F69D": {
+      "name": "MONORAIL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "monorail"],
+      "aliases": ["monorail"]
+    },
+    "1F69E": {
+      "name": "MOUNTAIN RAILWAY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "mountain", "railway"],
+      "aliases": ["mountain-railway"]
+    },
+    "1F69F": {
+      "name": "SUSPENSION RAILWAY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "suspension", "railway"],
+      "aliases": ["suspension-railway"]
+    },
+    "1F6A0": {
+      "name": "MOUNTAIN CABLEWAY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "mountain", "cableway"],
+      "aliases": ["mountain-cableway"]
+    },
+    "1F6A1": {
+      "name": "AERIAL TRAMWAY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "aerial", "tramway"],
+      "aliases": ["aerial-tramway"]
+    },
+    "1F6A2": {
+      "name": "SHIP",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "ship"],
+      "aliases": ["ship"]
+    },
+    "1F6A3": {
+      "name": "ROWBOAT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "rowboat"],
+      "aliases": ["rowboat"]
+    },
+    "1F6A4": {
+      "name": "SPEEDBOAT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "speedboat"],
+      "aliases": ["speedboat"]
+    },
+    "1F6A5": {
+      "name": "HORIZONTAL TRAFFIC LIGHT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "horizontal", "traffic", "light"],
+      "aliases": ["horizontal-traffic-light"]
+    },
+    "1F6A6": {
+      "name": "VERTICAL TRAFFIC LIGHT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "vertical", "traffic", "light"],
+      "aliases": ["vertical-traffic-light"]
+    },
+    "1F6A7": {
+      "name": "CONSTRUCTION SIGN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "construction", "sign"],
+      "aliases": ["construction-sign"]
+    },
+    "1F6A8": {
+      "name": "POLICE CARS REVOLVING LIGHT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "police", "cars", "revolving", "light"],
+      "aliases": ["police-cars-revolving-light"]
+    },
+    "1F6A9": {
+      "name": "TRIANGULAR FLAG ON POST",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "triangular", "flag", "post"],
+      "aliases": ["triangular-flag-on-post"]
+    },
+    "1F6AA": {
+      "name": "DOOR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "door"],
+      "aliases": ["door"]
+    },
+    "1F6AB": {
+      "name": "NO ENTRY SIGN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "entry", "sign"],
+      "aliases": ["no-entry-sign"]
+    },
+    "1F6AC": {
+      "name": "SMOKING SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "smoking", "symbol"],
+      "aliases": ["smoking-symbol"]
+    },
+    "1F6AD": {
+      "name": "NO SMOKING SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "smoking", "symbol"],
+      "aliases": ["no-smoking-symbol"]
+    },
+    "1F6AE": {
+      "name": "PUT LITTER IN ITS PLACE SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "put", "litter", "its", "place", "symbol"],
+      "aliases": ["put-litter-in-its-place-symbol"]
+    },
+    "1F6AF": {
+      "name": "DO NOT LITTER SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "not", "litter", "symbol"],
+      "aliases": ["do-not-litter-symbol"]
+    },
+    "1F6B0": {
+      "name": "POTABLE WATER SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "potable", "water", "symbol"],
+      "aliases": ["potable-water-symbol"]
+    },
+    "1F6B1": {
+      "name": "NON-POTABLE WATER SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "non", "potable", "water", "symbol"],
+      "aliases": ["non-potable-water-symbol"]
+    },
+    "1F6B2": {
+      "name": "BICYCLE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bicycle"],
+      "aliases": ["bicycle"]
+    },
+    "1F6B3": {
+      "name": "NO BICYCLES",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bicycles"],
+      "aliases": ["no-bicycles"]
+    },
+    "1F6B4": {
+      "name": "BICYCLIST",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bicyclist"],
+      "aliases": ["bicyclist"]
+    },
+    "1F6B5": {
+      "name": "MOUNTAIN BICYCLIST",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "mountain", "bicyclist"],
+      "aliases": ["mountain-bicyclist"]
+    },
+    "1F6B6": {
+      "name": "PEDESTRIAN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pedestrian"],
+      "aliases": ["pedestrian"]
+    },
+    "1F6B7": {
+      "name": "NO PEDESTRIANS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pedestrians"],
+      "aliases": ["no-pedestrians"]
+    },
+    "1F6B8": {
+      "name": "CHILDREN CROSSING",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "children", "crossing"],
+      "aliases": ["children-crossing"]
+    },
+    "1F6B9": {
+      "name": "MENS SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "mens", "symbol"],
+      "aliases": ["mens-symbol"]
+    },
+    "1F6BA": {
+      "name": "WOMENS SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "womens", "symbol"],
+      "aliases": ["womens-symbol"]
+    },
+    "1F6BB": {
+      "name": "RESTROOM",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "restroom"],
+      "aliases": ["restroom"]
+    },
+    "1F6BC": {
+      "name": "BABY SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "baby", "symbol"],
+      "aliases": ["baby-symbol"]
+    },
+    "1F6BD": {
+      "name": "TOILET",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "toilet"],
+      "aliases": ["toilet"]
+    },
+    "1F6BE": {
+      "name": "WATER CLOSET",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "water", "closet"],
+      "aliases": ["water-closet"]
+    },
+    "1F6BF": {
+      "name": "SHOWER",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "shower"],
+      "aliases": ["shower"]
+    },
+    "1F6C0": {
+      "name": "BATH",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bath"],
+      "aliases": ["bath"]
+    },
+    "1F6C1": {
+      "name": "BATHTUB",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bathtub"],
+      "aliases": ["bathtub"]
+    },
+    "1F6C2": {
+      "name": "PASSPORT CONTROL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "passport", "control"],
+      "aliases": ["passport-control"]
+    },
+    "1F6C3": {
+      "name": "CUSTOMS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "customs"],
+      "aliases": ["customs"]
+    },
+    "1F6C4": {
+      "name": "BAGGAGE CLAIM",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "baggage", "claim"],
+      "aliases": ["baggage-claim"]
+    },
+    "1F6C5": {
+      "name": "LEFT LUGGAGE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "left", "luggage"],
+      "aliases": ["left-luggage"]
+    },
+    "1F6C6": {
+      "name": "TRIANGLE WITH ROUNDED CORNERS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "triangle", "with", "rounded", "corners"],
+      "aliases": ["triangle-with-rounded-corners"]
+    },
+    "1F6C7": {
+      "name": "PROHIBITED SIGN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "prohibited", "sign"],
+      "aliases": ["prohibited-sign"]
+    },
+    "1F6C8": {
+      "name": "CIRCLED INFORMATION SOURCE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "circled", "information", "source"],
+      "aliases": ["circled-information-source"]
+    },
+    "1F6C9": {
+      "name": "BOYS SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "boys", "symbol"],
+      "aliases": ["boys-symbol"]
+    },
+    "1F6CA": {
+      "name": "GIRLS SYMBOL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "girls", "symbol"],
+      "aliases": ["girls-symbol"]
+    },
+    "1F6CB": {
+      "name": "COUCH AND LAMP",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "couch", "lamp"],
+      "aliases": ["couch-and-lamp"]
+    },
+    "1F6CC": {
+      "name": "SLEEPING ACCOMMODATION",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "sleeping", "accommodation"],
+      "aliases": ["sleeping-accommodation"]
+    },
+    "1F6CD": {
+      "name": "SHOPPING BAGS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "shopping", "bags"],
+      "aliases": ["shopping-bags"]
+    },
+    "1F6CE": {
+      "name": "BELLHOP BELL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bellhop", "bell"],
+      "aliases": ["bellhop-bell"]
+    },
+    "1F6CF": {
+      "name": "BED",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "bed"],
+      "aliases": ["bed"]
+    },
+    "1F6D0": {
+      "name": "PLACE OF WORSHIP",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "place", "worship"],
+      "aliases": ["place-of-worship"]
+    },
+    "1F6D1": {
+      "name": "OCTAGONAL SIGN",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "octagonal", "sign"],
+      "aliases": ["octagonal-sign"]
+    },
+    "1F6D2": {
+      "name": "SHOPPING TROLLEY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "shopping", "trolley"],
+      "aliases": ["shopping-trolley"]
+    },
+    "1F6D3": {
+      "name": "STUPA",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "stupa"],
+      "aliases": ["stupa"]
+    },
+    "1F6D4": {
+      "name": "PAGODA",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pagoda"],
+      "aliases": ["pagoda"]
+    },
+    "1F6D5": {
+      "name": "HINDU TEMPLE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "hindu", "temple"],
+      "aliases": ["hindu-temple"]
+    },
+    "1F6D6": {
+      "name": "HUT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "hut"],
+      "aliases": ["hut"]
+    },
+    "1F6D7": {
+      "name": "ELEVATOR",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "elevator"],
+      "aliases": ["elevator"]
+    },
+    "1F6D8": {
+      "name": "LANDSLIDE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "landslide"],
+      "aliases": ["landslide"]
+    },
+    "1F6DC": {
+      "name": "WIRELESS",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "wireless"],
+      "aliases": ["wireless"]
+    },
+    "1F6DD": {
+      "name": "PLAYGROUND SLIDE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "playground", "slide"],
+      "aliases": ["playground-slide"]
+    },
+    "1F6DE": {
+      "name": "WHEEL",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "wheel"],
+      "aliases": ["wheel"]
+    },
+    "1F6DF": {
+      "name": "RING BUOY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "ring", "buoy"],
+      "aliases": ["ring-buoy"]
+    },
+    "1F6E0": {
+      "name": "HAMMER AND WRENCH",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "hammer", "wrench"],
+      "aliases": ["hammer-and-wrench"]
+    },
+    "1F6E1": {
+      "name": "SHIELD",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "shield"],
+      "aliases": ["shield"]
+    },
+    "1F6E2": {
+      "name": "OIL DRUM",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oil", "drum"],
+      "aliases": ["oil-drum"]
+    },
+    "1F6E3": {
+      "name": "MOTORWAY",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "motorway"],
+      "aliases": ["motorway"]
+    },
+    "1F6E4": {
+      "name": "RAILWAY TRACK",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "railway", "track"],
+      "aliases": ["railway-track"]
+    },
+    "1F6E5": {
+      "name": "MOTOR BOAT",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "motor", "boat"],
+      "aliases": ["motor-boat"]
+    },
+    "1F6E6": {
+      "name": "UP-POINTING MILITARY AIRPLANE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pointing", "military", "airplane"],
+      "aliases": ["up-pointing-military-airplane"]
+    },
+    "1F6E7": {
+      "name": "UP-POINTING AIRPLANE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pointing", "airplane"],
+      "aliases": ["up-pointing-airplane"]
+    },
+    "1F6E8": {
+      "name": "UP-POINTING SMALL AIRPLANE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pointing", "small", "airplane"],
+      "aliases": ["up-pointing-small-airplane"]
+    },
+    "1F6E9": {
+      "name": "SMALL AIRPLANE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "small", "airplane"],
+      "aliases": ["small-airplane"]
+    },
+    "1F6EA": {
+      "name": "NORTHEAST-POINTING AIRPLANE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "northeast", "pointing", "airplane"],
+      "aliases": ["northeast-pointing-airplane"]
+    },
+    "1F6EB": {
+      "name": "AIRPLANE DEPARTURE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "airplane", "departure"],
+      "aliases": ["airplane-departure"]
+    },
+    "1F6EC": {
+      "name": "AIRPLANE ARRIVING",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "airplane", "arriving"],
+      "aliases": ["airplane-arriving"]
+    },
+    "1F6F0": {
+      "name": "SATELLITE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "satellite"],
+      "aliases": ["satellite"]
+    },
+    "1F6F1": {
+      "name": "ONCOMING FIRE ENGINE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "oncoming", "fire", "engine"],
+      "aliases": ["oncoming-fire-engine"]
+    },
+    "1F6F2": {
+      "name": "DIESEL LOCOMOTIVE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "diesel", "locomotive"],
+      "aliases": ["diesel-locomotive"]
+    },
+    "1F6F3": {
+      "name": "PASSENGER SHIP",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "passenger", "ship"],
+      "aliases": ["passenger-ship"]
+    },
+    "1F6F4": {
+      "name": "SCOOTER",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "scooter"],
+      "aliases": ["scooter"]
+    },
+    "1F6F5": {
+      "name": "MOTOR SCOOTER",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "motor", "scooter"],
+      "aliases": ["motor-scooter"]
+    },
+    "1F6F6": {
+      "name": "CANOE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "canoe"],
+      "aliases": ["canoe"]
+    },
+    "1F6F7": {
+      "name": "SLED",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "sled"],
+      "aliases": ["sled"]
+    },
+    "1F6F8": {
+      "name": "FLYING SAUCER",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "flying", "saucer"],
+      "aliases": ["flying-saucer"]
+    },
+    "1F6F9": {
+      "name": "SKATEBOARD",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "skateboard"],
+      "aliases": ["skateboard"]
+    },
+    "1F6FA": {
+      "name": "AUTO RICKSHAW",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "auto", "rickshaw"],
+      "aliases": ["auto-rickshaw"]
+    },
+    "1F6FB": {
+      "name": "PICKUP TRUCK",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "pickup", "truck"],
+      "aliases": ["pickup-truck"]
+    },
+    "1F6FC": {
+      "name": "ROLLER SKATE",
+      "category": "Symbol",
+      "keywords": ["transport", "and", "map", "symbols", "roller", "skate"],
+      "aliases": ["roller-skate"]
+    },
+    "1F700": {
+      "name": "ALCHEMICAL SYMBOL FOR QUINTESSENCE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "quintessence"],
+      "aliases": ["alchemical-symbol-for-quintessence"]
+    },
+    "1F701": {
+      "name": "ALCHEMICAL SYMBOL FOR AIR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "air"],
+      "aliases": ["alchemical-symbol-for-air"]
+    },
+    "1F702": {
+      "name": "ALCHEMICAL SYMBOL FOR FIRE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "fire"],
+      "aliases": ["alchemical-symbol-for-fire"]
+    },
+    "1F703": {
+      "name": "ALCHEMICAL SYMBOL FOR EARTH",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "earth"],
+      "aliases": ["alchemical-symbol-for-earth"]
+    },
+    "1F704": {
+      "name": "ALCHEMICAL SYMBOL FOR WATER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "water"],
+      "aliases": ["alchemical-symbol-for-water"]
+    },
+    "1F705": {
+      "name": "ALCHEMICAL SYMBOL FOR AQUAFORTIS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "aquafortis"],
+      "aliases": ["alchemical-symbol-for-aquafortis"]
+    },
+    "1F706": {
+      "name": "ALCHEMICAL SYMBOL FOR AQUA REGIA",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "aqua", "regia"],
+      "aliases": ["alchemical-symbol-for-aqua-regia"]
+    },
+    "1F707": {
+      "name": "ALCHEMICAL SYMBOL FOR AQUA REGIA-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "aqua", "regia"],
+      "aliases": ["alchemical-symbol-for-aqua-regia-2"]
+    },
+    "1F708": {
+      "name": "ALCHEMICAL SYMBOL FOR AQUA VITAE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "aqua", "vitae"],
+      "aliases": ["alchemical-symbol-for-aqua-vitae"]
+    },
+    "1F709": {
+      "name": "ALCHEMICAL SYMBOL FOR AQUA VITAE-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "aqua", "vitae"],
+      "aliases": ["alchemical-symbol-for-aqua-vitae-2"]
+    },
+    "1F70A": {
+      "name": "ALCHEMICAL SYMBOL FOR VINEGAR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vinegar"],
+      "aliases": ["alchemical-symbol-for-vinegar"]
+    },
+    "1F70B": {
+      "name": "ALCHEMICAL SYMBOL FOR VINEGAR-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vinegar"],
+      "aliases": ["alchemical-symbol-for-vinegar-2"]
+    },
+    "1F70C": {
+      "name": "ALCHEMICAL SYMBOL FOR VINEGAR-3",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vinegar"],
+      "aliases": ["alchemical-symbol-for-vinegar-3"]
+    },
+    "1F70D": {
+      "name": "ALCHEMICAL SYMBOL FOR SULFUR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sulfur"],
+      "aliases": ["alchemical-symbol-for-sulfur"]
+    },
+    "1F70E": {
+      "name": "ALCHEMICAL SYMBOL FOR PHILOSOPHERS SULFUR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "philosophers", "sulfur"],
+      "aliases": ["alchemical-symbol-for-philosophers-sulfur"]
+    },
+    "1F70F": {
+      "name": "ALCHEMICAL SYMBOL FOR BLACK SULFUR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "black", "sulfur"],
+      "aliases": ["alchemical-symbol-for-black-sulfur"]
+    },
+    "1F710": {
+      "name": "ALCHEMICAL SYMBOL FOR MERCURY SUBLIMATE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "mercury", "sublimate"],
+      "aliases": ["alchemical-symbol-for-mercury-sublimate"]
+    },
+    "1F711": {
+      "name": "ALCHEMICAL SYMBOL FOR MERCURY SUBLIMATE-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "mercury", "sublimate"],
+      "aliases": ["alchemical-symbol-for-mercury-sublimate-2"]
+    },
+    "1F712": {
+      "name": "ALCHEMICAL SYMBOL FOR MERCURY SUBLIMATE-3",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "mercury", "sublimate"],
+      "aliases": ["alchemical-symbol-for-mercury-sublimate-3"]
+    },
+    "1F713": {
+      "name": "ALCHEMICAL SYMBOL FOR CINNABAR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "cinnabar"],
+      "aliases": ["alchemical-symbol-for-cinnabar"]
+    },
+    "1F714": {
+      "name": "ALCHEMICAL SYMBOL FOR SALT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "salt"],
+      "aliases": ["alchemical-symbol-for-salt"]
+    },
+    "1F715": {
+      "name": "ALCHEMICAL SYMBOL FOR NITRE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "nitre"],
+      "aliases": ["alchemical-symbol-for-nitre"]
+    },
+    "1F716": {
+      "name": "ALCHEMICAL SYMBOL FOR VITRIOL",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vitriol"],
+      "aliases": ["alchemical-symbol-for-vitriol"]
+    },
+    "1F717": {
+      "name": "ALCHEMICAL SYMBOL FOR VITRIOL-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vitriol"],
+      "aliases": ["alchemical-symbol-for-vitriol-2"]
+    },
+    "1F718": {
+      "name": "ALCHEMICAL SYMBOL FOR ROCK SALT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "rock", "salt"],
+      "aliases": ["alchemical-symbol-for-rock-salt"]
+    },
+    "1F719": {
+      "name": "ALCHEMICAL SYMBOL FOR ROCK SALT-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "rock", "salt"],
+      "aliases": ["alchemical-symbol-for-rock-salt-2"]
+    },
+    "1F71A": {
+      "name": "ALCHEMICAL SYMBOL FOR GOLD",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "gold"],
+      "aliases": ["alchemical-symbol-for-gold"]
+    },
+    "1F71B": {
+      "name": "ALCHEMICAL SYMBOL FOR SILVER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "silver"],
+      "aliases": ["alchemical-symbol-for-silver"]
+    },
+    "1F71C": {
+      "name": "ALCHEMICAL SYMBOL FOR IRON ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "iron", "ore"],
+      "aliases": ["alchemical-symbol-for-iron-ore"]
+    },
+    "1F71D": {
+      "name": "ALCHEMICAL SYMBOL FOR IRON ORE-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "iron", "ore"],
+      "aliases": ["alchemical-symbol-for-iron-ore-2"]
+    },
+    "1F71E": {
+      "name": "ALCHEMICAL SYMBOL FOR CROCUS OF IRON",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crocus", "iron"],
+      "aliases": ["alchemical-symbol-for-crocus-of-iron"]
+    },
+    "1F71F": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS OF IRON",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus", "iron"],
+      "aliases": ["alchemical-symbol-for-regulus-of-iron"]
+    },
+    "1F720": {
+      "name": "ALCHEMICAL SYMBOL FOR COPPER ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "copper", "ore"],
+      "aliases": ["alchemical-symbol-for-copper-ore"]
+    },
+    "1F721": {
+      "name": "ALCHEMICAL SYMBOL FOR IRON-COPPER ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "iron", "copper", "ore"],
+      "aliases": ["alchemical-symbol-for-iron-copper-ore"]
+    },
+    "1F722": {
+      "name": "ALCHEMICAL SYMBOL FOR SUBLIMATE OF COPPER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sublimate", "copper"],
+      "aliases": ["alchemical-symbol-for-sublimate-of-copper"]
+    },
+    "1F723": {
+      "name": "ALCHEMICAL SYMBOL FOR CROCUS OF COPPER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crocus", "copper"],
+      "aliases": ["alchemical-symbol-for-crocus-of-copper"]
+    },
+    "1F724": {
+      "name": "ALCHEMICAL SYMBOL FOR CROCUS OF COPPER-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crocus", "copper"],
+      "aliases": ["alchemical-symbol-for-crocus-of-copper-2"]
+    },
+    "1F725": {
+      "name": "ALCHEMICAL SYMBOL FOR COPPER ANTIMONIATE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "copper", "antimoniate"],
+      "aliases": ["alchemical-symbol-for-copper-antimoniate"]
+    },
+    "1F726": {
+      "name": "ALCHEMICAL SYMBOL FOR SALT OF COPPER ANTIMONIATE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "salt", "copper", "antimoniate"],
+      "aliases": ["alchemical-symbol-for-salt-of-copper-antimoniate"]
+    },
+    "1F727": {
+      "name": "ALCHEMICAL SYMBOL FOR SUBLIMATE OF SALT OF COPPER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sublimate", "salt", "copper"],
+      "aliases": ["alchemical-symbol-for-sublimate-of-salt-of-copper"]
+    },
+    "1F728": {
+      "name": "ALCHEMICAL SYMBOL FOR VERDIGRIS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "verdigris"],
+      "aliases": ["alchemical-symbol-for-verdigris"]
+    },
+    "1F729": {
+      "name": "ALCHEMICAL SYMBOL FOR TIN ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "tin", "ore"],
+      "aliases": ["alchemical-symbol-for-tin-ore"]
+    },
+    "1F72A": {
+      "name": "ALCHEMICAL SYMBOL FOR LEAD ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "lead", "ore"],
+      "aliases": ["alchemical-symbol-for-lead-ore"]
+    },
+    "1F72B": {
+      "name": "ALCHEMICAL SYMBOL FOR ANTIMONY ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "antimony", "ore"],
+      "aliases": ["alchemical-symbol-for-antimony-ore"]
+    },
+    "1F72C": {
+      "name": "ALCHEMICAL SYMBOL FOR SUBLIMATE OF ANTIMONY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sublimate", "antimony"],
+      "aliases": ["alchemical-symbol-for-sublimate-of-antimony"]
+    },
+    "1F72D": {
+      "name": "ALCHEMICAL SYMBOL FOR SALT OF ANTIMONY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "salt", "antimony"],
+      "aliases": ["alchemical-symbol-for-salt-of-antimony"]
+    },
+    "1F72E": {
+      "name": "ALCHEMICAL SYMBOL FOR SUBLIMATE OF SALT OF ANTIMONY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sublimate", "salt", "antimony"],
+      "aliases": ["alchemical-symbol-for-sublimate-of-salt-of-antimony"]
+    },
+    "1F72F": {
+      "name": "ALCHEMICAL SYMBOL FOR VINEGAR OF ANTIMONY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "vinegar", "antimony"],
+      "aliases": ["alchemical-symbol-for-vinegar-of-antimony"]
+    },
+    "1F730": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS OF ANTIMONY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus", "antimony"],
+      "aliases": ["alchemical-symbol-for-regulus-of-antimony"]
+    },
+    "1F731": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS OF ANTIMONY-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus", "antimony"],
+      "aliases": ["alchemical-symbol-for-regulus-of-antimony-2"]
+    },
+    "1F732": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus"],
+      "aliases": ["alchemical-symbol-for-regulus"]
+    },
+    "1F733": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus"],
+      "aliases": ["alchemical-symbol-for-regulus-2"]
+    },
+    "1F734": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS-3",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus"],
+      "aliases": ["alchemical-symbol-for-regulus-3"]
+    },
+    "1F735": {
+      "name": "ALCHEMICAL SYMBOL FOR REGULUS-4",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "regulus"],
+      "aliases": ["alchemical-symbol-for-regulus-4"]
+    },
+    "1F736": {
+      "name": "ALCHEMICAL SYMBOL FOR ALKALI",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "alkali"],
+      "aliases": ["alchemical-symbol-for-alkali"]
+    },
+    "1F737": {
+      "name": "ALCHEMICAL SYMBOL FOR ALKALI-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "alkali"],
+      "aliases": ["alchemical-symbol-for-alkali-2"]
+    },
+    "1F738": {
+      "name": "ALCHEMICAL SYMBOL FOR MARCASITE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "marcasite"],
+      "aliases": ["alchemical-symbol-for-marcasite"]
+    },
+    "1F739": {
+      "name": "ALCHEMICAL SYMBOL FOR SAL-AMMONIAC",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sal", "ammoniac"],
+      "aliases": ["alchemical-symbol-for-sal-ammoniac"]
+    },
+    "1F73A": {
+      "name": "ALCHEMICAL SYMBOL FOR ARSENIC",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "arsenic"],
+      "aliases": ["alchemical-symbol-for-arsenic"]
+    },
+    "1F73B": {
+      "name": "ALCHEMICAL SYMBOL FOR REALGAR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "realgar"],
+      "aliases": ["alchemical-symbol-for-realgar"]
+    },
+    "1F73C": {
+      "name": "ALCHEMICAL SYMBOL FOR REALGAR-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "realgar"],
+      "aliases": ["alchemical-symbol-for-realgar-2"]
+    },
+    "1F73D": {
+      "name": "ALCHEMICAL SYMBOL FOR AURIPIGMENT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "auripigment"],
+      "aliases": ["alchemical-symbol-for-auripigment"]
+    },
+    "1F73E": {
+      "name": "ALCHEMICAL SYMBOL FOR BISMUTH ORE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "bismuth", "ore"],
+      "aliases": ["alchemical-symbol-for-bismuth-ore"]
+    },
+    "1F73F": {
+      "name": "ALCHEMICAL SYMBOL FOR TARTAR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "tartar"],
+      "aliases": ["alchemical-symbol-for-tartar"]
+    },
+    "1F740": {
+      "name": "ALCHEMICAL SYMBOL FOR TARTAR-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "tartar"],
+      "aliases": ["alchemical-symbol-for-tartar-2"]
+    },
+    "1F741": {
+      "name": "ALCHEMICAL SYMBOL FOR QUICK LIME",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "quick", "lime"],
+      "aliases": ["alchemical-symbol-for-quick-lime"]
+    },
+    "1F742": {
+      "name": "ALCHEMICAL SYMBOL FOR BORAX",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "borax"],
+      "aliases": ["alchemical-symbol-for-borax"]
+    },
+    "1F743": {
+      "name": "ALCHEMICAL SYMBOL FOR BORAX-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "borax"],
+      "aliases": ["alchemical-symbol-for-borax-2"]
+    },
+    "1F744": {
+      "name": "ALCHEMICAL SYMBOL FOR BORAX-3",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "borax"],
+      "aliases": ["alchemical-symbol-for-borax-3"]
+    },
+    "1F745": {
+      "name": "ALCHEMICAL SYMBOL FOR ALUM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "alum"],
+      "aliases": ["alchemical-symbol-for-alum"]
+    },
+    "1F746": {
+      "name": "ALCHEMICAL SYMBOL FOR OIL",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "oil"],
+      "aliases": ["alchemical-symbol-for-oil"]
+    },
+    "1F747": {
+      "name": "ALCHEMICAL SYMBOL FOR SPIRIT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "spirit"],
+      "aliases": ["alchemical-symbol-for-spirit"]
+    },
+    "1F748": {
+      "name": "ALCHEMICAL SYMBOL FOR TINCTURE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "tincture"],
+      "aliases": ["alchemical-symbol-for-tincture"]
+    },
+    "1F749": {
+      "name": "ALCHEMICAL SYMBOL FOR GUM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "gum"],
+      "aliases": ["alchemical-symbol-for-gum"]
+    },
+    "1F74A": {
+      "name": "ALCHEMICAL SYMBOL FOR WAX",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "wax"],
+      "aliases": ["alchemical-symbol-for-wax"]
+    },
+    "1F74B": {
+      "name": "ALCHEMICAL SYMBOL FOR POWDER",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "powder"],
+      "aliases": ["alchemical-symbol-for-powder"]
+    },
+    "1F74C": {
+      "name": "ALCHEMICAL SYMBOL FOR CALX",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "calx"],
+      "aliases": ["alchemical-symbol-for-calx"]
+    },
+    "1F74D": {
+      "name": "ALCHEMICAL SYMBOL FOR TUTTY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "tutty"],
+      "aliases": ["alchemical-symbol-for-tutty"]
+    },
+    "1F74E": {
+      "name": "ALCHEMICAL SYMBOL FOR CAPUT MORTUUM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "caput", "mortuum"],
+      "aliases": ["alchemical-symbol-for-caput-mortuum"]
+    },
+    "1F74F": {
+      "name": "ALCHEMICAL SYMBOL FOR SCEPTER OF JOVE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "scepter", "jove"],
+      "aliases": ["alchemical-symbol-for-scepter-of-jove"]
+    },
+    "1F750": {
+      "name": "ALCHEMICAL SYMBOL FOR CADUCEUS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "caduceus"],
+      "aliases": ["alchemical-symbol-for-caduceus"]
+    },
+    "1F751": {
+      "name": "ALCHEMICAL SYMBOL FOR TRIDENT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "trident"],
+      "aliases": ["alchemical-symbol-for-trident"]
+    },
+    "1F752": {
+      "name": "ALCHEMICAL SYMBOL FOR STARRED TRIDENT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "starred", "trident"],
+      "aliases": ["alchemical-symbol-for-starred-trident"]
+    },
+    "1F753": {
+      "name": "ALCHEMICAL SYMBOL FOR LODESTONE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "lodestone"],
+      "aliases": ["alchemical-symbol-for-lodestone"]
+    },
+    "1F754": {
+      "name": "ALCHEMICAL SYMBOL FOR SOAP",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "soap"],
+      "aliases": ["alchemical-symbol-for-soap"]
+    },
+    "1F755": {
+      "name": "ALCHEMICAL SYMBOL FOR URINE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "urine"],
+      "aliases": ["alchemical-symbol-for-urine"]
+    },
+    "1F756": {
+      "name": "ALCHEMICAL SYMBOL FOR HORSE DUNG",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "horse", "dung"],
+      "aliases": ["alchemical-symbol-for-horse-dung"]
+    },
+    "1F757": {
+      "name": "ALCHEMICAL SYMBOL FOR ASHES",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "ashes"],
+      "aliases": ["alchemical-symbol-for-ashes"]
+    },
+    "1F758": {
+      "name": "ALCHEMICAL SYMBOL FOR POT ASHES",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "pot", "ashes"],
+      "aliases": ["alchemical-symbol-for-pot-ashes"]
+    },
+    "1F759": {
+      "name": "ALCHEMICAL SYMBOL FOR BRICK",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "brick"],
+      "aliases": ["alchemical-symbol-for-brick"]
+    },
+    "1F75A": {
+      "name": "ALCHEMICAL SYMBOL FOR POWDERED BRICK",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "powdered", "brick"],
+      "aliases": ["alchemical-symbol-for-powdered-brick"]
+    },
+    "1F75B": {
+      "name": "ALCHEMICAL SYMBOL FOR AMALGAM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "amalgam"],
+      "aliases": ["alchemical-symbol-for-amalgam"]
+    },
+    "1F75C": {
+      "name": "ALCHEMICAL SYMBOL FOR STRATUM SUPER STRATUM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "stratum", "super"],
+      "aliases": ["alchemical-symbol-for-stratum-super-stratum"]
+    },
+    "1F75D": {
+      "name": "ALCHEMICAL SYMBOL FOR STRATUM SUPER STRATUM-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "stratum", "super"],
+      "aliases": ["alchemical-symbol-for-stratum-super-stratum-2"]
+    },
+    "1F75E": {
+      "name": "ALCHEMICAL SYMBOL FOR SUBLIMATION",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "sublimation"],
+      "aliases": ["alchemical-symbol-for-sublimation"]
+    },
+    "1F75F": {
+      "name": "ALCHEMICAL SYMBOL FOR PRECIPITATE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "precipitate"],
+      "aliases": ["alchemical-symbol-for-precipitate"]
+    },
+    "1F760": {
+      "name": "ALCHEMICAL SYMBOL FOR DISTILL",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "distill"],
+      "aliases": ["alchemical-symbol-for-distill"]
+    },
+    "1F761": {
+      "name": "ALCHEMICAL SYMBOL FOR DISSOLVE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "dissolve"],
+      "aliases": ["alchemical-symbol-for-dissolve"]
+    },
+    "1F762": {
+      "name": "ALCHEMICAL SYMBOL FOR DISSOLVE-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "dissolve"],
+      "aliases": ["alchemical-symbol-for-dissolve-2"]
+    },
+    "1F763": {
+      "name": "ALCHEMICAL SYMBOL FOR PURIFY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "purify"],
+      "aliases": ["alchemical-symbol-for-purify"]
+    },
+    "1F764": {
+      "name": "ALCHEMICAL SYMBOL FOR PUTREFACTION",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "putrefaction"],
+      "aliases": ["alchemical-symbol-for-putrefaction"]
+    },
+    "1F765": {
+      "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crucible"],
+      "aliases": ["alchemical-symbol-for-crucible"]
+    },
+    "1F766": {
+      "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE-2",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crucible"],
+      "aliases": ["alchemical-symbol-for-crucible-2"]
+    },
+    "1F767": {
+      "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE-3",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crucible"],
+      "aliases": ["alchemical-symbol-for-crucible-3"]
+    },
+    "1F768": {
+      "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE-4",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crucible"],
+      "aliases": ["alchemical-symbol-for-crucible-4"]
+    },
+    "1F769": {
+      "name": "ALCHEMICAL SYMBOL FOR CRUCIBLE-5",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "crucible"],
+      "aliases": ["alchemical-symbol-for-crucible-5"]
+    },
+    "1F76A": {
+      "name": "ALCHEMICAL SYMBOL FOR ALEMBIC",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "alembic"],
+      "aliases": ["alchemical-symbol-for-alembic"]
+    },
+    "1F76B": {
+      "name": "ALCHEMICAL SYMBOL FOR BATH OF MARY",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "bath", "mary"],
+      "aliases": ["alchemical-symbol-for-bath-of-mary"]
+    },
+    "1F76C": {
+      "name": "ALCHEMICAL SYMBOL FOR BATH OF VAPOURS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "bath", "vapours"],
+      "aliases": ["alchemical-symbol-for-bath-of-vapours"]
+    },
+    "1F76D": {
+      "name": "ALCHEMICAL SYMBOL FOR RETORT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "retort"],
+      "aliases": ["alchemical-symbol-for-retort"]
+    },
+    "1F76E": {
+      "name": "ALCHEMICAL SYMBOL FOR HOUR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "hour"],
+      "aliases": ["alchemical-symbol-for-hour"]
+    },
+    "1F76F": {
+      "name": "ALCHEMICAL SYMBOL FOR NIGHT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "night"],
+      "aliases": ["alchemical-symbol-for-night"]
+    },
+    "1F770": {
+      "name": "ALCHEMICAL SYMBOL FOR DAY-NIGHT",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "day", "night"],
+      "aliases": ["alchemical-symbol-for-day-night"]
+    },
+    "1F771": {
+      "name": "ALCHEMICAL SYMBOL FOR MONTH",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "month"],
+      "aliases": ["alchemical-symbol-for-month"]
+    },
+    "1F772": {
+      "name": "ALCHEMICAL SYMBOL FOR HALF DRAM",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "half", "dram"],
+      "aliases": ["alchemical-symbol-for-half-dram"]
+    },
+    "1F773": {
+      "name": "ALCHEMICAL SYMBOL FOR HALF OUNCE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "symbol", "for", "half", "ounce"],
+      "aliases": ["alchemical-symbol-for-half-ounce"]
+    },
+    "1F774": {
+      "name": "LOT OF FORTUNE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "lot", "fortune"],
+      "aliases": ["lot-of-fortune"]
+    },
+    "1F775": {
+      "name": "OCCULTATION",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "occultation"],
+      "aliases": ["occultation"]
+    },
+    "1F776": {
+      "name": "LUNAR ECLIPSE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "lunar", "eclipse"],
+      "aliases": ["lunar-eclipse"]
+    },
+    "1F777": {
+      "name": "VESTA FORM TWO",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "vesta", "form", "two"],
+      "aliases": ["vesta-form-two"]
+    },
+    "1F778": {
+      "name": "ASTRAEA FORM TWO",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "astraea", "form", "two"],
+      "aliases": ["astraea-form-two"]
+    },
+    "1F779": {
+      "name": "HYGIEA FORM TWO",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "hygiea", "form", "two"],
+      "aliases": ["hygiea-form-two"]
+    },
+    "1F77A": {
+      "name": "PARTHENOPE FORM TWO",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "parthenope", "form", "two"],
+      "aliases": ["parthenope-form-two"]
+    },
+    "1F77B": {
+      "name": "HAUMEA",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "haumea"],
+      "aliases": ["haumea"]
+    },
+    "1F77C": {
+      "name": "MAKEMAKE",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "makemake"],
+      "aliases": ["makemake"]
+    },
+    "1F77D": {
+      "name": "GONGGONG",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "gonggong"],
+      "aliases": ["gonggong"]
+    },
+    "1F77E": {
+      "name": "QUAOAR",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "quaoar"],
+      "aliases": ["quaoar"]
+    },
+    "1F77F": {
+      "name": "ORCUS",
+      "category": "Symbol",
+      "keywords": ["alchemical", "symbols", "orcus"],
+      "aliases": ["orcus"]
+    },
+    "1F900": {
+      "name": "CIRCLED CROSS FORMEE WITH FOUR DOTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "circled",
+        "cross",
+        "formee",
+        "with",
+        "four",
+        "dots"
+      ],
+      "aliases": ["circled-cross-formee-with-four-dots"]
+    },
+    "1F901": {
+      "name": "CIRCLED CROSS FORMEE WITH TWO DOTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "circled",
+        "cross",
+        "formee",
+        "with",
+        "two",
+        "dots"
+      ],
+      "aliases": ["circled-cross-formee-with-two-dots"]
+    },
+    "1F902": {
+      "name": "CIRCLED CROSS FORMEE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "circled", "cross", "formee"],
+      "aliases": ["circled-cross-formee"]
+    },
+    "1F903": {
+      "name": "LEFT HALF CIRCLE WITH FOUR DOTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "left",
+        "half",
+        "circle",
+        "with",
+        "four",
+        "dots"
+      ],
+      "aliases": ["left-half-circle-with-four-dots"]
+    },
+    "1F904": {
+      "name": "LEFT HALF CIRCLE WITH THREE DOTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "left",
+        "half",
+        "circle",
+        "with",
+        "three",
+        "dots"
+      ],
+      "aliases": ["left-half-circle-with-three-dots"]
+    },
+    "1F905": {
+      "name": "LEFT HALF CIRCLE WITH TWO DOTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "left",
+        "half",
+        "circle",
+        "with",
+        "two",
+        "dots"
+      ],
+      "aliases": ["left-half-circle-with-two-dots"]
+    },
+    "1F906": {
+      "name": "LEFT HALF CIRCLE WITH DOT",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "left",
+        "half",
+        "circle",
+        "with",
+        "dot"
+      ],
+      "aliases": ["left-half-circle-with-dot"]
+    },
+    "1F907": {
+      "name": "LEFT HALF CIRCLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "left", "half", "circle"],
+      "aliases": ["left-half-circle"]
+    },
+    "1F908": {
+      "name": "DOWNWARD FACING HOOK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "downward", "facing", "hook"],
+      "aliases": ["downward-facing-hook"]
+    },
+    "1F909": {
+      "name": "DOWNWARD FACING NOTCHED HOOK",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "downward",
+        "facing",
+        "notched",
+        "hook"
+      ],
+      "aliases": ["downward-facing-notched-hook"]
+    },
+    "1F90A": {
+      "name": "DOWNWARD FACING HOOK WITH DOT",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "downward",
+        "facing",
+        "hook",
+        "with",
+        "dot"
+      ],
+      "aliases": ["downward-facing-hook-with-dot"]
+    },
+    "1F90B": {
+      "name": "DOWNWARD FACING NOTCHED HOOK WITH DOT",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "downward",
+        "facing",
+        "notched",
+        "hook",
+        "with",
+        "dot"
+      ],
+      "aliases": ["downward-facing-notched-hook-with-dot"]
+    },
+    "1F90C": {
+      "name": "PINCHED FINGERS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pinched", "fingers"],
+      "aliases": ["pinched-fingers"]
+    },
+    "1F90D": {
+      "name": "WHITE HEART",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "white", "heart"],
+      "aliases": ["white-heart"]
+    },
+    "1F90E": {
+      "name": "BROWN HEART",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "brown", "heart"],
+      "aliases": ["brown-heart"]
+    },
+    "1F90F": {
+      "name": "PINCHING HAND",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pinching", "hand"],
+      "aliases": ["pinching-hand"]
+    },
+    "1F910": {
+      "name": "ZIPPER-MOUTH FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "zipper", "mouth", "face"],
+      "aliases": ["zipper-mouth-face"]
+    },
+    "1F911": {
+      "name": "MONEY-MOUTH FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "money", "mouth", "face"],
+      "aliases": ["money-mouth-face"]
+    },
+    "1F912": {
+      "name": "FACE WITH THERMOMETER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "face", "with", "thermometer"],
+      "aliases": ["face-with-thermometer"]
+    },
+    "1F913": {
+      "name": "NERD FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "nerd", "face"],
+      "aliases": ["nerd-face"]
+    },
+    "1F914": {
+      "name": "THINKING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "thinking", "face"],
+      "aliases": ["thinking-face"]
+    },
+    "1F915": {
+      "name": "FACE WITH HEAD-BANDAGE",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "head",
+        "bandage"
+      ],
+      "aliases": ["face-with-head-bandage"]
+    },
+    "1F916": {
+      "name": "ROBOT FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "robot", "face"],
+      "aliases": ["robot-face"]
+    },
+    "1F917": {
+      "name": "HUGGING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "hugging", "face"],
+      "aliases": ["hugging-face"]
+    },
+    "1F918": {
+      "name": "SIGN OF THE HORNS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sign", "the", "horns"],
+      "aliases": ["sign-of-the-horns"]
+    },
+    "1F919": {
+      "name": "CALL ME HAND",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "call", "hand"],
+      "aliases": ["call-me-hand"]
+    },
+    "1F91A": {
+      "name": "RAISED BACK OF HAND",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "raised", "back", "hand"],
+      "aliases": ["raised-back-of-hand"]
+    },
+    "1F91B": {
+      "name": "LEFT-FACING FIST",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "left", "facing", "fist"],
+      "aliases": ["left-facing-fist"]
+    },
+    "1F91C": {
+      "name": "RIGHT-FACING FIST",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "right", "facing", "fist"],
+      "aliases": ["right-facing-fist"]
+    },
+    "1F91D": {
+      "name": "HANDSHAKE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "handshake"],
+      "aliases": ["handshake"]
+    },
+    "1F91E": {
+      "name": "HAND WITH INDEX AND MIDDLE FINGERS CROSSED",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "hand",
+        "with",
+        "index",
+        "middle",
+        "fingers",
+        "crossed"
+      ],
+      "aliases": ["hand-with-index-and-middle-fingers-crossed"]
+    },
+    "1F91F": {
+      "name": "I LOVE YOU HAND SIGN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "love", "you", "hand", "sign"],
+      "aliases": ["i-love-you-hand-sign"]
+    },
+    "1F920": {
+      "name": "FACE WITH COWBOY HAT",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "cowboy",
+        "hat"
+      ],
+      "aliases": ["face-with-cowboy-hat"]
+    },
+    "1F921": {
+      "name": "CLOWN FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "clown", "face"],
+      "aliases": ["clown-face"]
+    },
+    "1F922": {
+      "name": "NAUSEATED FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "nauseated", "face"],
+      "aliases": ["nauseated-face"]
+    },
+    "1F923": {
+      "name": "ROLLING ON THE FLOOR LAUGHING",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "rolling",
+        "the",
+        "floor",
+        "laughing"
+      ],
+      "aliases": ["rolling-on-the-floor-laughing"]
+    },
+    "1F924": {
+      "name": "DROOLING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "drooling", "face"],
+      "aliases": ["drooling-face"]
+    },
+    "1F925": {
+      "name": "LYING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lying", "face"],
+      "aliases": ["lying-face"]
+    },
+    "1F926": {
+      "name": "FACE PALM",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "face", "palm"],
+      "aliases": ["face-palm"]
+    },
+    "1F927": {
+      "name": "SNEEZING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sneezing", "face"],
+      "aliases": ["sneezing-face"]
+    },
+    "1F928": {
+      "name": "FACE WITH ONE EYEBROW RAISED",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "one",
+        "eyebrow",
+        "raised"
+      ],
+      "aliases": ["face-with-one-eyebrow-raised"]
+    },
+    "1F929": {
+      "name": "GRINNING FACE WITH STAR EYES",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "grinning",
+        "face",
+        "with",
+        "star",
+        "eyes"
+      ],
+      "aliases": ["grinning-face-with-star-eyes"]
+    },
+    "1F92A": {
+      "name": "GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "grinning",
+        "face",
+        "with",
+        "one",
+        "large",
+        "small",
+        "eye"
+      ],
+      "aliases": ["grinning-face-with-one-large-and-one-small-eye"]
+    },
+    "1F92B": {
+      "name": "FACE WITH FINGER COVERING CLOSED LIPS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "finger",
+        "covering",
+        "closed",
+        "lips"
+      ],
+      "aliases": ["face-with-finger-covering-closed-lips"]
+    },
+    "1F92C": {
+      "name": "SERIOUS FACE WITH SYMBOLS COVERING MOUTH",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "serious",
+        "face",
+        "with",
+        "covering",
+        "mouth",
+        "symbol"
+      ],
+      "aliases": ["serious-face-with-symbols-covering-mouth"]
+    },
+    "1F92D": {
+      "name": "SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "smiling",
+        "face",
+        "with",
+        "eyes",
+        "hand",
+        "covering",
+        "mouth"
+      ],
+      "aliases": ["smiling-face-with-smiling-eyes-and-hand-covering-mouth"]
+    },
+    "1F92E": {
+      "name": "FACE WITH OPEN MOUTH VOMITING",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "open",
+        "mouth",
+        "vomiting"
+      ],
+      "aliases": ["face-with-open-mouth-vomiting"]
+    },
+    "1F92F": {
+      "name": "SHOCKED FACE WITH EXPLODING HEAD",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "shocked",
+        "face",
+        "with",
+        "exploding",
+        "head"
+      ],
+      "aliases": ["shocked-face-with-exploding-head"]
+    },
+    "1F930": {
+      "name": "PREGNANT WOMAN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pregnant", "woman"],
+      "aliases": ["pregnant-woman"]
+    },
+    "1F931": {
+      "name": "BREAST-FEEDING",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "breast", "feeding"],
+      "aliases": ["breast-feeding"]
+    },
+    "1F932": {
+      "name": "PALMS UP TOGETHER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "palms", "together"],
+      "aliases": ["palms-up-together"]
+    },
+    "1F933": {
+      "name": "SELFIE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "selfie"],
+      "aliases": ["selfie"]
+    },
+    "1F934": {
+      "name": "PRINCE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "prince"],
+      "aliases": ["prince"]
+    },
+    "1F935": {
+      "name": "MAN IN TUXEDO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "man", "tuxedo"],
+      "aliases": ["man-in-tuxedo"]
+    },
+    "1F936": {
+      "name": "MOTHER CHRISTMAS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mother", "christmas"],
+      "aliases": ["mother-christmas"]
+    },
+    "1F937": {
+      "name": "SHRUG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "shrug"],
+      "aliases": ["shrug"]
+    },
+    "1F938": {
+      "name": "PERSON DOING CARTWHEEL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "person", "doing", "cartwheel"],
+      "aliases": ["person-doing-cartwheel"]
+    },
+    "1F939": {
+      "name": "JUGGLING",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "juggling"],
+      "aliases": ["juggling"]
+    },
+    "1F93A": {
+      "name": "FENCER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "fencer"],
+      "aliases": ["fencer"]
+    },
+    "1F93B": {
+      "name": "MODERN PENTATHLON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "modern", "pentathlon"],
+      "aliases": ["modern-pentathlon"]
+    },
+    "1F93C": {
+      "name": "WRESTLERS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "wrestlers"],
+      "aliases": ["wrestlers"]
+    },
+    "1F93D": {
+      "name": "WATER POLO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "water", "polo"],
+      "aliases": ["water-polo"]
+    },
+    "1F93E": {
+      "name": "HANDBALL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "handball"],
+      "aliases": ["handball"]
+    },
+    "1F93F": {
+      "name": "DIVING MASK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "diving", "mask"],
+      "aliases": ["diving-mask"]
+    },
+    "1F940": {
+      "name": "WILTED FLOWER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "wilted", "flower"],
+      "aliases": ["wilted-flower"]
+    },
+    "1F941": {
+      "name": "DRUM WITH DRUMSTICKS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "drum", "with", "drumsticks"],
+      "aliases": ["drum-with-drumsticks"]
+    },
+    "1F942": {
+      "name": "CLINKING GLASSES",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "clinking", "glasses"],
+      "aliases": ["clinking-glasses"]
+    },
+    "1F943": {
+      "name": "TUMBLER GLASS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "tumbler", "glass"],
+      "aliases": ["tumbler-glass"]
+    },
+    "1F944": {
+      "name": "SPOON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "spoon"],
+      "aliases": ["spoon"]
+    },
+    "1F945": {
+      "name": "GOAL NET",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "goal", "net"],
+      "aliases": ["goal-net"]
+    },
+    "1F946": {
+      "name": "RIFLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "rifle"],
+      "aliases": ["rifle"]
+    },
+    "1F947": {
+      "name": "FIRST PLACE MEDAL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "first", "place", "medal"],
+      "aliases": ["first-place-medal"]
+    },
+    "1F948": {
+      "name": "SECOND PLACE MEDAL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "second", "place", "medal"],
+      "aliases": ["second-place-medal"]
+    },
+    "1F949": {
+      "name": "THIRD PLACE MEDAL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "third", "place", "medal"],
+      "aliases": ["third-place-medal"]
+    },
+    "1F94A": {
+      "name": "BOXING GLOVE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "boxing", "glove"],
+      "aliases": ["boxing-glove"]
+    },
+    "1F94B": {
+      "name": "MARTIAL ARTS UNIFORM",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "martial", "arts", "uniform"],
+      "aliases": ["martial-arts-uniform"]
+    },
+    "1F94C": {
+      "name": "CURLING STONE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "curling", "stone"],
+      "aliases": ["curling-stone"]
+    },
+    "1F94D": {
+      "name": "LACROSSE STICK AND BALL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lacrosse", "stick", "ball"],
+      "aliases": ["lacrosse-stick-and-ball"]
+    },
+    "1F94E": {
+      "name": "SOFTBALL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "softball"],
+      "aliases": ["softball"]
+    },
+    "1F94F": {
+      "name": "FLYING DISC",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "flying", "disc"],
+      "aliases": ["flying-disc"]
+    },
+    "1F950": {
+      "name": "CROISSANT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "croissant"],
+      "aliases": ["croissant"]
+    },
+    "1F951": {
+      "name": "AVOCADO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "avocado"],
+      "aliases": ["avocado"]
+    },
+    "1F952": {
+      "name": "CUCUMBER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cucumber"],
+      "aliases": ["cucumber"]
+    },
+    "1F953": {
+      "name": "BACON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bacon"],
+      "aliases": ["bacon"]
+    },
+    "1F954": {
+      "name": "POTATO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "potato"],
+      "aliases": ["potato"]
+    },
+    "1F955": {
+      "name": "CARROT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "carrot"],
+      "aliases": ["carrot"]
+    },
+    "1F956": {
+      "name": "BAGUETTE BREAD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "baguette", "bread"],
+      "aliases": ["baguette-bread"]
+    },
+    "1F957": {
+      "name": "GREEN SALAD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "green", "salad"],
+      "aliases": ["green-salad"]
+    },
+    "1F958": {
+      "name": "SHALLOW PAN OF FOOD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "shallow", "pan", "food"],
+      "aliases": ["shallow-pan-of-food"]
+    },
+    "1F959": {
+      "name": "STUFFED FLATBREAD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "stuffed", "flatbread"],
+      "aliases": ["stuffed-flatbread"]
+    },
+    "1F95A": {
+      "name": "EGG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "egg"],
+      "aliases": ["egg"]
+    },
+    "1F95B": {
+      "name": "GLASS OF MILK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "glass", "milk"],
+      "aliases": ["glass-of-milk"]
+    },
+    "1F95C": {
+      "name": "PEANUTS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "peanuts"],
+      "aliases": ["peanuts"]
+    },
+    "1F95D": {
+      "name": "KIWIFRUIT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "kiwifruit"],
+      "aliases": ["kiwifruit"]
+    },
+    "1F95E": {
+      "name": "PANCAKES",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pancakes"],
+      "aliases": ["pancakes"]
+    },
+    "1F95F": {
+      "name": "DUMPLING",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "dumpling"],
+      "aliases": ["dumpling"]
+    },
+    "1F960": {
+      "name": "FORTUNE COOKIE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "fortune", "cookie"],
+      "aliases": ["fortune-cookie"]
+    },
+    "1F961": {
+      "name": "TAKEOUT BOX",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "takeout", "box"],
+      "aliases": ["takeout-box"]
+    },
+    "1F962": {
+      "name": "CHOPSTICKS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "chopsticks"],
+      "aliases": ["chopsticks"]
+    },
+    "1F963": {
+      "name": "BOWL WITH SPOON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bowl", "with", "spoon"],
+      "aliases": ["bowl-with-spoon"]
+    },
+    "1F964": {
+      "name": "CUP WITH STRAW",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cup", "with", "straw"],
+      "aliases": ["cup-with-straw"]
+    },
+    "1F965": {
+      "name": "COCONUT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "coconut"],
+      "aliases": ["coconut"]
+    },
+    "1F966": {
+      "name": "BROCCOLI",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "broccoli"],
+      "aliases": ["broccoli"]
+    },
+    "1F967": {
+      "name": "PIE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pie"],
+      "aliases": ["pie"]
+    },
+    "1F968": {
+      "name": "PRETZEL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "pretzel"],
+      "aliases": ["pretzel"]
+    },
+    "1F969": {
+      "name": "CUT OF MEAT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cut", "meat"],
+      "aliases": ["cut-of-meat"]
+    },
+    "1F96A": {
+      "name": "SANDWICH",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sandwich"],
+      "aliases": ["sandwich"]
+    },
+    "1F96B": {
+      "name": "CANNED FOOD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "canned", "food"],
+      "aliases": ["canned-food"]
+    },
+    "1F96C": {
+      "name": "LEAFY GREEN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "leafy", "green"],
+      "aliases": ["leafy-green"]
+    },
+    "1F96D": {
+      "name": "MANGO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mango"],
+      "aliases": ["mango"]
+    },
+    "1F96E": {
+      "name": "MOON CAKE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "moon", "cake"],
+      "aliases": ["moon-cake"]
+    },
+    "1F96F": {
+      "name": "BAGEL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bagel"],
+      "aliases": ["bagel"]
+    },
+    "1F970": {
+      "name": "SMILING FACE WITH SMILING EYES AND THREE HEARTS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "smiling",
+        "face",
+        "with",
+        "eyes",
+        "three",
+        "hearts"
+      ],
+      "aliases": ["smiling-face-with-smiling-eyes-and-three-hearts"]
+    },
+    "1F971": {
+      "name": "YAWNING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "yawning", "face"],
+      "aliases": ["yawning-face"]
+    },
+    "1F972": {
+      "name": "SMILING FACE WITH TEAR",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "smiling",
+        "face",
+        "with",
+        "tear"
+      ],
+      "aliases": ["smiling-face-with-tear"]
+    },
+    "1F973": {
+      "name": "FACE WITH PARTY HORN AND PARTY HAT",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "party",
+        "horn",
+        "hat"
+      ],
+      "aliases": ["face-with-party-horn-and-party-hat"]
+    },
+    "1F974": {
+      "name": "FACE WITH UNEVEN EYES AND WAVY MOUTH",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "uneven",
+        "eyes",
+        "wavy",
+        "mouth"
+      ],
+      "aliases": ["face-with-uneven-eyes-and-wavy-mouth"]
+    },
+    "1F975": {
+      "name": "OVERHEATED FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "overheated", "face"],
+      "aliases": ["overheated-face"]
+    },
+    "1F976": {
+      "name": "FREEZING FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "freezing", "face"],
+      "aliases": ["freezing-face"]
+    },
+    "1F977": {
+      "name": "NINJA",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "ninja"],
+      "aliases": ["ninja"]
+    },
+    "1F978": {
+      "name": "DISGUISED FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "disguised", "face"],
+      "aliases": ["disguised-face"]
+    },
+    "1F979": {
+      "name": "FACE HOLDING BACK TEARS",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "holding",
+        "back",
+        "tears"
+      ],
+      "aliases": ["face-holding-back-tears"]
+    },
+    "1F97A": {
+      "name": "FACE WITH PLEADING EYES",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "face",
+        "with",
+        "pleading",
+        "eyes"
+      ],
+      "aliases": ["face-with-pleading-eyes"]
+    },
+    "1F97B": {
+      "name": "SARI",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sari"],
+      "aliases": ["sari"]
+    },
+    "1F97C": {
+      "name": "LAB COAT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lab", "coat"],
+      "aliases": ["lab-coat"]
+    },
+    "1F97D": {
+      "name": "GOGGLES",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "goggles"],
+      "aliases": ["goggles"]
+    },
+    "1F97E": {
+      "name": "HIKING BOOT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "hiking", "boot"],
+      "aliases": ["hiking-boot"]
+    },
+    "1F97F": {
+      "name": "FLAT SHOE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "flat", "shoe"],
+      "aliases": ["flat-shoe"]
+    },
+    "1F980": {
+      "name": "CRAB",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "crab"],
+      "aliases": ["crab"]
+    },
+    "1F981": {
+      "name": "LION FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lion", "face"],
+      "aliases": ["lion-face"]
+    },
+    "1F982": {
+      "name": "SCORPION",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "scorpion"],
+      "aliases": ["scorpion"]
+    },
+    "1F983": {
+      "name": "TURKEY",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "turkey"],
+      "aliases": ["turkey"]
+    },
+    "1F984": {
+      "name": "UNICORN FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "unicorn", "face"],
+      "aliases": ["unicorn-face"]
+    },
+    "1F985": {
+      "name": "EAGLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "eagle"],
+      "aliases": ["eagle"]
+    },
+    "1F986": {
+      "name": "DUCK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "duck"],
+      "aliases": ["duck"]
+    },
+    "1F987": {
+      "name": "BAT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bat"],
+      "aliases": ["bat"]
+    },
+    "1F988": {
+      "name": "SHARK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "shark"],
+      "aliases": ["shark"]
+    },
+    "1F989": {
+      "name": "OWL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "owl"],
+      "aliases": ["owl"]
+    },
+    "1F98A": {
+      "name": "FOX FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "fox", "face"],
+      "aliases": ["fox-face"]
+    },
+    "1F98B": {
+      "name": "BUTTERFLY",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "butterfly"],
+      "aliases": ["butterfly"]
+    },
+    "1F98C": {
+      "name": "DEER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "deer"],
+      "aliases": ["deer"]
+    },
+    "1F98D": {
+      "name": "GORILLA",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "gorilla"],
+      "aliases": ["gorilla"]
+    },
+    "1F98E": {
+      "name": "LIZARD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lizard"],
+      "aliases": ["lizard"]
+    },
+    "1F98F": {
+      "name": "RHINOCEROS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "rhinoceros"],
+      "aliases": ["rhinoceros"]
+    },
+    "1F990": {
+      "name": "SHRIMP",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "shrimp"],
+      "aliases": ["shrimp"]
+    },
+    "1F991": {
+      "name": "SQUID",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "squid"],
+      "aliases": ["squid"]
+    },
+    "1F992": {
+      "name": "GIRAFFE FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "giraffe", "face"],
+      "aliases": ["giraffe-face"]
+    },
+    "1F993": {
+      "name": "ZEBRA FACE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "zebra", "face"],
+      "aliases": ["zebra-face"]
+    },
+    "1F994": {
+      "name": "HEDGEHOG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "hedgehog"],
+      "aliases": ["hedgehog"]
+    },
+    "1F995": {
+      "name": "SAUROPOD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sauropod"],
+      "aliases": ["sauropod"]
+    },
+    "1F996": {
+      "name": "T-REX",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "rex"],
+      "aliases": ["t-rex"]
+    },
+    "1F997": {
+      "name": "CRICKET",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cricket"],
+      "aliases": ["cricket"]
+    },
+    "1F998": {
+      "name": "KANGAROO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "kangaroo"],
+      "aliases": ["kangaroo"]
+    },
+    "1F999": {
+      "name": "LLAMA",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "llama"],
+      "aliases": ["llama"]
+    },
+    "1F99A": {
+      "name": "PEACOCK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "peacock"],
+      "aliases": ["peacock"]
+    },
+    "1F99B": {
+      "name": "HIPPOPOTAMUS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "hippopotamus"],
+      "aliases": ["hippopotamus"]
+    },
+    "1F99C": {
+      "name": "PARROT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "parrot"],
+      "aliases": ["parrot"]
+    },
+    "1F99D": {
+      "name": "RACCOON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "raccoon"],
+      "aliases": ["raccoon"]
+    },
+    "1F99E": {
+      "name": "LOBSTER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lobster"],
+      "aliases": ["lobster"]
+    },
+    "1F99F": {
+      "name": "MOSQUITO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mosquito"],
+      "aliases": ["mosquito"]
+    },
+    "1F9A0": {
+      "name": "MICROBE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "microbe"],
+      "aliases": ["microbe"]
+    },
+    "1F9A1": {
+      "name": "BADGER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "badger"],
+      "aliases": ["badger"]
+    },
+    "1F9A2": {
+      "name": "SWAN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "swan"],
+      "aliases": ["swan"]
+    },
+    "1F9A3": {
+      "name": "MAMMOTH",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mammoth"],
+      "aliases": ["mammoth"]
+    },
+    "1F9A4": {
+      "name": "DODO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "dodo"],
+      "aliases": ["dodo"]
+    },
+    "1F9A5": {
+      "name": "SLOTH",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sloth"],
+      "aliases": ["sloth"]
+    },
+    "1F9A6": {
+      "name": "OTTER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "otter"],
+      "aliases": ["otter"]
+    },
+    "1F9A7": {
+      "name": "ORANGUTAN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "orangutan"],
+      "aliases": ["orangutan"]
+    },
+    "1F9A8": {
+      "name": "SKUNK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "skunk"],
+      "aliases": ["skunk"]
+    },
+    "1F9A9": {
+      "name": "FLAMINGO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "flamingo"],
+      "aliases": ["flamingo"]
+    },
+    "1F9AA": {
+      "name": "OYSTER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "oyster"],
+      "aliases": ["oyster"]
+    },
+    "1F9AB": {
+      "name": "BEAVER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "beaver"],
+      "aliases": ["beaver"]
+    },
+    "1F9AC": {
+      "name": "BISON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bison"],
+      "aliases": ["bison"]
+    },
+    "1F9AD": {
+      "name": "SEAL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "seal"],
+      "aliases": ["seal"]
+    },
+    "1F9AE": {
+      "name": "GUIDE DOG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "guide", "dog"],
+      "aliases": ["guide-dog"]
+    },
+    "1F9AF": {
+      "name": "PROBING CANE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "probing", "cane"],
+      "aliases": ["probing-cane"]
+    },
+    "1F9B0": {
+      "name": "EMOJI COMPONENT RED HAIR",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "emoji",
+        "component",
+        "red",
+        "hair"
+      ],
+      "aliases": ["emoji-component-red-hair"]
+    },
+    "1F9B1": {
+      "name": "EMOJI COMPONENT CURLY HAIR",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "emoji",
+        "component",
+        "curly",
+        "hair"
+      ],
+      "aliases": ["emoji-component-curly-hair"]
+    },
+    "1F9B2": {
+      "name": "EMOJI COMPONENT BALD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "emoji", "component", "bald"],
+      "aliases": ["emoji-component-bald"]
+    },
+    "1F9B3": {
+      "name": "EMOJI COMPONENT WHITE HAIR",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "emoji",
+        "component",
+        "white",
+        "hair"
+      ],
+      "aliases": ["emoji-component-white-hair"]
+    },
+    "1F9B4": {
+      "name": "BONE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bone"],
+      "aliases": ["bone"]
+    },
+    "1F9B5": {
+      "name": "LEG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "leg"],
+      "aliases": ["leg"]
+    },
+    "1F9B6": {
+      "name": "FOOT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "foot"],
+      "aliases": ["foot"]
+    },
+    "1F9B7": {
+      "name": "TOOTH",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "tooth"],
+      "aliases": ["tooth"]
+    },
+    "1F9B8": {
+      "name": "SUPERHERO",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "superhero"],
+      "aliases": ["superhero"]
+    },
+    "1F9B9": {
+      "name": "SUPERVILLAIN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "supervillain"],
+      "aliases": ["supervillain"]
+    },
+    "1F9BA": {
+      "name": "SAFETY VEST",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "safety", "vest"],
+      "aliases": ["safety-vest"]
+    },
+    "1F9BB": {
+      "name": "EAR WITH HEARING AID",
+      "category": "Symbol",
+      "keywords": [
+        "supplemental",
+        "symbols",
+        "and",
+        "pictographs",
+        "ear",
+        "with",
+        "hearing",
+        "aid"
+      ],
+      "aliases": ["ear-with-hearing-aid"]
+    },
+    "1F9BC": {
+      "name": "MOTORIZED WHEELCHAIR",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "motorized", "wheelchair"],
+      "aliases": ["motorized-wheelchair"]
+    },
+    "1F9BD": {
+      "name": "MANUAL WHEELCHAIR",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "manual", "wheelchair"],
+      "aliases": ["manual-wheelchair"]
+    },
+    "1F9BE": {
+      "name": "MECHANICAL ARM",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mechanical", "arm"],
+      "aliases": ["mechanical-arm"]
+    },
+    "1F9BF": {
+      "name": "MECHANICAL LEG",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mechanical", "leg"],
+      "aliases": ["mechanical-leg"]
+    },
+    "1F9C0": {
+      "name": "CHEESE WEDGE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cheese", "wedge"],
+      "aliases": ["cheese-wedge"]
+    },
+    "1F9C1": {
+      "name": "CUPCAKE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "cupcake"],
+      "aliases": ["cupcake"]
+    },
+    "1F9C2": {
+      "name": "SALT SHAKER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "salt", "shaker"],
+      "aliases": ["salt-shaker"]
+    },
+    "1F9C3": {
+      "name": "BEVERAGE BOX",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "beverage", "box"],
+      "aliases": ["beverage-box"]
+    },
+    "1F9C4": {
+      "name": "GARLIC",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "garlic"],
+      "aliases": ["garlic"]
+    },
+    "1F9C5": {
+      "name": "ONION",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "onion"],
+      "aliases": ["onion"]
+    },
+    "1F9C6": {
+      "name": "FALAFEL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "falafel"],
+      "aliases": ["falafel"]
+    },
+    "1F9C7": {
+      "name": "WAFFLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "waffle"],
+      "aliases": ["waffle"]
+    },
+    "1F9C8": {
+      "name": "BUTTER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "butter"],
+      "aliases": ["butter"]
+    },
+    "1F9C9": {
+      "name": "MATE DRINK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mate", "drink"],
+      "aliases": ["mate-drink"]
+    },
+    "1F9CA": {
+      "name": "ICE CUBE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "ice", "cube"],
+      "aliases": ["ice-cube"]
+    },
+    "1F9CB": {
+      "name": "BUBBLE TEA",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bubble", "tea"],
+      "aliases": ["bubble-tea"]
+    },
+    "1F9CC": {
+      "name": "TROLL",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "troll"],
+      "aliases": ["troll"]
+    },
+    "1F9CD": {
+      "name": "STANDING PERSON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "standing", "person"],
+      "aliases": ["standing-person"]
+    },
+    "1F9CE": {
+      "name": "KNEELING PERSON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "kneeling", "person"],
+      "aliases": ["kneeling-person"]
+    },
+    "1F9CF": {
+      "name": "DEAF PERSON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "deaf", "person"],
+      "aliases": ["deaf-person"]
+    },
+    "1F9D0": {
+      "name": "FACE WITH MONOCLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "face", "with", "monocle"],
+      "aliases": ["face-with-monocle"]
+    },
+    "1F9D1": {
+      "name": "ADULT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "adult"],
+      "aliases": ["adult"]
+    },
+    "1F9D2": {
+      "name": "CHILD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "child"],
+      "aliases": ["child"]
+    },
+    "1F9D3": {
+      "name": "OLDER ADULT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "older", "adult"],
+      "aliases": ["older-adult"]
+    },
+    "1F9D4": {
+      "name": "BEARDED PERSON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bearded", "person"],
+      "aliases": ["bearded-person"]
+    },
+    "1F9D5": {
+      "name": "PERSON WITH HEADSCARF",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "person", "with", "headscarf"],
+      "aliases": ["person-with-headscarf"]
+    },
+    "1F9D6": {
+      "name": "PERSON IN STEAMY ROOM",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "person", "steamy", "room"],
+      "aliases": ["person-in-steamy-room"]
+    },
+    "1F9D7": {
+      "name": "PERSON CLIMBING",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "person", "climbing"],
+      "aliases": ["person-climbing"]
+    },
+    "1F9D8": {
+      "name": "PERSON IN LOTUS POSITION",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "person", "lotus", "position"],
+      "aliases": ["person-in-lotus-position"]
+    },
+    "1F9D9": {
+      "name": "MAGE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "mage"],
+      "aliases": ["mage"]
+    },
+    "1F9DA": {
+      "name": "FAIRY",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "fairy"],
+      "aliases": ["fairy"]
+    },
+    "1F9DB": {
+      "name": "VAMPIRE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "vampire"],
+      "aliases": ["vampire"]
+    },
+    "1F9DC": {
+      "name": "MERPERSON",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "merperson"],
+      "aliases": ["merperson"]
+    },
+    "1F9DD": {
+      "name": "ELF",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "elf"],
+      "aliases": ["elf"]
+    },
+    "1F9DE": {
+      "name": "GENIE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "genie"],
+      "aliases": ["genie"]
+    },
+    "1F9DF": {
+      "name": "ZOMBIE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "zombie"],
+      "aliases": ["zombie"]
+    },
+    "1F9E0": {
+      "name": "BRAIN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "brain"],
+      "aliases": ["brain"]
+    },
+    "1F9E1": {
+      "name": "ORANGE HEART",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "orange", "heart"],
+      "aliases": ["orange-heart"]
+    },
+    "1F9E2": {
+      "name": "BILLED CAP",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "billed", "cap"],
+      "aliases": ["billed-cap"]
+    },
+    "1F9E3": {
+      "name": "SCARF",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "scarf"],
+      "aliases": ["scarf"]
+    },
+    "1F9E4": {
+      "name": "GLOVES",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "gloves"],
+      "aliases": ["gloves"]
+    },
+    "1F9E5": {
+      "name": "COAT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "coat"],
+      "aliases": ["coat"]
+    },
+    "1F9E6": {
+      "name": "SOCKS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "socks"],
+      "aliases": ["socks"]
+    },
+    "1F9E7": {
+      "name": "RED GIFT ENVELOPE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "red", "gift", "envelope"],
+      "aliases": ["red-gift-envelope"]
+    },
+    "1F9E8": {
+      "name": "FIRECRACKER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "firecracker"],
+      "aliases": ["firecracker"]
+    },
+    "1F9E9": {
+      "name": "JIGSAW PUZZLE PIECE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "jigsaw", "puzzle", "piece"],
+      "aliases": ["jigsaw-puzzle-piece"]
+    },
+    "1F9EA": {
+      "name": "TEST TUBE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "test", "tube"],
+      "aliases": ["test-tube"]
+    },
+    "1F9EB": {
+      "name": "PETRI DISH",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "petri", "dish"],
+      "aliases": ["petri-dish"]
+    },
+    "1F9EC": {
+      "name": "DNA DOUBLE HELIX",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "dna", "double", "helix"],
+      "aliases": ["dna-double-helix"]
+    },
+    "1F9ED": {
+      "name": "COMPASS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "compass"],
+      "aliases": ["compass"]
+    },
+    "1F9EE": {
+      "name": "ABACUS",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "abacus"],
+      "aliases": ["abacus"]
+    },
+    "1F9EF": {
+      "name": "FIRE EXTINGUISHER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "fire", "extinguisher"],
+      "aliases": ["fire-extinguisher"]
+    },
+    "1F9F0": {
+      "name": "TOOLBOX",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "toolbox"],
+      "aliases": ["toolbox"]
+    },
+    "1F9F1": {
+      "name": "BRICK",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "brick"],
+      "aliases": ["brick"]
+    },
+    "1F9F2": {
+      "name": "MAGNET",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "magnet"],
+      "aliases": ["magnet"]
+    },
+    "1F9F3": {
+      "name": "LUGGAGE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "luggage"],
+      "aliases": ["luggage"]
+    },
+    "1F9F4": {
+      "name": "LOTION BOTTLE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "lotion", "bottle"],
+      "aliases": ["lotion-bottle"]
+    },
+    "1F9F5": {
+      "name": "SPOOL OF THREAD",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "spool", "thread"],
+      "aliases": ["spool-of-thread"]
+    },
+    "1F9F6": {
+      "name": "BALL OF YARN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "ball", "yarn"],
+      "aliases": ["ball-of-yarn"]
+    },
+    "1F9F7": {
+      "name": "SAFETY PIN",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "safety", "pin"],
+      "aliases": ["safety-pin"]
+    },
+    "1F9F8": {
+      "name": "TEDDY BEAR",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "teddy", "bear"],
+      "aliases": ["teddy-bear"]
+    },
+    "1F9F9": {
+      "name": "BROOM",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "broom"],
+      "aliases": ["broom"]
+    },
+    "1F9FA": {
+      "name": "BASKET",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "basket"],
+      "aliases": ["basket"]
+    },
+    "1F9FB": {
+      "name": "ROLL OF PAPER",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "roll", "paper"],
+      "aliases": ["roll-of-paper"]
+    },
+    "1F9FC": {
+      "name": "BAR OF SOAP",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "bar", "soap"],
+      "aliases": ["bar-of-soap"]
+    },
+    "1F9FD": {
+      "name": "SPONGE",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "sponge"],
+      "aliases": ["sponge"]
+    },
+    "1F9FE": {
+      "name": "RECEIPT",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "receipt"],
+      "aliases": ["receipt"]
+    },
+    "1F9FF": {
+      "name": "NAZAR AMULET",
+      "category": "Symbol",
+      "keywords": ["supplemental", "symbols", "and", "pictographs", "nazar", "amulet"],
+      "aliases": ["nazar-amulet"]
+    }
+  }
+}

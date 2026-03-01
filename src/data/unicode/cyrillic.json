@@ -1,0 +1,3494 @@
+{
+  "category": "cyrillic",
+  "blocks": [
+    "Cyrillic",
+    "Cyrillic Extended-A",
+    "Cyrillic Extended-B",
+    "Cyrillic Extended-C",
+    "Cyrillic Supplement"
+  ],
+  "characters": {
+    "0400": {
+      "name": "CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "grave", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ie-with-grave"]
+    },
+    "0401": {
+      "name": "CYRILLIC CAPITAL LETTER IO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-io"]
+    },
+    "0402": {
+      "name": "CYRILLIC CAPITAL LETTER DJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "dje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dje"]
+    },
+    "0403": {
+      "name": "CYRILLIC CAPITAL LETTER GJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "gje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-gje"]
+    },
+    "0404": {
+      "name": "CYRILLIC CAPITAL LETTER UKRAINIAN IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "ukrainian", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ukrainian-ie"]
+    },
+    "0405": {
+      "name": "CYRILLIC CAPITAL LETTER DZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "dze", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dze"]
+    },
+    "0406": {
+      "name": "CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "byelorussian",
+        "ukrainian",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-byelorussian-ukrainian-i"]
+    },
+    "0407": {
+      "name": "CYRILLIC CAPITAL LETTER YI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yi"]
+    },
+    "0408": {
+      "name": "CYRILLIC CAPITAL LETTER JE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-je"]
+    },
+    "0409": {
+      "name": "CYRILLIC CAPITAL LETTER LJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "lje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-lje"]
+    },
+    "040A": {
+      "name": "CYRILLIC CAPITAL LETTER NJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "nje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-nje"]
+    },
+    "040B": {
+      "name": "CYRILLIC CAPITAL LETTER TSHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "tshe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tshe"]
+    },
+    "040C": {
+      "name": "CYRILLIC CAPITAL LETTER KJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "kje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-kje"]
+    },
+    "040D": {
+      "name": "CYRILLIC CAPITAL LETTER I WITH GRAVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "grave", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-i-with-grave"]
+    },
+    "040E": {
+      "name": "CYRILLIC CAPITAL LETTER SHORT U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "short", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-short-u"]
+    },
+    "040F": {
+      "name": "CYRILLIC CAPITAL LETTER DZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "dzhe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dzhe"]
+    },
+    "0410": {
+      "name": "CYRILLIC CAPITAL LETTER A",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-a"]
+    },
+    "0411": {
+      "name": "CYRILLIC CAPITAL LETTER BE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-be"]
+    },
+    "0412": {
+      "name": "CYRILLIC CAPITAL LETTER VE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ve"]
+    },
+    "0413": {
+      "name": "CYRILLIC CAPITAL LETTER GHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "ghe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ghe"]
+    },
+    "0414": {
+      "name": "CYRILLIC CAPITAL LETTER DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-de"]
+    },
+    "0415": {
+      "name": "CYRILLIC CAPITAL LETTER IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ie"]
+    },
+    "0416": {
+      "name": "CYRILLIC CAPITAL LETTER ZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "zhe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-zhe"]
+    },
+    "0417": {
+      "name": "CYRILLIC CAPITAL LETTER ZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ze"]
+    },
+    "0418": {
+      "name": "CYRILLIC CAPITAL LETTER I",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-i"]
+    },
+    "0419": {
+      "name": "CYRILLIC CAPITAL LETTER SHORT I",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "short", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-short-i"]
+    },
+    "041A": {
+      "name": "CYRILLIC CAPITAL LETTER KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ka"]
+    },
+    "041B": {
+      "name": "CYRILLIC CAPITAL LETTER EL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-el"]
+    },
+    "041C": {
+      "name": "CYRILLIC CAPITAL LETTER EM",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-em"]
+    },
+    "041D": {
+      "name": "CYRILLIC CAPITAL LETTER EN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-en"]
+    },
+    "041E": {
+      "name": "CYRILLIC CAPITAL LETTER O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-o"]
+    },
+    "041F": {
+      "name": "CYRILLIC CAPITAL LETTER PE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-pe"]
+    },
+    "0420": {
+      "name": "CYRILLIC CAPITAL LETTER ER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-er"]
+    },
+    "0421": {
+      "name": "CYRILLIC CAPITAL LETTER ES",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-es"]
+    },
+    "0422": {
+      "name": "CYRILLIC CAPITAL LETTER TE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-te"]
+    },
+    "0423": {
+      "name": "CYRILLIC CAPITAL LETTER U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-u"]
+    },
+    "0424": {
+      "name": "CYRILLIC CAPITAL LETTER EF",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ef"]
+    },
+    "0425": {
+      "name": "CYRILLIC CAPITAL LETTER HA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ha"]
+    },
+    "0426": {
+      "name": "CYRILLIC CAPITAL LETTER TSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "tse", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tse"]
+    },
+    "0427": {
+      "name": "CYRILLIC CAPITAL LETTER CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-che"]
+    },
+    "0428": {
+      "name": "CYRILLIC CAPITAL LETTER SHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "sha", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-sha"]
+    },
+    "0429": {
+      "name": "CYRILLIC CAPITAL LETTER SHCHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "shcha", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-shcha"]
+    },
+    "042A": {
+      "name": "CYRILLIC CAPITAL LETTER HARD SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "hard", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-hard-sign"]
+    },
+    "042B": {
+      "name": "CYRILLIC CAPITAL LETTER YERU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "yeru", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yeru"]
+    },
+    "042C": {
+      "name": "CYRILLIC CAPITAL LETTER SOFT SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "soft", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-soft-sign"]
+    },
+    "042D": {
+      "name": "CYRILLIC CAPITAL LETTER E",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-e"]
+    },
+    "042E": {
+      "name": "CYRILLIC CAPITAL LETTER YU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yu"]
+    },
+    "042F": {
+      "name": "CYRILLIC CAPITAL LETTER YA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ya"]
+    },
+    "0430": {
+      "name": "CYRILLIC SMALL LETTER A",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-a"]
+    },
+    "0431": {
+      "name": "CYRILLIC SMALL LETTER BE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-be"]
+    },
+    "0432": {
+      "name": "CYRILLIC SMALL LETTER VE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ve"]
+    },
+    "0433": {
+      "name": "CYRILLIC SMALL LETTER GHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ghe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ghe"]
+    },
+    "0434": {
+      "name": "CYRILLIC SMALL LETTER DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-de"]
+    },
+    "0435": {
+      "name": "CYRILLIC SMALL LETTER IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ie"]
+    },
+    "0436": {
+      "name": "CYRILLIC SMALL LETTER ZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "zhe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zhe"]
+    },
+    "0437": {
+      "name": "CYRILLIC SMALL LETTER ZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ze"]
+    },
+    "0438": {
+      "name": "CYRILLIC SMALL LETTER I",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-i"]
+    },
+    "0439": {
+      "name": "CYRILLIC SMALL LETTER SHORT I",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "short", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-short-i"]
+    },
+    "043A": {
+      "name": "CYRILLIC SMALL LETTER KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ka"]
+    },
+    "043B": {
+      "name": "CYRILLIC SMALL LETTER EL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-el"]
+    },
+    "043C": {
+      "name": "CYRILLIC SMALL LETTER EM",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-em"]
+    },
+    "043D": {
+      "name": "CYRILLIC SMALL LETTER EN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-en"]
+    },
+    "043E": {
+      "name": "CYRILLIC SMALL LETTER O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-o"]
+    },
+    "043F": {
+      "name": "CYRILLIC SMALL LETTER PE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-pe"]
+    },
+    "0440": {
+      "name": "CYRILLIC SMALL LETTER ER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-er"]
+    },
+    "0441": {
+      "name": "CYRILLIC SMALL LETTER ES",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-es"]
+    },
+    "0442": {
+      "name": "CYRILLIC SMALL LETTER TE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-te"]
+    },
+    "0443": {
+      "name": "CYRILLIC SMALL LETTER U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-u"]
+    },
+    "0444": {
+      "name": "CYRILLIC SMALL LETTER EF",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ef"]
+    },
+    "0445": {
+      "name": "CYRILLIC SMALL LETTER HA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ha"]
+    },
+    "0446": {
+      "name": "CYRILLIC SMALL LETTER TSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "tse", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tse"]
+    },
+    "0447": {
+      "name": "CYRILLIC SMALL LETTER CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-che"]
+    },
+    "0448": {
+      "name": "CYRILLIC SMALL LETTER SHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "sha", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-sha"]
+    },
+    "0449": {
+      "name": "CYRILLIC SMALL LETTER SHCHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "shcha", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-shcha"]
+    },
+    "044A": {
+      "name": "CYRILLIC SMALL LETTER HARD SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "hard", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-hard-sign"]
+    },
+    "044B": {
+      "name": "CYRILLIC SMALL LETTER YERU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "yeru", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yeru"]
+    },
+    "044C": {
+      "name": "CYRILLIC SMALL LETTER SOFT SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "soft", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-soft-sign"]
+    },
+    "044D": {
+      "name": "CYRILLIC SMALL LETTER E",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-e"]
+    },
+    "044E": {
+      "name": "CYRILLIC SMALL LETTER YU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yu"]
+    },
+    "044F": {
+      "name": "CYRILLIC SMALL LETTER YA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ya"]
+    },
+    "0450": {
+      "name": "CYRILLIC SMALL LETTER IE WITH GRAVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "grave", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ie-with-grave"]
+    },
+    "0451": {
+      "name": "CYRILLIC SMALL LETTER IO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-io"]
+    },
+    "0452": {
+      "name": "CYRILLIC SMALL LETTER DJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "dje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dje"]
+    },
+    "0453": {
+      "name": "CYRILLIC SMALL LETTER GJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "gje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-gje"]
+    },
+    "0454": {
+      "name": "CYRILLIC SMALL LETTER UKRAINIAN IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ukrainian", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ukrainian-ie"]
+    },
+    "0455": {
+      "name": "CYRILLIC SMALL LETTER DZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "dze", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dze"]
+    },
+    "0456": {
+      "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "byelorussian", "ukrainian", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-byelorussian-ukrainian-i"]
+    },
+    "0457": {
+      "name": "CYRILLIC SMALL LETTER YI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yi"]
+    },
+    "0458": {
+      "name": "CYRILLIC SMALL LETTER JE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-je"]
+    },
+    "0459": {
+      "name": "CYRILLIC SMALL LETTER LJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "lje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-lje"]
+    },
+    "045A": {
+      "name": "CYRILLIC SMALL LETTER NJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "nje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-nje"]
+    },
+    "045B": {
+      "name": "CYRILLIC SMALL LETTER TSHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "tshe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tshe"]
+    },
+    "045C": {
+      "name": "CYRILLIC SMALL LETTER KJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "kje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-kje"]
+    },
+    "045D": {
+      "name": "CYRILLIC SMALL LETTER I WITH GRAVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "grave", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-i-with-grave"]
+    },
+    "045E": {
+      "name": "CYRILLIC SMALL LETTER SHORT U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "short", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-short-u"]
+    },
+    "045F": {
+      "name": "CYRILLIC SMALL LETTER DZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "dzhe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dzhe"]
+    },
+    "0460": {
+      "name": "CYRILLIC CAPITAL LETTER OMEGA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "omega", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-omega"]
+    },
+    "0461": {
+      "name": "CYRILLIC SMALL LETTER OMEGA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "omega", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-omega"]
+    },
+    "0462": {
+      "name": "CYRILLIC CAPITAL LETTER YAT",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "yat", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yat"]
+    },
+    "0463": {
+      "name": "CYRILLIC SMALL LETTER YAT",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "yat", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yat"]
+    },
+    "0464": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED E",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "iotified", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-iotified-e"]
+    },
+    "0465": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED E",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "iotified", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-iotified-e"]
+    },
+    "0466": {
+      "name": "CYRILLIC CAPITAL LETTER LITTLE YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "little", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-little-yus"]
+    },
+    "0467": {
+      "name": "CYRILLIC SMALL LETTER LITTLE YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "little", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-little-yus"]
+    },
+    "0468": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED LITTLE YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "iotified",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-iotified-little-yus"]
+    },
+    "0469": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED LITTLE YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "iotified", "little", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-iotified-little-yus"]
+    },
+    "046A": {
+      "name": "CYRILLIC CAPITAL LETTER BIG YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "big", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-big-yus"]
+    },
+    "046B": {
+      "name": "CYRILLIC SMALL LETTER BIG YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "big", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-big-yus"]
+    },
+    "046C": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED BIG YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "iotified", "big", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-iotified-big-yus"]
+    },
+    "046D": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED BIG YUS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "iotified", "big", "yus", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-iotified-big-yus"]
+    },
+    "046E": {
+      "name": "CYRILLIC CAPITAL LETTER KSI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "ksi", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ksi"]
+    },
+    "046F": {
+      "name": "CYRILLIC SMALL LETTER KSI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ksi", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ksi"]
+    },
+    "0470": {
+      "name": "CYRILLIC CAPITAL LETTER PSI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "psi", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-psi"]
+    },
+    "0471": {
+      "name": "CYRILLIC SMALL LETTER PSI",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "psi", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-psi"]
+    },
+    "0472": {
+      "name": "CYRILLIC CAPITAL LETTER FITA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "fita", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-fita"]
+    },
+    "0473": {
+      "name": "CYRILLIC SMALL LETTER FITA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "fita", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-fita"]
+    },
+    "0474": {
+      "name": "CYRILLIC CAPITAL LETTER IZHITSA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "izhitsa", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-izhitsa"]
+    },
+    "0475": {
+      "name": "CYRILLIC SMALL LETTER IZHITSA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "izhitsa", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-izhitsa"]
+    },
+    "0476": {
+      "name": "CYRILLIC CAPITAL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "izhitsa",
+        "with",
+        "double",
+        "grave",
+        "accent",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-izhitsa-with-double-grave-accent"]
+    },
+    "0477": {
+      "name": "CYRILLIC SMALL LETTER IZHITSA WITH DOUBLE GRAVE ACCENT",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "izhitsa",
+        "with",
+        "double",
+        "grave",
+        "accent",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-izhitsa-with-double-grave-accent"]
+    },
+    "0478": {
+      "name": "CYRILLIC CAPITAL LETTER UK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-uk"]
+    },
+    "0479": {
+      "name": "CYRILLIC SMALL LETTER UK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-uk"]
+    },
+    "047A": {
+      "name": "CYRILLIC CAPITAL LETTER ROUND OMEGA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "round", "omega", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-round-omega"]
+    },
+    "047B": {
+      "name": "CYRILLIC SMALL LETTER ROUND OMEGA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "round", "omega", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-round-omega"]
+    },
+    "047C": {
+      "name": "CYRILLIC CAPITAL LETTER OMEGA WITH TITLO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "omega", "with", "titlo", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-omega-with-titlo"]
+    },
+    "047D": {
+      "name": "CYRILLIC SMALL LETTER OMEGA WITH TITLO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "omega", "with", "titlo", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-omega-with-titlo"]
+    },
+    "047E": {
+      "name": "CYRILLIC CAPITAL LETTER OT",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ot"]
+    },
+    "047F": {
+      "name": "CYRILLIC SMALL LETTER OT",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ot"]
+    },
+    "0480": {
+      "name": "CYRILLIC CAPITAL LETTER KOPPA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "koppa", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-koppa"]
+    },
+    "0481": {
+      "name": "CYRILLIC SMALL LETTER KOPPA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "koppa", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-koppa"]
+    },
+    "0482": {
+      "name": "CYRILLIC THOUSANDS SIGN",
+      "category": "Symbol",
+      "keywords": ["cyrillic", "thousands", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-thousands-sign"]
+    },
+    "0483": {
+      "name": "COMBINING CYRILLIC TITLO",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "titlo", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-titlo"]
+    },
+    "0484": {
+      "name": "COMBINING CYRILLIC PALATALIZATION",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "palatalization", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-palatalization"]
+    },
+    "0485": {
+      "name": "COMBINING CYRILLIC DASIA PNEUMATA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "dasia", "pneumata", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-dasia-pneumata"]
+    },
+    "0486": {
+      "name": "COMBINING CYRILLIC PSILI PNEUMATA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "psili", "pneumata", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-psili-pneumata"]
+    },
+    "0487": {
+      "name": "COMBINING CYRILLIC POKRYTIE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "pokrytie", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-pokrytie"]
+    },
+    "0488": {
+      "name": "COMBINING CYRILLIC HUNDRED THOUSANDS SIGN",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "hundred", "thousands", "sign", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-hundred-thousands-sign"]
+    },
+    "0489": {
+      "name": "COMBINING CYRILLIC MILLIONS SIGN",
+      "category": "Mark",
+      "keywords": ["cyrillic", "combining", "millions", "sign", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-millions-sign"]
+    },
+    "048A": {
+      "name": "CYRILLIC CAPITAL LETTER SHORT I WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "short", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-short-i-with-tail"]
+    },
+    "048B": {
+      "name": "CYRILLIC SMALL LETTER SHORT I WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "short", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-short-i-with-tail"]
+    },
+    "048C": {
+      "name": "CYRILLIC CAPITAL LETTER SEMISOFT SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "semisoft", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-semisoft-sign"]
+    },
+    "048D": {
+      "name": "CYRILLIC SMALL LETTER SEMISOFT SIGN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "semisoft", "sign", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-semisoft-sign"]
+    },
+    "048E": {
+      "name": "CYRILLIC CAPITAL LETTER ER WITH TICK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "tick", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-er-with-tick"]
+    },
+    "048F": {
+      "name": "CYRILLIC SMALL LETTER ER WITH TICK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "tick", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-er-with-tick"]
+    },
+    "0490": {
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH UPTURN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "ghe", "with", "upturn", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ghe-with-upturn"]
+    },
+    "0491": {
+      "name": "CYRILLIC SMALL LETTER GHE WITH UPTURN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ghe", "with", "upturn", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ghe-with-upturn"]
+    },
+    "0492": {
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "ghe", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ghe-with-stroke"]
+    },
+    "0493": {
+      "name": "CYRILLIC SMALL LETTER GHE WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ghe", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ghe-with-stroke"]
+    },
+    "0494": {
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "ghe",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-ghe-with-middle-hook"]
+    },
+    "0495": {
+      "name": "CYRILLIC SMALL LETTER GHE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "ghe",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-ghe-with-middle-hook"]
+    },
+    "0496": {
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "zhe",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-zhe-with-descender"]
+    },
+    "0497": {
+      "name": "CYRILLIC SMALL LETTER ZHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "zhe", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zhe-with-descender"]
+    },
+    "0498": {
+      "name": "CYRILLIC CAPITAL LETTER ZE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ze-with-descender"]
+    },
+    "0499": {
+      "name": "CYRILLIC SMALL LETTER ZE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ze-with-descender"]
+    },
+    "049A": {
+      "name": "CYRILLIC CAPITAL LETTER KA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ka-with-descender"]
+    },
+    "049B": {
+      "name": "CYRILLIC SMALL LETTER KA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ka-with-descender"]
+    },
+    "049C": {
+      "name": "CYRILLIC CAPITAL LETTER KA WITH VERTICAL STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "with",
+        "vertical",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-ka-with-vertical-stroke"]
+    },
+    "049D": {
+      "name": "CYRILLIC SMALL LETTER KA WITH VERTICAL STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "with",
+        "vertical",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-ka-with-vertical-stroke"]
+    },
+    "049E": {
+      "name": "CYRILLIC CAPITAL LETTER KA WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ka-with-stroke"]
+    },
+    "049F": {
+      "name": "CYRILLIC SMALL LETTER KA WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ka-with-stroke"]
+    },
+    "04A0": {
+      "name": "CYRILLIC CAPITAL LETTER BASHKIR KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "bashkir", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-bashkir-ka"]
+    },
+    "04A1": {
+      "name": "CYRILLIC SMALL LETTER BASHKIR KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "bashkir", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-bashkir-ka"]
+    },
+    "04A2": {
+      "name": "CYRILLIC CAPITAL LETTER EN WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-en-with-descender"]
+    },
+    "04A3": {
+      "name": "CYRILLIC SMALL LETTER EN WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-en-with-descender"]
+    },
+    "04A4": {
+      "name": "CYRILLIC CAPITAL LIGATURE EN GHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "ligature", "ghe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-ligature-en-ghe"]
+    },
+    "04A5": {
+      "name": "CYRILLIC SMALL LIGATURE EN GHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "ligature", "ghe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-ligature-en-ghe"]
+    },
+    "04A6": {
+      "name": "CYRILLIC CAPITAL LETTER PE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "middle", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-pe-with-middle-hook"]
+    },
+    "04A7": {
+      "name": "CYRILLIC SMALL LETTER PE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "middle", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-pe-with-middle-hook"]
+    },
+    "04A8": {
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN HA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "abkhasian", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-abkhasian-ha"]
+    },
+    "04A9": {
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN HA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "abkhasian", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-abkhasian-ha"]
+    },
+    "04AA": {
+      "name": "CYRILLIC CAPITAL LETTER ES WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-es-with-descender"]
+    },
+    "04AB": {
+      "name": "CYRILLIC SMALL LETTER ES WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-es-with-descender"]
+    },
+    "04AC": {
+      "name": "CYRILLIC CAPITAL LETTER TE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-te-with-descender"]
+    },
+    "04AD": {
+      "name": "CYRILLIC SMALL LETTER TE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-te-with-descender"]
+    },
+    "04AE": {
+      "name": "CYRILLIC CAPITAL LETTER STRAIGHT U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "straight", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-straight-u"]
+    },
+    "04AF": {
+      "name": "CYRILLIC SMALL LETTER STRAIGHT U",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "straight", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-straight-u"]
+    },
+    "04B0": {
+      "name": "CYRILLIC CAPITAL LETTER STRAIGHT U WITH STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "straight",
+        "with",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-straight-u-with-stroke"]
+    },
+    "04B1": {
+      "name": "CYRILLIC SMALL LETTER STRAIGHT U WITH STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "straight",
+        "with",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-straight-u-with-stroke"]
+    },
+    "04B2": {
+      "name": "CYRILLIC CAPITAL LETTER HA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ha-with-descender"]
+    },
+    "04B3": {
+      "name": "CYRILLIC SMALL LETTER HA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ha-with-descender"]
+    },
+    "04B4": {
+      "name": "CYRILLIC CAPITAL LIGATURE TE TSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "ligature", "tse", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-ligature-te-tse"]
+    },
+    "04B5": {
+      "name": "CYRILLIC SMALL LIGATURE TE TSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "ligature", "tse", "russian", "slavic"],
+      "aliases": ["cyrillic-small-ligature-te-tse"]
+    },
+    "04B6": {
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "che",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-che-with-descender"]
+    },
+    "04B7": {
+      "name": "CYRILLIC SMALL LETTER CHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "che", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-che-with-descender"]
+    },
+    "04B8": {
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH VERTICAL STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "che",
+        "with",
+        "vertical",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-che-with-vertical-stroke"]
+    },
+    "04B9": {
+      "name": "CYRILLIC SMALL LETTER CHE WITH VERTICAL STROKE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "che",
+        "with",
+        "vertical",
+        "stroke",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-che-with-vertical-stroke"]
+    },
+    "04BA": {
+      "name": "CYRILLIC CAPITAL LETTER SHHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "shha", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-shha"]
+    },
+    "04BB": {
+      "name": "CYRILLIC SMALL LETTER SHHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "shha", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-shha"]
+    },
+    "04BC": {
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "abkhasian", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-abkhasian-che"]
+    },
+    "04BD": {
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "abkhasian", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-abkhasian-che"]
+    },
+    "04BE": {
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN CHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "abkhasian",
+        "che",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-abkhasian-che-with-descender"]
+    },
+    "04BF": {
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN CHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "abkhasian",
+        "che",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-abkhasian-che-with-descender"]
+    },
+    "04C0": {
+      "name": "CYRILLIC LETTER PALOCHKA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "letter", "palochka", "russian", "slavic"],
+      "aliases": ["cyrillic-letter-palochka"]
+    },
+    "04C1": {
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "zhe", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-zhe-with-breve"]
+    },
+    "04C2": {
+      "name": "CYRILLIC SMALL LETTER ZHE WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "zhe", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zhe-with-breve"]
+    },
+    "04C3": {
+      "name": "CYRILLIC CAPITAL LETTER KA WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ka-with-hook"]
+    },
+    "04C4": {
+      "name": "CYRILLIC SMALL LETTER KA WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ka-with-hook"]
+    },
+    "04C5": {
+      "name": "CYRILLIC CAPITAL LETTER EL WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-el-with-tail"]
+    },
+    "04C6": {
+      "name": "CYRILLIC SMALL LETTER EL WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-el-with-tail"]
+    },
+    "04C7": {
+      "name": "CYRILLIC CAPITAL LETTER EN WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-en-with-hook"]
+    },
+    "04C8": {
+      "name": "CYRILLIC SMALL LETTER EN WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-en-with-hook"]
+    },
+    "04C9": {
+      "name": "CYRILLIC CAPITAL LETTER EN WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-en-with-tail"]
+    },
+    "04CA": {
+      "name": "CYRILLIC SMALL LETTER EN WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-en-with-tail"]
+    },
+    "04CB": {
+      "name": "CYRILLIC CAPITAL LETTER KHAKASSIAN CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "khakassian", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-khakassian-che"]
+    },
+    "04CC": {
+      "name": "CYRILLIC SMALL LETTER KHAKASSIAN CHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "khakassian", "che", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-khakassian-che"]
+    },
+    "04CD": {
+      "name": "CYRILLIC CAPITAL LETTER EM WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-em-with-tail"]
+    },
+    "04CE": {
+      "name": "CYRILLIC SMALL LETTER EM WITH TAIL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "tail", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-em-with-tail"]
+    },
+    "04CF": {
+      "name": "CYRILLIC SMALL LETTER PALOCHKA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "palochka", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-palochka"]
+    },
+    "04D0": {
+      "name": "CYRILLIC CAPITAL LETTER A WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-a-with-breve"]
+    },
+    "04D1": {
+      "name": "CYRILLIC SMALL LETTER A WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-a-with-breve"]
+    },
+    "04D2": {
+      "name": "CYRILLIC CAPITAL LETTER A WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-a-with-diaeresis"]
+    },
+    "04D3": {
+      "name": "CYRILLIC SMALL LETTER A WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-a-with-diaeresis"]
+    },
+    "04D4": {
+      "name": "CYRILLIC CAPITAL LIGATURE A IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "ligature", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-ligature-a-ie"]
+    },
+    "04D5": {
+      "name": "CYRILLIC SMALL LIGATURE A IE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "ligature", "russian", "slavic"],
+      "aliases": ["cyrillic-small-ligature-a-ie"]
+    },
+    "04D6": {
+      "name": "CYRILLIC CAPITAL LETTER IE WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ie-with-breve"]
+    },
+    "04D7": {
+      "name": "CYRILLIC SMALL LETTER IE WITH BREVE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "breve", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ie-with-breve"]
+    },
+    "04D8": {
+      "name": "CYRILLIC CAPITAL LETTER SCHWA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "schwa", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-schwa"]
+    },
+    "04D9": {
+      "name": "CYRILLIC SMALL LETTER SCHWA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "schwa", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-schwa"]
+    },
+    "04DA": {
+      "name": "CYRILLIC CAPITAL LETTER SCHWA WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "schwa",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-schwa-with-diaeresis"]
+    },
+    "04DB": {
+      "name": "CYRILLIC SMALL LETTER SCHWA WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "schwa",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-schwa-with-diaeresis"]
+    },
+    "04DC": {
+      "name": "CYRILLIC CAPITAL LETTER ZHE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "zhe",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-zhe-with-diaeresis"]
+    },
+    "04DD": {
+      "name": "CYRILLIC SMALL LETTER ZHE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "zhe", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zhe-with-diaeresis"]
+    },
+    "04DE": {
+      "name": "CYRILLIC CAPITAL LETTER ZE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ze-with-diaeresis"]
+    },
+    "04DF": {
+      "name": "CYRILLIC SMALL LETTER ZE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ze-with-diaeresis"]
+    },
+    "04E0": {
+      "name": "CYRILLIC CAPITAL LETTER ABKHASIAN DZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "abkhasian", "dze", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-abkhasian-dze"]
+    },
+    "04E1": {
+      "name": "CYRILLIC SMALL LETTER ABKHASIAN DZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "abkhasian", "dze", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-abkhasian-dze"]
+    },
+    "04E2": {
+      "name": "CYRILLIC CAPITAL LETTER I WITH MACRON",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "macron", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-i-with-macron"]
+    },
+    "04E3": {
+      "name": "CYRILLIC SMALL LETTER I WITH MACRON",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "macron", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-i-with-macron"]
+    },
+    "04E4": {
+      "name": "CYRILLIC CAPITAL LETTER I WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-i-with-diaeresis"]
+    },
+    "04E5": {
+      "name": "CYRILLIC SMALL LETTER I WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-i-with-diaeresis"]
+    },
+    "04E6": {
+      "name": "CYRILLIC CAPITAL LETTER O WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-o-with-diaeresis"]
+    },
+    "04E7": {
+      "name": "CYRILLIC SMALL LETTER O WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-o-with-diaeresis"]
+    },
+    "04E8": {
+      "name": "CYRILLIC CAPITAL LETTER BARRED O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "barred", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-barred-o"]
+    },
+    "04E9": {
+      "name": "CYRILLIC SMALL LETTER BARRED O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "barred", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-barred-o"]
+    },
+    "04EA": {
+      "name": "CYRILLIC CAPITAL LETTER BARRED O WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "barred",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-barred-o-with-diaeresis"]
+    },
+    "04EB": {
+      "name": "CYRILLIC SMALL LETTER BARRED O WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "barred",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-barred-o-with-diaeresis"]
+    },
+    "04EC": {
+      "name": "CYRILLIC CAPITAL LETTER E WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-e-with-diaeresis"]
+    },
+    "04ED": {
+      "name": "CYRILLIC SMALL LETTER E WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-e-with-diaeresis"]
+    },
+    "04EE": {
+      "name": "CYRILLIC CAPITAL LETTER U WITH MACRON",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "macron", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-u-with-macron"]
+    },
+    "04EF": {
+      "name": "CYRILLIC SMALL LETTER U WITH MACRON",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "macron", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-u-with-macron"]
+    },
+    "04F0": {
+      "name": "CYRILLIC CAPITAL LETTER U WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-u-with-diaeresis"]
+    },
+    "04F1": {
+      "name": "CYRILLIC SMALL LETTER U WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-u-with-diaeresis"]
+    },
+    "04F2": {
+      "name": "CYRILLIC CAPITAL LETTER U WITH DOUBLE ACUTE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "double", "acute", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-u-with-double-acute"]
+    },
+    "04F3": {
+      "name": "CYRILLIC SMALL LETTER U WITH DOUBLE ACUTE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "double", "acute", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-u-with-double-acute"]
+    },
+    "04F4": {
+      "name": "CYRILLIC CAPITAL LETTER CHE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "che",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-che-with-diaeresis"]
+    },
+    "04F5": {
+      "name": "CYRILLIC SMALL LETTER CHE WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "che", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-che-with-diaeresis"]
+    },
+    "04F6": {
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "ghe",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-ghe-with-descender"]
+    },
+    "04F7": {
+      "name": "CYRILLIC SMALL LETTER GHE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "ghe", "with", "descender", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ghe-with-descender"]
+    },
+    "04F8": {
+      "name": "CYRILLIC CAPITAL LETTER YERU WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "yeru",
+        "with",
+        "diaeresis",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-yeru-with-diaeresis"]
+    },
+    "04F9": {
+      "name": "CYRILLIC SMALL LETTER YERU WITH DIAERESIS",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "yeru", "with", "diaeresis", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yeru-with-diaeresis"]
+    },
+    "04FA": {
+      "name": "CYRILLIC CAPITAL LETTER GHE WITH STROKE AND HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "capital",
+        "letter",
+        "ghe",
+        "with",
+        "stroke",
+        "and",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-ghe-with-stroke-and-hook"]
+    },
+    "04FB": {
+      "name": "CYRILLIC SMALL LETTER GHE WITH STROKE AND HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "small",
+        "letter",
+        "ghe",
+        "with",
+        "stroke",
+        "and",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-ghe-with-stroke-and-hook"]
+    },
+    "04FC": {
+      "name": "CYRILLIC CAPITAL LETTER HA WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ha-with-hook"]
+    },
+    "04FD": {
+      "name": "CYRILLIC SMALL LETTER HA WITH HOOK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "hook", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ha-with-hook"]
+    },
+    "04FE": {
+      "name": "CYRILLIC CAPITAL LETTER HA WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "capital", "letter", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-ha-with-stroke"]
+    },
+    "04FF": {
+      "name": "CYRILLIC SMALL LETTER HA WITH STROKE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "small", "letter", "with", "stroke", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-ha-with-stroke"]
+    },
+    "0500": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "komi", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-komi-de"]
+    },
+    "0501": {
+      "name": "CYRILLIC SMALL LETTER KOMI DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-de"]
+    },
+    "0502": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI DJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "dje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-dje"]
+    },
+    "0503": {
+      "name": "CYRILLIC SMALL LETTER KOMI DJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "dje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-dje"]
+    },
+    "0504": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI ZJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "zje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-zje"]
+    },
+    "0505": {
+      "name": "CYRILLIC SMALL LETTER KOMI ZJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "zje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-zje"]
+    },
+    "0506": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI DZJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "dzje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-dzje"]
+    },
+    "0507": {
+      "name": "CYRILLIC SMALL LETTER KOMI DZJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "komi",
+        "dzje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-komi-dzje"]
+    },
+    "0508": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI LJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "lje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-lje"]
+    },
+    "0509": {
+      "name": "CYRILLIC SMALL LETTER KOMI LJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "lje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-lje"]
+    },
+    "050A": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI NJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "nje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-nje"]
+    },
+    "050B": {
+      "name": "CYRILLIC SMALL LETTER KOMI NJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "nje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-nje"]
+    },
+    "050C": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI SJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "sje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-sje"]
+    },
+    "050D": {
+      "name": "CYRILLIC SMALL LETTER KOMI SJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "sje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-sje"]
+    },
+    "050E": {
+      "name": "CYRILLIC CAPITAL LETTER KOMI TJE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "komi",
+        "tje",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-komi-tje"]
+    },
+    "050F": {
+      "name": "CYRILLIC SMALL LETTER KOMI TJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "komi", "tje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-komi-tje"]
+    },
+    "0510": {
+      "name": "CYRILLIC CAPITAL LETTER REVERSED ZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "reversed", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-reversed-ze"]
+    },
+    "0511": {
+      "name": "CYRILLIC SMALL LETTER REVERSED ZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "reversed", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-reversed-ze"]
+    },
+    "0512": {
+      "name": "CYRILLIC CAPITAL LETTER EL WITH HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-el-with-hook"]
+    },
+    "0513": {
+      "name": "CYRILLIC SMALL LETTER EL WITH HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-el-with-hook"]
+    },
+    "0514": {
+      "name": "CYRILLIC CAPITAL LETTER LHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "lha", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-lha"]
+    },
+    "0515": {
+      "name": "CYRILLIC SMALL LETTER LHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "lha", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-lha"]
+    },
+    "0516": {
+      "name": "CYRILLIC CAPITAL LETTER RHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "rha", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-rha"]
+    },
+    "0517": {
+      "name": "CYRILLIC SMALL LETTER RHA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "rha", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-rha"]
+    },
+    "0518": {
+      "name": "CYRILLIC CAPITAL LETTER YAE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "yae", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yae"]
+    },
+    "0519": {
+      "name": "CYRILLIC SMALL LETTER YAE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "yae", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yae"]
+    },
+    "051A": {
+      "name": "CYRILLIC CAPITAL LETTER QA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-qa"]
+    },
+    "051B": {
+      "name": "CYRILLIC SMALL LETTER QA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-qa"]
+    },
+    "051C": {
+      "name": "CYRILLIC CAPITAL LETTER WE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-we"]
+    },
+    "051D": {
+      "name": "CYRILLIC SMALL LETTER WE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-we"]
+    },
+    "051E": {
+      "name": "CYRILLIC CAPITAL LETTER ALEUT KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "aleut", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-aleut-ka"]
+    },
+    "051F": {
+      "name": "CYRILLIC SMALL LETTER ALEUT KA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "aleut", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-aleut-ka"]
+    },
+    "0520": {
+      "name": "CYRILLIC CAPITAL LETTER EL WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-el-with-middle-hook"]
+    },
+    "0521": {
+      "name": "CYRILLIC SMALL LETTER EL WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-el-with-middle-hook"]
+    },
+    "0522": {
+      "name": "CYRILLIC CAPITAL LETTER EN WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-en-with-middle-hook"]
+    },
+    "0523": {
+      "name": "CYRILLIC SMALL LETTER EN WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-en-with-middle-hook"]
+    },
+    "0524": {
+      "name": "CYRILLIC CAPITAL LETTER PE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-pe-with-descender"]
+    },
+    "0525": {
+      "name": "CYRILLIC SMALL LETTER PE WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-pe-with-descender"]
+    },
+    "0526": {
+      "name": "CYRILLIC CAPITAL LETTER SHHA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "shha",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-shha-with-descender"]
+    },
+    "0527": {
+      "name": "CYRILLIC SMALL LETTER SHHA WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "shha",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-shha-with-descender"]
+    },
+    "0528": {
+      "name": "CYRILLIC CAPITAL LETTER EN WITH LEFT HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "left",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-en-with-left-hook"]
+    },
+    "0529": {
+      "name": "CYRILLIC SMALL LETTER EN WITH LEFT HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "left",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-en-with-left-hook"]
+    },
+    "052A": {
+      "name": "CYRILLIC CAPITAL LETTER DZZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "dzzhe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dzzhe"]
+    },
+    "052B": {
+      "name": "CYRILLIC SMALL LETTER DZZHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "dzzhe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dzzhe"]
+    },
+    "052C": {
+      "name": "CYRILLIC CAPITAL LETTER DCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "capital", "letter", "dche", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dche"]
+    },
+    "052D": {
+      "name": "CYRILLIC SMALL LETTER DCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "supplement", "small", "letter", "dche", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dche"]
+    },
+    "052E": {
+      "name": "CYRILLIC CAPITAL LETTER EL WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "capital",
+        "letter",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-el-with-descender"]
+    },
+    "052F": {
+      "name": "CYRILLIC SMALL LETTER EL WITH DESCENDER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "supplement",
+        "small",
+        "letter",
+        "with",
+        "descender",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-el-with-descender"]
+    },
+    "1C80": {
+      "name": "CYRILLIC SMALL LETTER ROUNDED VE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "rounded", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-rounded-ve"]
+    },
+    "1C81": {
+      "name": "CYRILLIC SMALL LETTER LONG-LEGGED DE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-c",
+        "small",
+        "letter",
+        "long",
+        "legged",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-long-legged-de"]
+    },
+    "1C82": {
+      "name": "CYRILLIC SMALL LETTER NARROW O",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-c",
+        "small",
+        "letter",
+        "narrow",
+        "russian",
+        "slavic",
+        "arrow",
+        "direction"
+      ],
+      "aliases": ["cyrillic-small-letter-narrow-o"]
+    },
+    "1C83": {
+      "name": "CYRILLIC SMALL LETTER WIDE ES",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "wide", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-wide-es"]
+    },
+    "1C84": {
+      "name": "CYRILLIC SMALL LETTER TALL TE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "tall", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tall-te"]
+    },
+    "1C85": {
+      "name": "CYRILLIC SMALL LETTER THREE-LEGGED TE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-c",
+        "small",
+        "letter",
+        "three",
+        "legged",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-three-legged-te"]
+    },
+    "1C86": {
+      "name": "CYRILLIC SMALL LETTER TALL HARD SIGN",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-c",
+        "small",
+        "letter",
+        "tall",
+        "hard",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-tall-hard-sign"]
+    },
+    "1C87": {
+      "name": "CYRILLIC SMALL LETTER TALL YAT",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "tall", "yat", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tall-yat"]
+    },
+    "1C88": {
+      "name": "CYRILLIC SMALL LETTER UNBLENDED UK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "unblended", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-unblended-uk"]
+    },
+    "1C89": {
+      "name": "CYRILLIC CAPITAL LETTER TJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "capital", "letter", "tje", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tje"]
+    },
+    "1C8A": {
+      "name": "CYRILLIC SMALL LETTER TJE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-c", "small", "letter", "tje", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tje"]
+    },
+    "2DE0": {
+      "name": "COMBINING CYRILLIC LETTER BE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-be"]
+    },
+    "2DE1": {
+      "name": "COMBINING CYRILLIC LETTER VE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ve"]
+    },
+    "2DE2": {
+      "name": "COMBINING CYRILLIC LETTER GHE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "ghe", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ghe"]
+    },
+    "2DE3": {
+      "name": "COMBINING CYRILLIC LETTER DE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-de"]
+    },
+    "2DE4": {
+      "name": "COMBINING CYRILLIC LETTER ZHE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "zhe", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-zhe"]
+    },
+    "2DE5": {
+      "name": "COMBINING CYRILLIC LETTER ZE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ze"]
+    },
+    "2DE6": {
+      "name": "COMBINING CYRILLIC LETTER KA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ka"]
+    },
+    "2DE7": {
+      "name": "COMBINING CYRILLIC LETTER EL",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-el"]
+    },
+    "2DE8": {
+      "name": "COMBINING CYRILLIC LETTER EM",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-em"]
+    },
+    "2DE9": {
+      "name": "COMBINING CYRILLIC LETTER EN",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-en"]
+    },
+    "2DEA": {
+      "name": "COMBINING CYRILLIC LETTER O",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-o"]
+    },
+    "2DEB": {
+      "name": "COMBINING CYRILLIC LETTER PE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-pe"]
+    },
+    "2DEC": {
+      "name": "COMBINING CYRILLIC LETTER ER",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-er"]
+    },
+    "2DED": {
+      "name": "COMBINING CYRILLIC LETTER ES",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-es"]
+    },
+    "2DEE": {
+      "name": "COMBINING CYRILLIC LETTER TE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-te"]
+    },
+    "2DEF": {
+      "name": "COMBINING CYRILLIC LETTER HA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ha"]
+    },
+    "2DF0": {
+      "name": "COMBINING CYRILLIC LETTER TSE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "tse", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-tse"]
+    },
+    "2DF1": {
+      "name": "COMBINING CYRILLIC LETTER CHE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "che", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-che"]
+    },
+    "2DF2": {
+      "name": "COMBINING CYRILLIC LETTER SHA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "sha", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-sha"]
+    },
+    "2DF3": {
+      "name": "COMBINING CYRILLIC LETTER SHCHA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "shcha", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-shcha"]
+    },
+    "2DF4": {
+      "name": "COMBINING CYRILLIC LETTER FITA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "fita", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-fita"]
+    },
+    "2DF5": {
+      "name": "COMBINING CYRILLIC LETTER ES-TE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-es-te"]
+    },
+    "2DF6": {
+      "name": "COMBINING CYRILLIC LETTER A",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-a"]
+    },
+    "2DF7": {
+      "name": "COMBINING CYRILLIC LETTER IE",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ie"]
+    },
+    "2DF8": {
+      "name": "COMBINING CYRILLIC LETTER DJERV",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "djerv", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-djerv"]
+    },
+    "2DF9": {
+      "name": "COMBINING CYRILLIC LETTER MONOGRAPH UK",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-a",
+        "combining",
+        "letter",
+        "monograph",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-monograph-uk"]
+    },
+    "2DFA": {
+      "name": "COMBINING CYRILLIC LETTER YAT",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "yat", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-yat"]
+    },
+    "2DFB": {
+      "name": "COMBINING CYRILLIC LETTER YU",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-a", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-yu"]
+    },
+    "2DFC": {
+      "name": "COMBINING CYRILLIC LETTER IOTIFIED A",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-a",
+        "combining",
+        "letter",
+        "iotified",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-iotified-a"]
+    },
+    "2DFD": {
+      "name": "COMBINING CYRILLIC LETTER LITTLE YUS",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-a",
+        "combining",
+        "letter",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-little-yus"]
+    },
+    "2DFE": {
+      "name": "COMBINING CYRILLIC LETTER BIG YUS",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-a",
+        "combining",
+        "letter",
+        "big",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-big-yus"]
+    },
+    "2DFF": {
+      "name": "COMBINING CYRILLIC LETTER IOTIFIED BIG YUS",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-a",
+        "combining",
+        "letter",
+        "iotified",
+        "big",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-iotified-big-yus"]
+    },
+    "A640": {
+      "name": "CYRILLIC CAPITAL LETTER ZEMLYA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "zemlya", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-zemlya"]
+    },
+    "A641": {
+      "name": "CYRILLIC SMALL LETTER ZEMLYA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "zemlya", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zemlya"]
+    },
+    "A642": {
+      "name": "CYRILLIC CAPITAL LETTER DZELO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "dzelo", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dzelo"]
+    },
+    "A643": {
+      "name": "CYRILLIC SMALL LETTER DZELO",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "dzelo", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dzelo"]
+    },
+    "A644": {
+      "name": "CYRILLIC CAPITAL LETTER REVERSED DZE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "reversed",
+        "dze",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-reversed-dze"]
+    },
+    "A645": {
+      "name": "CYRILLIC SMALL LETTER REVERSED DZE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "reversed",
+        "dze",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-reversed-dze"]
+    },
+    "A646": {
+      "name": "CYRILLIC CAPITAL LETTER IOTA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "iota", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-iota"]
+    },
+    "A647": {
+      "name": "CYRILLIC SMALL LETTER IOTA",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "iota", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-iota"]
+    },
+    "A648": {
+      "name": "CYRILLIC CAPITAL LETTER DJERV",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "djerv", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-djerv"]
+    },
+    "A649": {
+      "name": "CYRILLIC SMALL LETTER DJERV",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "djerv", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-djerv"]
+    },
+    "A64A": {
+      "name": "CYRILLIC CAPITAL LETTER MONOGRAPH UK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "monograph", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-monograph-uk"]
+    },
+    "A64B": {
+      "name": "CYRILLIC SMALL LETTER MONOGRAPH UK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "monograph", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-monograph-uk"]
+    },
+    "A64C": {
+      "name": "CYRILLIC CAPITAL LETTER BROAD OMEGA",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "broad",
+        "omega",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-broad-omega"]
+    },
+    "A64D": {
+      "name": "CYRILLIC SMALL LETTER BROAD OMEGA",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "broad",
+        "omega",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-broad-omega"]
+    },
+    "A64E": {
+      "name": "CYRILLIC CAPITAL LETTER NEUTRAL YER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "neutral",
+        "yer",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-neutral-yer"]
+    },
+    "A64F": {
+      "name": "CYRILLIC SMALL LETTER NEUTRAL YER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "neutral",
+        "yer",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-neutral-yer"]
+    },
+    "A650": {
+      "name": "CYRILLIC CAPITAL LETTER YERU WITH BACK YER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "yeru",
+        "with",
+        "back",
+        "yer",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-yeru-with-back-yer"]
+    },
+    "A651": {
+      "name": "CYRILLIC SMALL LETTER YERU WITH BACK YER",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "yeru",
+        "with",
+        "back",
+        "yer",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-yeru-with-back-yer"]
+    },
+    "A652": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED YAT",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "iotified",
+        "yat",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-iotified-yat"]
+    },
+    "A653": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED YAT",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "iotified",
+        "yat",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-iotified-yat"]
+    },
+    "A654": {
+      "name": "CYRILLIC CAPITAL LETTER REVERSED YU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "reversed", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-reversed-yu"]
+    },
+    "A655": {
+      "name": "CYRILLIC SMALL LETTER REVERSED YU",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "reversed", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-reversed-yu"]
+    },
+    "A656": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED A",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "iotified", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-iotified-a"]
+    },
+    "A657": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED A",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "iotified", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-iotified-a"]
+    },
+    "A658": {
+      "name": "CYRILLIC CAPITAL LETTER CLOSED LITTLE YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "closed",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-closed-little-yus"]
+    },
+    "A659": {
+      "name": "CYRILLIC SMALL LETTER CLOSED LITTLE YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "closed",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-closed-little-yus"]
+    },
+    "A65A": {
+      "name": "CYRILLIC CAPITAL LETTER BLENDED YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "blended",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-blended-yus"]
+    },
+    "A65B": {
+      "name": "CYRILLIC SMALL LETTER BLENDED YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "blended",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-blended-yus"]
+    },
+    "A65C": {
+      "name": "CYRILLIC CAPITAL LETTER IOTIFIED CLOSED LITTLE YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "iotified",
+        "closed",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-iotified-closed-little-yus"]
+    },
+    "A65D": {
+      "name": "CYRILLIC SMALL LETTER IOTIFIED CLOSED LITTLE YUS",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "iotified",
+        "closed",
+        "little",
+        "yus",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-iotified-closed-little-yus"]
+    },
+    "A65E": {
+      "name": "CYRILLIC CAPITAL LETTER YN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-yn"]
+    },
+    "A65F": {
+      "name": "CYRILLIC SMALL LETTER YN",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-yn"]
+    },
+    "A660": {
+      "name": "CYRILLIC CAPITAL LETTER REVERSED TSE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "reversed",
+        "tse",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-reversed-tse"]
+    },
+    "A661": {
+      "name": "CYRILLIC SMALL LETTER REVERSED TSE",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "reversed",
+        "tse",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-reversed-tse"]
+    },
+    "A662": {
+      "name": "CYRILLIC CAPITAL LETTER SOFT DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-soft-de"]
+    },
+    "A663": {
+      "name": "CYRILLIC SMALL LETTER SOFT DE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-soft-de"]
+    },
+    "A664": {
+      "name": "CYRILLIC CAPITAL LETTER SOFT EL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-soft-el"]
+    },
+    "A665": {
+      "name": "CYRILLIC SMALL LETTER SOFT EL",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-soft-el"]
+    },
+    "A666": {
+      "name": "CYRILLIC CAPITAL LETTER SOFT EM",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-soft-em"]
+    },
+    "A667": {
+      "name": "CYRILLIC SMALL LETTER SOFT EM",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "soft", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-soft-em"]
+    },
+    "A668": {
+      "name": "CYRILLIC CAPITAL LETTER MONOCULAR O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "monocular", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-monocular-o"]
+    },
+    "A669": {
+      "name": "CYRILLIC SMALL LETTER MONOCULAR O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "monocular", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-monocular-o"]
+    },
+    "A66A": {
+      "name": "CYRILLIC CAPITAL LETTER BINOCULAR O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "binocular", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-binocular-o"]
+    },
+    "A66B": {
+      "name": "CYRILLIC SMALL LETTER BINOCULAR O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "binocular", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-binocular-o"]
+    },
+    "A66C": {
+      "name": "CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "double",
+        "monocular",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-double-monocular-o"]
+    },
+    "A66D": {
+      "name": "CYRILLIC SMALL LETTER DOUBLE MONOCULAR O",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "double",
+        "monocular",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-double-monocular-o"]
+    },
+    "A66E": {
+      "name": "CYRILLIC LETTER MULTIOCULAR O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "letter", "multiocular", "russian", "slavic"],
+      "aliases": ["cyrillic-letter-multiocular-o"]
+    },
+    "A66F": {
+      "name": "COMBINING CYRILLIC VZMET",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "vzmet", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-vzmet"]
+    },
+    "A670": {
+      "name": "COMBINING CYRILLIC TEN MILLIONS SIGN",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "ten",
+        "millions",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-ten-millions-sign"]
+    },
+    "A671": {
+      "name": "COMBINING CYRILLIC HUNDRED MILLIONS SIGN",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "hundred",
+        "millions",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-hundred-millions-sign"]
+    },
+    "A672": {
+      "name": "COMBINING CYRILLIC THOUSAND MILLIONS SIGN",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "thousand",
+        "millions",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-thousand-millions-sign"]
+    },
+    "A673": {
+      "name": "SLAVONIC ASTERISK",
+      "category": "Punctuation",
+      "keywords": ["cyrillic", "extended-b", "slavonic", "asterisk"],
+      "aliases": ["slavonic-asterisk"]
+    },
+    "A674": {
+      "name": "COMBINING CYRILLIC LETTER UKRAINIAN IE",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "letter",
+        "ukrainian",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-ukrainian-ie"]
+    },
+    "A675": {
+      "name": "COMBINING CYRILLIC LETTER I",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-i"]
+    },
+    "A676": {
+      "name": "COMBINING CYRILLIC LETTER YI",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-yi"]
+    },
+    "A677": {
+      "name": "COMBINING CYRILLIC LETTER U",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-u"]
+    },
+    "A678": {
+      "name": "COMBINING CYRILLIC LETTER HARD SIGN",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "letter",
+        "hard",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-hard-sign"]
+    },
+    "A679": {
+      "name": "COMBINING CYRILLIC LETTER YERU",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "yeru", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-yeru"]
+    },
+    "A67A": {
+      "name": "COMBINING CYRILLIC LETTER SOFT SIGN",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "letter",
+        "soft",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-soft-sign"]
+    },
+    "A67B": {
+      "name": "COMBINING CYRILLIC LETTER OMEGA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "omega", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-omega"]
+    },
+    "A67C": {
+      "name": "COMBINING CYRILLIC KAVYKA",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "kavyka", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-kavyka"]
+    },
+    "A67D": {
+      "name": "COMBINING CYRILLIC PAYEROK",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "payerok", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-payerok"]
+    },
+    "A67E": {
+      "name": "CYRILLIC KAVYKA",
+      "category": "Punctuation",
+      "keywords": ["cyrillic", "extended-b", "kavyka", "russian", "slavic"],
+      "aliases": ["cyrillic-kavyka"]
+    },
+    "A67F": {
+      "name": "CYRILLIC PAYEROK",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "payerok", "russian", "slavic"],
+      "aliases": ["cyrillic-payerok"]
+    },
+    "A680": {
+      "name": "CYRILLIC CAPITAL LETTER DWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "dwe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dwe"]
+    },
+    "A681": {
+      "name": "CYRILLIC SMALL LETTER DWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "dwe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dwe"]
+    },
+    "A682": {
+      "name": "CYRILLIC CAPITAL LETTER DZWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "dzwe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dzwe"]
+    },
+    "A683": {
+      "name": "CYRILLIC SMALL LETTER DZWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "dzwe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dzwe"]
+    },
+    "A684": {
+      "name": "CYRILLIC CAPITAL LETTER ZHWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "zhwe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-zhwe"]
+    },
+    "A685": {
+      "name": "CYRILLIC SMALL LETTER ZHWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "zhwe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-zhwe"]
+    },
+    "A686": {
+      "name": "CYRILLIC CAPITAL LETTER CCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "cche", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-cche"]
+    },
+    "A687": {
+      "name": "CYRILLIC SMALL LETTER CCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "cche", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-cche"]
+    },
+    "A688": {
+      "name": "CYRILLIC CAPITAL LETTER DZZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "dzze", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-dzze"]
+    },
+    "A689": {
+      "name": "CYRILLIC SMALL LETTER DZZE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "dzze", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-dzze"]
+    },
+    "A68A": {
+      "name": "CYRILLIC CAPITAL LETTER TE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "capital",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-capital-letter-te-with-middle-hook"]
+    },
+    "A68B": {
+      "name": "CYRILLIC SMALL LETTER TE WITH MIDDLE HOOK",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "small",
+        "letter",
+        "with",
+        "middle",
+        "hook",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["cyrillic-small-letter-te-with-middle-hook"]
+    },
+    "A68C": {
+      "name": "CYRILLIC CAPITAL LETTER TWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "twe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-twe"]
+    },
+    "A68D": {
+      "name": "CYRILLIC SMALL LETTER TWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "twe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-twe"]
+    },
+    "A68E": {
+      "name": "CYRILLIC CAPITAL LETTER TSWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "tswe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tswe"]
+    },
+    "A68F": {
+      "name": "CYRILLIC SMALL LETTER TSWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "tswe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tswe"]
+    },
+    "A690": {
+      "name": "CYRILLIC CAPITAL LETTER TSSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "tsse", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tsse"]
+    },
+    "A691": {
+      "name": "CYRILLIC SMALL LETTER TSSE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "tsse", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tsse"]
+    },
+    "A692": {
+      "name": "CYRILLIC CAPITAL LETTER TCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "tche", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-tche"]
+    },
+    "A693": {
+      "name": "CYRILLIC SMALL LETTER TCHE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "tche", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-tche"]
+    },
+    "A694": {
+      "name": "CYRILLIC CAPITAL LETTER HWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "hwe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-hwe"]
+    },
+    "A695": {
+      "name": "CYRILLIC SMALL LETTER HWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "hwe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-hwe"]
+    },
+    "A696": {
+      "name": "CYRILLIC CAPITAL LETTER SHWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "shwe", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-shwe"]
+    },
+    "A697": {
+      "name": "CYRILLIC SMALL LETTER SHWE",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "shwe", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-shwe"]
+    },
+    "A698": {
+      "name": "CYRILLIC CAPITAL LETTER DOUBLE O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "double", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-double-o"]
+    },
+    "A699": {
+      "name": "CYRILLIC SMALL LETTER DOUBLE O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "double", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-double-o"]
+    },
+    "A69A": {
+      "name": "CYRILLIC CAPITAL LETTER CROSSED O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "capital", "letter", "crossed", "russian", "slavic"],
+      "aliases": ["cyrillic-capital-letter-crossed-o"]
+    },
+    "A69B": {
+      "name": "CYRILLIC SMALL LETTER CROSSED O",
+      "category": "Letter",
+      "keywords": ["cyrillic", "extended-b", "small", "letter", "crossed", "russian", "slavic"],
+      "aliases": ["cyrillic-small-letter-crossed-o"]
+    },
+    "A69C": {
+      "name": "MODIFIER LETTER CYRILLIC HARD SIGN",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "modifier",
+        "letter",
+        "hard",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["modifier-letter-cyrillic-hard-sign"]
+    },
+    "A69D": {
+      "name": "MODIFIER LETTER CYRILLIC SOFT SIGN",
+      "category": "Letter",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "modifier",
+        "letter",
+        "soft",
+        "sign",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["modifier-letter-cyrillic-soft-sign"]
+    },
+    "A69E": {
+      "name": "COMBINING CYRILLIC LETTER EF",
+      "category": "Mark",
+      "keywords": ["cyrillic", "extended-b", "combining", "letter", "russian", "slavic"],
+      "aliases": ["combining-cyrillic-letter-ef"]
+    },
+    "A69F": {
+      "name": "COMBINING CYRILLIC LETTER IOTIFIED E",
+      "category": "Mark",
+      "keywords": [
+        "cyrillic",
+        "extended-b",
+        "combining",
+        "letter",
+        "iotified",
+        "russian",
+        "slavic"
+      ],
+      "aliases": ["combining-cyrillic-letter-iotified-e"]
+    }
+  }
+}

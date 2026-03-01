@@ -1,0 +1,39 @@
+/* AxisSlider.module.css */
+
+.axisSlider {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.axisHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+}
+
+.axisNameGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Was: baseline - but caused alignment issues */
+  gap: var(--space-xs);
+  flex: 1;
+}
+
+/* Typography from Label primitive variant small; layout only here */
+.axisName {
+  flex-shrink: 1;
+  line-height: 1;
+}
+
+.axisTag {
+  font-style: italic;
+  flex-shrink: 1;
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  text-transform: lowercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: 1; /* Remove need for negative margin */
+}

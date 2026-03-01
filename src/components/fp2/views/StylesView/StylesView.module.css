@@ -1,0 +1,146 @@
+.stylesView {
+  background: var(--bg-canvas);
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-xl);
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  container-type: inline-size;
+}
+
+.stylesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(35vw, 1fr));
+  gap: var(--space-lg);
+}
+
+.styleCard {
+  padding: var(--space-md);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-xl);
+  cursor: auto;
+  transition: var(--transition-state);
+}
+
+/* Hover state - only when enabled */
+.styleCard:hover:not([aria-disabled="true"]) {
+  border-color: var(--accent-primary);
+  background-color: var(--accent-primary);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.styleCard:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.styleCard:hover .styleName,
+.styleCard:hover .styleInfo span {
+  color: var(--text-on-accent);
+}
+
+.styleCard.copied {
+  background-color: var(--success-bg);
+  border: 1px solid var(--success);
+  animation: copyPulse 0.3s ease-out;
+}
+
+.styleCard.copied .styleName {
+  color: var(--success);
+  font-weight: 600;
+}
+
+@keyframes copyPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.styleName {
+  font-size: var(--text-base);
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.styleSample {
+  font-family: var(--style-sample-font-family);
+  font-variation-settings: var(--style-sample-variation-settings);
+  font-size: var(--style-sample-font-size);
+  line-height: var(--style-sample-line-height);
+  letter-spacing: var(--style-sample-letter-spacing);
+  text-align: var(--style-sample-text-align);
+  direction: var(--style-sample-direction);
+  font-feature-settings: var(--style-sample-feature-settings);
+  color: var(--style-sample-color);
+  background-color: var(--style-sample-bg);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-sm);
+  overflow-wrap: anywhere;
+}
+
+.styleSample.verticalTrim {
+  text-box-trim: cap alphabetic;
+}
+
+.styleSample.smallCaps {
+  text-transform: none;
+  font-variant-caps: small-caps;
+}
+
+.styleSample:not(.smallCaps) {
+  text-transform: var(--style-sample-text-transform);
+  font-variant-caps: normal;
+}
+
+.styleInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border-default);
+}
+
+.axisInfo {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+}
+
+.axisTag {
+  color: var(--text-secondary);
+}
+
+.axisValue {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.emptyState {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: var(--space-xl);
+}
+
+.hint {
+  font-size: var(--text-sm);
+  margin-top: var(--space-sm);
+  opacity: var(--opacity-subtle); /* Use token instead of 0.7 */
+}

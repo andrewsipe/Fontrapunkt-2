@@ -1,0 +1,22 @@
+/**
+ * Separator styles (Base UI) using design system tokens
+ * Matches Modal and Select component aesthetics
+ * Uses OKLCH colors and consistent borders
+ */
+
+.separator {
+  background-color: var(--border-default);
+  flex-shrink: 0;
+}
+
+/* Horizontal separator (default) */
+.separator[data-orientation="horizontal"] {
+  height: 1px;
+  width: 100%;
+}
+
+/* Vertical separator */
+.separator[data-orientation="vertical"] {
+  width: 1px;
+  height: 100%;
+}

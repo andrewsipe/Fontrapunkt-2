@@ -1,0 +1,2303 @@
+{
+  "name": "Symbols",
+  "range": [8192, 11263],
+  "characters": {
+    "2400": {
+      "name": "SYMBOL FOR NULL",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "null"],
+      "aliases": ["symbol-for-null"]
+    },
+    "2401": {
+      "name": "SYMBOL FOR START OF HEADING",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "start", "heading"],
+      "aliases": ["symbol-for-start-of-heading"]
+    },
+    "2402": {
+      "name": "SYMBOL FOR START OF TEXT",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "start", "text"],
+      "aliases": ["symbol-for-start-of-text"]
+    },
+    "2403": {
+      "name": "SYMBOL FOR END OF TEXT",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "end", "text"],
+      "aliases": ["symbol-for-end-of-text"]
+    },
+    "2404": {
+      "name": "SYMBOL FOR END OF TRANSMISSION",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "end", "transmission"],
+      "aliases": ["symbol-for-end-of-transmission"]
+    },
+    "2405": {
+      "name": "SYMBOL FOR ENQUIRY",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "enquiry"],
+      "aliases": ["symbol-for-enquiry"]
+    },
+    "2406": {
+      "name": "SYMBOL FOR ACKNOWLEDGE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "acknowledge"],
+      "aliases": ["symbol-for-acknowledge"]
+    },
+    "2407": {
+      "name": "SYMBOL FOR BELL",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "bell"],
+      "aliases": ["symbol-for-bell"]
+    },
+    "2408": {
+      "name": "SYMBOL FOR BACKSPACE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "backspace"],
+      "aliases": ["symbol-for-backspace"]
+    },
+    "2409": {
+      "name": "SYMBOL FOR HORIZONTAL TABULATION",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "horizontal", "tabulation"],
+      "aliases": ["symbol-for-horizontal-tabulation"]
+    },
+    "2410": {
+      "name": "SYMBOL FOR DATA LINK ESCAPE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "data", "link", "escape"],
+      "aliases": ["symbol-for-data-link-escape"]
+    },
+    "2411": {
+      "name": "SYMBOL FOR DEVICE CONTROL ONE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "device", "one"],
+      "aliases": ["symbol-for-device-control-one"]
+    },
+    "2412": {
+      "name": "SYMBOL FOR DEVICE CONTROL TWO",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "device", "two"],
+      "aliases": ["symbol-for-device-control-two"]
+    },
+    "2413": {
+      "name": "SYMBOL FOR DEVICE CONTROL THREE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "device", "three"],
+      "aliases": ["symbol-for-device-control-three"]
+    },
+    "2414": {
+      "name": "SYMBOL FOR DEVICE CONTROL FOUR",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "device", "four"],
+      "aliases": ["symbol-for-device-control-four"]
+    },
+    "2415": {
+      "name": "SYMBOL FOR NEGATIVE ACKNOWLEDGE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "negative", "acknowledge"],
+      "aliases": ["symbol-for-negative-acknowledge"]
+    },
+    "2416": {
+      "name": "SYMBOL FOR SYNCHRONOUS IDLE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "synchronous", "idle"],
+      "aliases": ["symbol-for-synchronous-idle"]
+    },
+    "2417": {
+      "name": "SYMBOL FOR END OF TRANSMISSION BLOCK",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "end", "transmission", "block"],
+      "aliases": ["symbol-for-end-of-transmission-block"]
+    },
+    "2418": {
+      "name": "SYMBOL FOR CANCEL",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "cancel"],
+      "aliases": ["symbol-for-cancel"]
+    },
+    "2419": {
+      "name": "SYMBOL FOR END OF MEDIUM",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "end", "medium"],
+      "aliases": ["symbol-for-end-of-medium"]
+    },
+    "2420": {
+      "name": "SYMBOL FOR SPACE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "space"],
+      "aliases": ["symbol-for-space"]
+    },
+    "2421": {
+      "name": "SYMBOL FOR DELETE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "delete"],
+      "aliases": ["symbol-for-delete"]
+    },
+    "2422": {
+      "name": "BLANK SYMBOL",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "blank", "symbol"],
+      "aliases": ["blank-symbol"]
+    },
+    "2423": {
+      "name": "OPEN BOX",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "open", "box"],
+      "aliases": ["open-box"]
+    },
+    "2424": {
+      "name": "SYMBOL FOR NEWLINE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "newline"],
+      "aliases": ["symbol-for-newline"]
+    },
+    "2425": {
+      "name": "SYMBOL FOR DELETE FORM TWO",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "delete", "form", "two"],
+      "aliases": ["symbol-for-delete-form-two"]
+    },
+    "2426": {
+      "name": "SYMBOL FOR SUBSTITUTE FORM TWO",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "substitute", "form", "two"],
+      "aliases": ["symbol-for-substitute-form-two"]
+    },
+    "2427": {
+      "name": "SYMBOL FOR DELETE SQUARE CHECKER BOARD FORM",
+      "category": "Symbol",
+      "keywords": [
+        "control",
+        "pictures",
+        "symbol",
+        "for",
+        "delete",
+        "square",
+        "checker",
+        "board",
+        "form"
+      ],
+      "aliases": ["symbol-for-delete-square-checker-board-form"]
+    },
+    "2428": {
+      "name": "SYMBOL FOR DELETE RECTANGULAR CHECKER BOARD FORM",
+      "category": "Symbol",
+      "keywords": [
+        "control",
+        "pictures",
+        "symbol",
+        "for",
+        "delete",
+        "rectangular",
+        "checker",
+        "board",
+        "form"
+      ],
+      "aliases": ["symbol-for-delete-rectangular-checker-board-form"]
+    },
+    "2429": {
+      "name": "SYMBOL FOR DELETE MEDIUM SHADE FORM",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "delete", "medium", "shade", "form"],
+      "aliases": ["symbol-for-delete-medium-shade-form"]
+    },
+    "2440": {
+      "name": "OCR HOOK",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "hook"],
+      "aliases": ["ocr-hook"]
+    },
+    "2441": {
+      "name": "OCR CHAIR",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "chair"],
+      "aliases": ["ocr-chair"]
+    },
+    "2442": {
+      "name": "OCR FORK",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "fork"],
+      "aliases": ["ocr-fork"]
+    },
+    "2443": {
+      "name": "OCR INVERTED FORK",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "inverted", "fork"],
+      "aliases": ["ocr-inverted-fork"]
+    },
+    "2444": {
+      "name": "OCR BELT BUCKLE",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "belt", "buckle"],
+      "aliases": ["ocr-belt-buckle"]
+    },
+    "2445": {
+      "name": "OCR BOW TIE",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "bow", "tie"],
+      "aliases": ["ocr-bow-tie"]
+    },
+    "2446": {
+      "name": "OCR BRANCH BANK IDENTIFICATION",
+      "category": "Symbol",
+      "keywords": [
+        "optical",
+        "character",
+        "recognition",
+        "ocr",
+        "branch",
+        "bank",
+        "identification"
+      ],
+      "aliases": ["ocr-branch-bank-identification"]
+    },
+    "2447": {
+      "name": "OCR AMOUNT OF CHECK",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "amount", "check"],
+      "aliases": ["ocr-amount-of-check"]
+    },
+    "2448": {
+      "name": "OCR DASH",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "dash", "hyphen"],
+      "aliases": ["ocr-dash", "micr-on-us-symbol"]
+    },
+    "2449": {
+      "name": "OCR CUSTOMER ACCOUNT NUMBER",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "customer", "account", "number"],
+      "aliases": ["ocr-customer-account-number", "micr-dash-symbol"]
+    },
+    "2800": {
+      "name": "BRAILLE PATTERN BLANK",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "blank"],
+      "aliases": ["braille-pattern-blank"]
+    },
+    "2801": {
+      "name": "BRAILLE PATTERN DOTS-1",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-1"]
+    },
+    "2802": {
+      "name": "BRAILLE PATTERN DOTS-2",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-2"]
+    },
+    "2803": {
+      "name": "BRAILLE PATTERN DOTS-12",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-12"]
+    },
+    "2804": {
+      "name": "BRAILLE PATTERN DOTS-3",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-3"]
+    },
+    "2805": {
+      "name": "BRAILLE PATTERN DOTS-13",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-13"]
+    },
+    "2806": {
+      "name": "BRAILLE PATTERN DOTS-23",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-23"]
+    },
+    "2807": {
+      "name": "BRAILLE PATTERN DOTS-123",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123"],
+      "aliases": ["braille-pattern-dots-123"]
+    },
+    "2808": {
+      "name": "BRAILLE PATTERN DOTS-4",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-4"]
+    },
+    "2809": {
+      "name": "BRAILLE PATTERN DOTS-14",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-14"]
+    },
+    "2810": {
+      "name": "BRAILLE PATTERN DOTS-5",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-5"]
+    },
+    "2811": {
+      "name": "BRAILLE PATTERN DOTS-15",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-15"]
+    },
+    "2812": {
+      "name": "BRAILLE PATTERN DOTS-25",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-25"]
+    },
+    "2813": {
+      "name": "BRAILLE PATTERN DOTS-125",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "125"],
+      "aliases": ["braille-pattern-dots-125"]
+    },
+    "2814": {
+      "name": "BRAILLE PATTERN DOTS-35",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-35"]
+    },
+    "2815": {
+      "name": "BRAILLE PATTERN DOTS-135",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "135"],
+      "aliases": ["braille-pattern-dots-135"]
+    },
+    "2816": {
+      "name": "BRAILLE PATTERN DOTS-235",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "235"],
+      "aliases": ["braille-pattern-dots-235"]
+    },
+    "2817": {
+      "name": "BRAILLE PATTERN DOTS-1235",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1235"],
+      "aliases": ["braille-pattern-dots-1235"]
+    },
+    "2818": {
+      "name": "BRAILLE PATTERN DOTS-45",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-45"]
+    },
+    "2819": {
+      "name": "BRAILLE PATTERN DOTS-145",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "145"],
+      "aliases": ["braille-pattern-dots-145"]
+    },
+    "2820": {
+      "name": "BRAILLE PATTERN DOTS-6",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-6"]
+    },
+    "2821": {
+      "name": "BRAILLE PATTERN DOTS-16",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-16"]
+    },
+    "2822": {
+      "name": "BRAILLE PATTERN DOTS-26",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-26"]
+    },
+    "2823": {
+      "name": "BRAILLE PATTERN DOTS-126",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "126"],
+      "aliases": ["braille-pattern-dots-126"]
+    },
+    "2824": {
+      "name": "BRAILLE PATTERN DOTS-36",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-36"]
+    },
+    "2825": {
+      "name": "BRAILLE PATTERN DOTS-136",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "136"],
+      "aliases": ["braille-pattern-dots-136"]
+    },
+    "2826": {
+      "name": "BRAILLE PATTERN DOTS-236",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "236"],
+      "aliases": ["braille-pattern-dots-236"]
+    },
+    "2827": {
+      "name": "BRAILLE PATTERN DOTS-1236",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1236"],
+      "aliases": ["braille-pattern-dots-1236"]
+    },
+    "2828": {
+      "name": "BRAILLE PATTERN DOTS-46",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-46"]
+    },
+    "2829": {
+      "name": "BRAILLE PATTERN DOTS-146",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "146"],
+      "aliases": ["braille-pattern-dots-146"]
+    },
+    "2830": {
+      "name": "BRAILLE PATTERN DOTS-56",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-56"]
+    },
+    "2831": {
+      "name": "BRAILLE PATTERN DOTS-156",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "156"],
+      "aliases": ["braille-pattern-dots-156"]
+    },
+    "2832": {
+      "name": "BRAILLE PATTERN DOTS-256",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "256"],
+      "aliases": ["braille-pattern-dots-256"]
+    },
+    "2833": {
+      "name": "BRAILLE PATTERN DOTS-1256",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1256"],
+      "aliases": ["braille-pattern-dots-1256"]
+    },
+    "2834": {
+      "name": "BRAILLE PATTERN DOTS-356",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "356"],
+      "aliases": ["braille-pattern-dots-356"]
+    },
+    "2835": {
+      "name": "BRAILLE PATTERN DOTS-1356",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1356"],
+      "aliases": ["braille-pattern-dots-1356"]
+    },
+    "2836": {
+      "name": "BRAILLE PATTERN DOTS-2356",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2356"],
+      "aliases": ["braille-pattern-dots-2356"]
+    },
+    "2837": {
+      "name": "BRAILLE PATTERN DOTS-12356",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12356"],
+      "aliases": ["braille-pattern-dots-12356"]
+    },
+    "2838": {
+      "name": "BRAILLE PATTERN DOTS-456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "456"],
+      "aliases": ["braille-pattern-dots-456"]
+    },
+    "2839": {
+      "name": "BRAILLE PATTERN DOTS-1456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1456"],
+      "aliases": ["braille-pattern-dots-1456"]
+    },
+    "2840": {
+      "name": "BRAILLE PATTERN DOTS-7",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-7"]
+    },
+    "2841": {
+      "name": "BRAILLE PATTERN DOTS-17",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-17"]
+    },
+    "2842": {
+      "name": "BRAILLE PATTERN DOTS-27",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-27"]
+    },
+    "2843": {
+      "name": "BRAILLE PATTERN DOTS-127",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "127"],
+      "aliases": ["braille-pattern-dots-127"]
+    },
+    "2844": {
+      "name": "BRAILLE PATTERN DOTS-37",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-37"]
+    },
+    "2845": {
+      "name": "BRAILLE PATTERN DOTS-137",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "137"],
+      "aliases": ["braille-pattern-dots-137"]
+    },
+    "2846": {
+      "name": "BRAILLE PATTERN DOTS-237",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "237"],
+      "aliases": ["braille-pattern-dots-237"]
+    },
+    "2847": {
+      "name": "BRAILLE PATTERN DOTS-1237",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1237"],
+      "aliases": ["braille-pattern-dots-1237"]
+    },
+    "2848": {
+      "name": "BRAILLE PATTERN DOTS-47",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-47"]
+    },
+    "2849": {
+      "name": "BRAILLE PATTERN DOTS-147",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "147"],
+      "aliases": ["braille-pattern-dots-147"]
+    },
+    "2850": {
+      "name": "BRAILLE PATTERN DOTS-57",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-57"]
+    },
+    "2851": {
+      "name": "BRAILLE PATTERN DOTS-157",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "157"],
+      "aliases": ["braille-pattern-dots-157"]
+    },
+    "2852": {
+      "name": "BRAILLE PATTERN DOTS-257",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "257"],
+      "aliases": ["braille-pattern-dots-257"]
+    },
+    "2853": {
+      "name": "BRAILLE PATTERN DOTS-1257",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1257"],
+      "aliases": ["braille-pattern-dots-1257"]
+    },
+    "2854": {
+      "name": "BRAILLE PATTERN DOTS-357",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "357"],
+      "aliases": ["braille-pattern-dots-357"]
+    },
+    "2855": {
+      "name": "BRAILLE PATTERN DOTS-1357",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1357"],
+      "aliases": ["braille-pattern-dots-1357"]
+    },
+    "2856": {
+      "name": "BRAILLE PATTERN DOTS-2357",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2357"],
+      "aliases": ["braille-pattern-dots-2357"]
+    },
+    "2857": {
+      "name": "BRAILLE PATTERN DOTS-12357",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12357"],
+      "aliases": ["braille-pattern-dots-12357"]
+    },
+    "2858": {
+      "name": "BRAILLE PATTERN DOTS-457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "457"],
+      "aliases": ["braille-pattern-dots-457"]
+    },
+    "2859": {
+      "name": "BRAILLE PATTERN DOTS-1457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1457"],
+      "aliases": ["braille-pattern-dots-1457"]
+    },
+    "2860": {
+      "name": "BRAILLE PATTERN DOTS-67",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-67"]
+    },
+    "2861": {
+      "name": "BRAILLE PATTERN DOTS-167",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "167"],
+      "aliases": ["braille-pattern-dots-167"]
+    },
+    "2862": {
+      "name": "BRAILLE PATTERN DOTS-267",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "267"],
+      "aliases": ["braille-pattern-dots-267"]
+    },
+    "2863": {
+      "name": "BRAILLE PATTERN DOTS-1267",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1267"],
+      "aliases": ["braille-pattern-dots-1267"]
+    },
+    "2864": {
+      "name": "BRAILLE PATTERN DOTS-367",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "367"],
+      "aliases": ["braille-pattern-dots-367"]
+    },
+    "2865": {
+      "name": "BRAILLE PATTERN DOTS-1367",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1367"],
+      "aliases": ["braille-pattern-dots-1367"]
+    },
+    "2866": {
+      "name": "BRAILLE PATTERN DOTS-2367",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2367"],
+      "aliases": ["braille-pattern-dots-2367"]
+    },
+    "2867": {
+      "name": "BRAILLE PATTERN DOTS-12367",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12367"],
+      "aliases": ["braille-pattern-dots-12367"]
+    },
+    "2868": {
+      "name": "BRAILLE PATTERN DOTS-467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "467"],
+      "aliases": ["braille-pattern-dots-467"]
+    },
+    "2869": {
+      "name": "BRAILLE PATTERN DOTS-1467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1467"],
+      "aliases": ["braille-pattern-dots-1467"]
+    },
+    "2870": {
+      "name": "BRAILLE PATTERN DOTS-567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "567"],
+      "aliases": ["braille-pattern-dots-567"]
+    },
+    "2871": {
+      "name": "BRAILLE PATTERN DOTS-1567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1567"],
+      "aliases": ["braille-pattern-dots-1567"]
+    },
+    "2872": {
+      "name": "BRAILLE PATTERN DOTS-2567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2567"],
+      "aliases": ["braille-pattern-dots-2567"]
+    },
+    "2873": {
+      "name": "BRAILLE PATTERN DOTS-12567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12567"],
+      "aliases": ["braille-pattern-dots-12567"]
+    },
+    "2874": {
+      "name": "BRAILLE PATTERN DOTS-3567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3567"],
+      "aliases": ["braille-pattern-dots-3567"]
+    },
+    "2875": {
+      "name": "BRAILLE PATTERN DOTS-13567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13567"],
+      "aliases": ["braille-pattern-dots-13567"]
+    },
+    "2876": {
+      "name": "BRAILLE PATTERN DOTS-23567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23567"],
+      "aliases": ["braille-pattern-dots-23567"]
+    },
+    "2877": {
+      "name": "BRAILLE PATTERN DOTS-123567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123567"],
+      "aliases": ["braille-pattern-dots-123567"]
+    },
+    "2878": {
+      "name": "BRAILLE PATTERN DOTS-4567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "4567"],
+      "aliases": ["braille-pattern-dots-4567"]
+    },
+    "2879": {
+      "name": "BRAILLE PATTERN DOTS-14567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "14567"],
+      "aliases": ["braille-pattern-dots-14567"]
+    },
+    "2880": {
+      "name": "BRAILLE PATTERN DOTS-8",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-8"]
+    },
+    "2881": {
+      "name": "BRAILLE PATTERN DOTS-18",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-18"]
+    },
+    "2882": {
+      "name": "BRAILLE PATTERN DOTS-28",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-28"]
+    },
+    "2883": {
+      "name": "BRAILLE PATTERN DOTS-128",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "128"],
+      "aliases": ["braille-pattern-dots-128"]
+    },
+    "2884": {
+      "name": "BRAILLE PATTERN DOTS-38",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-38"]
+    },
+    "2885": {
+      "name": "BRAILLE PATTERN DOTS-138",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "138"],
+      "aliases": ["braille-pattern-dots-138"]
+    },
+    "2886": {
+      "name": "BRAILLE PATTERN DOTS-238",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "238"],
+      "aliases": ["braille-pattern-dots-238"]
+    },
+    "2887": {
+      "name": "BRAILLE PATTERN DOTS-1238",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1238"],
+      "aliases": ["braille-pattern-dots-1238"]
+    },
+    "2888": {
+      "name": "BRAILLE PATTERN DOTS-48",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-48"]
+    },
+    "2889": {
+      "name": "BRAILLE PATTERN DOTS-148",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "148"],
+      "aliases": ["braille-pattern-dots-148"]
+    },
+    "2890": {
+      "name": "BRAILLE PATTERN DOTS-58",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-58"]
+    },
+    "2891": {
+      "name": "BRAILLE PATTERN DOTS-158",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "158"],
+      "aliases": ["braille-pattern-dots-158"]
+    },
+    "2892": {
+      "name": "BRAILLE PATTERN DOTS-258",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "258"],
+      "aliases": ["braille-pattern-dots-258"]
+    },
+    "2893": {
+      "name": "BRAILLE PATTERN DOTS-1258",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1258"],
+      "aliases": ["braille-pattern-dots-1258"]
+    },
+    "2894": {
+      "name": "BRAILLE PATTERN DOTS-358",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "358"],
+      "aliases": ["braille-pattern-dots-358"]
+    },
+    "2895": {
+      "name": "BRAILLE PATTERN DOTS-1358",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1358"],
+      "aliases": ["braille-pattern-dots-1358"]
+    },
+    "2896": {
+      "name": "BRAILLE PATTERN DOTS-2358",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2358"],
+      "aliases": ["braille-pattern-dots-2358"]
+    },
+    "2897": {
+      "name": "BRAILLE PATTERN DOTS-12358",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12358"],
+      "aliases": ["braille-pattern-dots-12358"]
+    },
+    "2898": {
+      "name": "BRAILLE PATTERN DOTS-458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "458"],
+      "aliases": ["braille-pattern-dots-458"]
+    },
+    "2899": {
+      "name": "BRAILLE PATTERN DOTS-1458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1458"],
+      "aliases": ["braille-pattern-dots-1458"]
+    },
+    "20D0": {
+      "name": "COMBINING LEFT HARPOON ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "left",
+        "harpoon",
+        "above"
+      ],
+      "aliases": ["combining-left-harpoon-above"]
+    },
+    "20D1": {
+      "name": "COMBINING RIGHT HARPOON ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "right",
+        "harpoon",
+        "above"
+      ],
+      "aliases": ["combining-right-harpoon-above"]
+    },
+    "20D2": {
+      "name": "COMBINING LONG VERTICAL LINE OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "long",
+        "vertical",
+        "line",
+        "overlay"
+      ],
+      "aliases": ["combining-long-vertical-line-overlay"]
+    },
+    "20D3": {
+      "name": "COMBINING SHORT VERTICAL LINE OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "short",
+        "vertical",
+        "line",
+        "overlay"
+      ],
+      "aliases": ["combining-short-vertical-line-overlay"]
+    },
+    "20D4": {
+      "name": "COMBINING ANTICLOCKWISE ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "anticlockwise",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-anticlockwise-arrow-above"]
+    },
+    "20D5": {
+      "name": "COMBINING CLOCKWISE ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "clockwise",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-clockwise-arrow-above"]
+    },
+    "20D6": {
+      "name": "COMBINING LEFT ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "left",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-left-arrow-above"]
+    },
+    "20D7": {
+      "name": "COMBINING RIGHT ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "right",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrow-above"]
+    },
+    "20D8": {
+      "name": "COMBINING RING OVERLAY",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "ring", "overlay"],
+      "aliases": ["combining-ring-overlay"]
+    },
+    "20D9": {
+      "name": "COMBINING CLOCKWISE RING OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "clockwise",
+        "ring",
+        "overlay"
+      ],
+      "aliases": ["combining-clockwise-ring-overlay"]
+    },
+    "20DA": {
+      "name": "COMBINING ANTICLOCKWISE RING OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "anticlockwise",
+        "ring",
+        "overlay"
+      ],
+      "aliases": ["combining-anticlockwise-ring-overlay"]
+    },
+    "20DB": {
+      "name": "COMBINING THREE DOTS ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "three", "dots", "above"],
+      "aliases": ["combining-three-dots-above"]
+    },
+    "20DC": {
+      "name": "COMBINING FOUR DOTS ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "four", "dots", "above"],
+      "aliases": ["combining-four-dots-above"]
+    },
+    "20DD": {
+      "name": "COMBINING ENCLOSING CIRCLE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "enclosing", "circle"],
+      "aliases": ["combining-enclosing-circle"]
+    },
+    "20DE": {
+      "name": "COMBINING ENCLOSING SQUARE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "enclosing", "square"],
+      "aliases": ["combining-enclosing-square"]
+    },
+    "20DF": {
+      "name": "COMBINING ENCLOSING DIAMOND",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "enclosing", "diamond"],
+      "aliases": ["combining-enclosing-diamond"]
+    },
+    "20E0": {
+      "name": "COMBINING ENCLOSING CIRCLE BACKSLASH",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "enclosing",
+        "circle",
+        "backslash",
+        "slash"
+      ],
+      "aliases": ["combining-enclosing-circle-backslash"]
+    },
+    "20E1": {
+      "name": "COMBINING LEFT RIGHT ARROW ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "left",
+        "right",
+        "arrow",
+        "above",
+        "direction"
+      ],
+      "aliases": ["combining-left-right-arrow-above"]
+    },
+    "20E2": {
+      "name": "COMBINING ENCLOSING SCREEN",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "enclosing", "screen"],
+      "aliases": ["combining-enclosing-screen"]
+    },
+    "20E3": {
+      "name": "COMBINING ENCLOSING KEYCAP",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "enclosing", "keycap"],
+      "aliases": ["combining-enclosing-keycap"]
+    },
+    "20E4": {
+      "name": "COMBINING ENCLOSING UPWARD POINTING TRIANGLE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "enclosing",
+        "upward",
+        "pointing",
+        "triangle"
+      ],
+      "aliases": ["combining-enclosing-upward-pointing-triangle"]
+    },
+    "20E5": {
+      "name": "COMBINING REVERSE SOLIDUS OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "reverse",
+        "solidus",
+        "overlay"
+      ],
+      "aliases": ["combining-reverse-solidus-overlay"]
+    },
+    "20E6": {
+      "name": "COMBINING DOUBLE VERTICAL STROKE OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "double",
+        "vertical",
+        "stroke",
+        "overlay"
+      ],
+      "aliases": ["combining-double-vertical-stroke-overlay"]
+    },
+    "20E7": {
+      "name": "COMBINING ANNUITY SYMBOL",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "annuity", "symbol"],
+      "aliases": ["combining-annuity-symbol"]
+    },
+    "20E8": {
+      "name": "COMBINING TRIPLE UNDERDOT",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "triple", "underdot"],
+      "aliases": ["combining-triple-underdot"]
+    },
+    "20E9": {
+      "name": "COMBINING WIDE BRIDGE ABOVE",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "wide",
+        "bridge",
+        "above"
+      ],
+      "aliases": ["combining-wide-bridge-above"]
+    },
+    "20EA": {
+      "name": "COMBINING LEFTWARDS ARROW OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "leftwards",
+        "arrow",
+        "overlay",
+        "direction"
+      ],
+      "aliases": ["combining-leftwards-arrow-overlay"]
+    },
+    "20EB": {
+      "name": "COMBINING LONG DOUBLE SOLIDUS OVERLAY",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "long",
+        "double",
+        "solidus",
+        "overlay"
+      ],
+      "aliases": ["combining-long-double-solidus-overlay"]
+    },
+    "20EC": {
+      "name": "COMBINING RIGHTWARDS HARPOON WITH BARB DOWNWARDS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "rightwards",
+        "harpoon",
+        "with",
+        "barb",
+        "downwards"
+      ],
+      "aliases": ["combining-rightwards-harpoon-with-barb-downwards"]
+    },
+    "20ED": {
+      "name": "COMBINING LEFTWARDS HARPOON WITH BARB DOWNWARDS",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "leftwards",
+        "harpoon",
+        "with",
+        "barb",
+        "downwards"
+      ],
+      "aliases": ["combining-leftwards-harpoon-with-barb-downwards"]
+    },
+    "20EE": {
+      "name": "COMBINING LEFT ARROW BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "left",
+        "arrow",
+        "below",
+        "direction"
+      ],
+      "aliases": ["combining-left-arrow-below"]
+    },
+    "20EF": {
+      "name": "COMBINING RIGHT ARROW BELOW",
+      "category": "Mark",
+      "keywords": [
+        "combining",
+        "diacritical",
+        "marks",
+        "for",
+        "symbols",
+        "right",
+        "arrow",
+        "below",
+        "direction"
+      ],
+      "aliases": ["combining-right-arrow-below"]
+    },
+    "20F0": {
+      "name": "COMBINING ASTERISK ABOVE",
+      "category": "Mark",
+      "keywords": ["combining", "diacritical", "marks", "for", "symbols", "asterisk", "above"],
+      "aliases": ["combining-asterisk-above"]
+    },
+    "240A": {
+      "name": "SYMBOL FOR LINE FEED",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "line", "feed"],
+      "aliases": ["symbol-for-line-feed"]
+    },
+    "240B": {
+      "name": "SYMBOL FOR VERTICAL TABULATION",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "vertical", "tabulation"],
+      "aliases": ["symbol-for-vertical-tabulation"]
+    },
+    "240C": {
+      "name": "SYMBOL FOR FORM FEED",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "form", "feed"],
+      "aliases": ["symbol-for-form-feed"]
+    },
+    "240D": {
+      "name": "SYMBOL FOR CARRIAGE RETURN",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "carriage", "return"],
+      "aliases": ["symbol-for-carriage-return"]
+    },
+    "240E": {
+      "name": "SYMBOL FOR SHIFT OUT",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "shift", "out"],
+      "aliases": ["symbol-for-shift-out"]
+    },
+    "240F": {
+      "name": "SYMBOL FOR SHIFT IN",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "shift"],
+      "aliases": ["symbol-for-shift-in"]
+    },
+    "241A": {
+      "name": "SYMBOL FOR SUBSTITUTE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "substitute"],
+      "aliases": ["symbol-for-substitute"]
+    },
+    "241B": {
+      "name": "SYMBOL FOR ESCAPE",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "escape"],
+      "aliases": ["symbol-for-escape"]
+    },
+    "241C": {
+      "name": "SYMBOL FOR FILE SEPARATOR",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "file", "separator"],
+      "aliases": ["symbol-for-file-separator"]
+    },
+    "241D": {
+      "name": "SYMBOL FOR GROUP SEPARATOR",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "group", "separator"],
+      "aliases": ["symbol-for-group-separator"]
+    },
+    "241E": {
+      "name": "SYMBOL FOR RECORD SEPARATOR",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "record", "separator"],
+      "aliases": ["symbol-for-record-separator"]
+    },
+    "241F": {
+      "name": "SYMBOL FOR UNIT SEPARATOR",
+      "category": "Symbol",
+      "keywords": ["control", "pictures", "symbol", "for", "unit", "separator"],
+      "aliases": ["symbol-for-unit-separator"]
+    },
+    "244A": {
+      "name": "OCR DOUBLE BACKSLASH",
+      "category": "Symbol",
+      "keywords": ["optical", "character", "recognition", "ocr", "double", "backslash", "slash"],
+      "aliases": ["ocr-double-backslash"]
+    },
+    "280A": {
+      "name": "BRAILLE PATTERN DOTS-24",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-24"]
+    },
+    "280B": {
+      "name": "BRAILLE PATTERN DOTS-124",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "124"],
+      "aliases": ["braille-pattern-dots-124"]
+    },
+    "280C": {
+      "name": "BRAILLE PATTERN DOTS-34",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-34"]
+    },
+    "280D": {
+      "name": "BRAILLE PATTERN DOTS-134",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "134"],
+      "aliases": ["braille-pattern-dots-134"]
+    },
+    "280E": {
+      "name": "BRAILLE PATTERN DOTS-234",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "234"],
+      "aliases": ["braille-pattern-dots-234"]
+    },
+    "280F": {
+      "name": "BRAILLE PATTERN DOTS-1234",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1234"],
+      "aliases": ["braille-pattern-dots-1234"]
+    },
+    "281A": {
+      "name": "BRAILLE PATTERN DOTS-245",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "245"],
+      "aliases": ["braille-pattern-dots-245"]
+    },
+    "281B": {
+      "name": "BRAILLE PATTERN DOTS-1245",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1245"],
+      "aliases": ["braille-pattern-dots-1245"]
+    },
+    "281C": {
+      "name": "BRAILLE PATTERN DOTS-345",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "345"],
+      "aliases": ["braille-pattern-dots-345"]
+    },
+    "281D": {
+      "name": "BRAILLE PATTERN DOTS-1345",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1345"],
+      "aliases": ["braille-pattern-dots-1345"]
+    },
+    "281E": {
+      "name": "BRAILLE PATTERN DOTS-2345",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2345"],
+      "aliases": ["braille-pattern-dots-2345"]
+    },
+    "281F": {
+      "name": "BRAILLE PATTERN DOTS-12345",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12345"],
+      "aliases": ["braille-pattern-dots-12345"]
+    },
+    "282A": {
+      "name": "BRAILLE PATTERN DOTS-246",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "246"],
+      "aliases": ["braille-pattern-dots-246"]
+    },
+    "282B": {
+      "name": "BRAILLE PATTERN DOTS-1246",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1246"],
+      "aliases": ["braille-pattern-dots-1246"]
+    },
+    "282C": {
+      "name": "BRAILLE PATTERN DOTS-346",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "346"],
+      "aliases": ["braille-pattern-dots-346"]
+    },
+    "282D": {
+      "name": "BRAILLE PATTERN DOTS-1346",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1346"],
+      "aliases": ["braille-pattern-dots-1346"]
+    },
+    "282E": {
+      "name": "BRAILLE PATTERN DOTS-2346",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2346"],
+      "aliases": ["braille-pattern-dots-2346"]
+    },
+    "282F": {
+      "name": "BRAILLE PATTERN DOTS-12346",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12346"],
+      "aliases": ["braille-pattern-dots-12346"]
+    },
+    "283A": {
+      "name": "BRAILLE PATTERN DOTS-2456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2456"],
+      "aliases": ["braille-pattern-dots-2456"]
+    },
+    "283B": {
+      "name": "BRAILLE PATTERN DOTS-12456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12456"],
+      "aliases": ["braille-pattern-dots-12456"]
+    },
+    "283C": {
+      "name": "BRAILLE PATTERN DOTS-3456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3456"],
+      "aliases": ["braille-pattern-dots-3456"]
+    },
+    "283D": {
+      "name": "BRAILLE PATTERN DOTS-13456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13456"],
+      "aliases": ["braille-pattern-dots-13456"]
+    },
+    "283E": {
+      "name": "BRAILLE PATTERN DOTS-23456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23456"],
+      "aliases": ["braille-pattern-dots-23456"]
+    },
+    "283F": {
+      "name": "BRAILLE PATTERN DOTS-123456",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123456"],
+      "aliases": ["braille-pattern-dots-123456"]
+    },
+    "284A": {
+      "name": "BRAILLE PATTERN DOTS-247",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "247"],
+      "aliases": ["braille-pattern-dots-247"]
+    },
+    "284B": {
+      "name": "BRAILLE PATTERN DOTS-1247",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1247"],
+      "aliases": ["braille-pattern-dots-1247"]
+    },
+    "284C": {
+      "name": "BRAILLE PATTERN DOTS-347",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "347"],
+      "aliases": ["braille-pattern-dots-347"]
+    },
+    "284D": {
+      "name": "BRAILLE PATTERN DOTS-1347",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1347"],
+      "aliases": ["braille-pattern-dots-1347"]
+    },
+    "284E": {
+      "name": "BRAILLE PATTERN DOTS-2347",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2347"],
+      "aliases": ["braille-pattern-dots-2347"]
+    },
+    "284F": {
+      "name": "BRAILLE PATTERN DOTS-12347",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12347"],
+      "aliases": ["braille-pattern-dots-12347"]
+    },
+    "285A": {
+      "name": "BRAILLE PATTERN DOTS-2457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2457"],
+      "aliases": ["braille-pattern-dots-2457"]
+    },
+    "285B": {
+      "name": "BRAILLE PATTERN DOTS-12457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12457"],
+      "aliases": ["braille-pattern-dots-12457"]
+    },
+    "285C": {
+      "name": "BRAILLE PATTERN DOTS-3457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3457"],
+      "aliases": ["braille-pattern-dots-3457"]
+    },
+    "285D": {
+      "name": "BRAILLE PATTERN DOTS-13457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13457"],
+      "aliases": ["braille-pattern-dots-13457"]
+    },
+    "285E": {
+      "name": "BRAILLE PATTERN DOTS-23457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23457"],
+      "aliases": ["braille-pattern-dots-23457"]
+    },
+    "285F": {
+      "name": "BRAILLE PATTERN DOTS-123457",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123457"],
+      "aliases": ["braille-pattern-dots-123457"]
+    },
+    "286A": {
+      "name": "BRAILLE PATTERN DOTS-2467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2467"],
+      "aliases": ["braille-pattern-dots-2467"]
+    },
+    "286B": {
+      "name": "BRAILLE PATTERN DOTS-12467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12467"],
+      "aliases": ["braille-pattern-dots-12467"]
+    },
+    "286C": {
+      "name": "BRAILLE PATTERN DOTS-3467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3467"],
+      "aliases": ["braille-pattern-dots-3467"]
+    },
+    "286D": {
+      "name": "BRAILLE PATTERN DOTS-13467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13467"],
+      "aliases": ["braille-pattern-dots-13467"]
+    },
+    "286E": {
+      "name": "BRAILLE PATTERN DOTS-23467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23467"],
+      "aliases": ["braille-pattern-dots-23467"]
+    },
+    "286F": {
+      "name": "BRAILLE PATTERN DOTS-123467",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123467"],
+      "aliases": ["braille-pattern-dots-123467"]
+    },
+    "287A": {
+      "name": "BRAILLE PATTERN DOTS-24567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "24567"],
+      "aliases": ["braille-pattern-dots-24567"]
+    },
+    "287B": {
+      "name": "BRAILLE PATTERN DOTS-124567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "124567"],
+      "aliases": ["braille-pattern-dots-124567"]
+    },
+    "287C": {
+      "name": "BRAILLE PATTERN DOTS-34567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "34567"],
+      "aliases": ["braille-pattern-dots-34567"]
+    },
+    "287D": {
+      "name": "BRAILLE PATTERN DOTS-134567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "134567"],
+      "aliases": ["braille-pattern-dots-134567"]
+    },
+    "287E": {
+      "name": "BRAILLE PATTERN DOTS-234567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "234567"],
+      "aliases": ["braille-pattern-dots-234567"]
+    },
+    "287F": {
+      "name": "BRAILLE PATTERN DOTS-1234567",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1234567"],
+      "aliases": ["braille-pattern-dots-1234567"]
+    },
+    "288A": {
+      "name": "BRAILLE PATTERN DOTS-248",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "248"],
+      "aliases": ["braille-pattern-dots-248"]
+    },
+    "288B": {
+      "name": "BRAILLE PATTERN DOTS-1248",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1248"],
+      "aliases": ["braille-pattern-dots-1248"]
+    },
+    "288C": {
+      "name": "BRAILLE PATTERN DOTS-348",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "348"],
+      "aliases": ["braille-pattern-dots-348"]
+    },
+    "288D": {
+      "name": "BRAILLE PATTERN DOTS-1348",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1348"],
+      "aliases": ["braille-pattern-dots-1348"]
+    },
+    "288E": {
+      "name": "BRAILLE PATTERN DOTS-2348",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2348"],
+      "aliases": ["braille-pattern-dots-2348"]
+    },
+    "288F": {
+      "name": "BRAILLE PATTERN DOTS-12348",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12348"],
+      "aliases": ["braille-pattern-dots-12348"]
+    },
+    "289A": {
+      "name": "BRAILLE PATTERN DOTS-2458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2458"],
+      "aliases": ["braille-pattern-dots-2458"]
+    },
+    "289B": {
+      "name": "BRAILLE PATTERN DOTS-12458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12458"],
+      "aliases": ["braille-pattern-dots-12458"]
+    },
+    "289C": {
+      "name": "BRAILLE PATTERN DOTS-3458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3458"],
+      "aliases": ["braille-pattern-dots-3458"]
+    },
+    "289D": {
+      "name": "BRAILLE PATTERN DOTS-13458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13458"],
+      "aliases": ["braille-pattern-dots-13458"]
+    },
+    "289E": {
+      "name": "BRAILLE PATTERN DOTS-23458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23458"],
+      "aliases": ["braille-pattern-dots-23458"]
+    },
+    "289F": {
+      "name": "BRAILLE PATTERN DOTS-123458",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123458"],
+      "aliases": ["braille-pattern-dots-123458"]
+    },
+    "28A0": {
+      "name": "BRAILLE PATTERN DOTS-68",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-68"]
+    },
+    "28A1": {
+      "name": "BRAILLE PATTERN DOTS-168",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "168"],
+      "aliases": ["braille-pattern-dots-168"]
+    },
+    "28A2": {
+      "name": "BRAILLE PATTERN DOTS-268",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "268"],
+      "aliases": ["braille-pattern-dots-268"]
+    },
+    "28A3": {
+      "name": "BRAILLE PATTERN DOTS-1268",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1268"],
+      "aliases": ["braille-pattern-dots-1268"]
+    },
+    "28A4": {
+      "name": "BRAILLE PATTERN DOTS-368",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "368"],
+      "aliases": ["braille-pattern-dots-368"]
+    },
+    "28A5": {
+      "name": "BRAILLE PATTERN DOTS-1368",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1368"],
+      "aliases": ["braille-pattern-dots-1368"]
+    },
+    "28A6": {
+      "name": "BRAILLE PATTERN DOTS-2368",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2368"],
+      "aliases": ["braille-pattern-dots-2368"]
+    },
+    "28A7": {
+      "name": "BRAILLE PATTERN DOTS-12368",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12368"],
+      "aliases": ["braille-pattern-dots-12368"]
+    },
+    "28A8": {
+      "name": "BRAILLE PATTERN DOTS-468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "468"],
+      "aliases": ["braille-pattern-dots-468"]
+    },
+    "28A9": {
+      "name": "BRAILLE PATTERN DOTS-1468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1468"],
+      "aliases": ["braille-pattern-dots-1468"]
+    },
+    "28AA": {
+      "name": "BRAILLE PATTERN DOTS-2468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2468"],
+      "aliases": ["braille-pattern-dots-2468"]
+    },
+    "28AB": {
+      "name": "BRAILLE PATTERN DOTS-12468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12468"],
+      "aliases": ["braille-pattern-dots-12468"]
+    },
+    "28AC": {
+      "name": "BRAILLE PATTERN DOTS-3468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3468"],
+      "aliases": ["braille-pattern-dots-3468"]
+    },
+    "28AD": {
+      "name": "BRAILLE PATTERN DOTS-13468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13468"],
+      "aliases": ["braille-pattern-dots-13468"]
+    },
+    "28AE": {
+      "name": "BRAILLE PATTERN DOTS-23468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23468"],
+      "aliases": ["braille-pattern-dots-23468"]
+    },
+    "28AF": {
+      "name": "BRAILLE PATTERN DOTS-123468",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123468"],
+      "aliases": ["braille-pattern-dots-123468"]
+    },
+    "28B0": {
+      "name": "BRAILLE PATTERN DOTS-568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "568"],
+      "aliases": ["braille-pattern-dots-568"]
+    },
+    "28B1": {
+      "name": "BRAILLE PATTERN DOTS-1568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1568"],
+      "aliases": ["braille-pattern-dots-1568"]
+    },
+    "28B2": {
+      "name": "BRAILLE PATTERN DOTS-2568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2568"],
+      "aliases": ["braille-pattern-dots-2568"]
+    },
+    "28B3": {
+      "name": "BRAILLE PATTERN DOTS-12568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12568"],
+      "aliases": ["braille-pattern-dots-12568"]
+    },
+    "28B4": {
+      "name": "BRAILLE PATTERN DOTS-3568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3568"],
+      "aliases": ["braille-pattern-dots-3568"]
+    },
+    "28B5": {
+      "name": "BRAILLE PATTERN DOTS-13568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13568"],
+      "aliases": ["braille-pattern-dots-13568"]
+    },
+    "28B6": {
+      "name": "BRAILLE PATTERN DOTS-23568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23568"],
+      "aliases": ["braille-pattern-dots-23568"]
+    },
+    "28B7": {
+      "name": "BRAILLE PATTERN DOTS-123568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123568"],
+      "aliases": ["braille-pattern-dots-123568"]
+    },
+    "28B8": {
+      "name": "BRAILLE PATTERN DOTS-4568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "4568"],
+      "aliases": ["braille-pattern-dots-4568"]
+    },
+    "28B9": {
+      "name": "BRAILLE PATTERN DOTS-14568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "14568"],
+      "aliases": ["braille-pattern-dots-14568"]
+    },
+    "28BA": {
+      "name": "BRAILLE PATTERN DOTS-24568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "24568"],
+      "aliases": ["braille-pattern-dots-24568"]
+    },
+    "28BB": {
+      "name": "BRAILLE PATTERN DOTS-124568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "124568"],
+      "aliases": ["braille-pattern-dots-124568"]
+    },
+    "28BC": {
+      "name": "BRAILLE PATTERN DOTS-34568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "34568"],
+      "aliases": ["braille-pattern-dots-34568"]
+    },
+    "28BD": {
+      "name": "BRAILLE PATTERN DOTS-134568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "134568"],
+      "aliases": ["braille-pattern-dots-134568"]
+    },
+    "28BE": {
+      "name": "BRAILLE PATTERN DOTS-234568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "234568"],
+      "aliases": ["braille-pattern-dots-234568"]
+    },
+    "28BF": {
+      "name": "BRAILLE PATTERN DOTS-1234568",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1234568"],
+      "aliases": ["braille-pattern-dots-1234568"]
+    },
+    "28C0": {
+      "name": "BRAILLE PATTERN DOTS-78",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots"],
+      "aliases": ["braille-pattern-dots-78"]
+    },
+    "28C1": {
+      "name": "BRAILLE PATTERN DOTS-178",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "178"],
+      "aliases": ["braille-pattern-dots-178"]
+    },
+    "28C2": {
+      "name": "BRAILLE PATTERN DOTS-278",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "278"],
+      "aliases": ["braille-pattern-dots-278"]
+    },
+    "28C3": {
+      "name": "BRAILLE PATTERN DOTS-1278",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1278"],
+      "aliases": ["braille-pattern-dots-1278"]
+    },
+    "28C4": {
+      "name": "BRAILLE PATTERN DOTS-378",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "378"],
+      "aliases": ["braille-pattern-dots-378"]
+    },
+    "28C5": {
+      "name": "BRAILLE PATTERN DOTS-1378",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1378"],
+      "aliases": ["braille-pattern-dots-1378"]
+    },
+    "28C6": {
+      "name": "BRAILLE PATTERN DOTS-2378",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2378"],
+      "aliases": ["braille-pattern-dots-2378"]
+    },
+    "28C7": {
+      "name": "BRAILLE PATTERN DOTS-12378",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12378"],
+      "aliases": ["braille-pattern-dots-12378"]
+    },
+    "28C8": {
+      "name": "BRAILLE PATTERN DOTS-478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "478"],
+      "aliases": ["braille-pattern-dots-478"]
+    },
+    "28C9": {
+      "name": "BRAILLE PATTERN DOTS-1478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1478"],
+      "aliases": ["braille-pattern-dots-1478"]
+    },
+    "28CA": {
+      "name": "BRAILLE PATTERN DOTS-2478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2478"],
+      "aliases": ["braille-pattern-dots-2478"]
+    },
+    "28CB": {
+      "name": "BRAILLE PATTERN DOTS-12478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12478"],
+      "aliases": ["braille-pattern-dots-12478"]
+    },
+    "28CC": {
+      "name": "BRAILLE PATTERN DOTS-3478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3478"],
+      "aliases": ["braille-pattern-dots-3478"]
+    },
+    "28CD": {
+      "name": "BRAILLE PATTERN DOTS-13478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13478"],
+      "aliases": ["braille-pattern-dots-13478"]
+    },
+    "28CE": {
+      "name": "BRAILLE PATTERN DOTS-23478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23478"],
+      "aliases": ["braille-pattern-dots-23478"]
+    },
+    "28CF": {
+      "name": "BRAILLE PATTERN DOTS-123478",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123478"],
+      "aliases": ["braille-pattern-dots-123478"]
+    },
+    "28D0": {
+      "name": "BRAILLE PATTERN DOTS-578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "578"],
+      "aliases": ["braille-pattern-dots-578"]
+    },
+    "28D1": {
+      "name": "BRAILLE PATTERN DOTS-1578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1578"],
+      "aliases": ["braille-pattern-dots-1578"]
+    },
+    "28D2": {
+      "name": "BRAILLE PATTERN DOTS-2578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2578"],
+      "aliases": ["braille-pattern-dots-2578"]
+    },
+    "28D3": {
+      "name": "BRAILLE PATTERN DOTS-12578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12578"],
+      "aliases": ["braille-pattern-dots-12578"]
+    },
+    "28D4": {
+      "name": "BRAILLE PATTERN DOTS-3578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3578"],
+      "aliases": ["braille-pattern-dots-3578"]
+    },
+    "28D5": {
+      "name": "BRAILLE PATTERN DOTS-13578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13578"],
+      "aliases": ["braille-pattern-dots-13578"]
+    },
+    "28D6": {
+      "name": "BRAILLE PATTERN DOTS-23578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23578"],
+      "aliases": ["braille-pattern-dots-23578"]
+    },
+    "28D7": {
+      "name": "BRAILLE PATTERN DOTS-123578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123578"],
+      "aliases": ["braille-pattern-dots-123578"]
+    },
+    "28D8": {
+      "name": "BRAILLE PATTERN DOTS-4578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "4578"],
+      "aliases": ["braille-pattern-dots-4578"]
+    },
+    "28D9": {
+      "name": "BRAILLE PATTERN DOTS-14578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "14578"],
+      "aliases": ["braille-pattern-dots-14578"]
+    },
+    "28DA": {
+      "name": "BRAILLE PATTERN DOTS-24578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "24578"],
+      "aliases": ["braille-pattern-dots-24578"]
+    },
+    "28DB": {
+      "name": "BRAILLE PATTERN DOTS-124578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "124578"],
+      "aliases": ["braille-pattern-dots-124578"]
+    },
+    "28DC": {
+      "name": "BRAILLE PATTERN DOTS-34578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "34578"],
+      "aliases": ["braille-pattern-dots-34578"]
+    },
+    "28DD": {
+      "name": "BRAILLE PATTERN DOTS-134578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "134578"],
+      "aliases": ["braille-pattern-dots-134578"]
+    },
+    "28DE": {
+      "name": "BRAILLE PATTERN DOTS-234578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "234578"],
+      "aliases": ["braille-pattern-dots-234578"]
+    },
+    "28DF": {
+      "name": "BRAILLE PATTERN DOTS-1234578",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1234578"],
+      "aliases": ["braille-pattern-dots-1234578"]
+    },
+    "28E0": {
+      "name": "BRAILLE PATTERN DOTS-678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "678"],
+      "aliases": ["braille-pattern-dots-678"]
+    },
+    "28E1": {
+      "name": "BRAILLE PATTERN DOTS-1678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1678"],
+      "aliases": ["braille-pattern-dots-1678"]
+    },
+    "28E2": {
+      "name": "BRAILLE PATTERN DOTS-2678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2678"],
+      "aliases": ["braille-pattern-dots-2678"]
+    },
+    "28E3": {
+      "name": "BRAILLE PATTERN DOTS-12678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12678"],
+      "aliases": ["braille-pattern-dots-12678"]
+    },
+    "28E4": {
+      "name": "BRAILLE PATTERN DOTS-3678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "3678"],
+      "aliases": ["braille-pattern-dots-3678"]
+    },
+    "28E5": {
+      "name": "BRAILLE PATTERN DOTS-13678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "13678"],
+      "aliases": ["braille-pattern-dots-13678"]
+    },
+    "28E6": {
+      "name": "BRAILLE PATTERN DOTS-23678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "23678"],
+      "aliases": ["braille-pattern-dots-23678"]
+    },
+    "28E7": {
+      "name": "BRAILLE PATTERN DOTS-123678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "123678"],
+      "aliases": ["braille-pattern-dots-123678"]
+    },
+    "28E8": {
+      "name": "BRAILLE PATTERN DOTS-4678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "4678"],
+      "aliases": ["braille-pattern-dots-4678"]
+    },
+    "28E9": {
+      "name": "BRAILLE PATTERN DOTS-14678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "14678"],
+      "aliases": ["braille-pattern-dots-14678"]
+    },
+    "28EA": {
+      "name": "BRAILLE PATTERN DOTS-24678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "24678"],
+      "aliases": ["braille-pattern-dots-24678"]
+    },
+    "28EB": {
+      "name": "BRAILLE PATTERN DOTS-124678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "124678"],
+      "aliases": ["braille-pattern-dots-124678"]
+    },
+    "28EC": {
+      "name": "BRAILLE PATTERN DOTS-34678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "34678"],
+      "aliases": ["braille-pattern-dots-34678"]
+    },
+    "28ED": {
+      "name": "BRAILLE PATTERN DOTS-134678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "134678"],
+      "aliases": ["braille-pattern-dots-134678"]
+    },
+    "28EE": {
+      "name": "BRAILLE PATTERN DOTS-234678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "234678"],
+      "aliases": ["braille-pattern-dots-234678"]
+    },
+    "28EF": {
+      "name": "BRAILLE PATTERN DOTS-1234678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1234678"],
+      "aliases": ["braille-pattern-dots-1234678"]
+    },
+    "28F0": {
+      "name": "BRAILLE PATTERN DOTS-5678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "5678"],
+      "aliases": ["braille-pattern-dots-5678"]
+    },
+    "28F1": {
+      "name": "BRAILLE PATTERN DOTS-15678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "15678"],
+      "aliases": ["braille-pattern-dots-15678"]
+    },
+    "28F2": {
+      "name": "BRAILLE PATTERN DOTS-25678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "25678"],
+      "aliases": ["braille-pattern-dots-25678"]
+    },
+    "28F3": {
+      "name": "BRAILLE PATTERN DOTS-125678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "125678"],
+      "aliases": ["braille-pattern-dots-125678"]
+    },
+    "28F4": {
+      "name": "BRAILLE PATTERN DOTS-35678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "35678"],
+      "aliases": ["braille-pattern-dots-35678"]
+    },
+    "28F5": {
+      "name": "BRAILLE PATTERN DOTS-135678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "135678"],
+      "aliases": ["braille-pattern-dots-135678"]
+    },
+    "28F6": {
+      "name": "BRAILLE PATTERN DOTS-235678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "235678"],
+      "aliases": ["braille-pattern-dots-235678"]
+    },
+    "28F7": {
+      "name": "BRAILLE PATTERN DOTS-1235678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1235678"],
+      "aliases": ["braille-pattern-dots-1235678"]
+    },
+    "28F8": {
+      "name": "BRAILLE PATTERN DOTS-45678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "45678"],
+      "aliases": ["braille-pattern-dots-45678"]
+    },
+    "28F9": {
+      "name": "BRAILLE PATTERN DOTS-145678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "145678"],
+      "aliases": ["braille-pattern-dots-145678"]
+    },
+    "28FA": {
+      "name": "BRAILLE PATTERN DOTS-245678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "245678"],
+      "aliases": ["braille-pattern-dots-245678"]
+    },
+    "28FB": {
+      "name": "BRAILLE PATTERN DOTS-1245678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1245678"],
+      "aliases": ["braille-pattern-dots-1245678"]
+    },
+    "28FC": {
+      "name": "BRAILLE PATTERN DOTS-345678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "345678"],
+      "aliases": ["braille-pattern-dots-345678"]
+    },
+    "28FD": {
+      "name": "BRAILLE PATTERN DOTS-1345678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "1345678"],
+      "aliases": ["braille-pattern-dots-1345678"]
+    },
+    "28FE": {
+      "name": "BRAILLE PATTERN DOTS-2345678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "2345678"],
+      "aliases": ["braille-pattern-dots-2345678"]
+    },
+    "28FF": {
+      "name": "BRAILLE PATTERN DOTS-12345678",
+      "category": "Symbol",
+      "keywords": ["braille", "patterns", "pattern", "dots", "12345678"],
+      "aliases": ["braille-pattern-dots-12345678"]
+    }
+  }
+}

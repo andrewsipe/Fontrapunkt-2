@@ -1,0 +1,20 @@
+/**
+ * GlyphCountBadge - Badge showing total glyph count.
+ */
+
+.badge {
+  display: flex;
+  font-size: var(--text-sm);
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  border: 1px solid var(--border-default);
+  background-color: var(--bg-body);
+  padding: var(--space-3xs) var(--space-lg);
+  border-radius: var(--radius-md);
+  user-select: none;
+}
+
+.dimmedLabel {
+  opacity: var(--opacity-subtle);
+  margin-right: var(--space-3xs);
+}

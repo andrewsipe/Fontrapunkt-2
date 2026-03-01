@@ -1,0 +1,64 @@
+/**
+ * Label primitive - typography-only, design tokens.
+ * Parent controls layout; use data-label for :has([data-label]) targeting.
+ */
+
+.root {
+  transition: var(--transition-state);
+}
+
+/* Disabled: when parent or self has data-disabled */
+.root[data-disabled] {
+  color: var(--text-tertiary);
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+/* default: sidebar controls, Select label */
+.default {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: var(--leading-tight);
+}
+
+/* small: axis name, ViewSelector, hex label */
+.small {
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: var(--leading-tight);
+}
+
+/* section: panel/section titles */
+.section {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+/* form: FormField, Settings settingLabel */
+.form {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: var(--leading-tight);
+}
+
+/* keyValue: FontInfoTab key column */
+.keyValue {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  color: var(--text-secondary);
+  line-height: var(--leading-tight);
+}

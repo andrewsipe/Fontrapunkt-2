@@ -1,0 +1,332 @@
+.emptyState {
+  width: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-2xl);
+  position: relative;
+  min-width: 50%;
+}
+
+.heroTitleFont {
+  font-family: var(--hero-font-family, var(--font-ui));
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-md);
+  position: absolute;
+  top: 0;
+  left: var(--space-2xl);
+  right: var(--space-2xl);
+  bottom: calc(var(--space-lg) + 100px); /* Account for footer actions height */
+  justify-content: center;
+  min-height: 40vh;
+}
+
+.heroTitle {
+  flex-shrink: 1;
+  font-family: var(--font-ui);
+  font-size: clamp(1rem, 8vw, 25rem);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-wide);
+  font-kerning: normal;
+  color: var(--text-primary);
+  margin: 0;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 0;
+  transition: var(--transition-colors);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .heroTitle.animated {
+    animation: text-pop-up-top 0.75s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    text-shadow:
+      0 1px 0 var(--hero-logo-stack),
+      0 2px 0 var(--hero-logo-stack),
+      0 3px 0 var(--hero-logo-stack),
+      0 4px 0 var(--hero-logo-stack),
+      0 5px 0 var(--hero-logo-stack),
+      0 6px 0 var(--hero-logo-stack),
+      0 7px 0 var(--hero-logo-stack),
+      0 8px 0 var(--hero-logo-stack),
+      0 9px 0 var(--hero-logo-stack),
+      0 50px 30px var(--hero-logo-drop);
+  }
+
+  /* text-shadow is not inherited – letters live in .heroChar, so they need the shadow too */
+  .heroTitle.animated .heroChar {
+    text-shadow:
+      0 1px 0 var(--hero-logo-stack),
+      0 2px 0 var(--hero-logo-stack),
+      0 3px 0 var(--hero-logo-stack),
+      0 4px 0 var(--hero-logo-stack),
+      0 5px 0 var(--hero-logo-stack),
+      0 6px 0 var(--hero-logo-stack),
+      0 7px 0 var(--hero-logo-stack),
+      0 8px 0 var(--hero-logo-stack),
+      0 9px 0 var(--hero-logo-stack),
+      0 50px 30px var(--hero-logo-drop);
+  }
+
+  .heroTitle.blurring {
+    animation: text-blur-out 0.75s cubic-bezier(0.23, 1, 0.32, 1) both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroTitle.animated,
+  .heroTitle.blurring {
+    animation: none;
+  }
+}
+
+.heroTitle.clickable {
+  cursor: pointer;
+}
+
+.heroTitle.clickable:hover {
+  color: var(--accent-primary);
+}
+
+.heroChar {
+  display: inline-block;
+  transition: var(--transition-colors);
+}
+
+.heroChar.clickable {
+  cursor: pointer;
+}
+
+.heroChar.clickable:hover {
+  color: var(--accent-primary);
+}
+
+/* Reset button when hero char is a button (accessibility) */
+.heroCharButton {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: inherit;
+}
+
+.heroCharButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Cursor overrides for hero char (loading vs clickable) */
+.heroChar.heroCharCursorPointer {
+  cursor: pointer;
+}
+
+.heroChar.heroCharCursorWait {
+  cursor: wait;
+}
+
+.fontCredit {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: var(--leading-normal);
+  margin: 0;
+}
+
+.clickHint {
+  color: var(--accent-primary);
+  cursor: pointer;
+  transition: var(--transition-colors);
+}
+
+.clickHint:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+/* Actions Section */
+.actionsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.primaryButton {
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border: none;
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-md);
+  font-size: var(--text-base);
+  font-weight: 500;
+  font-family: var(--font-ui);
+  cursor: pointer;
+  transition: var(--transition-state);
+  min-width: 200px;
+}
+
+.primaryButton:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--button-primary-bg-hover);
+  color: var(--button-primary-text-hover);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.primaryButton:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--button-primary-bg-active);
+  color: var(--button-primary-text-active);
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+.primaryButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.primaryButton:disabled,
+.primaryButton[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.secondaryLink {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-family: var(--font-ui);
+  cursor: pointer;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+  transition: var(--transition-colors);
+  text-decoration: none;
+}
+
+.secondaryLink:hover:not(:disabled):not([aria-disabled="true"]) {
+  color: var(--text-primary);
+  background-color: var(--interactive-bg);
+}
+
+.secondaryLink:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.secondaryLink:disabled,
+.secondaryLink[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+/* Drag Hint */
+.dragHint {
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+  line-height: var(--leading-normal);
+  margin: 0;
+  font-style: italic;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px dashed var(--border-default);
+  border-radius: var(--radius-md);
+  background-color: var(--bg-surface);
+}
+
+/* Footer Actions */
+.footerActions {
+  position: absolute;
+  bottom: var(--space-lg);
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: 0 var(--space-2xl);
+}
+
+.iconButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+  transition: var(--transition-state);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.iconButton:hover {
+  color: var(--text-primary);
+  background-color: var(--interactive-bg);
+}
+
+.iconButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Intentional stronger feedback for CTA button */
+.iconButton:active {
+  background-color: var(--interactive-hover);
+  transform: scale(0.95);
+}
+
+/* Animations from Animista.net – floating logo with 3D stack + drop shadow */
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    /* Layered stack (3D depth) + soft drop shadow; fallbacks for keyframe var() compatibility */
+    text-shadow:
+      0 1px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 2px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 3px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 4px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 5px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 6px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 7px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 8px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 9px 0 var(--hero-logo-stack, oklch(0.72 0 0)),
+      0 50px 30px var(--hero-logo-drop, oklch(0 0 0 / 0.35));
+  }
+}
+
+@keyframes text-blur-out {
+  0% {
+    filter: blur(0.01);
+  }
+  100% {
+    filter: blur(12px) opacity(0%);
+  }
+}

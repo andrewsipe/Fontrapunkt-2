@@ -1,0 +1,30 @@
+/**
+ * Shared utility and container classes
+ * Centralized styles using design tokens.
+ */
+
+/* Visually hidden but available to assistive tech (e.g. file inputs) */
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Standard toast container – neutral tokens for react-hot-toast custom content */
+.standardToast {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--space-sm);
+  background-color: var(--bg-surface);
+  border: 1px solid var(--neutral-overlay-10);
+  border-radius: var(--radius-md);
+  box-shadow: 0 1px 3px var(--neutral-overlay-08);
+  color: var(--text-primary);
+}

@@ -1,0 +1,290 @@
+.fontSourceTab {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: var(--space-xs);
+}
+
+.tableCount {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-xs);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--bg-surface);
+  padding: var(--space-xs) 0;
+}
+
+/* Improve scrollbar for main container */
+.fontSourceTab::-webkit-scrollbar {
+  width: var(--space-sm); /* Use token instead of 8px - 8-12px responsive */
+}
+
+.fontSourceTab::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
+.fontSourceTab::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: var(--radius-md);
+}
+
+.fontSourceTab::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+.tableItem {
+  border-bottom: 1px solid var(--border-default);
+}
+
+/* Header row: distinct from expanded content (tableContent) for scanability */
+.tableHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-sm);
+  background: var(--bg-panel);
+  border: none;
+  text-align: left;
+  cursor: auto;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  line-height: var(--leading-normal);
+  transition: var(--transition-colors);
+}
+
+.tableHeader:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--bg-hover);
+}
+
+/* Disabled state */
+.tableHeader:disabled,
+.tableHeader[aria-disabled="true"] {
+  cursor: var(--state-disabled-cursor);
+  opacity: var(--state-disabled-opacity);
+  pointer-events: none;
+}
+
+.tableHeader:disabled:hover,
+.tableHeader[aria-disabled="true"]:hover {
+  background-color: transparent;
+}
+
+.emptyIndicator {
+  width: var(--icon-size-sm); /* Use token instead of 14px - 16px standard icon size */
+  display: inline-block;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.definitionTrigger {
+  display: inline-flex;
+  flex-shrink: 0;
+  cursor: auto;
+  color: var(--text-secondary);
+  padding: 2px;
+  border-radius: var(--radius-md);
+}
+.definitionTrigger:hover {
+  color: var(--text-primary);
+}
+
+.definitionText {
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  color: var(--text-primary);
+  max-width: 320px;
+}
+
+.referenceClarifier {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-sm);
+  line-height: 1.5;
+}
+.referenceClarifier:first-child {
+  margin-top: 0;
+}
+
+.tableTag {
+  font-weight: 600;
+  color: var(--text-primary);
+  /* EXCEPTION: 90px ensures 4-character tags (e.g., "GSUB", "GPOS") don't wrap
+     See: DESIGN_SYSTEM_AUDIT_2024.md for exception documentation */
+  min-width: 90px;
+  font-size: var(--text-sm);
+}
+
+.tableMeta {
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+  font-weight: normal;
+  margin-left: auto;
+}
+
+.specBadge {
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-input);
+  padding: 2px 6px;
+  border-radius: var(--radius-md);
+}
+
+.statusBadge {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: var(--radius-md);
+}
+
+/* complete / Parsed: green (design system --success) */
+.statusBadge--complete {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+/* partial: amber (design system --warning) */
+.statusBadge--partial {
+  background: var(--warning-bg);
+  color: var(--warning);
+}
+
+/* not_implemented / Parser needed: neutral */
+.statusBadge--not_implemented {
+  background: var(--bg-input);
+  color: var(--text-secondary);
+}
+
+/* error: red (design system --danger) */
+.statusBadge--error {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.tableData {
+  color: var(--text-primary);
+  flex: 1;
+  font-weight: normal;
+  font-size: var(--text-sm);
+  opacity: 1;
+}
+
+.emptyLabel {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.tableContent {
+  padding: var(--space-lg);
+  background-color: var(--bg-surface);
+  border-left: 2px solid var(--border-default);
+  margin-left: var(--space-md);
+  margin-bottom: var(--space-xs);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.dataTypeLabel {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.dataTypeLabel:first-child {
+  margin-top: 0;
+}
+
+.tableDataPre {
+  margin: 0;
+  font-size: var(--text-2xs);
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+  line-height: 1.4;
+  background: var(--bg-input);
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+}
+
+/* Hex dump: design-token block, offset in muted color */
+.hexDumpBlock {
+  font-size: var(--text-2xs);
+  font-family: var(--font-mono);
+  line-height: 1.4;
+  white-space: pre;
+  overflow-x: auto;
+  background: var(--code-bg);
+  color: var(--text-primary);
+  padding: var(--space-sm);
+  border-radius: var(--radius-md);
+}
+
+.hexDumpLine {
+  white-space: pre;
+}
+
+.hexOffset {
+  color: var(--text-tertiary);
+}
+
+.hexDumpTruncation {
+  color: var(--text-tertiary);
+  margin-top: 2px;
+}
+
+.checksumLine {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin-top: var(--space-md);
+  margin-bottom: 0;
+}
+
+/* Improve scrollbar styling */
+.tableContent::-webkit-scrollbar {
+  width: var(--space-sm); /* Use token instead of 8px - 8-12px responsive */
+}
+
+.tableContent::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
+.tableContent::-webkit-scrollbar-thumb {
+  background: var(--border-default);
+  border-radius: var(--radius-md);
+}
+
+.tableContent::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+.loading {
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.emptyState {
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+}
+
+.error {
+  padding: var(--space-xl);
+  text-align: center;
+  color: var(--danger);
+}

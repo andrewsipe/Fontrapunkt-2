@@ -1,0 +1,81 @@
+/**
+ * TYPOGRAPHY SYSTEM
+ * Font families, sizes, line heights, letter spacing.
+ * Container-query responsive scale. Depends on tokens.foundation.css.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  /* ==========================================
+     FONT FAMILIES
+     ========================================== */
+  --font-ui: "Geist", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", "SF Mono", SFMono-Regular, Consolas, monospace;
+  --font-icons: "Quicksand", var(--font-ui);
+  --font-icons-weight: 575;
+  --font-icons-weight-max: 700;
+  --font-icons-size-small-ratio: 0.82;
+
+  /* ==========================================
+     FONT SIZE SCALE (container-relative)
+     ========================================== */
+  --text-4xs: clamp(0.5rem, 0.4cqi + 0.4rem, 0.625rem);
+  --text-3xs: clamp(0.55rem, 0.45cqi + 0.45rem, 0.7rem);
+  --text-2xs: clamp(0.625rem, 0.5cqi + 0.5rem, 0.75rem);
+  --text-1xs: clamp(0.7rem, 0.55cqi + 0.55rem, 0.825rem);
+  --text-xs: clamp(0.75rem, 0.6cqi + 0.6rem, 0.875rem);
+  --text-sm: clamp(0.875rem, 0.8cqi + 0.7rem, 1rem);
+  --text-base: clamp(1rem, 1cqi + 0.8rem, 1.125rem);
+  --text-md: clamp(1.125rem, 1.2cqi + 0.9rem, 1.25rem);
+  --text-lg: clamp(1.25rem, 1.5cqi + 1rem, 1.5rem);
+  --text-xl: clamp(1.5rem, 2cqi + 1.2rem, 1.875rem);
+  --text-2xl: clamp(1.875rem, 2.5cqi + 1.5rem, 2.25rem);
+  --text-3xl: clamp(2.25rem, 3cqi + 1.8rem, 3rem);
+
+  /* ==========================================
+     LINE HEIGHTS
+     ========================================== */
+  --leading-none: 1;
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.65;
+  --leading-loose: 2;
+
+  /* ==========================================
+     LETTER SPACING
+     ========================================== */
+  --tracking-tighter: -0.03em;
+  --tracking-tight: -0.015em;
+  --tracking-normal: 0;
+  --tracking-wide: 0.02em;
+  --tracking-wider: 0.05em;
+}
+
+/* ==========================================
+   COMPACT MODE - Typography
+   ========================================== */
+.app--compact {
+  --text-2xs: clamp(0.5rem, 0.4cqi + 0.4rem, 0.625rem);
+  --text-1xs: clamp(0.55rem, 0.45cqi + 0.45rem, 0.7rem);
+  --text-xs: clamp(0.625rem, 0.5cqi + 0.5rem, 0.75rem);
+  --text-sm: clamp(0.75rem, 0.6cqi + 0.6rem, 0.875rem);
+  --text-base: clamp(0.875rem, 0.8cqi + 0.7rem, 1rem);
+  --text-md: clamp(1rem, 1cqi + 0.8rem, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.2cqi + 0.9rem, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.5cqi + 1rem, 1.5rem);
+  --text-2xl: clamp(1.5rem, 2cqi + 1.2rem, 1.875rem);
+  --text-3xl: clamp(1.875rem, 2.5cqi + 1.5rem, 2.25rem);
+}
+
+/* ==========================================
+   UTILITY - Text-based icons (Quicksand)
+   ========================================== */
+.fontIcon {
+  font-family: var(--font-icons);
+  font-size: 1em;
+  font-variation-settings: "wght" var(--font-icons-weight);
+  text-box-trim: both;
+  line-height: 1;
+}

@@ -1,0 +1,66 @@
+/**
+ * TwoLayerSliderWithLayout – Layout styles only.
+ * Sizing uses --control-height and --space-* for consistency with toolbar/popover.
+ */
+
+.container {
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+.sliderGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+/* Reset at left end of slider row – compact; only place to change this button’s size */
+.inlineReset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: var(--control-height);
+  height: var(--control-height);
+}
+
+.inlineReset [data-icon-container] {
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--space-xs);
+  font-size: var(--text-sm);
+}
+
+/* Slider container: houses the TwoLayerSlider component */
+.sliderContainer {
+  flex: 1;
+  position: relative;
+  height: var(--control-height);
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
+
+/* --- DISABLED STATE --- */
+
+/* Disabled container: block interactions with cursor overlay */
+.container[data-disabled] {
+  pointer-events: none;
+  cursor: var(--state-disabled-cursor);
+  position: relative;
+}
+
+/* Show cursor overlay when disabled - allows cursor to show despite pointer-events: none */
+.container[data-disabled]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  cursor: var(--state-disabled-cursor);
+  pointer-events: auto;
+  z-index: var(--z-dropdown);
+}

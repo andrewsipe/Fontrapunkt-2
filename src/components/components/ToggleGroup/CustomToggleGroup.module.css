@@ -1,0 +1,313 @@
+/**
+ * Custom Toggle Group styles using design system tokens
+ * Supports segmented (flush buttons, shared borders) and discrete (isolated buttons) variants
+ * Implements border-collapse prevention and smooth animations
+ */
+
+/* ==========================================
+   ROOT CONTAINER
+   ========================================== */
+
+.root {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.root * {
+  box-sizing: border-box;
+}
+
+/* Tooltip wrapper - transparent to layout, allows Tooltip.Trigger to own wrapper while ToggleGroup.Item keeps its state */
+.tooltipWrapper {
+  display: inline-flex;
+  /* Pass through flex properties to maintain layout */
+  flex: inherit;
+}
+
+/* For segmented variant, apply flex: 1 to wrapper when it contains an item */
+.root[data-variant="segmented"] .tooltipWrapper {
+  flex: 1;
+}
+
+/* For discrete variant, apply flex: 0 1 auto to wrapper when it contains an item */
+.root[data-variant="discrete"] .tooltipWrapper {
+  flex: 0 1 auto;
+}
+
+/* Apply first-child/last-child styles to wrapper when it exists (for items with tooltips) */
+/* Note: Original :first-child/:last-child selectors on .item still work for items without tooltips */
+.root[data-variant="segmented"] > .tooltipWrapper:first-child .item {
+  margin-left: 0;
+  border-radius: var(--radius-tight-from-button) 0 0 var(--radius-tight-from-button);
+}
+
+.root[data-variant="segmented"] > .tooltipWrapper:last-child .item {
+  border-radius: 0 var(--radius-tight-from-button) var(--radius-tight-from-button) 0;
+}
+
+.root[data-variant="segmented"] > .tooltipWrapper:first-child .item[data-pressed] {
+  border-radius: var(--radius-tight-from-button) 0 0 var(--radius-tight-from-button);
+}
+
+.root[data-variant="segmented"] > .tooltipWrapper:last-child .item[data-pressed] {
+  border-radius: 0 var(--radius-tight-from-button) var(--radius-tight-from-button) 0;
+}
+
+.root[data-variant="segmented"] > .tooltipWrapper:not(:last-child) .item::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 20%;
+  bottom: 20%;
+  width: 1px;
+  background-color: var(--border-default);
+  z-index: var(--z-toggle-divider); /* 1 - for divider lines */
+}
+
+.root[data-variant="segmented"] > .tooltipWrapper:not(:last-child) .item[data-pressed]::after {
+  display: none;
+}
+
+/* Base UI ToggleGroup: ensure item sizing */
+.root .item {
+  flex-basis: auto !important;
+  width: auto !important;
+  min-width: 0;
+}
+
+/* ==========================================
+     SEGMENTED VARIANT (Flush buttons, shared borders)
+     ========================================== */
+
+.root[data-variant="segmented"] {
+  gap: 0;
+  background-color: var(--interactive-bg);
+  border: var(--border-width-default) solid var(--border-default);
+  border-radius: var(--radius-button);
+
+  padding: var(--spacing-gap-tight);
+  overflow: hidden;
+}
+
+.root[data-variant="segmented"] .item {
+  flex: 1; /* Equal width distribution */
+  border: none; /* Remove individual borders */
+  border-radius: 0; /* Remove all border-radius initially */
+  margin-left: -1px; /* Overlap to prevent double borders */
+}
+
+/* First/last child styles for items WITHOUT tooltips (direct children) */
+.root[data-variant="segmented"] > .item:first-child {
+  margin-left: 0; /* First item no overlap */
+  border-radius: var(--radius-tight-from-button) 0 0 var(--radius-tight-from-button);
+}
+
+.root[data-variant="segmented"] > .item:last-child {
+  border-radius: 0 var(--radius-tight-from-button) var(--radius-tight-from-button) 0;
+}
+
+/* Divider lines between items (matches current design) - only for direct children */
+.root[data-variant="segmented"] > .item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 20%;
+  bottom: 20%;
+  width: 1px;
+  background-color: var(--border-default);
+  z-index: var(--z-toggle-divider); /* 1 - for divider lines */
+}
+
+/* Hide divider on active item's right side - only for direct children (Base UI: data-pressed) */
+.root[data-variant="segmented"] > .item[data-pressed]:not(:last-child)::after {
+  display: none;
+}
+
+/* ==========================================
+     DISCRETE VARIANT (Isolated buttons, spacing)
+     ========================================== */
+
+.root[data-variant="discrete"] {
+  gap: var(--space-xs);
+  /* No shared border */
+}
+
+.root[data-variant="discrete"] .item {
+  flex: 0 1 auto; /* Natural width, allow shrinking */
+  border-radius: var(--radius-button);
+
+  border: var(--border-width-default) solid var(--border-default);
+  margin-left: 0; /* No overlap needed */
+  background-color: var(--interactive-bg); /* Ensure background is visible */
+}
+
+/* ==========================================
+     ITEM STYLING (Shared across variants)
+     BASE STATE - MUST COME BEFORE ACTIVE STATE
+     ========================================== */
+
+.item {
+  min-height: var(--control-height);
+  padding: var(--space-sm) var(--space-md);
+  color: var(--text-secondary);
+  cursor: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-sm);
+  position: relative;
+  isolation: isolate;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out);
+}
+
+/* Icon context: toggle group item – sizing from container type */
+.item [data-icon] {
+  font-size: var(--icon-size-control);
+}
+
+/* Only set transparent background when NOT active (Base UI: data-pressed) */
+.item:not([data-pressed]) {
+  background-color: transparent;
+}
+
+/* Reduce button padding at smaller widths */
+@container (max-width: 280px) {
+  .item {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-xs);
+  }
+}
+
+/* ==========================================
+     ACTIVE STATE - MUST COME AFTER BASE STATE
+     ========================================== */
+
+/* Base active state for all variants (Base UI: data-pressed) */
+.item[data-pressed] {
+  background-color: var(--accent-primary);
+  color: var(--text-on-accent);
+  z-index: var(--z-toggle-active); /* 2 - above inactive items */
+}
+
+/* Ensure active state in segmented controls has proper border-radius */
+.root[data-variant="segmented"] > .item[data-pressed]:first-child {
+  border-radius: var(--radius-tight-from-button) 0 0 var(--radius-tight-from-button);
+}
+
+.root[data-variant="segmented"] > .item[data-pressed]:last-child {
+  border-radius: 0 var(--radius-tight-from-button) var(--radius-tight-from-button) 0;
+}
+
+.root[data-variant="segmented"] > .item[data-pressed]:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.root[data-variant="segmented"]
+  > .tooltipWrapper:not(:first-child):not(:last-child)
+  .item[data-pressed] {
+  border-radius: 0;
+}
+
+.root[data-variant="discrete"] .item[data-pressed] {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+/* ==========================================
+     HOVER STATE
+     ========================================== */
+
+.item:hover:not([data-pressed]):not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+.root[data-variant="segmented"]
+  .item:hover:not([data-pressed]):not(:disabled):not([data-disabled]) {
+  outline: 0.5px solid var(--accent-primary);
+  outline-offset: -1px;
+  box-shadow: var(--shadow-sm);
+}
+
+.root[data-variant="discrete"] .item:hover:not([data-pressed]):not(:disabled):not([data-disabled]) {
+  border-color: var(--accent-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ==========================================
+     FOCUS STATE
+     ========================================== */
+
+.item:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-tight-from-button);
+}
+
+.root[data-variant="discrete"] .item:focus-visible {
+  border-radius: var(--radius-button);
+}
+
+/* ==========================================
+     ACTIVE/PRESSED STATE
+     ========================================== */
+
+.item:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--accent-primary);
+  color: var(--text-on-accent);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* ==========================================
+     DISABLED STATE
+     ========================================== */
+
+.item:disabled,
+.item[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+  color: var(--text-tertiary);
+}
+
+/* Disabled cursor overlay */
+.item:disabled::before,
+.item[data-disabled]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: var(--state-disabled-cursor);
+  z-index: var(--z-toggle-divider); /* 1 - for disabled overlay */
+}
+
+.item:disabled:hover,
+.item[data-disabled]:hover {
+  background-color: transparent;
+  color: var(--text-tertiary);
+  transform: none;
+}
+
+/* Override active state when disabled */
+.item:disabled[data-pressed],
+.item[data-disabled][data-pressed] {
+  background-color: oklch(from var(--accent-primary) l c h / var(--state-disabled-opacity));
+  color: oklch(from var(--text-on-accent) l c h / var(--state-disabled-opacity));
+  opacity: 1;
+}
+
+/* ==========================================
+     REDUCED MOTION SUPPORT
+     ========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .item {
+    transition: none;
+  }
+}

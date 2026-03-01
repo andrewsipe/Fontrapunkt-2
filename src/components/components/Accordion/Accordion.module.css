@@ -1,0 +1,205 @@
+/**
+ * Accordion styles (Base UI) using design system tokens
+ * Uses grid-template-rows for smooth height animation (with max-height fallback)
+ * Targets data-open / data-panel-open for animations
+ */
+
+/* Root container */
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+/* Horizontal orientation */
+.root[data-orientation="horizontal"] {
+  flex-direction: row;
+}
+
+/* Vertical orientation (default) */
+.root[data-orientation="vertical"] {
+  flex-direction: column;
+}
+
+/* Individual accordion item container */
+.item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-md);
+}
+
+/* Header wrapper - flex layout for icon + title */
+.header {
+  display: flex;
+  width: 100%;
+}
+
+/* Trigger button - clickable header */
+.trigger {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--interactive-bg);
+  border-radius: var(--radius-md);
+
+  cursor: auto;
+  transition: var(--transition-state);
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-family: var(--font-ui);
+  color: var(--text-secondary);
+  outline: none;
+}
+
+/* Chevron on left (default) */
+.trigger[data-chevron-position="left"] {
+  flex-direction: row-reverse;
+}
+
+/* Chevron on right */
+.trigger[data-chevron-position="right"] {
+  flex-direction: row;
+}
+
+/* Trigger content wrapper */
+.triggerContent {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center; /* Center content vertically within the trigger */
+}
+
+/* Hover state - only when enabled */
+.trigger:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-hover);
+}
+
+/* Focus-visible - always show for keyboard navigation */
+.trigger:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* Active/Pressed state - only when enabled */
+.trigger:active:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+/* Disabled state */
+.trigger:disabled,
+.trigger[data-disabled] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.trigger[data-disabled]:hover {
+  background-color: inherit; /* Prevent hover state */
+}
+
+/* Chevron icon - rotates on open/close */
+.chevron {
+  flex-shrink: 0;
+  color: var(--text-secondary);
+  transition: transform var(--duration-normal) var(--ease-out);
+  transform-origin: center;
+  margin-left: var(--space-sm);
+  will-change: transform;
+}
+
+/* Base UI uses data-open / data-panel-open on trigger */
+.trigger[data-panel-open] .chevron,
+.trigger[data-open] .chevron {
+  transform: rotate(90deg);
+  will-change: auto;
+}
+
+.trigger:not([data-panel-open]) .chevron,
+.trigger:not([data-open]) .chevron {
+  transform: rotate(0deg);
+}
+
+/* Content panel (Base UI Panel) - data-open / data-closed */
+.content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--duration-normal) var(--ease-out-expo);
+  overflow: hidden;
+  will-change: grid-template-rows;
+}
+
+.content[data-open] {
+  grid-template-rows: 1fr;
+  will-change: auto;
+}
+
+.content[data-closed] {
+  grid-template-rows: 0fr;
+}
+
+/* Inner content wrapper - padding animates with content. Panel inner: --space-md (4pt grid). */
+.contentInner {
+  min-height: 0; /* Critical: allows grid to shrink */
+  overflow: hidden;
+  padding: var(--space-xs) var(--space-md) var(--space-md);
+}
+
+/* Fallback for browsers without grid-template-rows support */
+@supports not (grid-template-rows: 0fr) {
+  .content {
+    max-height: 0;
+    transition: max-height var(--duration-normal) var(--ease-out);
+    will-change: max-height;
+    display: block;
+  }
+
+  .content[data-open] {
+    max-height: 5000px;
+    will-change: auto;
+  }
+
+  .content[data-closed] {
+    max-height: 0;
+  }
+
+  .contentInner {
+    min-height: auto;
+    padding: var(--space-xs) var(--space-md) var(--space-md);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .content,
+  .chevron,
+  .trigger {
+    transition: none;
+  }
+
+  .content[data-open] {
+    grid-template-rows: 1fr;
+  }
+
+  @supports not (grid-template-rows: 0fr) {
+    .content[data-open] {
+      max-height: none;
+    }
+  }
+
+  .trigger[data-panel-open] .chevron,
+  .trigger[data-open] .chevron {
+    transform: rotate(90deg);
+  }
+
+  .trigger:active:not(:disabled) {
+    transform: none;
+  }
+}

@@ -1,0 +1,55 @@
+.spinner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinnerCircle {
+  border: 2px solid var(--border-subtle);
+  border-top-color: var(--accent-primary);
+  border-radius: var(--radius-full);
+  animation: spin var(--duration-slower) linear infinite;
+}
+
+.sm .spinnerCircle {
+  width: var(--icon-size-sm);
+  height: var(--icon-size-sm);
+  border-width: 2px;
+}
+
+.md .spinnerCircle {
+  width: var(--icon-size-md);
+  height: var(--icon-size-md);
+  border-width: 2px;
+}
+
+.lg .spinnerCircle {
+  width: var(--icon-size-lg);
+  height: var(--icon-size-lg);
+  border-width: 3px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Reduced motion: disable or <100ms (policy in tokens.motion.css) */
+@media (prefers-reduced-motion: reduce) {
+  .spinnerCircle {
+    animation-duration: 0.01ms;
+  }
+}
