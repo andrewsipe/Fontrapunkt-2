@@ -131,6 +131,7 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/public/vite.svg
 
 # scripts/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/scripts/buildUnicodeData.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/scripts/generateCanvasCss.ts
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/scripts/splitUnicodeOther.mjs
 
 # server/
@@ -158,6 +159,14 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/assets/react
 
 # src/assets/fonts/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/assets/fonts/AND-Regular.otf
+
+# src/components/command-bar/CommandBarTooltip/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/command-bar/CommandBarTooltip/CommandBarTooltip.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/command-bar/CommandBarTooltip/index.ts
+
+# src/components/command-bar/FloatingCommandBar/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/command-bar/FloatingCommandBar/FloatingCommandBar.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/command-bar/FloatingCommandBar/FloatingCommandBar.tsx
 
 # src/components/components/Accordion/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Accordion/Accordion.module.css
@@ -257,11 +266,9 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/c
 # src/components/components/ToggleGroup/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/CustomToggleGroup.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/CustomToggleGroup.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/ToggleGroup/Tooltip.module.css
 
 # src/components/components/Tooltip/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/SliderTooltip.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/Tooltip.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/Tooltip.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/TooltipButton.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/Tooltip/index.ts
@@ -272,6 +279,14 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/c
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSliderWithLayout.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/TwoLayerSliderWithLayout.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/components/TwoLayerSlider/index.ts
+
+# src/components/drawers/OpenTypeDrawer/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/drawers/OpenTypeDrawer/OpenTypeDrawer.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/drawers/OpenTypeDrawer/OpenTypeDrawer.tsx
+
+# src/components/drawers/VariableAxesDrawer/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/drawers/VariableAxesDrawer/VariableAxesDrawer.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/drawers/VariableAxesDrawer/VariableAxesDrawer.tsx
 
 # src/components/features/Button/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/Button/ClearCacheButton.tsx
@@ -292,19 +307,6 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/f
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/ExportButtons.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/ExportButtons.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ExportButtons/index.ts
-
-# src/components/features/FontDetailsModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontDetailsModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontInfoTab.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontInfoTab.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontSourceTab.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/FontSourceTab.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontDetailsModal/index.ts
-
-# src/components/features/FontInfoModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/FontInfoModal.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/FontInfoModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontInfoModal/index.ts
 
 # src/components/features/FontSelector/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/FontSelector/FontSelector.module.css
@@ -345,22 +347,6 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/f
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ScreenshotPreviewModal/ScreenshotPreviewModal.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ScreenshotPreviewModal/index.ts
 
-# src/components/features/SettingsModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/SettingsModal.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/SettingsModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/index.ts
-
-# src/components/features/SettingsModal/components/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/components/AccentPresetGrid.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/components/AccentPresetGrid.tsx
-
-# src/components/features/SettingsModal/sections/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/AppearanceSettings.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/CacheManagement.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/GeneralSettings.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/KeyboardShortcuts.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/SettingsModal/sections/RenderingSettings.tsx
-
 # src/components/features/TextControls/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/TextControls/TextControls.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/TextControls/TextControls.tsx
@@ -378,119 +364,49 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/f
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ViewSelector/ViewSelector.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/features/ViewSelector/index.ts
 
-# src/components/fp2/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/README.md
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/index.ts
+# src/components/header/FP2Header/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/header/FP2Header/FP2Header.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/header/FP2Header/FP2Header.tsx
 
-# src/components/fp2/DropZone/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/DropZone/DropZone.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/DropZone/DropZone.tsx
+# src/components/layout/DropZone/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/DropZone/DragDropContext.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/DropZone/DropZone.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/DropZone/DropZone.tsx
 
-# src/components/fp2/EmptyState/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/EmptyState.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/EmptyState.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/EmptyState/HeroTitle.tsx
+# src/components/layout/FontCanvas/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/FontCanvas/FontCanvas.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/FontCanvas/FontCanvas.tsx
 
-# src/components/fp2/FP2Header/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FP2Header/FP2Header.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FP2Header/FP2Header.tsx
+# src/components/layout/Fontrapunkt2Layout/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/Fontrapunkt2Layout/Fontrapunkt2Layout.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/layout/Fontrapunkt2Layout/Fontrapunkt2Layout.tsx
 
-# src/components/fp2/FloatingCommandBar/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FloatingCommandBar/FloatingCommandBar.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FloatingCommandBar/FloatingCommandBar.tsx
+# src/components/modals/FontDetailsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/FontDetailsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/FontInfoTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/FontInfoTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/FontSourceTab.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/FontSourceTab.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontDetailsModal/index.ts
 
-# src/components/fp2/FontCanvas/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FontCanvas/FontCanvas.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/FontCanvas/FontCanvas.tsx
+# src/components/modals/FontInfoModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontInfoModal/FontInfoModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontInfoModal/FontInfoModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/FontInfoModal/index.ts
 
-# src/components/fp2/Fontrapunkt2Layout/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/Fontrapunkt2Layout/Fontrapunkt2Layout.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/Fontrapunkt2Layout/Fontrapunkt2Layout.tsx
+# src/components/modals/SampleTextModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SampleTextModal/SampleTextModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SampleTextModal/SampleTextModal.tsx
 
-# src/components/fp2/LoadingSpinner/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/LoadingSpinner/LoadingSpinner.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/LoadingSpinner/LoadingSpinner.tsx
+# src/components/modals/SettingsModal/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/SettingsModal.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/SettingsModal.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/index.ts
 
-# src/components/fp2/OpenTypeDrawer/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/OpenTypeDrawer/OpenTypeDrawer.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/OpenTypeDrawer/OpenTypeDrawer.tsx
-
-# src/components/fp2/VariableAxesDrawer/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/VariableAxesDrawer/VariableAxesDrawer.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/VariableAxesDrawer/VariableAxesDrawer.tsx
-
-# src/components/fp2/modals/FontDetailsModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontDetailsModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontInfoTab.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontInfoTab.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontSourceTab.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/FontSourceTab.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontDetailsModal/index.ts
-
-# src/components/fp2/modals/FontInfoModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/FontInfoModal.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/FontInfoModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/FontInfoModal/index.ts
-
-# src/components/fp2/modals/SampleTextModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SampleTextModal/SampleTextModal.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SampleTextModal/SampleTextModal.tsx
-
-# src/components/fp2/modals/SettingsModal/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/SettingsModal.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/SettingsModal.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/index.ts
-
-# src/components/fp2/modals/SettingsModal/components/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/components/AccentPresetGrid.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/components/AccentPresetGrid.tsx
-
-# src/components/fp2/modals/SettingsModal/sections/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/AppearanceSettings.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/CacheManagement.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/GeneralSettings.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/KeyboardShortcuts.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/modals/SettingsModal/sections/RenderingSettings.tsx
-
-# src/components/fp2/views/GlyphsView/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategoryNavigation.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategoryNavigation.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategorySection.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/CategorySection.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphCard.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphCard.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphsView.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/GlyphsView.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/VirtualizedGlyphGrid.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/VirtualizedGlyphGrid.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/index.ts
-
-# src/components/fp2/views/GlyphsView/hooks/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/hooks/useGlyphExtraction.ts
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/hooks/useScrollSpy.ts
-
-# src/components/fp2/views/GlyphsView/utils/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/GlyphsView/utils/glyphExtraction.ts
-
-# src/components/fp2/views/PlainView/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/PlainView.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/PlainView.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PlainView/index.ts
-
-# src/components/fp2/views/PresentView/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/PresentView.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/PresentView.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/PresentView/index.ts
-
-# src/components/fp2/views/StylesView/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/StylesView.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/StylesView.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/StylesView/index.ts
-
-# src/components/fp2/views/WaterfallView/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/WaterfallView.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/WaterfallView.tsx
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/fp2/views/WaterfallView/index.ts
+# src/components/modals/SettingsModal/sections/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/sections/AppearanceSettings.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/sections/CacheManagement.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/modals/SettingsModal/sections/GeneralSettings.tsx
 
 # src/components/primitives/Icon/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/Icon/Icon.module.css
@@ -505,6 +421,59 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/p
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/NativeRangeSlider.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/NativeRangeSliderWithLayout.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/primitives/NativeRangeSlider/index.ts
+
+# src/components/sidebar/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/sidebar/Panel.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/sidebar/SidebarShared.module.css
+
+# src/components/ui/EmptyState/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/ui/EmptyState/EmptyState.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/ui/EmptyState/EmptyState.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/ui/EmptyState/HeroTitle.tsx
+
+# src/components/ui/LoadingSpinner/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/ui/LoadingSpinner/LoadingSpinner.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/ui/LoadingSpinner/LoadingSpinner.tsx
+
+# src/components/views/GlyphsView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/CategoryNavigation.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/CategoryNavigation.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/CategorySection.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/CategorySection.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/GlyphCard.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/GlyphCard.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/GlyphsView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/GlyphsView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/VirtualizedGlyphGrid.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/VirtualizedGlyphGrid.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/index.ts
+
+# src/components/views/GlyphsView/hooks/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/hooks/useGlyphExtraction.ts
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/hooks/useScrollSpy.ts
+
+# src/components/views/GlyphsView/utils/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/GlyphsView/utils/glyphExtraction.ts
+
+# src/components/views/PlainView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PlainView/PlainView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PlainView/PlainView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PlainView/index.ts
+
+# src/components/views/PresentView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PresentView/PresentView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PresentView/PresentView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/PresentView/index.ts
+
+# src/components/views/StylesView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/StylesView/StylesView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/StylesView/StylesView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/StylesView/index.ts
+
+# src/components/views/WaterfallView/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/WaterfallView/WaterfallView.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/WaterfallView/WaterfallView.tsx
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/components/views/WaterfallView/index.ts
 
 # src/constants/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/constants/themeConstants.ts
@@ -609,7 +578,8 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/stores/uiSto
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/global.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/reset.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/shared.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/toasts.module.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/theme.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/toastContent.module.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.color.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.components.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.css
@@ -617,14 +587,12 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/token
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.foundation.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.icons.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.motion.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.palettes.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.spacing.css
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tokens.typography.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/variables.css
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/tooltip.global.css
 
-# src/styles/sidebar/
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/sidebar/Panel.module.css
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/sidebar/SidebarShared.module.css
+# src/styles/generated/
+https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/styles/generated/tokens.canvas.generated.css
 
 # src/test/
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/test/setup.ts
@@ -677,7 +645,6 @@ https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/icons.
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/icons.tsx
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/instanceSortUtils.ts
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/notDefFontLoader.ts
-https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/oklchColorUtils.ts
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/performance.ts
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/rafThrottle.ts
 https://raw.githubusercontent.com/andrewsipe/Fontrapunkt-2/main/src/utils/sampleTextUtils.ts
