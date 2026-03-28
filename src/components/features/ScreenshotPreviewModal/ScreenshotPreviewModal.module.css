@@ -9,8 +9,6 @@
   justify-content: center;
   min-height: 200px;
   padding: var(--space-lg);
-  background-color: var(--bg-surface);
-  border-radius: var(--radius-md);
 }
 
 .previewImage {
@@ -40,7 +38,7 @@
   font-family: var(--font-mono);
   word-break: break-all;
   padding: var(--space-xs) var(--space-sm);
-  background-color: var(--bg-panel);
+  background-color: var(--surface-4);
   border-radius: var(--radius-md);
 }
 
@@ -55,10 +53,10 @@
   align-items: center;
   gap: var(--space-xs);
   padding: var(--space-sm) var(--space-md);
-  background-color: var(--accent-primary);
-  color: var(--text-on-accent);
-  border: none;
-  border-radius: var(--radius-md);
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  border: var(--button-border-width) solid var(--button-primary-border);
+  border-radius: var(--button-radius);
   font-size: var(--text-sm);
   font-weight: 500;
   cursor: auto;
@@ -66,28 +64,34 @@
 }
 
 .button:hover:not(:disabled) {
-  background-color: var(--accent-hover);
+  background-color: var(--button-primary-bg-hover);
+  color: var(--button-primary-text-hover);
 }
 
 .button:active:not(:disabled) {
+  background-color: var(--button-primary-bg-active);
+  color: var(--button-primary-text-active);
   transform: scale(0.98);
 }
 
 .button:disabled {
-  opacity: var(--state-disabled-opacity);
-  cursor: var(--state-disabled-cursor);
+  background-color: var(--button-disabled-bg);
+  color: var(--button-disabled-text);
+  border-color: var(--button-disabled-border);
+  cursor: var(--button-disabled-cursor);
 }
 
 .button:focus-visible {
-  outline: 2px solid var(--border-focus);
+  outline: 2px solid var(--button-primary-focus-ring);
   outline-offset: 2px;
 }
 
 .buttonSecondary {
-  background-color: var(--bg-panel);
-  color: var(--text-primary);
+  background-color: var(--button-secondary-bg);
+  color: var(--button-secondary-text);
+  border-color: var(--button-secondary-border);
 }
 
 .buttonSecondary:hover:not(:disabled) {
-  background-color: var(--interactive-hover);
+  background-color: var(--button-secondary-bg-hover);
 }

@@ -85,7 +85,7 @@
   font-size: var(--text-2xs);
   color: var(--text-secondary);
   font-family: var(--font-mono);
-  background: var(--bg-surface);
+  background: var(--surface-3);
   padding: var(--space-3xs) var(--space-xs);
   border-radius: var(--radius-md);
 
@@ -153,7 +153,7 @@
   flex-direction: column;
   gap: var(--space-2xs);
   padding: var(--space-xs);
-  background: var(--bg-surface);
+  background: var(--surface-3);
   border: var(--border-width-default) solid var(--border-default);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);

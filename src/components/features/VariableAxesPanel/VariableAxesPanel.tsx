@@ -6,7 +6,6 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useFontStore } from "../../../stores/fontStore";
 import { useUIStore } from "../../../stores/uiStore";
-import panelStyles from "../../../styles/sidebar/Panel.module.css";
 import { ScrollText, VariableAxesNeue } from "../../../utils/icons";
 import { IconContainer } from "../../components/IconContainer/IconContainer";
 import { LabelWithPopover } from "../../components/LabelWithPopover";
@@ -14,6 +13,7 @@ import { Select } from "../../components/Select";
 import { TitleBar } from "../../components/TitleBar/TitleBar";
 import { Icon } from "../../primitives/Icon/Icon";
 import { Label } from "../../primitives/Label/Label";
+import panelStyles from "../../sidebar/Panel.module.css";
 import { AxisSlider } from "./AxisSlider";
 import styles from "./VariableAxesPanel.module.css";
 

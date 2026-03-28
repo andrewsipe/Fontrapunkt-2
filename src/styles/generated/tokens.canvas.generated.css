@@ -1,0 +1,12 @@
+/**
+ * CANVAS COLORS — Generated from src/constants/themeConstants.ts
+ * Do not edit by hand. Run: npm run generate:canvas
+ */
+
+:root {
+  --canvas-bg-light: oklch(0.96 0.008 45);
+  --canvas-bg-dark: oklch(0.12 0.01 45);
+  --canvas-fg-light: oklch(0.2 0.02 45);
+  --canvas-fg-dark: oklch(0.92 0.017 45);
+  --bg-canvas: light-dark(var(--canvas-bg-light), var(--canvas-bg-dark));
+}

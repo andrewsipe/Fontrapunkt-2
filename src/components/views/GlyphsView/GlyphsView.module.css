@@ -1,0 +1,208 @@
+.glyphsView {
+  background: var(--bg-canvas);
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: calc(var(--space-xl) + 100vh); /* Extra padding for last section scroll */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  container-type: inline-size;
+}
+
+.glyphToolbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  background: color-mix(in oklch, var(--surface-3) 80%, transparent);
+  backdrop-filter: blur(var(--space-xs));
+  border-bottom: 1px solid var(--surface-6);
+  padding: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  transition: background var(--transition-colors);
+}
+
+.toolbarRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.searchWrapper {
+  position: relative;
+  flex: 0 0 auto;
+  max-width: 400px;
+  min-width: 200px;
+  order: 1; /* Left side */
+}
+
+.searchIcon {
+  position: absolute;
+  left: var(--space-sm);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+.searchInput {
+  width: 100%;
+  min-height: var(--touch-target-min);
+  padding: var(--space-sm);
+  padding-left: calc(var(--space-md) + var(--icon-size-sm));
+  border-radius: var(--radius-md);
+  border: 0.5px solid var(--border-default);
+  background: var(--surface-5);
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  transition: var(--transition-colors);
+}
+
+.searchInput:focus,
+.searchInput:focus-visible {
+  outline: none;
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 2px var(--border-focus);
+}
+
+.currentCategory {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-widest);
+  padding: var(--space-xs) var(--space-md);
+  white-space: nowrap;
+  min-width: 0;
+  max-width: 200px;
+  flex: 1;
+  text-align: center;
+  order: 2; /* Middle */
+}
+
+.navToggleGroup {
+  flex: 0 0 auto;
+  order: 3; /* Right side */
+}
+
+.navToggleGroup button {
+  min-width: var(--touch-target-min);
+  min-height: var(--touch-target-min);
+}
+
+/* Visual group: category navigation (separate from search + filters) */
+.toolbarGroupNav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-left: var(--space-lg);
+  padding-left: var(--space-lg);
+  border-left: 1px solid var(--border-default);
+}
+
+.accordionRoot {
+  width: 100%;
+}
+
+.searchResultsInline {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  order: 2;
+}
+
+.searchResultsInline strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.searchFilters {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  padding: var(--space-xs) 0;
+  border-top: 1px solid var(--surface-6);
+}
+
+.filtersLabel {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.filterToggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--touch-target-min);
+  padding: 0 var(--space-xs);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  cursor: auto;
+  user-select: none;
+  border-radius: var(--radius-md);
+  transition: background var(--transition-colors);
+}
+
+.filterToggle:hover {
+  background: var(--surface-6);
+}
+
+.filterToggle input[type="checkbox"] {
+  cursor: auto;
+  margin: 0;
+}
+
+.filterToggle span {
+  font-size: var(--text-sm);
+}
+
+.categoryToggle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  order: 2;
+  cursor: auto;
+  user-select: none;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+  transition: background var(--transition-colors);
+}
+
+.categoryToggle:hover {
+  background: var(--surface-6);
+}
+
+.categoryToggle input[type="checkbox"] {
+  cursor: auto;
+  margin: 0;
+}
+
+.categoryToggle span {
+  font-size: var(--text-sm);
+}
+
+.categoriesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyState {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  padding: var(--space-xl);
+}

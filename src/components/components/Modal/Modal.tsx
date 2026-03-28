@@ -48,6 +48,7 @@ export function Modal({
 }: ModalProps) {
   const titleId = useId();
   const descriptionId = useId();
+  const hasTitle = Boolean(title?.trim());
 
   const handleOpenChange = useCallback(
     (open: boolean) => {
@@ -71,6 +72,17 @@ export function Modal({
     };
   }, [isOpen]);
 
+  // The close button element — rendered once, placed in the header row
+  const closeEl = closeButton ? (
+    <Dialog.Close
+      render={(props) => React.cloneElement(closeButton as React.ReactElement, props)}
+    />
+  ) : showCloseButton ? (
+    <Dialog.Close
+      render={(props) => <CloseButton {...props} className={styles.closeButton} fontSize="base" />}
+    />
+  ) : null;
+
   return (
     <Dialog.Root
       open={isOpen}
@@ -85,15 +97,46 @@ export function Modal({
           data-modal-popup
           aria-describedby={description ? descriptionId : undefined}
         >
-          {title?.trim() ? (
-            <Dialog.Title id={titleId} className={styles.title}>
-              {titleIcon && <span className={styles.titleIcon}>{titleIcon}</span>}
-              {title}
-            </Dialog.Title>
+          {/*
+           * Header row — always a flex container so the close button
+           * sits naturally at the end without absolute positioning.
+           *
+           * When `title` is provided: Dialog.Title is visible.
+           * When `header` is provided: it is rendered below the title (or alone)
+           *   inside the main header column.
+           * When neither: no header row is rendered; close button falls back
+           *   to the absolute slot below.
+           */}
+          {hasTitle || header ? (
+            <div className={styles.header}>
+              <div className={styles.headerMain}>
+                {hasTitle && (
+                  <Dialog.Title id={titleId} className={styles.titleText}>
+                    {titleIcon && <span className={styles.titleIcon}>{titleIcon}</span>}
+                    {title}
+                  </Dialog.Title>
+                )}
+                {header && (
+                  <>
+                    {!hasTitle && (
+                      <Dialog.Title id={titleId} className={styles.visuallyHidden}>
+                        Modal Dialog
+                      </Dialog.Title>
+                    )}
+                    <div className={styles.headerContent}>{header}</div>
+                  </>
+                )}
+              </div>
+              {closeEl && <div className={styles.closeButtonSlot}>{closeEl}</div>}
+            </div>
           ) : (
-            <Dialog.Title id={titleId} className={styles.visuallyHidden}>
-              {header ? "Settings Panel" : "Modal Dialog"}
-            </Dialog.Title>
+            <>
+              {/* No visible header — keep an accessible title + floating close button */}
+              <Dialog.Title id={titleId} className={styles.visuallyHidden}>
+                Modal Dialog
+              </Dialog.Title>
+              {closeEl && <div className={styles.closeButtonSlotAbsolute}>{closeEl}</div>}
+            </>
           )}
 
           {description ? (
@@ -108,23 +151,9 @@ export function Modal({
             )
           ) : null}
 
-          {header && <div className={styles.header}>{header}</div>}
-
           <div className={styles.body}>{children}</div>
 
           {footer && <div className={styles.footer}>{footer}</div>}
-
-          {closeButton ? (
-            <Dialog.Close
-              render={(props) => React.cloneElement(closeButton as React.ReactElement, props)}
-            />
-          ) : showCloseButton ? (
-            <Dialog.Close
-              render={(props) => (
-                <CloseButton {...props} className={styles.closeButton} fontSize="base" />
-              )}
-            />
-          ) : null}
         </Dialog.Popup>
       </Dialog.Portal>
     </Dialog.Root>

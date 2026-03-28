@@ -25,7 +25,7 @@
 
 /* Track variants */
 .slider_solid {
-  background: var(--bg-input);
+  background: var(--surface-5);
 }
 
 .slider_solid::-webkit-slider-runnable-track {
@@ -68,38 +68,13 @@
   background: transparent;
 }
 
-.slider_tone {
-  background: linear-gradient(
-    to right,
-    oklch(0.85 0.1 265) 0%,
-    oklch(0.92 0.02 265) 25%,
-    oklch(0.95 0 0) 50%,
-    oklch(0.92 0.02 65) 75%,
-    oklch(0.85 0.1 65) 100%
-  );
-}
-
-.slider_tone::-webkit-slider-runnable-track {
-  height: 100%;
-  border-radius: var(--radius-md);
-  border: none;
-  background: transparent;
-}
-
-.slider_tone::-moz-range-track {
-  height: var(--slider-track-height);
-  border-radius: var(--radius-md);
-  border: none;
-  background: transparent;
-}
-
 /* Compact variant: 8px track, smaller thumb (e.g. Fine Tune L/C) */
 .slider_compact {
   height: 8px;
 }
 
 .slider_compact.slider_solid {
-  background: var(--bg-input);
+  background: var(--surface-5);
 }
 
 /* Thumb – WebKit (default size) */

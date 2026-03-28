@@ -33,8 +33,8 @@ import { Popover } from "../../components/Popover";
 import { TitleBar } from "../../components/TitleBar/TitleBar";
 import { CustomToggleGroup } from "../../components/ToggleGroup/CustomToggleGroup";
 import { TwoLayerSliderWithLayout } from "../../components/TwoLayerSlider";
-import sidebarStyles from "../../containers/Sidebar/Sidebar.module.css";
 import { Icon } from "../../primitives/Icon/Icon";
+import sidebarStyles from "../../sidebar/Panel.module.css";
 import styles from "./TextControls.module.css";
 
 export interface TextControlsProps {

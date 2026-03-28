@@ -1,13 +1,12 @@
 /**
  * Toggle Group using Base UI ToggleGroup + Toggle
- * Tooltips use Base UI Tooltip.
+ * Tooltips use shared Tooltip (global tooltip.global.css).
  */
 
 import { Toggle as BaseToggle } from "@base-ui/react/toggle";
 import { ToggleGroup as BaseToggleGroup } from "@base-ui/react/toggle-group";
-import { Tooltip as BaseTooltip } from "@base-ui/react/tooltip";
 import type React from "react";
-import tooltipStyles from "../Tooltip/Tooltip.module.css";
+import { Tooltip } from "../Tooltip";
 import styles from "./CustomToggleGroup.module.css";
 
 export type ToggleGroupVariant = "segmented" | "discrete";
@@ -105,22 +104,9 @@ function ToggleGroupItem({
 
   if (tooltip) {
     return (
-      <BaseTooltip.Root>
-        <BaseTooltip.Trigger
-          delay={300}
-          render={(triggerProps) => (
-            <div {...triggerProps} className={styles.tooltipWrapper}>
-              {item}
-            </div>
-          )}
-        />
-        <BaseTooltip.Portal>
-          <BaseTooltip.Positioner sideOffset={5}>
-            <BaseTooltip.Popup className={tooltipStyles.content}>{tooltip}</BaseTooltip.Popup>
-            <BaseTooltip.Arrow className={tooltipStyles.arrow} />
-          </BaseTooltip.Positioner>
-        </BaseTooltip.Portal>
-      </BaseTooltip.Root>
+      <Tooltip content={tooltip} delay={300} side="top">
+        <div className={styles.tooltipWrapper}>{item}</div>
+      </Tooltip>
     );
   }
 

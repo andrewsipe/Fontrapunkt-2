@@ -21,7 +21,7 @@
   margin: 0;
   border: 2px solid var(--border-default);
   border-radius: var(--radius-sm);
-  background-color: var(--bg-input);
+  background-color: var(--surface-5);
   cursor: auto;
   transition: var(--transition-state);
   position: relative;

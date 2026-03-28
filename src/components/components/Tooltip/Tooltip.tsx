@@ -1,66 +1,73 @@
 /**
- * Flexible Tooltip wrapper using Base UI Tooltip
- * Can wrap any element (buttons, divs, links, etc.) with a tooltip.
- * Use TooltipButton for buttons, use this for other elements.
+ * Shared Tooltip — data-attribute pattern, global CSS (tooltip.global.css).
+ * Wraps any element. Use TooltipButton for buttons. API matches CommandBarTooltip.
  */
 
-import { Tooltip as BaseTooltip } from "@base-ui/react/tooltip";
-import type React from "react";
-import { Children, cloneElement, isValidElement } from "react";
-import styles from "./Tooltip.module.css";
+import { useCallback, useEffect, useRef, useState } from "react";
 
-interface TooltipProps {
-  tooltip: string;
-  children: React.ReactNode;
-  /**
-   * Optional delay before showing tooltip (ms)
-   * @default 300
-   */
-  delayDuration?: number;
-  /**
-   * Optional side for tooltip placement
-   * @default "top"
-   */
-  side?: "top" | "right" | "bottom" | "left";
-  /**
-   * Optional offset from trigger (px)
-   * @default 5
-   */
-  sideOffset?: number;
-  /**
-   * Whether tooltip is disabled
-   * @default false
-   */
+export interface TooltipProps {
+  /** Tooltip content (string or ReactNode). */
+  content?: React.ReactNode;
+  /** Alias for content — backward compat with existing tooltip prop. */
+  tooltip?: React.ReactNode;
+  side?: "top" | "bottom" | "left" | "right";
+  align?: "center" | "start" | "end";
+  /** ms before show; 0 = instant. Default 300 for general UI. */
+  delay?: number;
   disabled?: boolean;
+  children: React.ReactNode;
 }
 
-/**
- * Tooltip - Wraps any element with Base UI Tooltip
- */
-export function TooltipWrapper({
-  tooltip,
+export function Tooltip({
   children,
-  delayDuration = 300,
+  content,
+  tooltip,
   side = "top",
-  sideOffset = 5,
+  align = "center",
+  delay = 300,
   disabled = false,
 }: TooltipProps) {
-  if (disabled || !tooltip) {
-    return <>{children}</>;
-  }
+  const resolvedContent = content ?? tooltip;
+  const [visible, setVisible] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const child = Children.only(children);
-  if (!isValidElement(child)) return <>{children}</>;
+  const show = useCallback(() => {
+    if (disabled || resolvedContent == null) return;
+    if (delay > 0) {
+      timerRef.current = setTimeout(() => setVisible(true), delay);
+    } else {
+      setVisible(true);
+    }
+  }, [disabled, resolvedContent, delay]);
+
+  const hide = useCallback(() => {
+    if (timerRef.current) clearTimeout(timerRef.current);
+    timerRef.current = null;
+    setVisible(false);
+  }, []);
+
+  useEffect(
+    () => () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    },
+    []
+  );
+
+  if (resolvedContent == null || disabled) return <>{children}</>;
 
   return (
-    <BaseTooltip.Root>
-      <BaseTooltip.Trigger delay={delayDuration} render={(props) => cloneElement(child, props)} />
-      <BaseTooltip.Portal>
-        <BaseTooltip.Positioner side={side} sideOffset={sideOffset}>
-          <BaseTooltip.Popup className={styles.content}>{tooltip}</BaseTooltip.Popup>
-          <BaseTooltip.Arrow className={styles.arrow} />
-        </BaseTooltip.Positioner>
-      </BaseTooltip.Portal>
-    </BaseTooltip.Root>
+    <div data-tooltip-wrap="" onMouseEnter={show} onMouseLeave={hide} onFocus={show} onBlur={hide}>
+      {children}
+      <div
+        data-tooltip=""
+        data-side={side}
+        data-align={align}
+        data-visible={visible ? "true" : "false"}
+        role="tooltip"
+        aria-hidden={!visible}
+      >
+        {resolvedContent}
+      </div>
+    </div>
   );
 }

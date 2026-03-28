@@ -1,12 +1,12 @@
 /**
  * Fontrapunkt 2.0 — App entry
- * Single route: AppProviders > DropZone (fp2) > Fontrapunkt2Layout.
+ * Single route: AppProviders > DropZone > Fontrapunkt2Layout.
  */
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AppProviders } from "./AppProviders";
-import { Fontrapunkt2Layout } from "./components/fp2";
-import { DropZone } from "./components/fp2/DropZone/DropZone";
+import { DropZone } from "./components/layout/DropZone/DropZone";
+import { Fontrapunkt2Layout } from "./components/layout/Fontrapunkt2Layout/Fontrapunkt2Layout";
 import { PaletteViewerPage } from "./pages/PaletteViewerPage";
 import { StyleMatrixPage } from "./pages/StyleMatrixPage";
 import { useUIStore } from "./stores/uiStore";

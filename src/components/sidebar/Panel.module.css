@@ -1,0 +1,33 @@
+/**
+ * Shared panel container styles for feature panels (Variable Axes, OpenType, etc.)
+ * Used when panels are rendered inside the sidebar or other containers.
+ */
+
+.sidebarPanel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  padding: 0 var(--space-md);
+  container-type: inline-size;
+  width: 100%;
+  min-width: 0;
+}
+
+@container (max-width: 280px) {
+  .sidebarPanel {
+    padding: 0 var(--space-sm);
+  }
+}
+
+.panelContent {
+  width: 100%;
+  min-width: 0;
+}
+
+.panelCollapsed {
+  padding-bottom: var(--space-md);
+}
+
+.panelCollapsed > *:not(:first-child) {
+  display: none;
+}

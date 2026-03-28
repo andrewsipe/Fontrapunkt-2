@@ -10,7 +10,7 @@
 }
 
 .required {
-  color: var(--danger);
+  color: var(--text-on-error);
   margin-left: var(--space-3xs);
 }
 
@@ -22,7 +22,7 @@
 
 .error {
   font-size: var(--text-xs);
-  color: var(--danger);
+  color: var(--text-on-error);
   margin: 0;
   display: flex;
   align-items: center;

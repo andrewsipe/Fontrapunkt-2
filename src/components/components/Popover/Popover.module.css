@@ -23,7 +23,7 @@
 }
 
 .trigger:hover:not(:disabled):not([data-disabled]) {
-  background-color: var(--bg-hover);
+  background-color: var(--surface-6);
   color: var(--text-primary);
 }
 
@@ -51,7 +51,7 @@
    ============================================================================ */
 
 .content {
-  background: var(--bg-surface);
+  background: var(--surface-3);
   border: var(--border-width-default) solid var(--border-default);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-lg);
@@ -108,8 +108,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: var(--icon-size-lg);
+  height: var(--icon-size-lg);
   padding: 0;
   background: transparent;
   border: none;
@@ -121,7 +121,7 @@
 }
 
 .close:hover:not(:disabled):not([data-disabled]) {
-  background-color: var(--bg-hover);
+  background-color: var(--surface-6);
   color: var(--text-primary);
 }
 

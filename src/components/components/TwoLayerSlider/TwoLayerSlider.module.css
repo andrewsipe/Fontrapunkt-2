@@ -11,7 +11,7 @@
   align-items: center;
   width: 100%;
   padding: 0 var(--space-xs);
-  background: var(--bg-surface);
+  background: var(--surface-3);
   border-radius: var(--radius-md);
   box-sizing: border-box;
 }
@@ -71,7 +71,7 @@
 .precisionRangeHighlight {
   position: absolute;
   height: var(--border-width-default);
-  background: color-mix(in srgb, var(--accent-primary) 20%, transparent);
+  background: color-mix(in oklch, var(--accent-primary) 20%, transparent);
   border-radius: var(--radius-full);
   top: 50%;
   transform: translateY(-50%);
@@ -118,7 +118,7 @@
 }
 
 .thumbExpanded {
-  background: var(--bg-surface);
+  background: var(--surface-3);
   border: calc(0.75 * var(--border-width-thick)) solid var(--border-default);
   /* box-shadow: var(--shadow-md);*/
   transition:

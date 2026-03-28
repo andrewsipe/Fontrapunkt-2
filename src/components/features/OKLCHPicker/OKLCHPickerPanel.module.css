@@ -30,9 +30,9 @@
 
 .reticle {
   position: absolute;
-  width: 14px;
-  height: 14px;
-  border: 2px solid var(--neutral-white, #fff);
+  width: var(--slider-precision-dot-size);
+  height: var(--slider-precision-dot-size);
+  border: var(--border-width-thick) solid var(--neutral-white, #fff);
   border-radius: var(--radius-full);
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -54,7 +54,7 @@
   position: relative;
   overflow: hidden;
   border: 1px solid var(--border-default);
-  background-color: var(--swatch-bg, var(--bg-input));
+  background-color: var(--swatch-bg, var(--surface-5));
 }
 
 .swatchBorder {
@@ -85,7 +85,7 @@
 .hexWrap {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: var(--space-3xs);
   width: 100%;
   min-width: 0;
 }
@@ -93,7 +93,7 @@
 .hexInputWrapper {
   display: flex;
   align-items: center;
-  background: var(--bg-input);
+  background: var(--surface-5);
   border-radius: var(--radius-md);
   padding: 0 var(--space-sm);
   border: 1px solid var(--border-default);
@@ -126,5 +126,5 @@
 }
 
 .hexInputField.invalid {
-  color: var(--danger);
+  color: var(--text-on-error);
 }

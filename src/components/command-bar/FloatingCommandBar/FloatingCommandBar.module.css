@@ -1,0 +1,634 @@
+/**
+ * Fontrapunkt 2.0 — Command Bar
+ * Slider buttons (scrub + drawer), segmented groups, more-tools expand.
+ * Tokens: --surface-3, --surface-4, --interactive-*, --accent-*, --slider-*, etc.
+ *
+ * Sizing system:
+ *   --bar-control-height : 30px  — uniform height for every control in the primary row
+ *   --bar-icon-size      : 14px  — uniform icon size (all [data-icon] and inline SVGs)
+ *   --bar-font-size      : 11px  — uniform label / value font size in the bar
+ *   --bar-radius         : var(--radius-lg)  — outer container radius
+ *   --bar-radius-btn     : var(--radius-button) — direct-child button radius (8px)
+ *   --bar-radius-inner   : var(--radius-tight-from-button) — items nested inside a group (4px)
+ */
+
+.wrapper {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+}
+
+.bar {
+  position: relative;
+  z-index: 1;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: var(--spacing-gap-tight);
+  padding: var(--spacing-gap-tight) var(--space-sm);
+  background: var(--surface-3);
+  border-radius: var(--bar-radius);
+  box-shadow:
+    var(--shadow-md),
+    inset 0 1px 0 oklch(100% 0 0 / 0.08);
+  flex-shrink: 0;
+  /* Establish a font-size baseline so all em-based icons resolve consistently */
+  font-size: var(--bar-font-size);
+  transition: border-radius var(--duration-fast) var(--ease-out);
+}
+
+/* ── Uniform icon size across bar and drawer ── */
+.wrapper [data-icon] {
+  width: var(--bar-icon-size);
+  height: var(--bar-icon-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper [data-icon] svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.barDrawerOpen {
+  border-radius: var(--bar-radius) var(--bar-radius) 0 0;
+}
+
+/* Slider button — icon + value, drag to scrub, click to open drawer */
+.sliderBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-gap-tight);
+  height: var(--bar-control-height);
+  padding: 0 var(--space-sm);
+  min-width: 58px;
+  border: none;
+  border-radius: var(--bar-radius-btn);
+  background: var(--interactive-bg);
+  color: var(--text-primary);
+  font-size: var(--bar-font-size);
+  cursor: ew-resize;
+  user-select: none;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.sliderBtn:hover {
+  background: var(--interactive-hover);
+}
+
+.sliderBtnActive,
+.sliderBtn:active {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.sliderBtnIcon {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--text-tertiary); /* muted when inactive */
+  opacity: 1;
+}
+
+.sliderBtnActive .sliderBtnIcon {
+  color: var(--text-on-accent);
+  opacity: 0.8; /* slightly dimmed against accent bg so value reads first */
+}
+
+.sliderBtnValue {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--bar-font-size);
+  font-weight: 500;
+  min-width: 24px;
+  text-align: right;
+  line-height: 1;
+  color: inherit;
+}
+
+.sliderBtn:not(.sliderBtnActive) .sliderBtnValue {
+  color: var(--accent-primary);
+}
+
+.weightLabel {
+  font-size: var(--bar-font-size);
+  font-weight: 600;
+  letter-spacing: var(--tracking-tight);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-inline-size: 0;
+}
+
+.sectionDivider {
+  width: 1px;
+  height: 18px;
+  background: var(--border-default);
+  flex-shrink: 0;
+  align-self: center;
+  margin: 0 var(--space-3xs);
+}
+
+/* Slider: label + value on one row, track with fill to thumb */
+.sliderWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3xs);
+}
+
+.sliderLabelRow {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+}
+
+.label {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--text-secondary);
+}
+
+.sliderValue {
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  color: var(--accent-primary);
+}
+
+.slider {
+  --slider-percent: 0%;
+  width: 88px;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: ew-resize;
+  background: linear-gradient(
+    to right,
+    var(--slider-value-bg) var(--slider-percent),
+    var(--slider-track) var(--slider-percent)
+  );
+  border-radius: var(--radius-full);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: var(--slider-precision-dot-size);
+  height: var(--slider-precision-dot-size);
+  border-radius: 50%;
+  background: var(--slider-value-bg);
+  cursor: ew-resize;
+}
+
+.slider::-webkit-slider-runnable-track {
+  background: transparent;
+}
+
+.slider::-moz-range-thumb {
+  width: var(--slider-precision-dot-size);
+  height: var(--slider-precision-dot-size);
+  border-radius: 50%;
+  background: var(--text-primary);
+  cursor: ew-resize;
+  border: none;
+}
+
+.slider::-moz-range-track {
+  background: linear-gradient(
+    to right,
+    var(--text-primary) var(--slider-percent),
+    var(--border-subtle) var(--slider-percent)
+  );
+  height: 6px;
+  border-radius: var(--radius-full);
+}
+
+.toggleGroup {
+  display: flex;
+  /* stretch: [data-tooltip-wrap] children fill the full 30px container height,
+     so bottom: calc(100% + 6px) measures from the same baseline as every
+     other 30px bar control — tooltip y-position is consistent across all items */
+  align-items: stretch;
+  gap: var(--space-3xs);
+  padding: var(--spacing-gap-tight);
+  background: var(--interactive-bg);
+  border-radius: var(--bar-radius-btn);
+}
+
+/* re-center the inner button after the wrapper stretches to fill height */
+.toggleGroup [data-tooltip-wrap] {
+  display: flex;
+  align-items: center;
+}
+
+.toggleBtn {
+  /* 22px square = bar-control-height(30) - 2×gap(4) = 22px
+     Ensures inner corners sit flush with the outer group's corner inset */
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  /* Inner items: nested radius = outer(8px) - gap(4px) = 4px */
+  border-radius: var(--bar-radius-inner);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: var(--bar-font-size);
+  cursor: pointer;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.toggleBtn:hover {
+  background: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+.toggleBtn[aria-pressed="true"] {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.toggleBtnText {
+  font-weight: 600;
+  letter-spacing: var(--tracking-tight);
+  /* Slightly smaller than --bar-font-size: glyph labels (AB/Aa/ab) read heavier
+     than icons at the same size, so dial them back a touch */
+  font-size: var(--text-2xs);
+}
+
+.toggleBtn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.iconBtn {
+  width: var(--bar-control-height);
+  height: var(--bar-control-height);
+  min-width: var(--bar-control-height);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--bar-radius-btn);
+  background: var(--interactive-bg);
+  color: var(--text-tertiary);
+  font-size: var(--bar-font-size);
+  cursor: pointer;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.iconBtn:hover {
+  background: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+.iconBtn:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+.iconBtnActive {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.iconBtnActive:hover {
+  background: var(--accent-hover);
+  color: var(--text-on-accent-hover);
+}
+
+.chevron {
+  display: inline-flex;
+  transform: rotate(0deg);
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+.chevronOpen {
+  display: inline-flex;
+  transform: rotate(180deg);
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+/* More tools — slide-in slot */
+.utilsSlot {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-gap-tight);
+  max-width: 0;
+  min-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  flex-shrink: 0;
+  transition:
+    max-width var(--duration-normal) var(--ease-in-out),
+    opacity var(--duration-fast) var(--ease-out);
+}
+
+.utilsSlotOpen {
+  max-width: 116px;
+  opacity: 1;
+  /* Allow tooltip divs to escape the clipping box once the slide-in is complete */
+  overflow: visible;
+}
+
+/* Drawer — overlays below bar (position: absolute so bar does not shift) */
+.drawer {
+  --slider-percent: 0%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  /* z-index intentionally omitted (auto) — this is critical.
+     z-index: 0 would create a stacking context, trapping tooltip children
+     (z-index: 700) inside it and causing them to lose to the bar's z-index: 1.
+     With z-index: auto, the drawer creates NO stacking context, so tooltip
+     children at z-index: 700 evaluate at the document level and correctly
+     exceed the bar's z-index: 1. The bar still paints above the drawer because
+     any element with a non-auto z-index (bar: 1) paints above auto-z-index
+     positioned elements in document order. */
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm) calc(var(--space-xs) + 2px);
+  background: var(--surface-5);
+  border-top: 1px solid var(--border-default);
+  border-radius: 0 0 var(--bar-radius) var(--bar-radius);
+  animation: drawerSlideDown var(--duration-fast) var(--ease-out);
+}
+
+@keyframes drawerSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.drawerLabel {
+  /* Uppercase + weight 600 reads visually larger than the px value suggests.
+     9px keeps it subordinate to the slider and value readouts. */
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider, 0.07em);
+  color: var(--text-tertiary);
+  white-space: nowrap;
+  min-width: 76px;
+}
+
+.drawerMinMax {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--text-2xs);
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+}
+
+.drawerSlider {
+  flex: 1;
+  /* No explicit height on the input — let it size naturally so the 14px thumb
+     is properly contained and centered. height: 3px was collapsing the input's
+     layout box, causing the thumb to extend outside it and misalign visually. */
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: ew-resize;
+}
+
+.drawerSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 24px;
+  height: 12px;
+  border-radius: var(--radius-md);
+  background: var(--accent-primary);
+  cursor: ew-resize;
+  box-shadow: var(--shadow-sm);
+  /* Center 12px thumb on 3px track */
+  margin-top: calc((3px - 12px) / 2);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.drawerSlider::-webkit-slider-thumb:hover {
+  transform: scale(1.125);
+}
+
+.drawerSlider::-webkit-slider-runnable-track {
+  /* Track height and fill live here, not on the input element */
+  height: 4px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    to right,
+    var(--slider-value-bg) var(--slider-percent),
+    var(--slider-track) var(--slider-percent)
+  );
+}
+
+.drawerSlider::-moz-range-thumb {
+  width: 24px;
+  height: 12px;
+  border-radius: var(--radius-md);
+  background: var(--accent-primary);
+  cursor: ew-resize;
+  border: none;
+  box-shadow: var(--shadow-sm);
+  /* Center 12px thumb on 3px track */
+  margin-top: calc((3px - 12px) / 2);
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.drawerSlider::-moz-range-track {
+  height: 3px;
+  background: var(--slider-track);
+  border-radius: var(--space-3xs);
+}
+
+.drawerExtraBtn,
+.drawerResetBtn {
+  width: 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  /* 26px buttons inside the drawer: use --radius-sm (4px) — tighter feel,
+     avoids the near-pill look that var(--radius-tight-from-lg)/10px creates */
+  border-radius: var(--radius-sm);
+  background: var(--interactive-bg);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    background var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.drawerExtraBtn:hover,
+.drawerResetBtn:hover:not(:disabled) {
+  background: var(--interactive-hover);
+  color: var(--text-primary);
+}
+
+.drawerExtraBtnActive {
+  background: var(--accent-primary);
+  color: var(--text-on-accent);
+}
+
+.drawerResetBtn:disabled {
+  opacity: var(--state-disabled-opacity);
+  cursor: not-allowed;
+}
+
+/* ── Drawer tooltips — appear BELOW controls, not above ───────────────────
+   Drawer controls sit under the bar, so tooltips pointing up either hide
+   behind the bar or require the user to look away. Override all sides to
+   render below, regardless of what data-side the TSX passes.
+   ──────────────────────────────────────────────────────────────────────── */
+.drawer [data-tooltip][data-side="top"],
+.drawer [data-tooltip][data-side="bottom"],
+.drawer [data-tooltip][data-side="left"],
+.drawer [data-tooltip][data-side="right"] {
+  bottom: auto;
+  top: calc(100% + 6px);
+  left: 50%;
+  right: auto;
+  translate: -50% 0;
+  transform: translateY(-3px);
+}
+
+.drawer [data-tooltip][data-visible="true"] {
+  transform: translateY(0);
+}
+
+/* Color Picker Popover */
+.colorPickerPopup {
+  background: var(--surface-3);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-xl);
+  z-index: var(--z-popover);
+}
+
+.colorPickerContent {
+  min-width: 240px;
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* ── Command bar tooltips (Image 5 style: compact, dark, instant) ── */
+.wrapper [data-tooltip-wrap] {
+  position: relative;
+  display: inline-flex;
+}
+
+.wrapper [data-tooltip] {
+  position: absolute;
+  z-index: var(--z-tooltip, 700);
+  width: max-content;
+  max-width: 220px;
+  background: var(--text-primary);
+  color: var(--surface-3);
+  font-family: var(--font-ui, inherit);
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  line-height: 1.35;
+  padding: var(--space-2xs) var(--space-sm);
+  border-radius: var(--radius-button);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+}
+
+.wrapper [data-tooltip][data-visible="true"] {
+  opacity: 1;
+}
+
+.wrapper [data-tooltip][data-side="top"] {
+  bottom: calc(100% + 6px);
+  transform: translateY(3px);
+}
+
+.wrapper [data-tooltip][data-side="top"][data-visible="true"] {
+  transform: translateY(0);
+}
+
+.wrapper [data-tooltip][data-side="bottom"] {
+  top: calc(100% + 6px);
+  transform: translateY(-3px);
+}
+
+.wrapper [data-tooltip][data-side="bottom"][data-visible="true"] {
+  transform: translateY(0);
+}
+
+.wrapper [data-tooltip][data-side="left"] {
+  right: calc(100% + 6px);
+  transform: translateX(3px);
+}
+
+.wrapper [data-tooltip][data-side="left"][data-visible="true"] {
+  transform: translateX(0);
+}
+
+.wrapper [data-tooltip][data-side="right"] {
+  left: calc(100% + 6px);
+  transform: translateX(-3px);
+}
+
+.wrapper [data-tooltip][data-side="right"][data-visible="true"] {
+  transform: translateX(0);
+}
+
+.wrapper [data-tooltip][data-side="top"][data-align="center"],
+.wrapper [data-tooltip][data-side="bottom"][data-align="center"] {
+  left: 50%;
+  translate: -50% 0;
+}
+
+.wrapper [data-tooltip][data-side="left"][data-align="center"],
+.wrapper [data-tooltip][data-side="right"][data-align="center"] {
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.wrapper [data-tooltip][data-side="top"][data-align="start"],
+.wrapper [data-tooltip][data-side="bottom"][data-align="start"] {
+  left: 0;
+}
+
+.wrapper [data-tooltip][data-side="left"][data-align="start"],
+.wrapper [data-tooltip][data-side="right"][data-align="start"] {
+  top: 0;
+}
+
+.wrapper [data-tooltip][data-side="top"][data-align="end"],
+.wrapper [data-tooltip][data-side="bottom"][data-align="end"] {
+  right: 0;
+}
+
+.wrapper [data-tooltip][data-side="left"][data-align="end"],
+.wrapper [data-tooltip][data-side="right"][data-align="end"] {
+  bottom: 0;
+}

@@ -13,7 +13,9 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:run": "vitest run",
-    "build:unicode": "tsx scripts/buildUnicodeData.ts"
+    "build:unicode": "tsx scripts/buildUnicodeData.ts",
+    "generate:canvas": "tsx scripts/generateCanvasCss.ts",
+    "prebuild": "npm run generate:canvas"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",

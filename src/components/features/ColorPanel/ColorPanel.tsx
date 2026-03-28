@@ -11,7 +11,7 @@ import { getDefaultCanvasColors, getEffectiveCanvasTheme } from "../../../utils/
 import { LabelWithPopover } from "../../components/LabelWithPopover";
 import { TitleBar } from "../../components/TitleBar/TitleBar";
 import { CustomToggleGroup } from "../../components/ToggleGroup/CustomToggleGroup";
-import sidebarStyles from "../../containers/Sidebar/Sidebar.module.css";
+import sidebarStyles from "../../sidebar/Panel.module.css";
 import { OKLCHPickerPanel } from "../OKLCHPicker/OKLCHPickerPanel";
 import styles from "./ColorPanel.module.css";
 

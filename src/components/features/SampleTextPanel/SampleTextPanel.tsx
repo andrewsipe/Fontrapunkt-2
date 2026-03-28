@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 import { useFontStore } from "../../../stores/fontStore";
 import { useSettingsStore } from "../../../stores/settingsStore";
 import { useUIStore } from "../../../stores/uiStore";
-import shared from "../../../styles/sidebar/SidebarShared.module.css";
 import type { CachedFont } from "../../../types/font.types";
 import { filterToAvailableGlyphs, getAvailableGlyphs } from "../../../utils/glyphUtils";
 import {
@@ -25,6 +24,7 @@ import {
   type ProofSetName,
 } from "../../../utils/sampleTextUtils";
 import { getDefaultCanvasColors, getEffectiveCanvasTheme } from "../../../utils/themeUtils";
+import shared from "../../sidebar/SidebarShared.module.css";
 import styles from "./SampleTextPanel.module.css";
 
 function proofGroupSlug(label: string): string {

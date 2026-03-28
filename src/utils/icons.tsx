@@ -22,6 +22,8 @@ export { default as AlignLeft } from "lucide-react/dist/esm/icons/align-left";
 export { default as AlignRight } from "lucide-react/dist/esm/icons/align-right";
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as AlignVerticalSpaceAround } from "lucide-react/dist/esm/icons/align-vertical-space-around";
+// @ts-expect-error - lucide-react doesn't provide types for individual icon files
+export { default as ArchiveRestore } from "lucide-react/dist/esm/icons/archive-restore";
 // Font/Canvas controls
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as ArrowBigDown } from "lucide-react/dist/esm/icons/arrow-big-down";
@@ -56,9 +58,15 @@ export { default as FileBraces } from "lucide-react/dist/esm/icons/file-braces";
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as FileText } from "lucide-react/dist/esm/icons/file-text";
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
+export { default as FileTypeCorner } from "lucide-react/dist/esm/icons/file-type-corner";
+// @ts-expect-error - lucide-react doesn't provide types for individual icon files
+export { default as FileUp } from "lucide-react/dist/esm/icons/file-up";
+// @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as GalleryVertical } from "lucide-react/dist/esm/icons/gallery-vertical";
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as Hash } from "lucide-react/dist/esm/icons/hash";
+// @ts-expect-error - lucide-react doesn't provide types for individual icon files
+export { default as History } from "lucide-react/dist/esm/icons/history";
 // @ts-expect-error - lucide-react doesn't provide types for individual icon files
 export { default as Info } from "lucide-react/dist/esm/icons/info";
 // Features

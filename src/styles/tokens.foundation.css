@@ -1,42 +1,26 @@
 /**
  * FOUNDATION TOKENS
- * Primitives: color config, opacity, border widths, z-index.
- * Single source of truth for theme and layout stacking.
+ * Primitives: opacity, border widths, z-index.
+ * Color primitives and semantics are in theme.css.
  */
 
 :root {
-  /* ==========================================
-     ACCENT & TONE CONFIGURATION
-     Set by app; overridden by useTheme for accent/tone
-     ========================================== */
-  --user-accent-hue: 240; /* 0-360° - User selected (default: blue) */
-  --accent-chroma-light: 0.3;
-  --accent-chroma-dark: 0.12; /* Slightly higher for dark mode vibrancy */
-  --accent-lightness-light: 0.5;
-  --accent-lightness-dark: 0.65;
-
-  --tone-intensity: 0.5; /* 0 = neutral, 1 = max; base chroma = intensity * 0.012/0.016 */
-  --base-hue-light: 0;
-  --base-hue-dark: 0;
-  --base-chroma-light: 0;
-  --base-chroma-dark: 0;
-
-  /* ==========================================
+  /* ===========================================
      OPACITY
-     ========================================== */
-  --opacity-subtle: 0.7; /* Hint text, secondary elements */
-  --opacity-medium: 0.5; /* Mid-range opacity */
+     =========================================== */
+  --opacity-subtle: 0.7;
+  --opacity-medium: 0.5;
 
-  /* ==========================================
+  /* ===========================================
      BORDER WIDTHS
-     ========================================== */
+     =========================================== */
   --border-width-thin: 0.5px;
   --border-width-default: 1px;
   --border-width-thick: 2px;
 
-  /* ==========================================
+  /* ===========================================
      Z-INDEX SCALE
-     ========================================== */
+     =========================================== */
   --z-base: 0;
   --z-canvas: 0;
   --z-toggle-divider: 1;
@@ -48,6 +32,7 @@
   --z-sticky: 200;
   --z-floating-high: 250;
   --z-fixed: 300;
+  --z-drawer: 350;
   --z-modal-backdrop: 400;
   --z-dropzone: 450;
   --z-modal: 500;

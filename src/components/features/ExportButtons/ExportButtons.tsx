@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 import { useFontStore } from "../../../stores/fontStore";
 import { useUIStore } from "../../../stores/uiStore";
 import shared from "../../../styles/shared.module.css";
-import toastStyles from "../../../styles/toasts.module.css";
+import toastStyles from "../../../styles/toastContent.module.css";
 import { oklchToHex } from "../../../utils/colorUtils";
 import {
   captureScreenshot,

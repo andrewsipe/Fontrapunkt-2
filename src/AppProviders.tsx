@@ -96,7 +96,7 @@ export function AppProviders({ children }: AppProvidersProps) {
         toastOptions={{
           duration: 2000,
           style: {
-            background: "var(--bg-surface)",
+            background: "var(--surface-3)",
             color: "var(--text-primary)",
             border: "1px solid var(--accent-primary)",
             borderRadius: "var(--radius-md)",

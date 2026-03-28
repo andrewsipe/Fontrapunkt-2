@@ -1,0 +1,304 @@
+/**
+ * THEME — Sienna + Warm Neutral
+ *
+ * Semantic token layer. All values reference primitives from tokens.color.css.
+ * Uses light-dark() for automatic theme switching.
+ *
+ * Scale orientation reminder:
+ *   Neutral/Sienna 50–1000: light → dark  (50 = lightest, 1000 = darkest)
+ *   Text variants follow the same direction: text-50 = near-white, text-1000 = near-black
+ *   White/Black tokens are the true extremes beyond the numbered scale.
+ */
+
+:root {
+	color-scheme: light dark;
+
+	/* ===========================================
+	   SURFACES (surface-1 → surface-6)
+	   Layering model: page → canvas → card → panel → input → hover state
+	   Light: starts near-white, steps toward mid tan
+	   Dark:  starts near-black espresso, steps toward mid brown
+	   =========================================== */
+	--surface-1: light-dark(
+		var(--color-warm-neutral-white),
+		var(--color-warm-neutral-black)
+	);
+	--surface-2: light-dark(
+		var(--color-warm-neutral-100),
+		var(--color-warm-neutral-1000)
+	);
+	--surface-3: light-dark(
+		var(--color-warm-neutral-200),
+		var(--color-warm-neutral-900)
+	);
+	--surface-4: light-dark(
+		var(--color-warm-neutral-300),
+		var(--color-warm-neutral-800)
+	);
+	--surface-5: light-dark(
+		var(--color-warm-neutral-400),
+		var(--color-warm-neutral-700)
+	);
+	--surface-6: light-dark(
+		var(--color-warm-neutral-500),
+		var(--color-warm-neutral-600)
+	);
+
+	--bg-canvas: light-dark(var(--canvas-bg-light), var(--canvas-bg-dark));
+	--fg-canvas: light-dark(var(--canvas-fg-light), var(--canvas-fg-dark));
+
+	/* ===========================================
+	   TEXT (text-primary → text-disabled)
+	   Light: dark chocolate tones on light surfaces
+	   Dark:  cream tones on dark surfaces
+	   =========================================== */
+	--text-primary: light-dark(
+		var(--color-warm-neutral-text-1000),
+		var(--color-warm-neutral-text-50)
+	);
+	--text-secondary: light-dark(
+		var(--color-warm-neutral-text-900),
+		var(--color-warm-neutral-text-100)
+	);
+	--text-tertiary: light-dark(
+		var(--color-warm-neutral-1000),
+		var(--color-warm-neutral-50)
+	);
+	--text-disabled: light-dark(
+		var(--color-warm-neutral-700),
+		var(--color-warm-neutral-300)
+	);
+
+	/* ===========================================
+	   ACCENT — Sienna
+	   Primary: sienna-500 in light, sienna-400 in dark (lighter step
+	   improves contrast against dark surfaces).
+	   Hover/active shift inward so interaction reads as darker-on-press
+	   in light mode and lighter-on-press in dark mode.
+	   =========================================== */
+	--accent-primary: light-dark(
+		var(--color-sienna-500),
+		var(--color-sienna-400)
+	);
+	--accent-hover: light-dark(var(--color-sienna-450), var(--color-sienna-350));
+	--accent-active: light-dark(var(--color-sienna-550), var(--color-sienna-450));
+	--accent-subtle: light-dark(var(--color-sienna-50), var(--color-sienna-950));
+	--accent-muted: light-dark(var(--color-sienna-100), var(--color-sienna-900));
+
+	/* Text on filled accent surfaces */
+	--text-on-accent: light-dark(
+		var(--color-sienna-white),
+		var(--color-sienna-black)
+	);
+	--text-on-accent-hover: light-dark(
+		var(--color-sienna-text-50),
+		var(--color-sienna-text-1000)
+	);
+	--text-on-accent-active: light-dark(
+		var(--color-sienna-text-100),
+		var(--color-sienna-text-900)
+	);
+
+	/* Sienna-tinted text for use on neutral surfaces (links, labels, highlights) */
+	--text-accent: light-dark(
+		var(--color-sienna-text-1000),
+		var(--color-sienna-text-50)
+	);
+	--text-accent-secondary: light-dark(
+		var(--color-sienna-text-900),
+		var(--color-sienna-text-100)
+	);
+
+	/* ===========================================
+	   BORDERS
+	   =========================================== */
+	--border-subtle: light-dark(
+		var(--color-warm-neutral-100),
+		var(--color-warm-neutral-900)
+	);
+	--border-default: light-dark(
+		var(--color-warm-neutral-200),
+		var(--color-warm-neutral-800)
+	);
+	--border-strong: light-dark(
+		var(--color-warm-neutral-350),
+		var(--color-warm-neutral-650)
+	);
+	--border-focus: light-dark(var(--color-sienna-350), var(--color-sienna-650));
+
+	/* ===========================================
+	   INTERACTIVE — neutral buttons and inputs
+	   =========================================== */
+	--interactive-bg: light-dark(
+		var(--color-warm-neutral-100),
+		var(--color-warm-neutral-900)
+	);
+	--interactive-hover: light-dark(
+		var(--color-warm-neutral-150),
+		var(--color-warm-neutral-850)
+	);
+	--interactive-active: light-dark(
+		var(--color-warm-neutral-200),
+		var(--color-warm-neutral-800)
+	);
+
+	/* Surface-agnostic overlays for ghost/icon buttons */
+	--interactive-hover-overlay: light-dark(
+		oklch(0 0 0 / 0.06),
+		oklch(1 0 0 / 0.08)
+	);
+	--interactive-pressed-overlay: light-dark(
+		oklch(0 0 0 / 0.1),
+		oklch(1 0 0 / 0.12)
+	);
+
+	/* ===========================================
+	   SCROLLBARS
+	   =========================================== */
+	--scrollbar-track: light-dark(
+		var(--color-warm-neutral-50),
+		var(--color-warm-neutral-950)
+	);
+	--scrollbar-thumb: light-dark(
+		var(--color-warm-neutral-250),
+		var(--color-warm-neutral-750)
+	);
+	--scrollbar-thumb-hover: light-dark(
+		var(--color-warm-neutral-350),
+		var(--color-warm-neutral-650)
+	);
+
+	/* ===========================================
+	   STATUS — aliases from semantic status primitives in tokens.color.css
+	   Pattern: foreground color / bg fill / bg hover / border / border hover / text-on
+	   =========================================== */
+
+	--error: light-dark(var(--red-5), var(--red-4));
+	--error-bg: light-dark(var(--red-4), var(--red-5));
+	--error-bg-hover: light-dark(var(--red-3), var(--red-6));
+	--error-border: light-dark(var(--red-4), var(--red-5));
+	--error-border-hover: light-dark(var(--red-4), var(--red-4));
+	--text-on-error: light-dark(oklch(0.99 0.01 27), oklch(0.18 0.04 27));
+
+	--warning: light-dark(var(--amber-5), var(--amber-4));
+	--warning-bg: light-dark(var(--amber-4), var(--amber-5));
+	--warning-bg-hover: light-dark(var(--amber-3), var(--amber-6));
+	--warning-border: light-dark(var(--amber-4), var(--amber-5));
+	--warning-border-hover: light-dark(var(--amber-4), var(--amber-4));
+	--text-on-warning: light-dark(oklch(0.99 0.01 72), oklch(0.18 0.04 72));
+
+	--success: light-dark(var(--green-5), var(--green-4));
+	--success-bg: light-dark(var(--green-4), var(--green-5));
+	--success-bg-hover: light-dark(var(--green-3), var(--green-6));
+	--success-border: light-dark(var(--green-4), var(--green-5));
+	--success-border-hover: light-dark(var(--green-4), var(--green-4));
+	--text-on-success: light-dark(oklch(0.99 0.01 147), oklch(0.18 0.04 147));
+
+	--info: light-dark(var(--blue-5), var(--blue-4));
+	--info-bg: light-dark(var(--blue-4), var(--blue-5));
+	--info-bg-hover: light-dark(var(--blue-3), var(--blue-6));
+	--info-border: light-dark(var(--blue-4), var(--blue-5));
+	--info-border-hover: light-dark(var(--blue-4), var(--blue-4));
+	--text-on-info: light-dark(oklch(0.99 0.01 247), oklch(0.18 0.04 247));
+
+	/* ===========================================
+	   STATE
+	   =========================================== */
+	--state-hover-opacity: 0.08;
+	--state-focus-opacity: 0.12;
+	--state-pressed-opacity: 0.12;
+	--state-disabled-opacity: 0.38;
+	--state-overlay-dark: oklch(0% 0 0);
+	--state-overlay-light: oklch(100% 0 0);
+	--state-hover-bg: var(--interactive-hover);
+	--state-pressed-bg: var(--interactive-active);
+	--state-focus-ring: var(--border-focus);
+	--state-focus-ring-opacity: 0.15;
+	--state-disabled-cursor: not-allowed;
+
+	/* ===========================================
+	   OVERLAYS — scrims, modals, backdrops
+	   =========================================== */
+	--overlay-light: light-dark(oklch(0 0 0 / 0.15), oklch(0 0 0 / 0.3));
+	--overlay-medium: light-dark(oklch(0 0 0 / 0.3), oklch(0 0 0 / 0.5));
+	--overlay-heavy: light-dark(oklch(0 0 0 / 0.5), oklch(0 0 0 / 0.7));
+
+	/* ===========================================
+	   NEUTRAL SOLIDS — pure values for icons and fixed-contrast needs
+	   =========================================== */
+	--neutral-white: oklch(1 0 0);
+	--neutral-black: oklch(0 0 0);
+	--neutral-overlay-08: oklch(0 0 0 / 0.08);
+	--neutral-overlay-10: oklch(0 0 0 / 0.1);
+	--neutral-overlay-15: oklch(0 0 0 / 0.15);
+	--neutral-overlay-20: oklch(0 0 0 / 0.2);
+	--neutral-overlay-30: oklch(0 0 0 / 0.3);
+	--neutral-white-90: oklch(1 0 0 / 0.9);
+	--neutral-white-100: oklch(1 0 0 / 1);
+
+	/* ===========================================
+	   SLIDERS
+	   =========================================== */
+	--slider-track: var(--surface-6);
+	--slider-fill: light-dark(var(--color-sienna-400), var(--color-sienna-600));
+	--slider-thumb: var(--color-sienna-500);
+	--slider-value-bg: var(--color-sienna-500);
+	--slider-value-text: var(--text-on-accent);
+
+	/* ===========================================
+	   COMPONENT-SPECIFIC
+	   =========================================== */
+	--hero-logo-stack: light-dark(
+		var(--color-warm-neutral-200),
+		var(--color-warm-neutral-800)
+	);
+	--hero-logo-drop: var(--overlay-medium);
+	--code-bg: light-dark(
+		var(--color-warm-neutral-950),
+		var(--color-warm-neutral-50)
+	);
+
+	/* ===========================================
+	   DEACTIVATED STATE
+	   =========================================== */
+	--deactivated-opacity: light-dark(0.8, 0.4);
+	--deactivated-bg-blend: light-dark(
+		color-mix(in oklch, var(--surface-3) 80%, transparent),
+		color-mix(in oklch, var(--surface-3) 20%, transparent)
+	);
+	--deactivated-text-blend: color-mix(
+		in oklch,
+		var(--text-secondary) 80%,
+		transparent
+	);
+	--deactivated-blur: light-dark(blur(40px), blur(8px));
+}
+
+/* ===========================================
+   MODE OVERRIDES
+   =========================================== */
+.app--light-mode {
+	color-scheme: light;
+}
+.app--dark-mode {
+	color-scheme: dark;
+}
+
+/* Two-zone canvas theming */
+[data-font-canvas][data-canvas-scheme="light"] {
+	color-scheme: light;
+}
+[data-font-canvas][data-canvas-scheme="dark"] {
+	color-scheme: dark;
+}
+
+/* ===========================================
+   PRINT — always render in light mode
+   =========================================== */
+@media print {
+	:root,
+	.app--dark-mode,
+	[data-font-canvas][data-canvas-scheme="dark"] {
+		color-scheme: light;
+	}
+}

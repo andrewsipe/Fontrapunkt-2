@@ -1,30 +1,18 @@
 /**
- * SliderTooltip using Base UI Tooltip
- * Wraps the thumb element with a tooltip (e.g. for slider value).
+ * SliderTooltip — wraps a slider thumb (or any child) with shared Tooltip.
  */
 
-import { Tooltip as BaseTooltip } from "@base-ui/react/tooltip";
 import type React from "react";
-import { Children, cloneElement, isValidElement } from "react";
-import styles from "./Tooltip.module.css";
+import { Tooltip } from "./Tooltip";
 
 interface SliderTooltipProps {
   description: string;
   children: React.ReactNode;
-  /**
-   * Optional delay before showing tooltip (ms)
-   * @default 300
-   */
+  /** Optional delay before showing tooltip (ms). Default 300. */
   delayDuration?: number;
-  /**
-   * Optional side for tooltip placement
-   * @default "top"
-   */
+  /** Optional side for tooltip placement. Default "top". */
   side?: "top" | "right" | "bottom" | "left";
-  /**
-   * Optional offset from trigger (px)
-   * @default 8
-   */
+  /** Optional offset from trigger (px). Not used by shared Tooltip; kept for API compat. */
   sideOffset?: number;
 }
 
@@ -33,20 +21,11 @@ export function SliderTooltip({
   children,
   delayDuration = 300,
   side = "top",
-  sideOffset = 8,
+  sideOffset: _sideOffset,
 }: SliderTooltipProps) {
-  const child = Children.only(children);
-  if (!isValidElement(child)) return <>{children}</>;
-
   return (
-    <BaseTooltip.Root>
-      <BaseTooltip.Trigger delay={delayDuration} render={(props) => cloneElement(child, props)} />
-      <BaseTooltip.Portal>
-        <BaseTooltip.Positioner side={side} sideOffset={sideOffset}>
-          <BaseTooltip.Popup className={styles.content}>{description}</BaseTooltip.Popup>
-          <BaseTooltip.Arrow className={styles.arrow} />
-        </BaseTooltip.Positioner>
-      </BaseTooltip.Portal>
-    </BaseTooltip.Root>
+    <Tooltip content={description} delay={delayDuration} side={side}>
+      {children}
+    </Tooltip>
   );
 }

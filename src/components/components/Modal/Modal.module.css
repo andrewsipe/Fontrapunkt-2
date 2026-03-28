@@ -1,9 +1,16 @@
 /**
- * Modal styles with animations and design system integration
- * Base UI Dialog uses data-open / data-closed for state
+ * Modal styles with animations and design system integration.
+ * Base UI Dialog uses data-open / data-closed for state.
+ *
+ * Architecture: the .header row is a flex container that holds
+ * both the title/custom content AND the close button side-by-side.
+ * No absolute positioning is used for the close button when a
+ * header is present — this eliminates tooltip bleed-out issues.
  */
 
-/* Overlay (Backdrop) with animation */
+/* ==========================================
+   OVERLAY (Backdrop)
+   ========================================== */
 .overlay {
   position: fixed;
   inset: 0;
@@ -27,18 +34,23 @@
   backdrop-filter: blur(0px);
 }
 
-/* Content (Popup) with animation */
+/* ==========================================
+     CONTENT (Popup)
+     overflow: visible is intentional — allows tooltips and
+     popovers rendered inside the modal body to escape the bounds.
+     Top-corner rounding is handled by the .header child.
+     ========================================== */
 .content {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.95) translateY(-10px);
-  background-color: var(--bg-body);
+  background-color: var(--surface-3);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-2xl);
   z-index: var(--z-modal);
   max-height: 90vh;
-  overflow-y: auto;
+  overflow: visible;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -61,7 +73,9 @@
   opacity: 0;
 }
 
-/* Screen-reader only (visually hidden utility) */
+/* ==========================================
+     SCREEN-READER ONLY
+     ========================================== */
 .visuallyHidden {
   position: absolute;
   width: 1px;
@@ -74,7 +88,9 @@
   border: 0;
 }
 
-/* Size variants */
+/* ==========================================
+     SIZE VARIANTS
+     ========================================== */
 .standard {
   width: 90%;
   max-width: 500px;
@@ -90,35 +106,58 @@
   max-width: 1600px;
 }
 
-/* Header */
+/* ==========================================
+     HEADER ROW
+     Flex container: content (title or custom) + close button.
+     Close button sits naturally at the end — no absolute positioning.
+     Border-radius on top corners mirrors the modal frame.
+     ========================================== */
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-lg);
+  gap: var(--space-sm);
+  /* Left/bottom padding generous; right padding tighter since the close
+       button carries its own internal padding */
+  padding: var(--space-md) var(--space-sm) var(--space-md) var(--space-lg);
   border-bottom: 1px solid var(--border-default);
-  background-color: var(--bg-surface);
+  background-color: var(--surface-3);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   flex-shrink: 0;
 }
 
-.title {
+/* Column that holds title and optional header content (e.g. tabs) */
+.headerMain {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+/* ==========================================
+     TITLE (inside header row)
+     Styled as text only — the header provides the container.
+     ========================================== */
+.titleText {
+  flex: 1;
+  min-width: 0;
   font-size: var(--text-lg);
   font-weight: 600;
   color: var(--text-primary);
   margin: 0;
-  padding: var(--space-lg);
-  border-bottom: 1px solid var(--border-default);
-  background-color: var(--bg-surface);
-  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: var(--space-sm);
+  line-height: var(--leading-tight);
 }
 
+/* Icon beside the title text */
 .titleIcon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   color: var(--text-secondary);
 }
 
@@ -127,47 +166,52 @@
   height: 1.25em;
 }
 
-.description {
-  font-size: var(--text-sm);
-  color: var(--text-secondary);
-  margin: 0;
-  padding: 0 var(--space-lg) var(--space-md);
-}
-
-.body {
+/* Custom header content (when `header` prop is used instead of `title`) */
+.headerContent {
   flex: 1;
-  overflow-y: auto;
-  padding: var(--space-xl);
+  min-width: 0;
 }
 
-.footer {
-  padding: var(--space-lg);
-  border-top: 1px solid var(--border-default);
-  background-color: var(--bg-surface);
+/* ==========================================
+     CLOSE BUTTON SLOT (in-flow, inside .header)
+     Flex-shrink: 0 so it never compresses.
+     ========================================== */
+.closeButtonSlot {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
 }
 
-/* CloseButton (IconContainer) - overrides for modal placement and ghost style */
-.closeButton {
+/* ==========================================
+     CLOSE BUTTON SLOT (absolute fallback)
+     Only used when the modal has neither title nor header.
+     ========================================== */
+.closeButtonSlotAbsolute {
   position: absolute;
-  top: calc(var(--space-md) + 2px);
-  right: calc(var(--space-md) + 2px);
+  top: var(--space-sm);
+  right: var(--space-sm);
+  z-index: var(--z-toggle-divider);
+}
+
+/* ==========================================
+     CLOSE BUTTON
+     Ghost style — works on any surface.
+     ========================================== */
+.closeButton {
   padding: var(--space-xs);
   background: none;
   border: none;
   color: var(--text-secondary);
-  cursor: auto;
+  cursor: pointer;
   border-radius: var(--radius-md);
-
   transition: var(--transition-state);
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
 }
 
 .closeButton:hover:not(:disabled) {
-  background-color: var(--interactive-hover);
+  background-color: var(--interactive-hover-overlay);
   color: var(--text-primary);
 }
 
@@ -177,12 +221,46 @@
 }
 
 .closeButton:active:not(:disabled) {
-  background-color: var(--interactive-active);
-  transform: scale(0.98);
+  background-color: var(--interactive-pressed-overlay);
+  transform: scale(0.95);
   transition: transform var(--state-transition-pressed) var(--ease-out);
 }
 
-/* Reduced motion support */
+/* ==========================================
+     DESCRIPTION (optional subtitle below header)
+     ========================================== */
+.description {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  margin: 0;
+  padding: var(--space-md) var(--space-lg) 0;
+}
+
+/* ==========================================
+     BODY (scrollable content region)
+     ========================================== */
+.body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: var(--space-xl);
+}
+
+/* ==========================================
+     FOOTER
+     ========================================== */
+.footer {
+  padding: var(--space-md) var(--space-lg);
+  border-top: 1px solid var(--border-default);
+  background-color: var(--surface-3);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  flex-shrink: 0;
+}
+
+/* ==========================================
+     REDUCED MOTION
+     ========================================== */
 @media (prefers-reduced-motion: reduce) {
   .overlay,
   .content {

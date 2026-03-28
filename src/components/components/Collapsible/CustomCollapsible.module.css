@@ -19,7 +19,7 @@
 
 /* Card variant - bordered with background */
 .root.card {
-  background-color: var(--bg-surface);
+  background-color: var(--surface-3);
   border: 1px solid var(--border-default);
   border-radius: var(--radius-md);
 
@@ -134,11 +134,11 @@
 }
 
 .content[data-open] {
-  animation: slideDown 200ms var(--ease-out);
+  animation: slideDown var(--duration-normal) var(--ease-out);
 }
 
 .content[data-closed] {
-  animation: slideUp 200ms var(--ease-out);
+  animation: slideUp var(--duration-normal) var(--ease-out);
 }
 
 /* Reduced motion support */

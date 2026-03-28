@@ -3,5 +3,5 @@
  */
 
 export { SliderTooltip } from "./SliderTooltip";
-export { TooltipWrapper as Tooltip } from "./Tooltip";
+export { Tooltip, Tooltip as TooltipWrapper, type TooltipProps } from "./Tooltip";
 export { TooltipButton } from "./TooltipButton";

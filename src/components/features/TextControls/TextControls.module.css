@@ -76,7 +76,7 @@
 .letterSpacingIcon {
   display: inline-flex;
   align-items: center;
-  gap: 2px;
+  gap: var(--space-3xs);
   font-family: var(--font-icons);
   line-height: 1;
   text-box-trim: both;

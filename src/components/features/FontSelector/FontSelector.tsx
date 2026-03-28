@@ -7,10 +7,10 @@ import { useEffect, useRef, useState } from "react";
 import { useFontStore } from "../../../stores/fontStore";
 import { useUIStore } from "../../../stores/uiStore";
 import sharedUtils from "../../../styles/shared.module.css";
-import shared from "../../../styles/sidebar/SidebarShared.module.css";
 import { LivePulseIcon, type LiveSyncState } from "../../components/LivePulseIcon";
 import { TooltipButton } from "../../components/Tooltip/TooltipButton";
-import sidebarStyles from "../../containers/Sidebar/Sidebar.module.css";
+import sidebarStyles from "../../sidebar/Panel.module.css";
+import shared from "../../sidebar/SidebarShared.module.css";
 import { CloseButton } from "../Button/CloseButton";
 import styles from "./FontSelector.module.css";
 

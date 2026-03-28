@@ -1,49 +1,67 @@
 /**
- * Neutral palette viewer (token build only).
- * Displays --neutral-bg, --neutral-fg, semantic layer stack, and button matrix.
- * Use to hone the token system; main build adopts decisions refined here.
+ * Palette viewer (dev tool).
+ * Displays fixed sienna + neutral palette, semantic layer stack, and button matrix.
+ * Use to verify token system; colors are now fixed (no longer customizable).
  */
 
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { CustomToggleGroup } from "../components/components/ToggleGroup/CustomToggleGroup";
-import { ACCENT_PRESETS } from "../constants/themeConstants";
 import { useSettingsStore } from "../stores/settingsStore";
 import { getWcagContrastRatio, meetsAa, WCAG_AA_RATIO } from "../utils/contrastUtils";
 import styles from "./PaletteViewerPage.module.css";
 
-/** 1 pure + 5 layers × (more, base, less) = 16 bg tokens */
-const STEPS_BG: ReadonlyArray<string> = [
-  "pure",
-  "1-more",
-  "1",
-  "1-less",
-  "2-more",
-  "2",
-  "2-less",
-  "3-more",
-  "3",
-  "3-less",
-  "4-more",
-  "4",
-  "4-less",
-  "5-more",
-  "5",
-  "5-less",
-];
-const STEPS_FG = ["pure", 1, 2, 3, 4, 5] as const;
-
-/** Semantic background tokens for layer stack and button matrix (Body → Canvas → Surface → Panel → Input → Hover) */
-const LAYER_TOKENS = [
-  { id: "body", label: "Body", var: "--bg-body" },
-  { id: "canvas", label: "Canvas", var: "--bg-canvas" },
-  { id: "surface", label: "Surface", var: "--bg-surface" },
-  { id: "panel", label: "Panel", var: "--bg-panel" },
-  { id: "input", label: "Input", var: "--bg-input" },
-  { id: "hover", label: "Hover", var: "--bg-hover" },
+/** Neutral primitive steps from theme.css */
+const NEUTRAL_STEPS = [
+  "white",
+  "50",
+  "100",
+  "150",
+  "200",
+  "250",
+  "300",
+  "350",
+  "400",
+  "450",
+  "500",
+  "550",
+  "600",
+  "700",
+  "750",
+  "800",
+  "850",
+  "900",
+  "950",
+  "1000",
+  "black",
 ] as const;
 
-/** Button states to show for token evaluation (not exhaustive; enough to tune bg/fg/border) */
+/** sienna accent steps from theme.css */
+const sienna_STEPS = [
+  "50",
+  "100",
+  "200",
+  "300",
+  "400",
+  "500",
+  "600",
+  "700",
+  "800",
+  "900",
+  "950",
+] as const;
+
+/** Semantic background tokens for layer stack (Body → Canvas → Surface → Panel → Input → Hover) */
+const LAYER_TOKENS = [
+  { id: "body", label: "Body", var: "--surface-1" },
+  { id: "canvas", label: "Canvas", var: "--bg-canvas" },
+  { id: "surface", label: "Surface", var: "--surface-3" },
+  { id: "panel", label: "Panel", var: "--surface-4" },
+  { id: "input", label: "Input", var: "--surface-5" },
+  { id: "hover", label: "Hover", var: "--surface-6" },
+] as const;
+
+/** Button states to show for token evaluation */
 const BUTTON_STATES = [
   { id: "default", label: "Default" },
   { id: "hover", label: "Hover" },
@@ -52,36 +70,23 @@ const BUTTON_STATES = [
   { id: "disabled", label: "Disabled" },
 ] as const;
 
-/** Default accent (Ocean) — matches app default in settingsStore */
-const DEFAULT_ACCENT = { hue: 240, chroma: 0.24, lightness: 0.55 };
-
 /** Layers to place buttons on so we see how bg-# affects the same control */
 const BUTTON_LAYERS = [
-  { id: "body", label: "On Body", var: "--bg-body" },
-  { id: "surface", label: "On Surface", var: "--bg-surface" },
-  { id: "panel", label: "On Panel", var: "--bg-panel" },
+  { id: "body", label: "On Body", var: "--surface-1" },
+  { id: "surface", label: "On Surface", var: "--surface-2" },
+  { id: "panel", label: "On Panel", var: "--surface-3" },
 ] as const;
 
 export function PaletteViewerPage() {
   const colorScheme = useSettingsStore((s) => s.colorScheme);
   const setColorScheme = useSettingsStore((s) => s.setColorScheme);
-  const tonePreference = useSettingsStore((s) => s.tonePreference);
-  const setTonePreference = useSettingsStore((s) => s.setTonePreference);
-  const accentColor = useSettingsStore((s) => s.accentColor);
-  const setAccentColorFull = useSettingsStore((s) => s.setAccentColorFull);
   const primaryOnBgRef = useRef<HTMLUListElement>(null);
-  const sameStepRef = useRef<HTMLUListElement>(null);
   const [primaryOnBgRatios, setPrimaryOnBgRatios] = useState<Record<string, number>>({});
-  const [sameStepRatios, setSameStepRatios] = useState<Record<string, number>>({});
 
-  // Re-measure contrast when theme (light/dark) changes. Defer to next frame so the
-  // browser has applied the theme class and recomputed styles (avoids reading stale
-  // values and fluctuating ratios in dark mode).
   // biome-ignore lint/correctness/useExhaustiveDependencies: colorScheme intentionally triggers re-measure
   useEffect(() => {
     const measure = () => {
       const primaryEls = primaryOnBgRef.current?.querySelectorAll<HTMLLIElement>("[data-bg-step]");
-      const sameEls = sameStepRef.current?.querySelectorAll<HTMLLIElement>("[data-fg-step]");
 
       if (primaryEls?.length) {
         const next: Record<string, number> = {};
@@ -94,19 +99,6 @@ export function PaletteViewerPage() {
           }
         });
         setPrimaryOnBgRatios(next);
-      }
-
-      if (sameEls?.length) {
-        const next: Record<string, number> = {};
-        sameEls.forEach((el) => {
-          const step = el.getAttribute("data-fg-step");
-          if (step != null) {
-            const bg = getComputedStyle(el).backgroundColor;
-            const fg = getComputedStyle(el).color;
-            next[step] = getWcagContrastRatio(fg, bg);
-          }
-        });
-        setSameStepRatios(next);
       }
     };
 
@@ -121,10 +113,9 @@ export function PaletteViewerPage() {
       <header className={styles.header}>
         <div className={styles.headerRow}>
           <div>
-            <h1 className={styles.title}>Neutral palettes</h1>
+            <h1 className={styles.title}>Fixed Palette Viewer</h1>
             <p className={styles.subtitle}>
-              bg = 1 pure + 5 layers (more/base/less) · fg = 5 steps. Goal: primary on any bg ≥{" "}
-              {WCAG_AA_RATIO}:1 (AA).
+              sienna accent + warm neutrals. Fixed palette - no longer customizable.
             </p>
           </div>
           <div className={styles.themeControl}>
@@ -146,76 +137,6 @@ export function PaletteViewerPage() {
           </div>
         </div>
 
-        <div className={styles.controlsRow}>
-          <div className={styles.controlBlock}>
-            <span className={styles.controlLabel}>Tone</span>
-            <input
-              type="range"
-              min={-1}
-              max={1}
-              step={0.01}
-              value={tonePreference}
-              onChange={(e) => setTonePreference(Number(e.target.value))}
-              className={styles.toneSlider}
-              aria-label="Tone preference (cool to warm)"
-              aria-valuetext={
-                tonePreference === 0
-                  ? "Neutral"
-                  : tonePreference < 0
-                    ? `Cool ${Math.round(Math.abs(tonePreference) * 100)}%`
-                    : `Warm ${Math.round(tonePreference * 100)}%`
-              }
-            />
-            <span className={styles.controlValue}>
-              {tonePreference === 0
-                ? "Neutral"
-                : tonePreference < 0
-                  ? `Cool ${Math.round(Math.abs(tonePreference) * 100)}%`
-                  : `Warm ${Math.round(tonePreference * 100)}%`}
-            </span>
-          </div>
-          <div className={styles.controlBlock}>
-            <span className={styles.controlLabel}>Accent</span>
-            <fieldset className={styles.accentPresetRow} aria-label="Accent presets">
-              <button
-                type="button"
-                className={styles.accentPresetBtn}
-                style={{
-                  backgroundColor: `oklch(${DEFAULT_ACCENT.lightness} ${DEFAULT_ACCENT.chroma} ${DEFAULT_ACCENT.hue})`,
-                }}
-                onClick={() =>
-                  setAccentColorFull(
-                    DEFAULT_ACCENT.hue,
-                    DEFAULT_ACCENT.chroma,
-                    DEFAULT_ACCENT.lightness
-                  )
-                }
-                title="Default (240° Ocean)"
-                aria-label="Accent Default (240° Ocean)"
-              />
-              {ACCENT_PRESETS.map((preset) => (
-                <button
-                  key={preset.name}
-                  type="button"
-                  className={styles.accentPresetBtn}
-                  style={{
-                    backgroundColor: `oklch(${preset.lightness} ${preset.chroma} ${preset.hue})`,
-                  }}
-                  onClick={() => setAccentColorFull(preset.hue, preset.chroma, preset.lightness)}
-                  title={preset.name}
-                  aria-label={`Accent ${preset.name}`}
-                />
-              ))}
-            </fieldset>
-            <span className={styles.controlValue}>
-              Hue {accentColor.hue}° · L {accentColor.lightness.toFixed(2)}
-            </span>
-          </div>
-          <p className={styles.tintNote} aria-hidden>
-            Accent tint (neutral + accent hue) — coming later.
-          </p>
-        </div>
-
         <div className={styles.navLinks}>
           <Link to="/" className={styles.back}>
             ← Back to app
@@ -226,13 +147,50 @@ export function PaletteViewerPage() {
         </div>
       </header>
 
+      <section className={styles.section} aria-labelledby="sienna-heading">
+        <h2 id="sienna-heading" className={styles.sectionTitle}>
+          sienna Accent (<code>--color-sienna-*</code>)
+        </h2>
+        <p className={styles.sectionNote}>Hero color at 400. Hue ~39° (orange-brown).</p>
+        <ul className={styles.swatchGridFg}>
+          {sienna_STEPS.map((step) => (
+            <li
+              key={step}
+              className={styles.swatch}
+              style={{ background: `var(--color-sienna-${step})` }}
+            >
+              <span className={styles.label}>{step}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className={styles.section} aria-labelledby="neutral-heading">
+        <h2 id="neutral-heading" className={styles.sectionTitle}>
+          Warm Neutrals (<code>--color-neutral-*</code>)
+        </h2>
+        <p className={styles.sectionNote}>
+          Cream (light end) to chocolate (dark end). Hue shifts 75→25.
+        </p>
+        <ul className={styles.swatchGridBg}>
+          {NEUTRAL_STEPS.map((step) => (
+            <li
+              key={step}
+              className={styles.swatch}
+              style={{ background: `var(--color-neutral-${step})` }}
+            >
+              <span className={styles.label}>{step}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <section className={styles.section} aria-labelledby="layer-stack-heading">
         <h2 id="layer-stack-heading" className={styles.sectionTitle}>
           Layer stack: Body → Canvas → Surface → Panel → Input → Hover
         </h2>
         <p className={styles.sectionNote}>
-          Semantic background order. Dark: bg-1 → canvas → bg-2…bg-5. Light: darkest → lightest
-          (tune mapping in tokens.color.css).
+          Semantic background tokens. Uses light-dark() for automatic theme switching.
         </p>
         <div className={styles.layerStack}>
           {LAYER_TOKENS.reduceRight(
@@ -256,17 +214,7 @@ export function PaletteViewerPage() {
           Button states (Primary & Secondary)
         </h2>
         <p className={styles.sectionNote}>
-          Same buttons on different bg layers to see how tokens layer. Use to tune bg-#, fg-#,
-          borders, and focus. Inspired by{" "}
-          <a
-            href="https://gui-challenges.web.app/buttons/dist/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.extLink}
-          >
-            GUI Challenges Buttons
-          </a>
-          .
+          Same buttons on different bg layers to verify token layering.
         </p>
         {BUTTON_LAYERS.map((layer) => (
           <div
@@ -313,91 +261,33 @@ export function PaletteViewerPage() {
         ))}
       </section>
 
-      <section className={styles.section} aria-labelledby="bg-heading">
-        <h2 id="bg-heading" className={styles.sectionTitle}>
-          Background (<code>--neutral-bg-*</code>) — pure + 5 layers × more / base / less
-        </h2>
-        <ul className={styles.swatchGridBg}>
-          {STEPS_BG.map((id) => (
-            <li
-              key={id}
-              className={styles.swatch}
-              style={{ background: `var(--neutral-bg-${id})` }}
-            >
-              <span className={styles.label}>{id}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className={styles.section} aria-labelledby="fg-heading">
-        <h2 id="fg-heading" className={styles.sectionTitle}>
-          Foreground (<code>--neutral-fg-*</code>) — 5 steps: primary → disabled
-        </h2>
-        <ul className={styles.swatchGridFg}>
-          {STEPS_FG.map((n) => (
-            <li key={n} className={styles.swatch} style={{ background: `var(--neutral-fg-${n})` }}>
-              <span className={styles.label}>{n}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className={styles.section} aria-labelledby="primary-on-bg-heading">
-        <h2 id="primary-on-bg-heading" className={styles.sectionTitle}>
-          Primary text on each background (<code>--neutral-fg-1</code> on{" "}
-          <code>--neutral-bg-n</code>)
+      <section className={styles.section} aria-labelledby="contrast-heading">
+        <h2 id="contrast-heading" className={styles.sectionTitle}>
+          Contrast check: text-primary on surfaces
         </h2>
         <p className={styles.sectionNote}>
-          Use fg-1 (primary) or fg-2 (secondary) on any bg. Ratios below: WCAG 2.1; goal ≥{" "}
-          {WCAG_AA_RATIO}:1 (AA).
+          Goal: primary text (--text-primary) ≥ {WCAG_AA_RATIO}:1 (AA) on all surfaces.
         </p>
-        <ul ref={primaryOnBgRef} className={styles.swatchGridBg}>
-          {STEPS_BG.map((id) => (
+        <ul ref={primaryOnBgRef} className={styles.swatchGridFg}>
+          {LAYER_TOKENS.map((layer) => (
             <li
-              key={id}
+              key={layer.id}
               className={styles.swatchFgOnBg}
-              data-bg-step={id}
+              data-bg-step={layer.id}
               style={{
-                background: `var(--neutral-bg-${id})`,
-                color: "var(--neutral-fg-1)",
+                background: `var(${layer.var})`,
+                color: "var(--text-primary)",
               }}
             >
               <span className={styles.fgOnBgLabel}>Aa</span>
-              {primaryOnBgRatios[id] !== undefined && (
+              <span className={styles.layerName}>{layer.label}</span>
+              {primaryOnBgRatios[layer.id] !== undefined && (
                 <span
                   className={styles.ratio}
-                  title={meetsAa(primaryOnBgRatios[id]) ? "Meets AA" : "Below AA"}
+                  title={meetsAa(primaryOnBgRatios[layer.id]) ? "Meets AA" : "Below AA"}
                 >
-                  {primaryOnBgRatios[id].toFixed(1)}
+                  {primaryOnBgRatios[layer.id].toFixed(1)}
                 </span>
-              )}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section className={styles.section} aria-labelledby="fg-on-bg-heading">
-        <h2 id="fg-on-bg-heading" className={styles.sectionTitle}>
-          Same-step pairing (<code>--neutral-fg-n</code> on <code>--neutral-bg-n</code>) — 5 steps
-        </h2>
-        <p className={styles.sectionNote}>
-          Reference only. Low contrast expected at higher steps; use fg-1 on bg-n for text.
-        </p>
-        <ul ref={sameStepRef} className={styles.swatchGridFg}>
-          {STEPS_FG.map((n) => (
-            <li
-              key={n}
-              className={styles.swatchFgOnBg}
-              data-fg-step={n}
-              style={{
-                background: `var(--neutral-bg-${n})`,
-                color: `var(--neutral-fg-${n})`,
-              }}
-            >
-              <span className={styles.fgOnBgLabel}>Aa</span>
-              {sameStepRatios[String(n)] !== undefined && (
-                <span className={styles.ratio}>{sameStepRatios[String(n)].toFixed(1)}</span>
               )}
             </li>
           ))}

@@ -1,0 +1,27 @@
+/**
+ * Shared toast content styles
+ * Use with shared.standardToast for container. ExportButtons, EmptyState, etc.
+ * Naming: toastContent.module.css — shared typography for react-hot-toast content.
+ */
+
+.toastTitle {
+  font-weight: 600;
+  color: var(--accent-primary);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-2xs);
+}
+
+.toastSubtext {
+  color: var(--text-secondary);
+  font-size: var(--text-xs);
+}
+
+.toastPre {
+  margin: 0;
+  padding: 0;
+  font-size: var(--text-xs);
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  white-space: pre;
+  overflow: auto;
+}

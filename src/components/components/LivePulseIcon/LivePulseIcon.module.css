@@ -73,15 +73,15 @@
   opacity: 0.3;
 }
 
-/* Failed state - red/danger color, no animation */
+/* Failed state - red/error color, no animation */
 .container.failed .center {
-  fill: var(--danger, oklch(0.65 0.2 25));
+  fill: var(--error, oklch(0.65 0.2 25));
 }
 
 .container.failed .ring1,
 .container.failed .ring2,
 .container.failed .ring3 {
-  stroke: var(--danger, oklch(0.65 0.2 25));
+  stroke: var(--error, oklch(0.65 0.2 25));
   animation: none;
   opacity: 0.4;
 }

@@ -1,7 +1,7 @@
 .error {
   padding: var(--space-md);
-  background-color: var(--danger-bg);
-  border: 1px solid var(--danger);
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-border);
   border-radius: var(--radius-md);
 
   display: flex;
@@ -18,20 +18,20 @@
 .errorIcon {
   width: var(--icon-size-md);
   height: var(--icon-size-md);
-  color: var(--danger);
+  color: var(--text-on-error);
   flex-shrink: 0;
 }
 
 .errorTitle {
   font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--danger);
+  color: var(--text-on-error);
   margin: 0;
 }
 
 .errorMessage {
   font-size: var(--text-sm);
-  color: var(--text-primary);
+  color: var(--text-on-error);
   margin: 0;
 }
 
@@ -53,13 +53,13 @@
 }
 
 .retryButton {
-  background-color: var(--danger);
-  color: var(--text-on-danger);
+  background-color: var(--error-bg);
+  color: var(--text-on-error);
   border: none;
 }
 
 .retryButton:hover:not(:disabled) {
-  background-color: oklch(from var(--danger) calc(l - 0.1) c h);
+  background-color: oklch(from var(--error-bg) calc(l - 0.1) c h);
 }
 
 .retryButton:focus-visible,

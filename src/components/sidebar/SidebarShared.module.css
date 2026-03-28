@@ -1,0 +1,171 @@
+/* Shared sidebar context styles (components/sidebar) */
+
+/* --- TYPOGRAPHY --- */
+/* Label typography: use Label primitive (primitives/Label) with variant default/small/section/form/keyValue */
+
+.emptyState {
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-style: italic;
+}
+
+/* --- INTERACTIVE ELEMENTS --- */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--control-height);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--interactive-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: auto;
+  transition: var(--transition-state);
+  min-width: 0;
+  user-select: none;
+}
+
+.button:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  box-shadow:
+    0 0 0 2px var(--border-focus),
+    var(--shadow-sm);
+}
+
+.button:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+.button:disabled,
+.button[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.button:disabled:hover,
+.button[aria-disabled="true"]:hover {
+  background-color: var(--interactive-bg);
+  box-shadow: none;
+  transform: none;
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--control-height);
+  height: var(--control-height);
+  min-width: var(--control-height);
+  min-height: var(--control-height);
+  padding: 0;
+  background: var(--interactive-bg);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  cursor: auto;
+  transition: var(--transition-state);
+  flex-shrink: 0;
+}
+
+.iconButton:hover:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-hover);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.iconButton:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+  box-shadow:
+    0 0 0 2px var(--border-focus),
+    var(--shadow-sm);
+}
+
+.iconButton:active:not(:disabled):not([aria-disabled="true"]) {
+  background-color: var(--interactive-active);
+  transform: scale(0.98);
+  transition: transform var(--state-transition-pressed) var(--ease-out);
+}
+
+.iconButton:disabled,
+.iconButton[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  pointer-events: none;
+}
+
+.iconButton:disabled:hover,
+.iconButton[aria-disabled="true"]:hover {
+  background-color: var(--interactive-bg);
+  color: var(--text-secondary);
+  box-shadow: none;
+  transform: none;
+}
+
+/* --- FORM ELEMENTS --- */
+
+.input {
+  width: 100%;
+  min-height: var(--control-height);
+  padding: var(--space-sm);
+  box-sizing: border-box;
+  background-color: var(--surface-5);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-family: inherit;
+  transition: var(--transition-state);
+}
+
+.input:hover:not(:disabled):not([aria-disabled="true"]) {
+  border-color: var(--text-secondary);
+}
+
+.input:focus,
+.input:focus-visible {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px oklch(from var(--border-focus) l c h / var(--state-focus-ring-opacity));
+}
+
+.input:invalid,
+.input[aria-invalid="true"] {
+  border-color: var(--error);
+  box-shadow: 0 0 0 3px oklch(from var(--error) l c h / var(--state-focus-ring-opacity));
+}
+
+.input:disabled,
+.input[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  background-color: var(--surface-3);
+  pointer-events: none;
+}
+
+.input:disabled:hover,
+.input[aria-disabled="true"]:hover {
+  border-color: var(--border-default);
+}
+
+@container (max-width: 280px) {
+  .button {
+    padding: var(--space-xs) var(--space-sm);
+    font-size: var(--text-xs);
+  }
+}

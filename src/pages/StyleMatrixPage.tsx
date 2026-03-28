@@ -11,13 +11,48 @@ import { useSettingsStore } from "../stores/settingsStore";
 import styles from "./StyleMatrixPage.module.css";
 
 const BUTTON_ROWS = [
-  { id: "default", label: "Default", state: "default" as const, style: "filled" as const },
-  { id: "hover", label: "Hover", state: "hover" as const, style: "filled" as const },
-  { id: "focus", label: "Focus", state: "focus" as const, style: "filled" as const },
-  { id: "active", label: "Active", state: "active" as const, style: "filled" as const },
-  { id: "ghost", label: "Ghost", state: "default" as const, style: "ghost" as const },
-  { id: "disabled", label: "Disabled", state: "disabled" as const, style: "filled" as const },
-  { id: "outlined", label: "Outlined", state: "default" as const, style: "outlined" as const },
+  {
+    id: "default",
+    label: "Default",
+    state: "default" as const,
+    style: "filled" as const,
+  },
+  {
+    id: "hover",
+    label: "Hover",
+    state: "hover" as const,
+    style: "filled" as const,
+  },
+  {
+    id: "focus",
+    label: "Focus",
+    state: "focus" as const,
+    style: "filled" as const,
+  },
+  {
+    id: "active",
+    label: "Active",
+    state: "active" as const,
+    style: "filled" as const,
+  },
+  {
+    id: "ghost",
+    label: "Ghost",
+    state: "default" as const,
+    style: "ghost" as const,
+  },
+  {
+    id: "disabled",
+    label: "Disabled",
+    state: "disabled" as const,
+    style: "filled" as const,
+  },
+  {
+    id: "outlined",
+    label: "Outlined",
+    state: "default" as const,
+    style: "outlined" as const,
+  },
 ] as const;
 
 const BUTTON_COLUMNS = [
@@ -32,12 +67,22 @@ const BUTTON_COLUMNS = [
 ] as const;
 
 const TOGGLE_ROWS = [
-  { id: "default", label: "Default", state: "default" as const, pressed: false },
+  {
+    id: "default",
+    label: "Default",
+    state: "default" as const,
+    pressed: false,
+  },
   { id: "hover", label: "Hover", state: "hover" as const, pressed: false },
   { id: "focus", label: "Focus", state: "focus" as const, pressed: false },
   { id: "active", label: "Active", state: "active" as const, pressed: true },
   { id: "ghost", label: "Ghost", labelSuffix: "N/A" },
-  { id: "disabled", label: "Disabled", state: "disabled" as const, pressed: false },
+  {
+    id: "disabled",
+    label: "Disabled",
+    state: "disabled" as const,
+    pressed: false,
+  },
   { id: "outlined", label: "Outlined", labelSuffix: "N/A" },
 ] as const;
 
@@ -251,7 +296,7 @@ export function StyleMatrixPage() {
           </li>
           <li>
             <strong>Other:</strong> Size variants (sm/lg) and loading state exist in tokens but are
-            not shown. Error maps to <code>--danger</code> in tokens.
+            not shown. Error maps to <code>--error</code> in tokens.
           </li>
         </ul>
       </section>

@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background: var(--bg-input);
+  background: var(--surface-5);
   border: none;
   border-radius: var(--radius-md);
 
@@ -38,7 +38,7 @@
 
 /* Hover state */
 .trigger:hover:not(:disabled):not([data-disabled]) {
-  background-color: var(--bg-hover);
+  background-color: var(--surface-6);
   box-shadow: var(--shadow-sm);
 }
 
@@ -70,7 +70,7 @@
 
 /* Open state styling (Base UI: data-popup-open) */
 .trigger[data-popup-open] {
-  background-color: var(--bg-hover);
+  background-color: var(--surface-6);
 }
 
 /* ============================================================================
@@ -141,7 +141,7 @@
    ============================================================================ */
 
 .content {
-  background: var(--bg-surface);
+  background: var(--surface-3);
   border: var(--border-width-default) solid var(--border-default);
   border-radius: var(--radius-md);
 
@@ -228,7 +228,7 @@
 
 /* Hover state */
 .item:hover:not(:disabled):not([data-disabled]) {
-  background-color: var(--bg-hover);
+  background-color: var(--surface-6);
 }
 
 /* Highlighted state (keyboard navigation) */

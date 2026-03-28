@@ -20,9 +20,9 @@
 .standardToast {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: var(--space-xs);
   padding: var(--space-sm);
-  background-color: var(--bg-surface);
+  background-color: var(--surface-3);
   border: 1px solid var(--neutral-overlay-10);
   border-radius: var(--radius-md);
   box-shadow: 0 1px 3px var(--neutral-overlay-08);

@@ -5,8 +5,6 @@
 
 import { useFontStore } from "../../../stores/fontStore";
 import { useUIStore } from "../../../stores/uiStore";
-import panelStyles from "../../../styles/sidebar/Panel.module.css";
-import shared from "../../../styles/sidebar/SidebarShared.module.css";
 import type { OpenTypeFeature } from "../../../types/font.types";
 import {
   getCharacterVariantDescription,
@@ -20,6 +18,8 @@ import { LabelWithPopover } from "../../components/LabelWithPopover";
 import { Popover } from "../../components/Popover";
 import { TitleBar } from "../../components/TitleBar/TitleBar";
 import { Label } from "../../primitives/Label/Label";
+import panelStyles from "../../sidebar/Panel.module.css";
+import shared from "../../sidebar/SidebarShared.module.css";
 import styles from "./OpenTypeFeaturesPanel.module.css";
 
 // Category display names and order

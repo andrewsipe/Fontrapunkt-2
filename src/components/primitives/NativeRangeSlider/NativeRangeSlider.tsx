@@ -1,13 +1,13 @@
 /**
  * NativeRangeSlider – presentational native range input with optional label, value display, and snap points.
- * Shared by OKLCHPicker and SettingsModal for consistent styling (solid, hue, tone tracks).
+ * Shared by OKLCHPicker for consistent styling (solid, hue tracks).
  */
 
 import type { ReactNode } from "react";
 import { useCallback } from "react";
 import styles from "./NativeRangeSlider.module.css";
 
-export type TrackVariant = "solid" | "hue" | "tone";
+export type TrackVariant = "solid" | "hue";
 
 /** If value is within threshold of a snap point, return that point; else return value. */
 function applySnap(value: number, snapPoints: number[], threshold: number): number {
@@ -100,7 +100,6 @@ export function NativeRangeSlider({
     styles.slider,
     trackVariant === "solid" && styles.slider_solid,
     trackVariant === "hue" && styles.slider_hue,
-    trackVariant === "tone" && styles.slider_tone,
     compact && styles.slider_compact,
     inputClassName,
   ]

@@ -1,298 +1,228 @@
-/**
- * COLOR SYSTEM - OKLCH dynamic theming
- * Backgrounds, text, borders, accent, semantic, neutrals, component colors.
- * All use light-dark() for theme switching. Depends on tokens.foundation.css.
- */
+/* Canvas colors: generated from src/constants/themeConstants.ts — run npm run generate:canvas */
+@import "./generated/tokens.canvas.generated.css";
 
+/* ===========================================
+   PRIMITIVE PALETTE: sienna ACCENT
+   Hue 40° — terra cotta / rust-orange.
+   Refined scale: lower chroma tints, controlled mid-tones, deep shades.
+   Peak chroma at 500 (0.18) — punchy but not aggressive.
+
+   NOTE ON HUE: sienna sits at 40°. The warm neutral sits at 62°
+   (golden-amber territory). The 22° gap between them is the intentional
+   separation point — it keeps the accent visually distinct from the
+   neutral without abandoning the warm palette coherence.
+   =========================================== */
 :root {
-  color-scheme: light dark;
+	/* Accent (sienna) palette OKLCH Value (Light to Dark) */
+	--color-sienna-white: oklch(0.98 0.018 68);  /* Warm off-white — tinted, not pure white */
+	--color-sienna-50: oklch(0.869 0.097 67.466);
+	--color-sienna-100: oklch(0.836 0.114 61.428);
+	--color-sienna-150: oklch(0.806 0.132 57.751);
+	--color-sienna-200: oklch(0.778 0.15 54.813);
+	--color-sienna-250: oklch(0.753 0.168 52.771);
+	--color-sienna-300: oklch(0.728 0.185 50.31);
+	--color-sienna-350: oklch(0.702 0.194 47.121);
+	--color-sienna-400: oklch(0.666 0.192 44.468);
+	--color-sienna-450: oklch(0.632 0.19 42.171);
+	--color-sienna-500: oklch(0.596 0.185 40.45);
+	--color-sienna-550: oklch(0.56 0.179 39.107);
+	--color-sienna-600: oklch(0.523 0.172 37.689);
+	--color-sienna-650: oklch(0.488 0.164 36.811);
+	--color-sienna-700: oklch(0.452 0.154 36.269);
+	--color-sienna-750: oklch(0.416 0.142 35.988);
+	--color-sienna-800: oklch(0.379 0.131 35.65);
+	--color-sienna-850: oklch(0.341 0.119 35.236);
+	--color-sienna-900: oklch(0.305 0.108 34.588);
+	--color-sienna-950: oklch(0.269 0.098 33.665);
+	--color-sienna-1000: oklch(0.233 0.087 32.554);
+	--color-sienna-black: oklch(0.14 0.06 32);   /* Deep sienna-tinted near-black */
 
-  /* ==========================================
-     SURFACE SEMANTICS (surface-1 … surface-6)
-     Primary alias for backgrounds. Open Props–style naming.
-     Layering: 1=body → 2=canvas → 3=surface → 4=panel → 5=input → 6=hover.
-     ========================================== */
-  --surface-1: light-dark(var(--neutral-bg-5), var(--neutral-bg-1-less));
-  --surface-2: light-dark(var(--canvas-bg-light), var(--canvas-bg-dark));
-  --surface-3: light-dark(var(--neutral-bg-4), var(--neutral-bg-2));
-  --surface-4: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
-  --surface-5: light-dark(var(--neutral-bg-2), var(--neutral-bg-4));
-  --surface-6: light-dark(var(--neutral-bg-1), var(--neutral-bg-5));
+	/* Accent Text variants — 4 levels, mirrors warm-neutral text structure.
+	   Light end (50, 100): for text on dark/accent backgrounds.
+	   Dark end (900, 1000): for text on light backgrounds. */
+	--color-sienna-text-50: oklch(
+		0.96 0.04 67.4
+	); /* Off-white sienna — text on dark surfaces, icon fills in dark mode */
+	--color-sienna-text-100: oklch(
+		0.88 0.1 61.4
+	); /* Warm light sienna — large headings on dark, secondary text in dark mode */
+	--color-sienna-text-900: oklch(
+		0.28 0.095 34
+	); /* High-emphasis sienna text on light backgrounds */
+	--color-sienna-text-1000: oklch(
+		0.18 0.075 33
+	); /* Maximum contrast sienna — primary body text on light backgrounds */
 
-  /* Legacy: bg-* map to surface-* so existing usage keeps working */
-  --bg-body: var(--surface-1);
-  --bg-canvas: var(--surface-2);
-  --bg-surface: var(--surface-3);
-  --bg-panel: var(--surface-4);
-  --bg-input: var(--surface-5);
-  --bg-hover: var(--surface-6);
+	/* ===========================================
+     PRIMITIVE PALETTE: WARM NEUTRALS
+     Hue 62° — golden amber / tawny.
 
-  /* ==========================================
-     TEXT SEMANTICS (text-1 … text-4)
-     Primary alias for foreground. text-1 = primary, text-4 = disabled.
-     ========================================== */
-  --text-1: light-dark(var(--neutral-fg-1), var(--neutral-fg-1));
-  --text-2: light-dark(var(--neutral-fg-2), var(--neutral-fg-2));
-  --text-3: light-dark(var(--neutral-fg-3), var(--neutral-fg-3));
-  --text-4: light-dark(var(--neutral-fg-4), var(--neutral-fg-4));
+     Previously hue 45°, which sat two degrees from sienna (40°) and
+     caused the accent to read as "a darker neutral" rather than a
+     distinct color. Shifted to 62° to create a clear 22° hue gap.
 
-  --text-canvas: light-dark(var(--canvas-fg-light), var(--canvas-fg-dark));
+     At 62°, the scale reads: warm cream → golden tan → caramel → espresso.
+     Chroma peaks at mid-tone (500) to make the warmth perceptible in
+     both light and dark modes.
 
-  /* Legacy: text-primary etc. map to text-1 … text-4 */
-  --text-primary: var(--text-1);
-  --text-secondary: var(--text-2);
-  --text-tertiary: var(--text-3);
-  --text-disabled: var(--text-4);
+     Chroma is gently increased vs the previous 42° scale — the new hue
+     is slightly less saturated-feeling at equal chroma, so the bump
+     compensates perceptually.
+     =========================================== */
+	/* Neutral palette OKLCH Value (Light to Dark)*/
+	--color-warm-neutral-white: oklch(0.99 0.008 63.7); /* Near-white with the faintest warm tint */
+	--color-warm-neutral-50: oklch(0.901 0.026 63.716);
+	--color-warm-neutral-100: oklch(0.865 0.029 62.266);
+	--color-warm-neutral-150: oklch(0.83 0.032 61.034);
+	--color-warm-neutral-200: oklch(0.796 0.034 61.309);
+	--color-warm-neutral-250: oklch(0.761 0.035 62.882);
+	--color-warm-neutral-300: oklch(0.726 0.037 63.017);
+	--color-warm-neutral-350: oklch(0.692 0.039 61.681);
+	--color-warm-neutral-400: oklch(0.656 0.039 61.62);
+	--color-warm-neutral-450: oklch(0.623 0.04 61.555);
+	--color-warm-neutral-500: oklch(0.588 0.04 64.2);
+	--color-warm-neutral-550: oklch(0.552 0.04 59.879);
+	--color-warm-neutral-600: oklch(0.518 0.039 63.926);
+	--color-warm-neutral-650: oklch(0.484 0.039 62.299);
+	--color-warm-neutral-700: oklch(0.448 0.039 60.572);
+	--color-warm-neutral-750: oklch(0.413 0.036 61.655);
+	--color-warm-neutral-800: oklch(0.379 0.035 61.27);
+	--color-warm-neutral-850: oklch(0.344 0.034 60.82);
+	--color-warm-neutral-900: oklch(0.31 0.031 62.204);
+	--color-warm-neutral-950: oklch(0.274 0.029 59.351);
+	--color-warm-neutral-1000: oklch(0.241 0.026 66.062);
+	--color-warm-neutral-black: oklch(0.06 0.018 66); /* Deep espresso-tinted near-black */
 
-  /* Optional: fg-* alias for text-* (same semantics) */
-  --fg-1: var(--text-1);
-  --fg-2: var(--text-2);
-  --fg-3: var(--text-3);
-  --fg-4: var(--text-4);
+	/* Neutral Text variants OKLCH Value,Role */
+	--color-warm-neutral-text-50: oklch(
+		0.98 0.01 63.7
+	); /* Page Background / White Text */
+	--color-warm-neutral-text-100: oklch(
+		0.94 0.015 62.2
+	); /* Secondary Background */
+	--color-warm-neutral-text-900: oklch(
+		0.22 0.031 62.2
+	); /* High-Emphasis Text */
+	--color-warm-neutral-text-1000: oklch(
+		0.12 0.026 66
+	); /* Primary Body Text / Black */
 
-  /* ==========================================
-     DEACTIVATED STATE
-     ========================================== */
-  --deactivated-opacity: 0.8;
-  --deactivated-bg-blend: light-dark(
-    color-mix(in srgb, var(--bg-surface) 80%, transparent),
-    color-mix(in srgb, var(--bg-surface) 20%, transparent)
-  );
-  --deactivated-text-blend: color-mix(in srgb, var(--text-secondary) 80%, transparent);
-  --deactivated-blur: blur(40px);
+	/* ===========================================
+     EXPERIMENTAL PALETTES — not in active use
+     Retained for future "cool" theme development.
+     Orchid (315°) and Byzantium (342°) as accent candidates.
+     Cool neutral (285°) as the neutral counterpart.
+     These map to the same semantic slot structure as sienna + warm neutral.
+     =========================================== */
 
-  /* ==========================================
-     BORDERS
-     ========================================== */
-  --border-subtle: light-dark(var(--neutral-bg-2-more), var(--neutral-bg-2-more));
-  --border-default: light-dark(var(--neutral-bg-2), var(--neutral-bg-2));
-  --border-strong: light-dark(var(--neutral-bg-2-less), var(--neutral-bg-2-less));
+	/* -- Orchid (315°) — purple-magenta, high chroma -- */
+	--color-orchid-50: oklch(0.98 0.05 294);
+	--color-orchid-100: oklch(0.94 0.06 294);
+	--color-orchid-150: oklch(0.92 0.12 294);
+	--color-orchid-200: oklch(0.88 0.15 294);
+	--color-orchid-250: oklch(0.82 0.18 294);
+	--color-orchid-300: oklch(0.78 0.21 294);
+	--color-orchid-350: oklch(0.72 0.25 294);
+	--color-orchid-400: oklch(0.68 0.28 294);
+	--color-orchid-450: oklch(0.62 0.32 294);
+	--color-orchid-500: oklch(0.58 0.35 294);
+	--color-orchid-550: oklch(0.52 0.25 294);
+	--color-orchid-600: oklch(0.46 0.24 294);
+	--color-orchid-650: oklch(0.38 0.2 294);
+	--color-orchid-700: oklch(0.32 0.18 294);
+	--color-orchid-750: oklch(0.24 0.16 294);
+	--color-orchid-800: oklch(0.16 0.12 294);
+	--color-orchid-900: oklch(0.1 0.1 294);
+	--color-orchid-950: oklch(0.06 0.08 294);
 
-  /* ==========================================
-     SCROLLBARS
-     ========================================== */
-  --scrollbar-track: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
-  --scrollbar-thumb: light-dark(var(--neutral-bg-4), var(--neutral-bg-4));
-  --scrollbar-thumb-hover: light-dark(var(--neutral-fg-3), var(--neutral-fg-3));
+	/* -- Byzantium (342°) — hot pink / deep rose -- */
+	--color-byzantium-50: oklch(0.98 0.05 340);
+	--color-byzantium-100: oklch(0.94 0.06 340);
+	--color-byzantium-150: oklch(0.92 0.12 340);
+	--color-byzantium-200: oklch(0.88 0.15 340);
+	--color-byzantium-250: oklch(0.82 0.18 340);
+	--color-byzantium-300: oklch(0.78 0.21 340);
+	--color-byzantium-350: oklch(0.72 0.25 340);
+	--color-byzantium-400: oklch(0.68 0.28 340);
+	--color-byzantium-450: oklch(0.62 0.32 340);
+	--color-byzantium-500: oklch(0.58 0.35 340);
+	--color-byzantium-550: oklch(0.52 0.32 340);
+	--color-byzantium-600: oklch(0.46 0.3 340);
+	--color-byzantium-650: oklch(0.38 0.28 340);
+	--color-byzantium-700: oklch(0.32 0.26 340);
+	--color-byzantium-750: oklch(0.24 0.24 340);
+	--color-byzantium-800: oklch(0.16 0.22 340);
+	--color-byzantium-900: oklch(0.1 0.2 340);
+	--color-byzantium-950: oklch(0.06 0.12 340);
 
-  /* ==========================================
-     ACCENT
-     ========================================== */
-  /* useTheme sets 6 primitives (primary/hover/active × light/dark); state-nuanced, AAA, one family per mode */
-  --text-on-accent: light-dark(
-    var(--text-on-accent-primary-light, var(--neutral-fg-pure)),
-    var(--text-on-accent-primary-dark, var(--neutral-fg-pure))
-  );
-  --text-on-accent-hover: light-dark(
-    var(--text-on-accent-hover-light, var(--neutral-fg-pure)),
-    var(--text-on-accent-hover-dark, var(--neutral-fg-pure))
-  );
-  --text-on-accent-active: light-dark(
-    var(--text-on-accent-active-light, var(--neutral-fg-pure)),
-    var(--text-on-accent-active-dark, var(--neutral-fg-pure))
-  );
-  --accent-primary: light-dark(
-    oklch(var(--accent-lightness-light) var(--accent-chroma-light) var(--user-accent-hue)),
-    oklch(var(--accent-lightness-dark) var(--accent-chroma-dark) var(--user-accent-hue))
-  );
-  --accent-hover: light-dark(
-    oklch(
-      calc(var(--accent-lightness-light) - 0.08) var(--accent-chroma-light) var(--user-accent-hue)
-    ),
-    oklch(
-      calc(var(--accent-lightness-dark) + 0.05) var(--accent-chroma-dark) var(--user-accent-hue)
-    )
-  );
-  --accent-active: light-dark(
-    oklch(
-      calc(var(--accent-lightness-light) - 0.12) calc(var(--accent-chroma-light) * 1.1)
-        var(--user-accent-hue)
-    ),
-    oklch(
-      calc(var(--accent-lightness-dark) + 0.1) calc(var(--accent-chroma-dark) * 1.1)
-        var(--user-accent-hue)
-    )
-  );
-  --accent-bg: light-dark(
-    oklch(0.95 var(--accent-chroma-light) var(--user-accent-hue)),
-    oklch(0.25 var(--accent-chroma-dark) var(--user-accent-hue))
-  );
-  --border-focus: light-dark(
-    oklch(
-      calc(var(--accent-lightness-light) + 0.05) calc(var(--accent-chroma-light) * 1.2)
-        var(--user-accent-hue)
-    ),
-    oklch(
-      calc(var(--accent-lightness-dark) + 0.05) calc(var(--accent-chroma-dark) * 1.2)
-        var(--user-accent-hue)
-    )
-  );
+	/* -- Cool Neutral (285°) — blue-lavender -- */
+	--color-cool-neutral-white: oklch(99% 0.001 285);
+	--color-cool-neutral-50: oklch(97% 0.002 285);
+	--color-cool-neutral-100: oklch(95% 0.008 285);
+	--color-cool-neutral-150: oklch(93% 0.01 285);
+	--color-cool-neutral-200: oklch(91% 0.012 285);
+	--color-cool-neutral-250: oklch(86% 0.014 285);
+	--color-cool-neutral-300: oklch(80% 0.016 285);
+	--color-cool-neutral-350: oklch(74% 0.018 285);
+	--color-cool-neutral-400: oklch(66% 0.02 285);
+	--color-cool-neutral-450: oklch(58% 0.023 285);
+	--color-cool-neutral-500: oklch(50% 0.025 285);
+	--color-cool-neutral-550: oklch(45% 0.023 285);
+	--color-cool-neutral-600: oklch(36% 0.022 285);
+	--color-cool-neutral-650: oklch(33% 0.02 285);
+	--color-cool-neutral-700: oklch(28% 0.018 285);
+	--color-cool-neutral-750: oklch(22% 0.016 285);
+	--color-cool-neutral-800: oklch(17% 0.014 285);
+	--color-cool-neutral-850: oklch(13% 0.012 285);
+	--color-cool-neutral-900: oklch(9% 0.008 285);
+	--color-cool-neutral-950: oklch(6% 0.005 285);
+	--color-cool-neutral-black: oklch(3% 0.002 285);
 
-  /* ==========================================
-     SEMANTIC - Fixed values (not accent-derived)
-     Information states: consistent, recognizable, contrast-safe
-     ========================================== */
-  --success: light-dark(oklch(0.55 0.17 130), oklch(0.72 0.14 140));
-  --success-bg: light-dark(oklch(0.95 0.04 140), oklch(0.26 0.06 130));
-  --info: light-dark(oklch(0.52 0.19 240), oklch(0.68 0.15 240));
-  --info-bg: light-dark(oklch(0.95 0.04 240), oklch(0.26 0.06 240));
-  --warning: light-dark(oklch(0.85 0.2 85), oklch(0.8 0.13 85));
-  --warning-bg: light-dark(oklch(0.96 0.03 85), oklch(0.274 0.04 80));
-  --danger: light-dark(oklch(0.52 0.21 25), oklch(0.66 0.17 25));
-  --danger-bg: light-dark(oklch(0.95 0.04 25), oklch(0.26 0.06 20));
-  --text-on-danger: var(--text-on-accent);
+	/* ===========================================
+     SEMANTIC: STATUS COLORS — fixed, not color-sienna-derived
+     Hues chosen to be perceptually distinct from sienna (40°) and
+     the warm neutral (62°). All seven steps per color.
+     =========================================== */
 
-  /* ==========================================
-     INTERACTIVE (neutral surfaces)
-     ========================================== */
-  --interactive-bg: var(--neutral-bg-4-more);
-  --interactive-hover: var(--neutral-bg-4);
-  --interactive-active: var(--neutral-bg-4-less);
+	/* Red / Error — hue 27° */
+	--red-1: oklch(0.92 0.04 27);
+	--red-2: oklch(0.84 0.08 27);
+	--red-3: oklch(0.76 0.14 27);
+	--red-4: oklch(0.67 0.19 27);
+	--red-5: oklch(0.55 0.16 27);
+	--red-6: oklch(0.43 0.13 27);
+	--red-7: oklch(0.29 0.09 27);
 
-  /* ==========================================
-     STATE OVERLAY SYSTEM
-     ========================================== */
-  --state-hover-opacity: 0.08;
-  --state-focus-opacity: 0.12;
-  --state-pressed-opacity: 0.12;
-  --state-disabled-opacity: 0.38;
-  --state-overlay-dark: oklch(0% 0 0);
-  --state-overlay-light: oklch(100% 0 0);
-  --interactive-hover-overlay: light-dark(
-    color-mix(
-      in oklch,
-      var(--interactive-bg),
-      var(--state-overlay-dark) calc(var(--state-hover-opacity) * 100%)
-    ),
-    color-mix(
-      in oklch,
-      var(--interactive-bg),
-      var(--state-overlay-light) calc(var(--state-hover-opacity) * 100%)
-    )
-  );
-  --interactive-pressed-overlay: light-dark(
-    color-mix(
-      in oklch,
-      var(--interactive-bg),
-      var(--state-overlay-dark) calc(var(--state-pressed-opacity) * 100%)
-    ),
-    color-mix(
-      in oklch,
-      var(--interactive-bg),
-      var(--state-overlay-light) calc(var(--state-pressed-opacity) * 100%)
-    )
-  );
-  --state-hover-bg: var(--interactive-hover);
-  --state-pressed-bg: var(--interactive-active);
-  --state-focus-ring: var(--border-focus);
-  --state-focus-ring-opacity: 0.1;
-  --state-disabled-cursor: not-allowed;
+	/* Amber / Warning — hue 72° */
+	--amber-1: oklch(0.91 0.05 72);
+	--amber-2: oklch(0.84 0.1 72);
+	--amber-3: oklch(0.75 0.15 72);
+	--amber-4: oklch(0.65 0.18 72);
+	--amber-5: oklch(0.54 0.14 72);
+	--amber-6: oklch(0.43 0.1 72);
+	--amber-7: oklch(0.3 0.06 72);
 
-  /* ==========================================
-     SLIDER COLORS
-     ========================================== */
-  --slider-track: light-dark(var(--neutral-bg-3), var(--neutral-bg-3));
-  --slider-fill: light-dark(
-    oklch(0.82 calc(var(--accent-chroma-light) * 0.8) var(--user-accent-hue)),
-    oklch(0.35 calc(var(--accent-chroma-dark) * 0.8) var(--user-accent-hue))
-  );
-  --slider-thumb: light-dark(
-    oklch(0.75 calc(var(--accent-chroma-light) * 1.8) var(--user-accent-hue)),
-    oklch(0.45 calc(var(--accent-chroma-dark) * 1.8) var(--user-accent-hue))
-  );
-  --slider-value-bg: light-dark(
-    oklch(var(--accent-lightness-light) var(--accent-chroma-light) var(--user-accent-hue)),
-    oklch(var(--accent-lightness-dark) var(--accent-chroma-dark) var(--user-accent-hue))
-  );
-  --slider-value-text: var(--text-on-accent);
+	/* Green / Success — hue 147° */
+	--green-1: oklch(0.91 0.05 147);
+	--green-2: oklch(0.82 0.1 147);
+	--green-3: oklch(0.73 0.15 147);
+	--green-4: oklch(0.64 0.2 147);
+	--green-5: oklch(0.53 0.17 147);
+	--green-6: oklch(0.42 0.13 147);
+	--green-7: oklch(0.29 0.08 147);
 
-  /* ==========================================
-     OVERLAYS (black overlay alpha)
-     ========================================== */
-  --overlay-light: light-dark(oklch(0 0 0 / 0.15), oklch(0 0 0 / 0.3));
-  --overlay-medium: light-dark(oklch(0 0 0 / 0.3), oklch(0 0 0 / 0.5));
-  --overlay-heavy: light-dark(oklch(0 0 0 / 0.5), oklch(0 0 0 / 0.7));
+	/* Blue / Info — hue 247° */
+	--blue-1: oklch(0.91 0.04 247);
+	--blue-2: oklch(0.82 0.09 247);
+	--blue-3: oklch(0.73 0.14 247);
+	--blue-4: oklch(0.64 0.22 247);
+	--blue-5: oklch(0.53 0.16 247);
+	--blue-6: oklch(0.42 0.12 247);
+	--blue-7: oklch(0.29 0.07 247);
 
-  /* ==========================================
-     NEUTRAL SOLIDS & OVERLAYS
-     Fixed-contrast UI: glyphs, picker borders, shadows
-     ========================================== */
-  --neutral-white: oklch(1 0 0);
-  --neutral-black: oklch(0 0 0);
-  --neutral-overlay-08: oklch(0 0 0 / 0.08);
-  --neutral-overlay-10: oklch(0 0 0 / 0.1);
-  --neutral-overlay-15: oklch(0 0 0 / 0.15);
-  --neutral-overlay-20: oklch(0 0 0 / 0.2);
-  --neutral-overlay-30: oklch(0 0 0 / 0.3);
-  --neutral-white-90: oklch(1 0 0 / 0.9);
-  --neutral-white-100: oklch(1 0 0 / 1);
-
-  /* ==========================================
-     COMPONENT-SPECIFIC COLORS
-     ========================================== */
-  --hero-logo-stack: light-dark(var(--neutral-bg-4-more), var(--neutral-bg-4-more));
-  --hero-logo-drop: var(--overlay-medium);
-  --code-blue: light-dark(oklch(0.65 0.25 260), oklch(0.75 0.25 260));
-  --code-purple: light-dark(oklch(0.65 0.2 300), oklch(0.75 0.2 300));
-  --code-green: light-dark(oklch(0.7 0.2 145), oklch(0.8 0.2 145));
-  --code-bg: light-dark(var(--neutral-fg-2), var(--neutral-fg-3));
-}
-
-/* ==========================================
-   TONE MODE CLASSES
-   ========================================== */
-.app--neutral-tone {
-  --base-hue-light: 0;
-  --base-hue-dark: 0;
-}
-
-.app--warm-tone {
-  --base-hue-light: calc(var(--user-accent-hue) - 15);
-  --base-hue-dark: calc(var(--user-accent-hue) - 10);
-}
-
-.app--cool-tone {
-  --base-hue-light: calc(var(--user-accent-hue) + 15);
-  --base-hue-dark: calc(var(--user-accent-hue) + 10);
-}
-
-/* ==========================================
-   LIGHT / DARK MODE
-   ========================================== */
-.app--light-mode {
-  color-scheme: light;
-}
-
-.app--dark-mode {
-  color-scheme: dark;
-  --deactivated-opacity: 0.4;
-  --deactivated-blur: blur(8px);
-}
-
-/* ==========================================
-   CANVAS SCHEME (two-zone theming)
-   ========================================== */
-[data-font-canvas][data-canvas-scheme="light"] {
-  color-scheme: light;
-  --deactivated-opacity: 0.8;
-  --deactivated-blur: blur(40px);
-}
-
-[data-font-canvas][data-canvas-scheme="dark"] {
-  color-scheme: dark;
-  --deactivated-opacity: 0.4;
-  --deactivated-blur: blur(8px);
-}
-
-/* ==========================================
-   PRINT
-   ========================================== */
-@media print {
-  :root,
-  .app--dark-mode {
-    color-scheme: light;
-  }
-  [data-font-canvas][data-canvas-scheme="dark"] {
-    color-scheme: light;
-  }
+	/* Canvas foreground/background — re-declared for component access without import */
+	--canvas-fg-light: var(--color-warm-neutral-text-1000);
+	--canvas-bg-light: var(--color-warm-neutral-white);
+	--canvas-fg-dark: var(--color-warm-neutral-text-50);
+	--canvas-bg-dark: var(--color-warm-neutral-black);
 }

@@ -1,5 +1,5 @@
 /**
- * CSS Reset - Minimal reset for consistent baseline
+ * CSS Reset — Minimal reset for consistent baseline
  */
 
 *,
@@ -10,8 +10,22 @@
   padding: 0;
 }
 
-/* Explicit reset for elements often used in constrained UI (sidebar, modals)
-   Prevents user-agent margins from causing excess whitespace or specificity conflicts */
+html {
+  /*
+    * REM ANCHOR — must be declared explicitly.
+    * All rem-based tokens in tokens.typography.css derive from this.
+    * Do not remove or change without auditing the full type scale.
+    * 16px = 1rem throughout this system.
+    */
+  font-size: 16px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Explicit reset for elements frequently used in constrained UI.
+    Prevents user-agent margins causing excess whitespace or specificity conflicts. */
 h1,
 h2,
 h3,
@@ -23,18 +37,12 @@ label {
   margin: 0;
 }
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-
 body {
   font-family: var(--font-ui);
   font-size: var(--text-base);
   line-height: var(--leading-normal);
   color: var(--text-primary);
-  background-color: var(--bg-body);
+  background-color: var(--surface-1);
 }
 
 button {

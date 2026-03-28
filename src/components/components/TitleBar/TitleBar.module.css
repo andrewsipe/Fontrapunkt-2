@@ -90,5 +90,5 @@
 
 .sectionRoot.sectionBorder {
   padding-bottom: var(--space-xs);
-  background: var(--bg-panel);
+  background: var(--surface-4);
 }

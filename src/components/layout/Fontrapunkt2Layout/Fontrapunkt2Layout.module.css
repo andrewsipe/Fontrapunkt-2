@@ -1,0 +1,72 @@
+/**
+ * Fontrapunkt 2.0 — Shell layout
+ * Tokens only: tokens.color, tokens.spacing, tokens.typography, tokens.elevation.
+ * Header + canvas + floating command bar. Design tokens.
+ */
+
+.app,
+.appEmpty {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.canvasRegion {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+  background: var(--bg-canvas);
+  position: relative;
+}
+
+/* Command bar: positioning only — bar itself floats as a pill above the canvas. */
+.barSlot {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: var(--shell-bar-bottom);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  pointer-events: none;
+  z-index: var(--z-slider-thumb);
+}
+
+.barSlot > * {
+  pointer-events: auto;
+}
+
+/* Present mode: full-screen canvas only */
+.presentWrap {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-dropdown);
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-canvas);
+}
+
+.presentCanvas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: auto;
+  position: relative;
+}
+
+.exitHint {
+  position: absolute;
+  bottom: var(--space-md);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  pointer-events: none;
+}

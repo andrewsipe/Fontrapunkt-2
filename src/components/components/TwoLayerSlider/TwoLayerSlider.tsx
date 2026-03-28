@@ -35,19 +35,18 @@ function applySnapIfClose(
 const MAGNETIC_THRESHOLD_RATIO = 0.015;
 
 // ---------------------------------------------------------------------------
-// Constants – must match tokens.spacing.css (--slider-track-inset, --slider-thumb-width, etc.)
+// Constants – must match tokens.spacing.css and tokens.motion.css
 // ---------------------------------------------------------------------------
-const TRACK_PADDING = 2; /* --slider-track-inset (--spacing-gap-tight) */
+const TRACK_PADDING = 4; /* --slider-track-inset (--spacing-gap-tight) */
 const THUMB_NORMAL_W = 45; /* --slider-thumb-width */
-/** Expanded width: allows comfortable room for mini track + precision dot */
-const THUMB_EXPANDED_W = 150;
+const THUMB_EXPANDED_W = 105; /* --slider-thumb-expanded-width */
 const THUMB_NORMAL_H = 18; /* --slider-thumb-height */
-const THUMB_EXPANDED_H = 36; /* --slider-thumb-expanded-height */
-const PRECISION_DOT_W = 45; /* --slider-precision-dot-size */
-const MINI_INSET = 12; /* --slider-mini-inset (--space-sm) */
+const THUMB_EXPANDED_H = 34; /* --slider-thumb-expanded-height */
+const PRECISION_DOT_W = 14; /* --slider-precision-dot-size */
+const MINI_INSET = 8; /* --slider-mini-inset (--space-xs) */
 const PRECISION_HALF = 50;
 const DISMISS_IDLE_MS = 1200;
-const EXPAND_MS = 280;
+const EXPAND_MS = 280; /* --duration-expand */
 
 // ---------------------------------------------------------------------------
 // Types

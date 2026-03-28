@@ -1,0 +1,181 @@
+/**
+ * SettingsModal layout and component-specific styles.
+ * The modal chrome (header, close button, overlay) lives in Modal.module.css.
+ * This file covers only the settings content sections and their components.
+ */
+
+/* ==========================================
+   SECTION STRUCTURE
+   ========================================== */
+
+/* Flex column wrapper for all sections */
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* ==========================================
+   SETTING ROW / LABEL
+   ========================================== */
+.settingGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.settingLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  cursor: default;
+}
+
+.settingRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-2xs);
+}
+
+/* When setting row contains an icon action, inherit font-size for the icon */
+.settingRow:has([data-icon-container]) {
+  font-size: var(--text-sm);
+}
+
+.settingHint {
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  line-height: var(--leading-normal);
+}
+
+.sectionDescription {
+  font-size: var(--text-xs);
+  color: var(--text-tertiary);
+  margin: 0;
+  line-height: var(--leading-normal);
+}
+
+/* ==========================================
+   SELECT TRIGGER (modal-specific overrides)
+   Base styles come from Select.module.css.
+   ========================================== */
+.select {
+  background-color: var(--interactive-bg);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+}
+
+.select:hover:not(:disabled):not([data-disabled]) {
+  background-color: var(--interactive-bg);
+  box-shadow: var(--shadow-sm);
+}
+
+.select:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 2px;
+}
+
+/* ==========================================
+   INLINE CODE SNIPPET
+   ========================================== */
+.inlineCode {
+  background: var(--surface-5);
+  padding: var(--space-3xs) var(--space-xs);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* ==========================================
+   ERROR / DESTRUCTIVE BUTTON
+   Used for "Clear Font Cache". Full-width to match the section width,
+   but not oversized — height follows --button-height token.
+   ========================================== */
+.errorButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  width: 100%;
+  height: var(--button-height);
+  padding: var(--button-padding-x);
+  background-color: var(--error-bg);
+  border: var(--button-border-width) solid var(--error-border);
+  border-radius: var(--button-radius);
+  color: var(--text-on-error);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition-colors);
+}
+
+.errorButton:hover:not(:disabled) {
+  background-color: var(--error-bg-hover);
+  border-color: var(--error-border-hover);
+}
+
+.errorButton:disabled {
+  cursor: var(--button-disabled-cursor);
+  opacity: var(--state-disabled-opacity);
+}
+
+.errorButton.success {
+  background-color: var(--success-bg);
+  border-color: var(--success-border);
+  color: var(--text-on-success);
+  opacity: 1;
+}
+
+/* ==========================================
+   DEFAULT TEXT INPUT (textarea)
+   ========================================== */
+.defaultTextInput {
+  height: calc(3 * var(--input-height));
+  width: 100%;
+  padding: var(--space-sm);
+  background-color: var(--surface-5);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+
+  color: var(--text-primary);
+  font-size: var(--text-sm);
+  font-family: inherit;
+  transition: var(--transition-state);
+  resize: vertical;
+  min-height: 60px;
+}
+
+.defaultTextInput:hover:not(:disabled):not([aria-disabled="true"]) {
+  border-color: var(--text-secondary);
+}
+
+.defaultTextInput:focus,
+.defaultTextInput:focus-visible {
+  outline: none;
+  border-color: var(--border-focus);
+  box-shadow: 0 0 0 3px oklch(from var(--border-focus) l c h / var(--state-focus-ring-opacity));
+}
+
+.defaultTextInput:disabled,
+.defaultTextInput[aria-disabled="true"] {
+  opacity: var(--state-disabled-opacity);
+  cursor: var(--state-disabled-cursor);
+  background-color: var(--surface-3);
+  pointer-events: none;
+}

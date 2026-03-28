@@ -1,0 +1,1 @@
+export { CommandBarTooltip } from "./CommandBarTooltip";

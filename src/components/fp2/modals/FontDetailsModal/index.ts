@@ -1,1 +1,0 @@
-export { FontDetailsModal } from "./FontDetailsModal";

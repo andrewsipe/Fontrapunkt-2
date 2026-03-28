@@ -5,14 +5,14 @@
 
 .root {
   min-height: 100vh;
-  background: var(--bg-body);
+  background: var(--surface-3);
   color: var(--text-primary);
-  padding: clamp(1rem, 3cqi, 2rem);
+  padding: clamp(var(--space-lg), 3cqi, var(--space-2xl));
   overflow: auto;
 }
 
 .header {
-  margin-bottom: 2rem;
+  margin-bottom: var(--space-2xl);
 }
 
 .headerRow {
@@ -20,12 +20,12 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: var(--text-lg);
   font-weight: 600;
   margin: 0;
 }
@@ -33,12 +33,12 @@
 .themeControl {
   display: flex;
   flex-direction: column;
-  gap: 0.375rem;
+  gap: var(--space-xs);
   flex-shrink: 0;
 }
 
 .themeLabel {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   font-weight: 500;
   color: var(--text-secondary);
 }
@@ -48,7 +48,7 @@
 }
 
 .back {
-  font-size: 0.875rem;
+  font-size: var(--text-sm);
   color: var(--accent-primary);
   text-decoration: none;
 }
@@ -58,51 +58,51 @@
 }
 
 .section {
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-3xl);
 }
 
 .sectionTitle {
-  font-size: 1rem;
+  font-size: var(--text-base);
   font-weight: 600;
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 var(--space-md) 0;
 }
 
 .sectionNote {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--text-secondary);
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 var(--space-md) 0;
 }
 
 .matrixWrap {
   overflow-x: auto;
   border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  background: var(--bg-surface);
+  border-radius: var(--radius-md);
+  background: var(--surface-3);
 }
 
 .matrixTable {
   width: 100%;
   border-collapse: collapse;
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
 }
 
 .rowHeaderCell {
-  padding: 0.5rem 0.75rem;
+  padding: var(--space-sm) var(--space-md);
   text-align: left;
   font-weight: 600;
   color: var(--text-secondary);
-  background: var(--bg-panel);
+  background: var(--surface-4);
   border-bottom: 1px solid var(--border-subtle);
   border-right: 1px solid var(--border-subtle);
   white-space: nowrap;
 }
 
 .colHeaderCell {
-  padding: 0.5rem 0.75rem;
+  padding: var(--space-sm) var(--space-md);
   text-align: center;
   font-weight: 600;
   color: var(--text-secondary);
-  background: var(--bg-panel);
+  background: var(--surface-4);
   border-bottom: 1px solid var(--border-subtle);
   border-right: 1px solid var(--border-subtle);
 }
@@ -112,7 +112,7 @@
 }
 
 .cell {
-  padding: 0.75rem;
+  padding: var(--space-md);
   border-bottom: 1px solid var(--border-subtle);
   border-right: 1px solid var(--border-subtle);
   vertical-align: middle;
@@ -135,11 +135,11 @@ td {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.375rem;
-  padding: 0.375rem 0.75rem;
-  font-size: 0.8125rem;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-md);
+  font-size: var(--text-sm);
   font-weight: 600;
-  border-radius: var(--radius-button, 6px);
+  border-radius: var(--radius-button);
   border: var(--button-border-width, 1px) solid transparent;
   transition: none;
 }
@@ -159,7 +159,7 @@ td {
 
 .btn_primaryNeutral[data-style="filled"][data-state="hover"],
 .btn_primaryNeutralIcon[data-style="filled"][data-state="hover"] {
-  background: var(--bg-hover);
+  background: var(--surface-6);
   color: var(--accent-hover);
   border-color: var(--accent-hover);
 }
@@ -175,7 +175,7 @@ td {
 
 .btn_primaryNeutral[data-style="filled"][data-state="active"],
 .btn_primaryNeutralIcon[data-style="filled"][data-state="active"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--accent-active);
   border-color: var(--accent-active);
 }
@@ -217,92 +217,92 @@ td {
 
 .btn_accent[data-style="filled"][data-state="disabled"],
 .btn_accentIcon[data-style="filled"][data-state="disabled"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--text-disabled);
   opacity: var(--state-disabled-opacity, 0.5);
 }
 
 /* Semantic (matrix-only placeholders) */
 .btn_info[data-style="filled"][data-state="default"] {
-  background: var(--info);
+  background: var(--info-bg);
   color: var(--text-on-accent);
 }
 
 .btn_info[data-style="filled"][data-state="hover"] {
-  background: oklch(from var(--info) calc(l - 0.08) c h);
-  color: var(--text-on-accent);
+  background: oklch(from var(--info-bg-hover) calc(l - 0.08) c h);
+  color: var(--text-on-info);
 }
 
 .btn_info[data-style="filled"][data-state="focus"] {
-  background: var(--info);
-  color: var(--text-on-accent);
-  outline: 2px solid var(--info);
+  background: var(--info-bg);
+  color: var(--text-on-info);
+  outline: 2px solid var(--info-border);
   outline-offset: 2px;
 }
 
 .btn_info[data-style="filled"][data-state="active"] {
   background: oklch(from var(--info) calc(l - 0.12) c h);
-  color: var(--text-on-accent);
+  color: var(--text-on-info);
 }
 
 .btn_info[data-style="filled"][data-state="disabled"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--text-disabled);
   opacity: var(--state-disabled-opacity, 0.5);
 }
 
 .btn_warning[data-style="filled"][data-state="default"] {
   background: var(--warning);
-  color: oklch(0.2 0.02 85);
+  color: var(--text-on-warning);
 }
 
 .btn_warning[data-style="filled"][data-state="hover"] {
   background: oklch(from var(--warning) calc(l - 0.05) c h);
-  color: oklch(0.2 0.02 85);
+  color: var(--text-on-warning);
 }
 
 .btn_warning[data-style="filled"][data-state="focus"] {
   background: var(--warning);
-  color: oklch(0.2 0.02 85);
+  color: var(--text-on-warning);
   outline: 2px solid var(--warning);
   outline-offset: 2px;
 }
 
 .btn_warning[data-style="filled"][data-state="active"] {
   background: oklch(from var(--warning) calc(l - 0.1) c h);
-  color: oklch(0.2 0.02 85);
+  color: var(--text-on-warning);
 }
 
 .btn_warning[data-style="filled"][data-state="disabled"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--text-disabled);
   opacity: var(--state-disabled-opacity, 0.5);
 }
 
 .btn_error[data-style="filled"][data-state="default"] {
-  background: var(--danger);
-  color: var(--text-on-danger);
+  background: var(--error);
+  color: var(--text-on-error);
 }
 
 .btn_error[data-style="filled"][data-state="hover"] {
-  background: oklch(from var(--danger) calc(l - 0.08) c h);
-  color: var(--text-on-danger);
+  background: oklch(from var(--error) calc(l - 0.08) c h);
+  color: var(--text-on-error);
 }
 
 .btn_error[data-style="filled"][data-state="focus"] {
-  background: var(--danger);
-  color: var(--text-on-danger);
-  outline: 2px solid var(--danger);
+  background: var(--error);
+  color: var(--text-on-error);
+  outline: 2px solid var(--error);
   outline-offset: 2px;
 }
 
 .btn_error[data-style="filled"][data-state="active"] {
-  background: oklch(from var(--danger) calc(l - 0.12) c h);
-  color: var(--text-on-danger);
+  background: oklch(from var(--error) calc(l - 0.12) c h);
+  color: var(--text-on-error);
 }
 
 .btn_error[data-style="filled"][data-state="disabled"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--text-disabled);
   opacity: var(--state-disabled-opacity, 0.5);
 }
@@ -330,7 +330,7 @@ td {
 }
 
 .btn_success[data-style="filled"][data-state="disabled"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--text-disabled);
   opacity: var(--state-disabled-opacity, 0.5);
 }
@@ -378,7 +378,7 @@ td {
 }
 
 .buttonSample[data-style="outlined"][data-state="hover"] {
-  background: var(--bg-hover);
+  background: var(--surface-6);
   color: var(--accent-hover);
   border-color: var(--accent-hover);
 }
@@ -389,7 +389,7 @@ td {
 }
 
 .buttonSample[data-style="outlined"][data-state="active"] {
-  background: var(--bg-input);
+  background: var(--surface-5);
   color: var(--accent-active);
   border-color: var(--accent-active);
 }
@@ -500,21 +500,21 @@ td {
 }
 
 .na {
-  font-size: 0.8125rem;
+  font-size: var(--text-sm);
   color: var(--text-tertiary);
 }
 
 /* Gaps list */
 .gapsList {
-  font-size: 0.875rem;
+  font-size: var(--text-sm);
   color: var(--text-secondary);
   margin: 0;
-  padding-left: 1.25rem;
-  line-height: 1.5;
+  padding-left: var(--space-xl);
+  line-height: var(--leading-normal);
 }
 
 .gapsList li {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--space-sm);
 }
 
 .gapsList li:last-child {
@@ -524,6 +524,6 @@ td {
 .gapsList code {
   font-size: 0.875em;
   padding: 0.1em 0.35em;
-  background: var(--bg-panel);
-  border-radius: 4px;
+  background: var(--surface-4);
+  border-radius: var(--radius-sm);
 }

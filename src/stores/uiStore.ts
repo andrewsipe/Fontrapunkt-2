@@ -54,7 +54,7 @@ interface UIState {
     filename: string;
   } | null;
 
-  // FP2.0 drawers (Variable Axes left, OpenType right)
+  // Drawers: Variable Axes (left), OpenType (right)
   openVariableAxesDrawer: boolean;
   openOpenTypeDrawer: boolean;
   setOpenVariableAxesDrawer: (open: boolean) => void;

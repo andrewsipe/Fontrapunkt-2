@@ -1,0 +1,95 @@
+/**
+ * Global tooltip styles — data-attribute pattern.
+ * File name is explicit: tooltip.global.css (imported via global.css).
+ * Used by shared Tooltip component. Tokens: theme, foundation, typography, spacing, motion.
+ */
+
+[data-tooltip-wrap] {
+  position: relative;
+  display: inline-flex;
+}
+
+[data-tooltip] {
+  position: absolute;
+  z-index: var(--z-tooltip);
+  width: max-content;
+  max-width: 220px;
+  background: var(--text-primary);
+  color: var(--surface-2);
+  font-family: var(--font-ui);
+  font-size: var(--text-2xs);
+  font-weight: 500;
+  line-height: var(--leading-snug);
+  padding: 4px 9px;
+  border-radius: var(--radius-button);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+}
+
+[data-tooltip][data-visible="true"] {
+  opacity: 1;
+}
+
+[data-tooltip][data-side="top"] {
+  bottom: calc(100% + 6px);
+  transform: translateY(3px);
+}
+[data-tooltip][data-side="top"][data-visible="true"] {
+  transform: translateY(0);
+}
+
+[data-tooltip][data-side="bottom"] {
+  top: calc(100% + 6px);
+  transform: translateY(-3px);
+}
+[data-tooltip][data-side="bottom"][data-visible="true"] {
+  transform: translateY(0);
+}
+
+[data-tooltip][data-side="left"] {
+  right: calc(100% + 6px);
+  transform: translateX(3px);
+}
+[data-tooltip][data-side="left"][data-visible="true"] {
+  transform: translateX(0);
+}
+
+[data-tooltip][data-side="right"] {
+  left: calc(100% + 6px);
+  transform: translateX(-3px);
+}
+[data-tooltip][data-side="right"][data-visible="true"] {
+  transform: translateX(0);
+}
+
+[data-tooltip][data-side="top"][data-align="center"],
+[data-tooltip][data-side="bottom"][data-align="center"] {
+  left: 50%;
+  translate: -50% 0;
+}
+[data-tooltip][data-side="left"][data-align="center"],
+[data-tooltip][data-side="right"][data-align="center"] {
+  top: 50%;
+  translate: 0 -50%;
+}
+
+[data-tooltip][data-side="top"][data-align="start"],
+[data-tooltip][data-side="bottom"][data-align="start"] {
+  left: 0;
+}
+[data-tooltip][data-side="left"][data-align="start"],
+[data-tooltip][data-side="right"][data-align="start"] {
+  top: 0;
+}
+
+[data-tooltip][data-side="top"][data-align="end"],
+[data-tooltip][data-side="bottom"][data-align="end"] {
+  right: 0;
+}
+[data-tooltip][data-side="left"][data-align="end"],
+[data-tooltip][data-side="right"][data-align="end"] {
+  bottom: 0;
+}

@@ -164,24 +164,14 @@ const fontkit: any = (() => {
       }
     };
 
-    // Check if create is directly on the module (named export)
+    // Browser build exposes create on the namespace (no default export)
     if (fontkitModule && typeof (fontkitModule as any).create === "function") {
       const fk = fontkitModule as any;
       enableErrorLogging(fk);
       return fk;
     }
 
-    // Check if there's a default export
-    if (
-      (fontkitModule as any).default &&
-      typeof (fontkitModule as any).default.create === "function"
-    ) {
-      const fk = (fontkitModule as any).default;
-      enableErrorLogging(fk);
-      return fk;
-    }
-
-    // Fallback: return the module as-is
+    // Fallback: use module as-is
     enableErrorLogging(fontkitModule);
     return fontkitModule;
   } catch (e) {

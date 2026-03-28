@@ -2,40 +2,65 @@
  * TYPOGRAPHY SYSTEM
  * Font families, sizes, line heights, letter spacing.
  * Container-query responsive scale. Depends on tokens.foundation.css.
+ *
+ * REM ANCHOR
+ * All font sizes use rem. The rem base is set to 16px in reset.css
+ * (html { font-size: 16px }). This must remain explicit — never
+ * depend on the browser default silently. Font size values below
+ * are predictable only because that anchor is declared.
+ *
+ * WHY rem NOT px FOR TYPE
+ * The canvas uses dynamically set font sizes (set via JS, not tokens)
+ * for specimen display. UI chrome type uses rem so it responds
+ * correctly to user accessibility font-size preferences — a font tool
+ * should not override the user's own type settings in its own UI.
+ *
+ * SCALE NOTE
+ * Ceiling values are intentionally tight. This is a dense, canvas-first
+ * layout — the type scale reflects that. It is not a content/reading
+ * typographic scale.
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Quicksand:wght@300..700&display=swap");
 
 :root {
   /* ==========================================
-     FONT FAMILIES
-     ========================================== */
+      FONT FAMILIES
+      Geist: high x-height, legible at small sizes — suits dense UI chrome.
+      Geist Mono: matches Geist's proportions, ideal for metadata display.
+      Quicksand: variable weight, used for text-based glyph icons via
+                 font-variation-settings.
+      ========================================== */
+
   --font-ui: "Geist", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "Geist Mono", "SF Mono", SFMono-Regular, Consolas, monospace;
   --font-icons: "Quicksand", var(--font-ui);
+
+  /* Quicksand icon weight axis */
   --font-icons-weight: 575;
   --font-icons-weight-max: 700;
-  --font-icons-size-small-ratio: 0.82;
+  --font-icons-size-small-ratio: 0.82; /* optical size correction for small icon glyphs */
 
   /* ==========================================
-     FONT SIZE SCALE (container-relative)
-     ========================================== */
-  --text-4xs: clamp(0.5rem, 0.4cqi + 0.4rem, 0.625rem);
-  --text-3xs: clamp(0.55rem, 0.45cqi + 0.45rem, 0.7rem);
-  --text-2xs: clamp(0.625rem, 0.5cqi + 0.5rem, 0.75rem);
-  --text-1xs: clamp(0.7rem, 0.55cqi + 0.55rem, 0.825rem);
-  --text-xs: clamp(0.75rem, 0.6cqi + 0.6rem, 0.875rem);
-  --text-sm: clamp(0.875rem, 0.8cqi + 0.7rem, 1rem);
-  --text-base: clamp(1rem, 1cqi + 0.8rem, 1.125rem);
-  --text-md: clamp(1.125rem, 1.2cqi + 0.9rem, 1.25rem);
-  --text-lg: clamp(1.25rem, 1.5cqi + 1rem, 1.5rem);
-  --text-xl: clamp(1.5rem, 2cqi + 1.2rem, 1.875rem);
-  --text-2xl: clamp(1.875rem, 2.5cqi + 1.5rem, 2.25rem);
-  --text-3xl: clamp(2.25rem, 3cqi + 1.8rem, 3rem);
+      FONT SIZE SCALE (container-relative rem)
+      Base: 1rem = 16px (see reset.css html { font-size: 16px })
+      Fluid via cqi within the container range that matters for each
+      component. Fixed steps at the very small end — sub-10px scaling
+      is imperceptible and can cause rounding at high DPR.
+      ========================================== */
+
+  --text-2xs: 0.625rem; /* 10px — fixed: metadata micro-labels             */
+  --text-1xs: 0.688rem; /* 11px — fixed: tight secondary metadata           */
+  --text-xs: 0.75rem; /* 12px — fixed: dense table cells, badge text      */
+  --text-sm: clamp(0.75rem, 0.6cqi + 0.6rem, 0.875rem); /* 12–14px */
+  --text-base: clamp(0.875rem, 0.8cqi + 0.7rem, 1rem); /* 14–16px */
+  --text-md: clamp(1rem, 1cqi + 0.8rem, 1.125rem); /* 16–18px */
+  --text-lg: clamp(1.125rem, 1.2cqi + 0.9rem, 1.25rem); /* 18–20px */
 
   /* ==========================================
-     LINE HEIGHTS
-     ========================================== */
+      LINE HEIGHTS
+      ========================================== */
+
   --leading-none: 1;
   --leading-tight: 1.2;
   --leading-snug: 1.35;
@@ -44,34 +69,20 @@
   --leading-loose: 2;
 
   /* ==========================================
-     LETTER SPACING
-     ========================================== */
+      LETTER SPACING
+      ========================================== */
+
   --tracking-tighter: -0.03em;
   --tracking-tight: -0.015em;
   --tracking-normal: 0;
   --tracking-wide: 0.02em;
   --tracking-wider: 0.05em;
+  --tracking-widest: 0.1em; /* uppercase UI labels, badges */
 }
 
 /* ==========================================
-   COMPACT MODE - Typography
-   ========================================== */
-.app--compact {
-  --text-2xs: clamp(0.5rem, 0.4cqi + 0.4rem, 0.625rem);
-  --text-1xs: clamp(0.55rem, 0.45cqi + 0.45rem, 0.7rem);
-  --text-xs: clamp(0.625rem, 0.5cqi + 0.5rem, 0.75rem);
-  --text-sm: clamp(0.75rem, 0.6cqi + 0.6rem, 0.875rem);
-  --text-base: clamp(0.875rem, 0.8cqi + 0.7rem, 1rem);
-  --text-md: clamp(1rem, 1cqi + 0.8rem, 1.125rem);
-  --text-lg: clamp(1.125rem, 1.2cqi + 0.9rem, 1.25rem);
-  --text-xl: clamp(1.25rem, 1.5cqi + 1rem, 1.5rem);
-  --text-2xl: clamp(1.5rem, 2cqi + 1.2rem, 1.875rem);
-  --text-3xl: clamp(1.875rem, 2.5cqi + 1.5rem, 2.25rem);
-}
-
-/* ==========================================
-   UTILITY - Text-based icons (Quicksand)
-   ========================================== */
+    UTILITY — Text-based icons (Quicksand)
+    ========================================== */
 .fontIcon {
   font-family: var(--font-icons);
   font-size: 1em;
